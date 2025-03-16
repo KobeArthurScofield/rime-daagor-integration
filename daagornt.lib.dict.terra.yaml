@@ -1,0 +1,12 @@
+# RIME: Dictionary (Terra) process for Daagor Integration
+# Ver: 1.0.0
+
+translator:
+  dictionary: terra_pinyin
+  max_homophones: 7
+  max_homographs: 7
+  comment_format:
+    __include: daagornt.lib.bridge.yaml:/endmark_comments
+
+grammar:
+  language: zh-hans-t-essay-bgw

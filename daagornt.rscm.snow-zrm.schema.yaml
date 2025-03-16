@@ -1,0 +1,68 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: '大狗冰雪自然双拼'
+  schema_id: daagornt.rscm.snow-zrm
+  author:
+    - '布局作者 周志农'
+    - '本方案作者仅作整合'
+  description: |
+    大狗冰雪自然码声调适配方案
+    采用自然码双拼方案，并使用冰雪词库及万象通用模型。
+    本方案仅使用双拼及音调。
+  version: '1.0.0.1904'
+
+switches:
+  __include: daagornt.lib.experience.yaml:/switches
+
+engine:
+  __include: daagornt.lib.experience.yaml:/engines
+
+speller:
+  __include: daagornt.lib.layout.zrm.yaml:/speller
+  algebra:
+    __patch:
+      - daagornt.lib.bridge.yaml:/endmark-to-endmark_limited-prism
+      - daagornt.lib.layout.zrm.yaml:/rule_convert
+
+translator:
+  __patch:
+    - daagornt.lib.component.yaml:/translator
+    - daagornt.lib.experience.yaml:/translator
+    - daagornt.lib.dict.snow.yaml:/translator
+  prism: daagornt.snow-zrm
+  preedit_format:
+    __patch:
+      - daagornt.lib.layout.zrm.yaml:/preedit_convert
+      - daagornt.lib.bridge.yaml:/endmark-to-human_pre-edit
+
+custom_phrase:
+  __include: daagornt.lib.component.yaml:/custom_phrase
+
+grammar:
+  __include: daagornt.lib.dict.snow.yaml:/grammar
+
+punctuator:
+  __include: daagornt.lib.component.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.experience.yaml:/key_binder
+
+recognizer:
+  __include: daagornt.lib.component.yaml:/recognizer
+
+menu:
+  __include: daagornt.lib.component.yaml:/menu
+
+zh_cn_simp:
+  __include: daagornt.lib.component.yaml:/simp_dict_convert/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.component.yaml:/simp_dict_convert/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.component.yaml:/simp_dict_convert/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.component.yaml:/simp_dict_convert/zh_hk
