@@ -50,7 +50,6 @@ engines:
 translator:
   spelling_hints: 4
   always_show_comments: true
-  enable_correction: true
   enable_completion: true
 
 key_binder:
