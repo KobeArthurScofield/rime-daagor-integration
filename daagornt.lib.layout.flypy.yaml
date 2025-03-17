@@ -42,7 +42,7 @@ rule_convert:
     - xform/in([1-5])$/B$1/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     - xlit/12345/67890/
-    - abbrev/^(.)(.).+$/$1$2/
+    - abbrev/^(.+)[1-5]$/$1/
 
 preedit_convert:
   __append:
