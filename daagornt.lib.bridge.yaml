@@ -146,9 +146,17 @@ endmark-to-human_prism:
     - 'xform ng4 ǹg'
     - xform/[1-5]//
 
+endmark-to-endmark_normal-prism:
+  __append:
+    - xform/([nl])v/$1ü/
+    - xform/([jqxy])v/$1u/
+    - xform/([jqxy])ü/$1u/
+    - xform/eh/ê/
+
 endmark-to-endmark_limited-prism:
   __append:
     - xform/([nl])ü/$1v/
+    - xform/([jqxy])v/$1u/
     - xform/([jqxy])ü/$1u/
     - xform/ê/eh/
     - xform/^m([1-5])$/mu$1/
@@ -204,6 +212,7 @@ midmark-to-human_prism:
 
 midmark-to-endmark_normal-prism:
   __append:
+    - xform/([jqxy])v/$1u/
     - xform/([jqxy])ü/$1u/
     - xform/e([1-5])h/ê$1/
     - xform/eh([1-5])/ê$1/
