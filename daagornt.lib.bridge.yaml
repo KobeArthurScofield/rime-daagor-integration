@@ -51,26 +51,21 @@ human-to-endmark_limited-prism:
     - xform/ê̌/ěh/
     - xform/ề/èh/
     - xform/ê/eh/
-    - derive/^m̄$/mū/
-    - derive/^ḿ$/mú/
-    - derive/^m̌$/mǔ/
-    - derive/^m̀$/mù/
-    - derive/^m$/mu/
-    - derive/^(.)m̄$/$1ūn/
-    - derive/^(.)ḿ$/$1ún/
-    - derive/^(.)m̌$/$1ǔn/
-    - derive/^(.)m̀$/$1ùn/
-    - derive/^(.)m$/$1un/
-    - derive/n̄$/ēn/
-    - derive/ń$/én/
-    - derive/ň$/ěn/
-    - derive/ǹ$/èn/
-    - derive/^n$/en/
-    - derive/n̄g$/ēng/
-    - derive/ńg$/éng/
-    - derive/ňg$/ěng/
-    - derive/ǹg$/èng/
-    - derive/^(h)?ng$/$1eng/
+    - xform/^m̄$/mū/
+    - xform/^ḿ$/mú/
+    - xform/^m̌$/mǔ/
+    - xform/^m̀$/mù/
+    - xform/^m$/mu/
+    - xform/^(.)m̄$/$1ūn/
+    - xform/^(.)ḿ$/$1ún/
+    - xform/^(.)m̌$/$1ǔn/
+    - xform/^(.)m̀$/$1ùn/
+    - xform/^(.)m$/$1un/
+    - xform/^(h)?n̄(g)?$/$1ēn$2/
+    - xform/^(h)?ń(g)?$/$1én$2/
+    - xform/^(h)?ň(g)?$/$1ěn$2/
+    - xform/^(h)?ǹ(g)?$/$1èn$2/
+    - xform/^(h)?n(g)?$/$1en$2/
     - xform/^([a-zA-Z]+)$/$1轻/
     - xform/^(.*)ā(.*)$/$1a$2阴/
     - xform/^(.*)á(.*)$/$1a$2阳/
@@ -157,9 +152,8 @@ endmark-to-endmark_limited-prism:
     - xform/([jqxy])ü/$1u/
     - xform/ê/eh/
     - xform/^m([1-5])$/mu$1/
-    - xform/^hm([1-5])$/hun$1/
-    - xform/^(h)?ng([1-5])$/$1eng$2/
-    - xform/^n([1-5])$/en$1/
+    - xform/^(.)m([1-5])$/$1un$2/
+    - xform/^(h)?n(g)?([1-5])$/$1en$2$3/
 
 midmark-to-human_prism:
   __append:
@@ -221,9 +215,8 @@ midmark-to-endmark_limited-prism:
     - xform/([jqxy])ü/$1u/
     - xform/ê([1-5])/eh$1/
     - xform/^m([1-5])$/mu$1/
-    - xform/^hm([1-5])$/hun$1/
-    - xform/^(h)?n([1-5])g$/$1eng$2/
-    - xform/^n([1-5])$/en$1/
+    - xform/^(.)m([1-5])$/$1un$2/
+    - xform/^(h)?n([1-5])(g)?$/$1en$3$2/
     - xform/^(.*)([1-5])(.*)$/$1$3$2/
 
 endmark-to-human_pre-edit:
