@@ -21,7 +21,7 @@ speller:
   __include: daagornt.lib.layout.pinyin.yaml:/speller
   algebra:
     __patch:
-      - daagornt.lib.bridge.yaml:/endmark-to-endmark_limited-prism
+      - daagornt.lib.bridge.yaml:/endmark-to-endmark_normal-prism
       - daagornt.lib.layout.pinyin.yaml:/rule_convert
 
 translator:
