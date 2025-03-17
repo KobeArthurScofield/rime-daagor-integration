@@ -2,7 +2,11 @@
 # Ver: v1.0.0
 
 translator:
+  enable_encoder: true
   enable_sentence: true
+  contextual_suggestions: true
+  encode_commit_history: true
+  sentence_over_completion: true
   enable_user_dict: true
   db_class: userdb
 

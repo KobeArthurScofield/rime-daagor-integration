@@ -76,3 +76,4 @@ preedit_convert:
     - "xform/(^|[ '])v/$1zh/"
     - "xform/(^|[ '])i/$1ch/"
     - "xform/(^|[ '])u/$1sh/"
+    - xlit/67890/12345/

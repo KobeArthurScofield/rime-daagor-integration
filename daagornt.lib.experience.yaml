@@ -41,9 +41,8 @@ engines:
     - table_translator@custom_phrase
     - script_translator
   filters:
-    - simplifier@zh_simp
-    - simplifier@zh_trad
-    - simplifier@zh_cn
+    - simplifier@zh_cn_simp
+    - simplifier@zh_cn_trad
     - simplifier@zh_tw
     - simplifier@zh_hk
     - uniquifier
@@ -51,7 +50,8 @@ engines:
 translator:
   spelling_hints: 4
   always_show_comments: true
-  contextual_suggestions: false
+  enable_correction: true
+  enable_completion: true
 
 key_binder:
   import_preset: default

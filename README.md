@@ -34,8 +34,9 @@
 - [自然龙](https://hanxinma.gitlab.io/longma/zrl) 原作者：晡时之光
 - 自然码 原作者：周志农
 - [小鹤双拼](https://flypy.com/) 原作者：何海峰
+- 拼音（或称全拼、标准拼音）
 
-自然码输入音调的方法为：在输入音节后，以主键盘上 6-0 分别代表阴平、阳平、上声、去声和轻声。不使用声调时可作普通双拼使用。
+布局本身不支持音调时，输入音调的方法为：在输入音节后，以主键盘上 6-0 分别代表阴平、阳平、上声、去声和轻声。不使用声调时可作普通拼音使用。
 
 ### 汉心龙键盘布局
 
@@ -78,3 +79,26 @@
 - 万象词库： https://github.com/amzxyz/RIME-LMDG/releases/tag/dict-nightly （需要同时下载 https://github.com/amzxyz/RIME-LMDG/blob/main/wanxiang.dict.yaml ）
 - 万象通用模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/v2n3
 - 万象原子模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS
+
+## 注意
+
+### 拼音表示方式转换
+
+将音调转换至末尾标注时的转换方向，一种是仅转换音调而保留所有拼写（normal），另一种是将拼写压缩到常用拼音拼写组合（limited）；前者适用于所用布局能支持词库中所有拼写（如扩展后的汉心龙、自然龙），后者适用于所用布局仅能支持常见拼写（如一般双拼）。
+
+示例如下：
+
+| 原形式 | normal | limited |
+|----|----|----|
+| ê | ê | eh |
+| hm | hm | hun |
+| hng | hng | heng |
+| m | m | mu |
+| n | n | en |
+| ng | ng | eng |
+
+- 目前该框架可以正常支持包含但不限于《现代汉语词典》中存在的拼写，而压缩拼写组合则支持范围为《现代汉语词典中》存在的拼写。
+
+### 为何部分方案没有特定音节
+
+需要对应的词库支持该拼写。

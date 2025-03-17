@@ -228,7 +228,6 @@ midmark-to-endmark_limited-prism:
 
 endmark-to-human_pre-edit:
   __append:
-    - xlit/67890/12345/
     - xform/([nl])v/$1ü/
     - xform/([jqxy])v/$1u/
     - xform/([nl])ue/$1üe/

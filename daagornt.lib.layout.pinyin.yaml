@@ -1,0 +1,31 @@
+# RIME: Layout (Pinyin) library of Daagor Integration
+# Ver: v1.0.0
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm67890
+  initials: qwertyuiopasdfghjklzxcvbnm
+  finals: '67890'
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+
+rule_convert:
+  __append:
+    - xform/([nljqxy])v/$1ü/
+    - derive/^([jqxy])u([1-5])$/$1ü$2/
+    - derive/ui/uei/
+    - derive/iu/iou/
+    - derive/in/ien/
+    - derive/un/uen/
+    - derive/ün/üen/
+    - derive/ing/ieng/
+    - derive/ong/ueng/
+    - xform/ê/eh/
+    - xform/ü/v/
+    - xlit/12345/67890/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+
+preedit_convert:
+  __append:
+    - xlit/67890/12345/
