@@ -22,9 +22,10 @@ rule_convert:
     - derive/ong/ueng/
     - xform/ê/eh/
     - xform/ü/v/
-    - xlit/12345/67890/
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
+    - abbrev/^(.+)[1-5]$/$1/
+    - xlit/12345/67890/
 
 preedit_convert:
   __append:
