@@ -12,9 +12,10 @@ speller:
 rule_convert:
   __append:
     - derive/^([jqxy])u([1-5])$/$1v$2/
+    - xform/eh/ei/
+    - xform/^([aoe])([1-5])$/$1$1$2/
     - derive/^([aoe])([ioun])([1-5])$/$1$1$2$3/
-    - derive/eh/ei/
-    - xform/^([aoe])(ng)?([1-5])$/$1$1$2$3/
+    - xform/^([ae])ng([1-5])$/$1$1ng$2/
     - xform/^sh/U/
     - xform/^ch/I/
     - xform/^zh/V/
@@ -40,9 +41,9 @@ rule_convert:
     - xform/ui([1-5])$/V$1/
     - xform/(.)ou([1-5])$/$1B$2/
     - xform/in([1-5])$/N$1/
+    - abbrev/^(.+)[1-5]$/$1/
     - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
     - xlit/12345/67890/
-    - abbrev/^(.+)[1-5]$/$1/
 
 preedit_convert:
   __append:

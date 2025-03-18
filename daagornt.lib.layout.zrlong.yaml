@@ -18,7 +18,6 @@ rule_convert:
     - xform/^(ē|é|ě|è|e)([inr])$/e$1$2/
     - xform/^(ê̄|ế|ê̌|ề|ê)$/e$1/
     - xform/^(ā|á|ǎ|à|a)ng$/a$1ng/
-    - xform/^(ō|ó|ǒ|ò|o)ng$/o$1ng/
     - xform/^(ē|é|ě|è|e)ng$/e$1ng/
     # Pre-process for consonant-only
     - xform/^(m̄|ḿ|m̌|m̀|m)$/m$1/

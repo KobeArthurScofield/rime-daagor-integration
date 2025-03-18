@@ -42,6 +42,10 @@ human-to-endmark_normal-prism:
     - xform/^(.*)ń(.*)$/$1n$2阳/
     - xform/^(.*)ň(.*)$/$1n$2上/
     - xform/^(.*)ǹ(.*)$/$1n$2去/
+    - xform/^(.*)h̄(.*)$/$1h$2阴/
+    - xform/^(.*)h́(.*)$/$1h$2阳/
+    - xform/^(.*)ȟ(.*)$/$1h$2上/
+    - xform/^(.*)h̀(.*)$/$1h$2去/
     - xlit/阴阳上去轻/12345/
 
 human-to-endmark_limited-prism:
@@ -92,15 +96,19 @@ human-to-endmark_limited-prism:
     - xform/^(.*)ǚ(.*)$/$1v$2上/
     - xform/^(.*)ǜ(.*)$/$1v$2去/
     - xform/^(.*)ü(.*)$/$1v$2轻/
+    - xform/^(.*)h̄(.*)$/$1h$2阴/
+    - xform/^(.*)h́(.*)$/$1h$2阳/
+    - xform/^(.*)ȟ(.*)$/$1h$2上/
+    - xform/^(.*)h̀(.*)$/$1h$2去/
     - xlit/阴阳上去轻/12345/
 
 endmark-to-human_prism:
   __append:
     - xform/([nl])v/$1ü/
-    - xform/([jqxy])v/$1u/
+    - xform/([jqxy])(v|ü)/$1u/
     - xform/([nl])ue/$1üe/
     - xform/([nl])üen/$1uen/
-    - xform/eh/ê/
+    - xform/eh|ee/ê/
     - xform/5//
     - 'xform ([aeiouü])(ng?|r)([1-5]) $1$3$2'
     - 'xform ([aeo])([iuo])([1-5]) $1$3$2'
@@ -144,21 +152,27 @@ endmark-to-human_prism:
     - 'xform ng2 ńg'
     - 'xform ng3 ňg'
     - 'xform ng4 ǹg'
+    - 'xform h1 h̄'
+    - 'xform h2 h́'
+    - 'xform h3 ȟ'
+    - 'xform h4 h̀'
     - xform/[1-5]//
 
 endmark-to-endmark_normal-prism:
   __append:
     - xform/([nl])v/$1ü/
-    - xform/([jqxy])v/$1u/
-    - xform/([jqxy])ü/$1u/
-    - xform/eh/ê/
+    - xform/([nl])ue/$1üe/
+    - xform/([nl])üen/$1uen/
+    - xform/([jqxy])(v|ü)/$1u/
+    - xform/eh|ee/ê/
 
 endmark-to-endmark_limited-prism:
   __append:
     - xform/([nl])ü/$1v/
-    - xform/([jqxy])v/$1u/
-    - xform/([jqxy])ü/$1u/
-    - xform/ê/eh/
+    - xform/([nl])ue/$1ve/
+    - xform/([nl])ven/$1uen/
+    - xform/([jqxy])(v|ü)/$1u/
+    - xform/ê|ee/eh/
     - xform/^m([1-5])$/mu$1/
     - xform/^(.)m([1-5])$/$1un$2/
     - xform/^(h)?n(g)?([1-5])$/$1en$2$3/
@@ -166,11 +180,11 @@ endmark-to-endmark_limited-prism:
 midmark-to-human_prism:
   __append:
     - xform/([nl])v/$1ü/
-    - xform/([jqxy])v/$1u/
+    - xform/([jqxy])(v|ü)/$1u/
     - xform/([nl])ue/$1üe/
     - xform/([nl])üe([1-5])n/$1ue$2n/
-    - xform/e([1-5])h/ê$1/
-    - xform/eh([1-5])/ê$1/
+    - xform/e([1-5])[eh]/ê$1/
+    - xform/e[eh]([1-5])/ê$1/
     - xform/5//
     - 'xform a1 ā'
     - 'xform a2 á'
@@ -208,21 +222,29 @@ midmark-to-human_prism:
     - 'xform n2 ń'
     - 'xform n3 ň'
     - 'xform n4 ǹ'
+    - 'xform h1 h̄'
+    - 'xform h2 h́'
+    - 'xform h3 ȟ'
+    - 'xform h4 h̀'
     - xform/[1-5]//
 
 midmark-to-endmark_normal-prism:
   __append:
-    - xform/([jqxy])v/$1u/
-    - xform/([jqxy])ü/$1u/
-    - xform/e([1-5])h/ê$1/
-    - xform/eh([1-5])/ê$1/
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([nl])üen/$1uen/
+    - xform/([jqxy])(v|ü)/$1u/
+    - xform/e([1-5])[eh]/ê$1/
+    - xform/e[eh]([1-5])/ê$1/
     - xform/^(.*)([1-5])(.*)$/$1$3$2/
 
 midmark-to-endmark_limited-prism:
   __append:
     - xform/([nl])ü/$1v/
-    - xform/([jqxy])ü/$1u/
-    - xform/ê([1-5])/eh$1/
+    - xform/([nl])ue/$1ve/
+    - xform/([nl])ven/$1uen/
+    - xform/([jqxy])(v|ü)/$1u/
+    - xform/(ê|ee)([1-5])/eh$2/
     - xform/^m([1-5])$/mu$1/
     - xform/^(.)m([1-5])$/$1un$2/
     - xform/^(h)?n([1-5])(g)?$/$1en$3$2/
@@ -231,12 +253,12 @@ midmark-to-endmark_limited-prism:
 endmark-to-human_pre-edit:
   __append:
     - xform/([nl])v/$1ü/
-    - xform/([jqxy])v/$1u/
+    - xform/([jqxy])(v|ü)/$1u/
     - xform/([nl])ue/$1üe/
     - xform/([nl])üen/$1uen/
     - xform/eh/ê/
     - xform/5/·/
-    - 'xform ([aeiou])(ng?|r)([1-5]) $1$3$2'
+    - 'xform ([aeiouü])(ng?|r)([1-5]) $1$3$2'
     - 'xform ([aeo])([iuo])([1-5]) $1$3$2'
     - 'xform a1 ā'
     - 'xform a2 á'
@@ -278,17 +300,21 @@ endmark-to-human_pre-edit:
     - 'xform ng2 ńg'
     - 'xform ng3 ňg'
     - 'xform ng4 ǹg'
+    - 'xform h1 h̄'
+    - 'xform h2 h́'
+    - 'xform h3 ȟ'
+    - 'xform h4 h̀'
     - xform/[1-5]//
 
 endmark_comments:
   __append:
     - xform/([nl])v/$1ü/
-    - xform/([jqxy])v/$1u/
+    - xform/([jqxy])(v|ü)/$1u/
     - xform/([nl])ue/$1üe/
     - xform/([nl])üen/$1uen/
-    - xform/eh/ê/
+    - xform/e[eh]/ê/
     - xform/5/·/
-    - 'xform ([aeiou])(ng?|r)([1-5]) $1$3$2'
+    - 'xform ([aeiouü])(ng?|r)([1-5]) $1$3$2'
     - 'xform ([aeo])([iuo])([1-5]) $1$3$2'
     - 'xform a1 ā'
     - 'xform a2 á'
@@ -330,16 +356,20 @@ endmark_comments:
     - 'xform ng2 ńg'
     - 'xform ng3 ňg'
     - 'xform ng4 ǹg'
+    - 'xform h1 h̄'
+    - 'xform h2 h́'
+    - 'xform h3 ȟ'
+    - 'xform h4 h̀'
     - xform/[1-5]//
 
 midmark_comments:
   __append:
     - xform/([nl])v/$1ü/
-    - xform/([jqxy])v/$1u/
+    - xform/([jqxy])(v|ü)/$1u/
     - xform/([nl])ue/$1üe/
     - xform/([nl])üe([1-5])n/$1ue$2n/
-    - xform/eh/ê/
-    - xform/^(.*)5(.*)$/$1$2·/
+    - xform/e[eh]/ê/
+    - xform/^(.+)5(.*)$/$1$2·/
     - 'xform a1 ā'
     - 'xform a2 á'
     - 'xform a3 ǎ'
@@ -376,4 +406,8 @@ midmark_comments:
     - 'xform n2 ń'
     - 'xform n3 ň'
     - 'xform n4 ǹ'
+    - 'xform h1 h̄'
+    - 'xform h2 h́'
+    - 'xform h3 ȟ'
+    - 'xform h4 h̀'
     - xform/[1-5]//

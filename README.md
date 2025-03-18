@@ -74,6 +74,8 @@
 
 ## 词库及语法模型
 
+注意：不同词库之间会存在拼写差异。
+
 - 八股文模型（繁体）： https://github.com/lotem/rime-octagram-data/tree/hant
 - 冰雪拼音词库： https://github.com/rimeinn/rime-snow-pinyin (*.dict.yaml)
 - 万象词库： https://github.com/amzxyz/RIME-LMDG/releases/tag/dict-nightly （需要同时下载 https://github.com/amzxyz/RIME-LMDG/blob/main/wanxiang.dict.yaml ）

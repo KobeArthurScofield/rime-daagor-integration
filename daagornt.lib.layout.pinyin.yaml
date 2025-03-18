@@ -11,10 +11,13 @@ speller:
 
 rule_convert:
   __append:
-    - xform/([nljqxy])v/$1ü/
-    - derive/^([jqxy])u([1-5])$/$1ü$2/
+    - derive/^([jqxy])u/$1ü/
+    - derive/^([nl])üe$/$1ue/
     - derive/ui/uei/
     - derive/iu/iou/
+    - derive/ie/iê/
+    - derive/üe/üê/
+    - derive/ue/uê/
     - derive/in/ien/
     - derive/un/uen/
     - derive/ün/üen/
