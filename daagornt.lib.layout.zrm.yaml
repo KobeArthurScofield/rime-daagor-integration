@@ -1,5 +1,5 @@
 # RIME: Layout (ZiRanMa) library of Daagor Integration
-# Ver: v1.0.0
+# Ver: v1.0.1
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm67890
@@ -42,7 +42,7 @@ rule_convert:
     - xform/(.)ou([1-5])$/$1B$2/
     - xform/in([1-5])$/N$1/
     - abbrev/^(.+)[1-5]$/$1/
-    - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
+    - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
     - xlit/12345/67890/
 
 preedit_convert:
@@ -60,7 +60,7 @@ preedit_convert:
     - xform/(\w)p/$1un/
     - xform/([jqx])s/$1iong/
     - xform/(\w)s/$1ong/
-    - xform/([jqxnl])d/$1iang/
+    - xform/([jqxnlb])d/$1iang/
     - xform/(\w)d/$1uang/
     - xform/(\w)f/$1en/
     - xform/(\w)h/$1ang/

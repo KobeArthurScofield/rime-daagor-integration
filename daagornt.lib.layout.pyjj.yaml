@@ -1,0 +1,81 @@
+# RIME: Layout (PinYinJiaJia) library of Daagor Integration
+# Ver: v1.0.0
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm67890
+  initials: qwertyuiopasdfghjklzxcvbnm
+  finals: '67890'
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+
+rule_convert:
+  __append:
+    - derive/^([jqxy])u([1-5])$/$1v$2/
+    - xform/eh/ei/
+    - xform/^([aoe])([1-5])$/$1$1$2/
+    - derive/^([aoe])([ioun])([1-5])$/$1$1$2$3/
+    - xform/^([ae])(.*)([1-5])$/$1$1$2$3/
+    - xform/^sh/U/
+    - xform/^ch/I/
+    - xform/^zh/V/
+    - xform/er([1-5])$|ing([1-5])$/Q$1$2/
+    - xform/(.)ei([1-5])$/$1W$2/
+    - xform/(.)en([1-5])$/$1R$2/
+    - xform/(.)eng([1-5])$/$1T$2/
+    - xform/i?ong([1-5])$/Y$1/
+    - xform/uo([1-5])$/O$1/
+    - xform/(.)ou([1-5])$/$1P$2/
+    - xform/[uv]e([1-5])$|uai([1-5])$/X$1$2/
+    - xform/(.)ai([1-5])$/$1S$2/
+    - xform/iao([1-5])$/K$1/
+    - xform/(.)ao([1-5])$/$1D$2/
+    - xform/[uv]an([1-5])$/C$1/
+    - xform/ian([1-5])$/J$1/
+    - xform/(.)an([1-5])$/$1F$2/
+    - xform/[iu]ang([1-5])$/H$1/
+    - xform/(.)ang([1-5])$/$1G$2/
+    - xform/in([1-5])$/L$1/
+    - xform/[uv]n([1-5])$/Z$1/
+    - xform/ui([1-5])$/V$1/
+    - xform/[iu]a([1-5])$/B$1/
+    - xform/iu([1-5])$/N$1/
+    - xform/ie([1-5])$/M$1/
+    - abbrev/^(.+)[1-5]$/$1/
+    - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
+    - xlit/12345/67890/
+
+preedit_convert:
+  __append:
+    - xform/([bpmnljqxy])l/$1in/
+    - xform/(\w)t/$1eng/
+    - xform/(\w)n/$1iu/
+    - xform/([gkhvuirzcs])b/$1ua/
+    - xform/(\w)b/$1ia/
+    - xform/([dtnlgkhjqxyvuirzcs])c/$1uan/
+    - xform/er/er/
+    - xform/([dtgkhvuirzcs])v/$1ui/
+    - xform/(\w)v/$1v/
+    - xform/([gkhvuirzcs])x/$1uai/
+    - xform/(\w)x/$1ve/
+    - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(\w)z/$1un/
+    - xform/([jqx])y/$1iong/
+    - xform/(\w)y/$1ong/
+    - xform/([jqxnlb])h/$1iang/
+    - xform/(\w)h/$1uang/
+    - xform/(\w)r/$1en/
+    - xform/(\w)g/$1ang/
+    - xform/(\w)f/$1an/
+    - xform/(\w)d/$1ao/
+    - xform/(\w)s/$1ai/
+    - xform/(\w)w/$1ei/
+    - xform/(\w)m/$1ie/
+    - xform/(\w)k/$1iao/
+    - xform/(\w)p/$1ou/
+    - xform/(\w)j/$1ian/
+    - xform/(\w)q/$1ing/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ ‘])u/$1ch/"
+    - "xform/(^|[ ‘])i/$1sh/"
+    - xlit/67890/12345/

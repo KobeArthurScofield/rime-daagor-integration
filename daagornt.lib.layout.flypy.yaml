@@ -1,5 +1,5 @@
 # RIME: Layout (FlyPY) library of Daagor Integration
-# Ver: v1.0.0
+# Ver: v1.0.1
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm67890
@@ -42,7 +42,7 @@ rule_convert:
     - xform/ui([1-5])$/V$1/
     - xform/in([1-5])$/B$1/
     - abbrev/^(.+)[1-5]$/$1/
-    - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
+    - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
     - xlit/12345/67890/
 
 preedit_convert:
@@ -64,7 +64,7 @@ preedit_convert:
     - xform/(\w)j/$1an/
     - xform/([gkhvuirzcs])k/$1uai/
     - xform/(\w)k/$1ing/
-    - xform/([jqxnl])l/$1iang/
+    - xform/([jqxnlb])l/$1iang/
     - xform/(\w)l/$1uang/
     - xform/(\w)z/$1ou/
     - xform/([gkhvuirzcs])x/$1ua/
