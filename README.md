@@ -28,6 +28,40 @@
 
 `wanxiang-*`：基于万象原子词库及万象原子模型
 
+## 下载及部署
+
+1. 将下载的代码包或者[懒人包](releases/latest)解压；
+2. 将以下文件复制到 RIME 前端设定的用户文件夹：
+  * `lib.component`
+  * `lib.bridge`
+  * `lib.experience`
+  * `lib.dict.<期望使用的词典名称>`
+    * `snow` 冰雪拼音词库
+    * `terra` 地球拼音词库
+    * `wanxiang` 万象拼音词库/RIME-LMDG
+  * `lib.layout.<期望使用的拼音布局名称>`
+    * `flypy` 小鹤双拼布局
+    * `hxlong` 汉心龙/龙码双拼布局
+    * `pinyin` 标准全拼布局
+    * `pyjj` 拼音加加双拼布局
+    * `zrlong` 自然龙双拼布局
+    * `zrm` 自然码双拼布局
+  * `rscm.<词库名>-<布局名>`
+    * 复制自己所需的文件即可
+3. 复制选用方案所需的词典文件及语法模型文件；
+  * 冰雪拼音语法模型使用 `amz-v2n3m1-zh-hans.gram`
+  * 地球拼音语法模型使用 `zh-han?-t-essay-bg?.gram`
+  * 万象拼音语法模型使用 `wanxiang-lts-zh-hans.gram`
+4. Windows 下使用小狼毫，进入“小狼毫设置”勾取自己需要的输入方案并确定，等待部署完成。
+5. 非小狼毫用户，需在用户文件夹下的 `default.custom.yaml` 中添加以下内容（以添加使用地球拼音词库的小鹤双拼及全拼为例，格式为 `daagornt.rscm.<词库名>-<布局名>`），保存后部署：
+``` yaml
+patch:
+  schema_list:
+    - {schema: "daagornt.rscm.terra-flypy"}
+    - {schema: "daagornt.rscm.terra-pinyin"}
+```
+
+
 ## 输入键盘布局
 
 - [汉心龙](https://hanxinma.gitlab.io/longma) 原作者：晡时之光
