@@ -1,5 +1,5 @@
 # RIME: Layout (PinYinJiaJia) library of Daagor Integration
-# Ver: v1.0.0
+# Ver: v1.0.1
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm67890
@@ -16,8 +16,8 @@ rule_convert:
     - xform/^([aoe])([1-5])$/$1$1$2/
     - derive/^([aoe])([ioun])([1-5])$/$1$1$2$3/
     - xform/^([ae])(.*)([1-5])$/$1$1$2$3/
-    - xform/^sh/U/
-    - xform/^ch/I/
+    - xform/^ch/U/
+    - xform/^sh/I/
     - xform/^zh/V/
     - xform/er([1-5])$|ing([1-5])$/Q$1$2/
     - xform/(.)ei([1-5])$/$1W$2/
