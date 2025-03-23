@@ -1,5 +1,5 @@
 # RIME: Layout (Pinyin) library of Daagor Integration
-# Ver: v1.0.0
+# Ver: v1.0.1
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm67890
@@ -13,16 +13,19 @@ rule_convert:
   __append:
     - derive/^([jqxy])u/$1ü/
     - derive/^([nl])üe$/$1ue/
+    - derive/([zcs]h?|r)i/$1/
+    - derive/yu|yü/ü/
+    - derive/wu?/u/
+    - derive/yi/i/
+    - derive/y([aoe])/i$1/
     - derive/ui/uei/
     - derive/iu/iou/
     - derive/ie/iê/
     - derive/üe/üê/
     - derive/ue/uê/
     - derive/in/ien/
-    - derive/un/uen/
+    - derive/un|on/uen/
     - derive/ün/üen/
-    - derive/ing/ieng/
-    - derive/ong/ueng/
     - xform/ê/eh/
     - xform/ü/v/
     - abbrev/^([a-z]).+$/$1/
