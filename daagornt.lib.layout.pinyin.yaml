@@ -35,4 +35,5 @@ rule_convert:
 
 preedit_convert:
   __append:
+    - xform/v/ü/
     - xlit/67890/12345/
