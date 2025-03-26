@@ -24,8 +24,8 @@ rule_convert:
     - derive/üe/üê/
     - derive/ue/uê/
     - derive/in/ien/
+    - derive/ün|ion/üen/
     - derive/un|on/uen/
-    - derive/ün/üen/
     - xform/ê/eh/
     - xform/ü/v/
     - abbrev/^([a-z]).+$/$1/
