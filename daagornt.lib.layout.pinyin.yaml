@@ -13,6 +13,8 @@ rule_convert:
   __append:
     - derive/^([jqxy])u/$1ü/
     - derive/^([nl])üe$/$1ue/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
     - derive/([zcs]h?|r)i/$1/
     - derive/yu|yü/ü/
     - derive/wu?/u/
@@ -28,8 +30,6 @@ rule_convert:
     - derive/un|on/uen/
     - xform/ê/eh/
     - xform/ü/v/
-    - abbrev/^([a-z]).+$/$1/
-    - abbrev/^([zcs]h).+$/$1/
     - abbrev/^(.+)[1-5]$/$1/
     - xlit/12345/67890/
 
