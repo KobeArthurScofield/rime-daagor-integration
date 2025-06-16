@@ -1,0 +1,46 @@
+# Rime: Spelling converter Information
+# Ver 1.0.0.00
+
+# Converts list:
+#   Sibilant differ 尖团分流 :
+#     Chinese Postal Romanization 邮政式拼音
+#     Gwoyeu Romatzyh 国语罗马字
+#     Latinxua Sin Wenz 拉丁化新文字
+#     Système de l'École française d'Extrême-Orient (EFEO) 法国远东学院拼音
+#   Non-sibilant differ 尖团合流:
+#     Wade-Giles 威妥玛拼音
+#     Simplified Wade-Giles 简化威妥玛拼音
+#     Hanyu Pinyin 汉语拼音
+#     Mandarin Phonetic Symbols II 国语注音符号第二式
+#     Tongyong Pinyin 通用拼音
+#     Yale Romanization 耶鲁拼音
+#     Lessing-Othmer-System 德国式拼音
+#     Český přepis čínštiny 捷克式拼音
+
+# Chart for Base of the Bopomofo
+
+# ㄅ <p> ㄆ <ph> ㄇ <m> ㄈ <f>
+# ㄉ <t> ㄊ <th> ㄋ <n> ㄌ <l>
+# ㄍ <k> ㄎ <kh> ㄏ <x><h>
+# ㄐ <ts6> ㄑ <ts6h> ㄒ <s6>
+# ㄓ <tis> ㄔ <tish> ㄕ <is> ㄖ <zi>
+# ㄗ <ts> ㄘ <tsh> ㄙ <s>
+
+# When use as the start, use the first one; not the start use the second; when single, use the last one
+# ㄧ <j><i><ji> ㄨ <w><u><wu> ㄩ <4y><y>
+
+# ㄚ <a> ㄛ <o> ㄜ <re> ㄝ <e3>
+# ㄞ <ai> ㄟ <ei> ㄠ <au> ㄡ<ou>
+# ㄢ <an> ㄣ <en> ㄤ <ang> ㄥ <reng>
+# ㄦ <ar>
+
+# ㄪ <v> ㄫ <ng> ㄬ <gn>
+# If goes with <is>, use the first one; if go with <s>, use the second one
+# ㄭ <-i><-w>
+# ㆬ <-m> ㄯ <-n> ㆭ <-ng> ㆷ <-h>
+
+# Spetial for ㄨㄥ but not pronunce as 'ueng'
+# <ong>
+
+# Tones
+# <0><1><2><3><4><5>
