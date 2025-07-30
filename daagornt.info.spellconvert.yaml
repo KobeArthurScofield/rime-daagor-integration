@@ -3,12 +3,12 @@
 
 # Converts list:
 #   Sibilant differ 尖团分流 :
+#     Wade-Giles 威妥玛拼音
 #     Chinese Postal Romanization 邮政式拼音
 #     Gwoyeu Romatzyh 国语罗马字
 #     Latinxua Sin Wenz 拉丁化新文字
 #     Système de l'École française d'Extrême-Orient (EFEO) 法国远东学院拼音
 #   Non-sibilant differ 尖团合流:
-#     Wade-Giles 威妥玛拼音
 #     Simplified Wade-Giles 简化威妥玛拼音
 #     Hanyu Pinyin 汉语拼音
 #     Mandarin Phonetic Symbols II 国语注音符号第二式
@@ -27,7 +27,7 @@
 # ㄗ <ts> ㄘ <tsh> ㄙ <s>
 
 # When use as the start, use the first one; not the start use the second; when single, use the last one
-# ㄧ <j><i><ji> ㄨ <w><u><wu> ㄩ <4y><y>
+# ㄧ <j><i><ji> ㄨ <w><u><wu> ㄩ <4y><y><yu>
 
 # ㄚ <a> ㄛ <o> ㄜ <re> ㄝ <e3>
 # ㄞ <ai> ㄟ <ei> ㄠ <au> ㄡ<ou>
@@ -39,8 +39,13 @@
 # ㄭ <-i><-w>
 # ㆬ <-m> ㄯ <-n> ㆭ <-ng> ㆷ <-h>
 
-# Spetial for ㄨㄥ but not pronunce as 'ueng'
+# Spetial for ㄨㄥ but not pronunce as 'ueng', and for old mandarin tone
 # <ong>
 
-# Tones
+# Tones. 0 means no tone and 5 means checked tone
 # <0><1><2><3><4><5>
+
+# Special content, checked tone not used in old mandarin and new mandarin
+# p <-p> t <-t> k <-k> ʔ <-oh>
+# p̚ <-pp> t̚ <-tt> k̚ <-kk>
+# b <-b> d <-d> g <-g>
