@@ -1,0 +1,40 @@
+# Rime: Convert engine for Daagor NT
+# Ver 1.0.0.00
+
+# SEQ:
+# sequence:
+#   - Tongyong Pinyin (1999)
+#   - II (1986)
+#   - Pinyin Hanyu (1950)
+#   - BoPoMoFo (1932)
+#   - Gwoyeu (1928)
+
+tongyong_pinyin:
+  input:
+    __append:
+  output:
+    __append:
+
+phonetic_symbols_ii:
+  input:
+    __append:
+  output:
+    __append:
+
+hanyu_pinyin:
+  input:
+    __append:
+  output:
+    __append:
+
+phonetic_symbols:
+  input:
+    __append:
+  output:
+    __append:
+
+gwoyeu_romatzyh:
+  input:
+    __append:
+  output:
+    __append:

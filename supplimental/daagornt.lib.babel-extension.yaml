@@ -1,0 +1,20 @@
+# Rime: Supplemental convert engine for Daagor NT
+# Ver 1.0.0.00
+
+# SEQ:
+# sequence:
+#   - Ceský (1951) Output only
+#   - Yale (1943) Output only
+#   - Latinxua (1931) Output only
+#   - Lessing-Othmer (1911) Output only
+#   - EFEO (1901)
+#   - Wade-Giles (1892)
+#   - Postcal Romanization (1906)
+#   - Wade-Giles simplified (1970)
+
+# Wade-Giles
+# Have sibilant differ, new mandarin pronuncitaion
+# Wade-Giles Input
+wade-giles-read:
+  __append:
+
