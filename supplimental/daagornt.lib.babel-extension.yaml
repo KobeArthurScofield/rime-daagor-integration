@@ -1,20 +1,58 @@
 # Rime: Supplemental convert engine for Daagor NT
 # Ver 1.0.0.00
 
-# SEQ:
-# sequence:
-#   - Ceský (1951) Output only
-#   - Yale (1943) Output only
-#   - Latinxua (1931) Output only
-#   - Lessing-Othmer (1911) Output only
-#   - EFEO (1901)
-#   - Wade-Giles (1892)
-#   - Postcal Romanization (1906)
-#   - Wade-Giles simplified (1970)
+# Český přepis čínštiny
+# Have no sibilant differ. Requires flattening.
+cesky:
+  output:
+    __append:
+
+# Yale Romanization
+# Have no sibilant differ. Requires flattening.
+yale:
+  output:
+    __append:
+
+# Latinxua Sin Wenz
+# Have sibilant differ
+latinxua:
+  output:
+    __append:
+
+# Lessing-Othmer-System
+# Have no sibilant differ. Requires flattening.
+lessing-othmer:
+  output:
+    __append:
+
+# Système de l'École française d'Extrême-Orient
+# Have sibilant differ
+efeo:
+  input:
+    __append:
+  output:
+    __append:
+
+# Wade-Giles simplified
+# A variant of Wade-Giles
+wade-giles-simp:
+  input:
+    __append:
+  output:
+    __append:
+
+# Postcal Romanization
+# A variant of Wade-Giles
+postcal:
+  input:
+    __append:
+  output:
+    __append:
 
 # Wade-Giles
 # Have sibilant differ, new mandarin pronuncitaion
-# Wade-Giles Input
-wade-giles-read:
-  __append:
-
+wade-giles:
+  input:
+    __append:
+  output:
+    __append:
