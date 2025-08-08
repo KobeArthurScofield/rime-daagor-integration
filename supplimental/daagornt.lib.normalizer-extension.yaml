@@ -1,0 +1,42 @@
+# Rime: Extensive rewrite engine for Daagor NT
+# Ver 1.0.0.00
+
+cesky:
+  output:
+    __append:
+
+yale:
+  output:
+    __append:
+
+latinxua:
+  output:
+    __append:
+
+lessing-othmer:
+  output:
+    __append:
+
+efeo:
+  input:
+    __append:
+  output:
+    __append:
+
+wade-giles-simp:
+  input:
+    __append:
+  output:
+    __append:
+
+postcal:
+  input:
+    __append:
+  output:
+    __append:
+
+wade-giles:
+  input:
+    __append:
+  output:
+    __append:

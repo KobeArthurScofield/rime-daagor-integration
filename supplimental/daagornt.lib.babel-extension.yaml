@@ -34,7 +34,7 @@ efeo:
     __append:
 
 # Wade-Giles simplified
-# A variant of Wade-Giles
+# A variant of Wade-Giles. No sibilant differ.
 wade-giles-simp:
   input:
     __append:
