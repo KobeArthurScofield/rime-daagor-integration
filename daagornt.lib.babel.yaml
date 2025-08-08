@@ -74,6 +74,9 @@ tongyong_pinyin:
       - xform (<[fw]>)<reng> $1ong
       - xform (<w>)<en> $1un
       - xform <4y><en> yun
+      - xform <ts><i> <ts6><i>
+      - xform <tsh><i> <ts6h><i>
+      - xform <s><i> <s6><i>
       - xform <[mn]>(<-m>|<-n>|<-ng>) $2
       - xform <h><-h> <-h>
       - xform <i><en> in
@@ -81,7 +84,6 @@ tongyong_pinyin:
       - xform <y><en> yun
       - xform <u><en> un
       - xform <i><ong> yong
-      
       - xform <p> b
       - xform <ph> p
       - xform <-?m> m
@@ -204,6 +206,9 @@ hanyu_pinyin:
   output:
     __append:
       - xform <4y><en> yün
+      - xform <ts><i> <ts6><i>
+      - xform <tsh><i> <ts6h><i>
+      - xform <s><i> <s6><i>
       - xform <[mn]>(<-m>|<-n>|<-ng>) $2
       - xform <h><-h> <-h>
       - xform <u><ei> ui
