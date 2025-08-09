@@ -1,0 +1,59 @@
+# RIME: Preedit convert library of Daagopr Integration
+
+flypy:
+  __patch:
+    - daagornt.rscm.flypy.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.normalizer.yaml:/hanyu_pinyin/output
+
+pinyinjiajia:
+  __patch:
+    - daagornt.rscm.pinyinjiajia.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.normalizer.yaml:/hanyu_pinyin/output
+
+ziranma:
+  __patch:
+    - daagornt.rscm.ziranma.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.normalizer.yaml:/hanyu_pinyin/output
+
+tongyong_pinyin:
+  __patch:
+    - daagornt.rscm.tongyong-pinyin.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.normalizer.yaml:/tongyong_pinyin/output
+
+phonetic_symbols_ii:
+  __patch:
+
+hanyu_pinyin:
+  __patch:
+    - daagornt.rscm.hanyu-pinyin.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.normalizer.yaml:/hanyu_pinyin/output
+
+phonetic_symbols:
+  __patch:
+
+gwoyeu_romatzyh:
+  __patch:
+
+cesky:
+  __patch:
+
+yale:
+  __patch:
+
+latinxua:
+  __patch:
+
+lessing-othmer:
+  __patch:
+
+efeo:
+  __patch:
+
+wade-giles-simp:
+  __patch:
+
+postcal:
+  __patch:
+
+wade-giles:
+  __patch:

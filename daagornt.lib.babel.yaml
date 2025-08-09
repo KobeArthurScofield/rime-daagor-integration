@@ -203,9 +203,9 @@ hanyu_pinyin:
   output:
     __append:
       - 'xform <4y><en> yün'
-      - 'xform <ts><i> <ts6><i>'
-      - 'xform <tsh><i> <ts6h><i>'
-      - 'xform <s><i> <s6><i>'
+      - 'derive <ts><i> <ts6><i>'
+      - 'derive <tsh><i> <ts6h><i>'
+      - 'derive <s><i> <s6><i>'
       - 'xform <u><ei> ui'
       - 'xform <i><ou> iu'
       - 'xform <i><en> in'

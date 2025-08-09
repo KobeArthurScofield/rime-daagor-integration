@@ -1,0 +1,37 @@
+# RIME: Dictionary (RIME-LMDG) process for Daagor Integration
+# Ver: 2.0.0
+
+translator:
+  dictionary: daagornt.dict.wanxiang.base
+  packs:
+    - daagornt.dict.wanxiang.intelligence
+    - daagornt.dict.wanxiang.expansion
+  max_homophones: 5
+  max_homographs: 5
+
+speller:
+  algebra:
+    __patch:
+      - daagornt.lib.normalizer.yaml:/hanyu_pinyin/input
+      - daagornt.lib.babel.yaml:/hanyu_pinyin/input
+
+zh_cn_simp:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/zh_hk
+
+grammar:
+  language: wanxiang-lts-zh-hans
+  collocation_max_length: 8
+  collocation_min_length: 2
+  collocation_penalty: -12
+  non_collocation_penalty: -12
+  weak_collocation_penalty: -24
+  rear_penalty: -18

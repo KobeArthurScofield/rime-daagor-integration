@@ -1,0 +1,195 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: '大狗自然码双拼'
+  schema_id: daagornt.rscm.ziranma
+  author:
+    - '键盘布局 周志农'
+    - 'KobeArSc'
+  description: |
+    自然码双拼输入方案
+  version: '2.0.0.1904.alpha.0001'
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
+
+engine:
+  __include: daagornt.lib.shared.yaml:/engines
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm67890
+  initials: qwertyuiopasdfghjklzxcvbnm
+  finals: '67890'
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+  algebra:
+    __patch:
+      - daagornt.lib.dict.yaml:/speller/algebra
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.shared.yaml:/translator
+    - daagornt.lib.dict.yaml:/translator
+  prism: daagornt.hanyu-pinyin
+  preedit_format:
+    __patch:
+      - daagorxp.lib.preedit.yaml:/ziranma?
+  comment_format:
+    __patch:
+      - daagorxp.lib.comment.yaml:/hanyu_pinyin?
+
+grammar:
+  __include: daagornt.lib.dict.yaml:/grammar
+
+punctuator:
+  __include: daagornt.lib.shared.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.shared.yaml:/key_binder
+
+recognizer:
+  __include: daagornt.lib.shared.yaml:/recognizer
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu
+
+zh_cn_simp:
+  __include: daagornt.lib.dict.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      - 'xform ^<e3> <ei>'
+      - 'xform <-m> <u><en>'
+      - 'xform <-n> <en>'
+      - 'xform <-ng> <reng>'
+      - 'xform ^<m>(<[0-5]>) <m><u>$1'
+      - 'xform ^<n>(<[0-5]>) <en>$1'
+      - 'xform ^<ng>(<[0-5]>) <reng>$1'
+      - 'derive <ts><i> <ts6><i>'
+      - 'derive <tsh><i> <ts6h><i>'
+      - 'derive <s><i> <s6><i>'
+      - 'xform ^<([aoe])> $1<$1>'
+      - 'xform ^<([ae])i> $1i'
+      - 'derive ^([ae])i $1<$1i>'
+      - 'xform ^<au> ao'
+      - 'derive ^ao a<au>'
+      - 'xform ^<ou> ou'
+      - 'derive ^ou o<ou>'
+      - 'xform ^<([ae])n> $1n'
+      - 'derive ^([ae])n $1<$1n>'
+      - 'xform ^<ang> a<ang>'
+      - 'xform ^<reng> e<reng>'
+      - 'xform <ji> <j><i>'
+      - 'xform <wu> <w><u>'
+      - 'xform <4y> <j><y>'
+      - 'xform <yu> <j><y>'
+      - 'xform ^<ar> er'
+      - 'xform <i><a> w'
+      - 'xform <u><a> w'
+      - 'xform <u><ai> y'
+      - 'xform <i><au> c'
+      - 'xform <i><an> m'
+      - 'xform <u><an> r'
+      - 'xform <y><an> r'
+      - 'xform <i><ang> d'
+      - 'xform <u><ang> d'
+      - 'xform <u><o> o'
+      - 'xform <i><ou> q'
+      - 'xform <i><ong> s'
+      - 'xform <i><e3> x'
+      - 'xform <y><e3> t'
+      - 'xform <u><ei> v'
+      - 'xform <i><en> n'
+      - 'xform <u><en> p'
+      - 'xform <y><en> p'
+      - 'xform <i><reng> y'
+      - 'xform <p> b'
+      - 'xform <ph> p'
+      - 'xform <m> m'
+      - 'xform <f> f'
+      - 'xform <t> d'
+      - 'xform <th> t'
+      - 'xform <n> n'
+      - 'xform <l> l'
+      - 'xform <k> g'
+      - 'xform <kh> k'
+      - 'xform <x>|<-?h> h'
+      - 'xform <ts6> j'
+      - 'xform <ts6h> q'
+      - 'xform <s6> x'
+      - 'xform <tis> v'
+      - 'xform <tish> i'
+      - 'xform <is> u'
+      - 'xform <zi> r'
+      - 'xform <ts> z'
+      - 'xform <tsh> c'
+      - 'xform <s> s'
+      - 'xform <j> y'
+      - 'xform <i> i'
+      - 'xform <w> w'
+      - 'xform <u> u'
+      - 'xform <y> v'
+      - 'xform <a> a'
+      - 'xform <o> o'
+      - 'xform <re> e'
+      - 'xform <e3> e'
+      - 'xform <ai> l'
+      - 'xform <ei> z'
+      - 'xform <au> k'
+      - 'xform <ou> b'
+      - 'xform <an> j'
+      - 'xform <en> f'
+      - 'xform <ang> h'
+      - 'xform <reng> g'
+      - 'xform <ong> s'
+      - 'xform <-i>|<-w> i'
+      - 'xform <([1-4])> $1'
+      - 'xform <0> 5'
+      - 'abbrev ^(.+)[1-5]$ $1'
+      - 'xlit 12345 67890'
+  preedit:
+    __append:
+      - xform/([bpmnljqxy])n/$1in/
+      - xform/(\w)g/$1eng/
+      - xform/(\w)q/$1iu/
+      - xform/([gkhvuirzcs])w/$1ua/
+      - xform/(\w)w/$1ia/
+      - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+      - xform/(\w)t/$1üe/
+      - xform/([gkhvuirzcs])y/$1uai/
+      - xform/(\w)y/$1ing/
+      - xform/([dtnlgkhvuirzcs])o/$1uo/
+      - xform/(\w)p/$1un/
+      - xform/([jqx])s/$1iong/
+      - xform/(\w)s/$1ong/
+      - xform/([jqxnlb])d/$1iang/
+      - xform/(\w)d/$1uang/
+      - xform/(\w)f/$1en/
+      - xform/(\w)h/$1ang/
+      - xform/(\w)j/$1an/
+      - xform/(\w)k/$1ao/
+      - xform/(\w)l/$1ai/
+      - xform/(\w)z/$1ei/
+      - xform/(\w)x/$1ie/
+      - xform/(\w)c/$1iao/
+      - xform/([dtgkhvuirzcs])v/$1ui/
+      - xform/(\w)b/$1ou/
+      - xform/(\w)m/$1ian/
+      - xform/([aoe])\1(\w)/$1$2/
+      - "xform/(^|[ '])v/$1zh/"
+      - "xform/(^|[ '])i/$1ch/"
+      - "xform/(^|[ '])u/$1sh/"
+      - 'xlit 67890 12345'

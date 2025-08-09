@@ -1,0 +1,196 @@
+# RIME: Shared component library
+# Ver: 1.0.0
+
+engines:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - fluid_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier@zh_cn_simp
+    - simplifier@zh_cn_trad
+    - simplifier@zh_tw
+    - simplifier@zh_hk
+
+translator:
+  enable_encoder: true
+  enable_sentence: true
+  contextual_suggestions: true
+  encode_commit_history: true
+  sentence_over_completion: true
+  enable_user_dict: true
+  db_class: userdb
+  spelling_hints: 4
+  always_show_comments: true
+  enable_completion: true
+
+key_binder:
+  import_preset: default
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+
+menu:
+  page_size: 5
+
+zh_cn_simp:
+  switches:
+    - name: ascii_mode
+      states: ['中文', 'ABC']
+    - name: full_shape
+      states: ['窄字', '全宽字']
+    - name: ascii_punct
+      states: ['。，', '. , ']
+    - options:
+        - zh_cn_simp
+        - zh_cn_trad
+        - zh_tw
+        - zh_hk
+      states:
+        - 简化用字
+        - 傳統用字
+        - 臺灣用字
+        - 港澳用字
+      reset: 0
+  zh_cn_simp:
+    option_name: zh_cn_simp
+    opencc_config: noop.json
+    tips: all
+  zh_cn_trad:
+    option_name: zh_cn_trad
+    opencc_config: s2t.json
+    tips: all
+  zh_tw:
+    option_name: zh_tw
+    opencc_config: s2twp.json
+    tips: all
+  zh_hk:
+    option_name: zh_hk
+    opencc_config: s2hk.json
+    tips: all
+
+zh_cn_trad:
+  switches:
+    - name: ascii_mode
+      states: ['中文', 'ABC']
+    - name: full_shape
+      states: ['窄字', '全寬字']
+    - name: ascii_punct
+      states: ['。，', '. , ']
+    - options:
+        - zh_cn_trad
+        - zh_tw
+        - zh_hk
+        - zh_cn_simp
+      states:
+        - 傳統用字
+        - 臺灣用字
+        - 港澳用字
+        - 简化用字
+      reset: 0
+  zh_cn_simp:
+    option_name: zh_cn_simp
+    opencc_config: t2s.json
+    tips: all
+  zh_cn_trad:
+    option_name: zh_cn_trad
+    opencc_config: noop.json
+    tips: all
+  zh_tw:
+    option_name: zh_tw
+    opencc_config: t2tw.json
+    tips: all
+  zh_hk:
+    option_name: zh_hk
+    opencc_config: t2hk.json
+    tips: all
+
+zh_tw:
+  switches:
+    - name: ascii_mode
+      states: ['中文', 'ABC']
+    - name: full_shape
+      states: ['窄字', '全寬字']
+    - name: ascii_punct
+      states: ['。，', '. , ']
+    - options:
+        - zh_tw
+        - zh_hk
+        - zh_cn_trad
+        - zh_cn_simp
+      states:
+        - 臺灣用字
+        - 港澳用字
+        - 傳統用字
+        - 简化用字
+      reset: 0
+  zh_cn_simp:
+    option_name: zh_cn_simp
+    opencc_config: tw2sp.json
+    tips: all
+  zh_cn_trad:
+    option_name: zh_cn_trad
+    opencc_config: tw2t.json
+    tips: all
+  zh_tw:
+    option_name: zh_tw
+    opencc_config: noop.json
+    tips: all
+  zh_hk:
+    option_name: zh_hk
+    opencc_config: noop.json
+    tips: all
+
+zh_hk:
+  switches:
+    - name: ascii_mode
+      states: ['中文', 'ABC']
+    - name: full_shape
+      states: ['窄字', '全寬字']
+    - name: ascii_punct
+      states: ['。，', '. , ']
+    - options:
+        - zh_hk
+        - zh_tw
+        - zh_cn_trad
+        - zh_cn_simp
+      states:
+        - 港澳用字
+        - 臺灣用字
+        - 傳統用字
+        - 简化用字
+      reset: 0
+  zh_cn_simp:
+    option_name: zh_cn_simp
+    opencc_config: hk2s.json
+    tips: all
+  zh_cn_trad:
+    option_name: zh_cn_trad
+    opencc_config: hk2t.json
+    tips: all
+  zh_tw:
+    option_name: zh_tw
+    opencc_config: noop.json
+    tips: all
+  zh_hk:
+    option_name: zh_hk
+    opencc_config: noop.json
+    tips: all

@@ -1,0 +1,85 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: '大狗汉语拼音'
+  schema_id: daagornt.rscm.hanyu-pinyin
+  author:
+    - 'KobeArSc'
+  description: |
+    汉语拼音方案输入方案
+  version: '2.0.0.1904.alpha.0001'
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
+
+engine:
+  __include: daagornt.lib.shared.yaml:/engines
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm67890
+  initials: qwertyuiopasdfghjklzxcvbnm
+  finals: '67890'
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+  algebra:
+    __patch:
+      - daagornt.lib.dict.yaml:/speller/algebra
+      - daagornt.lib.babel.yaml:/hanyu_pinyin/output
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.shared.yaml:/translator
+    - daagornt.lib.dict.yaml:/translator
+  prism: daagornt.hanyu-pinyin
+  preedit_format:
+    __patch:
+      - daagorxp.lib.preedit.yaml:/hanyu_pinyin?
+  comment_format:
+    __patch:
+      - daagorxp.lib.comment.yaml:/hanyu_pinyin?
+
+grammar:
+  __include: daagornt.lib.dict.yaml:/grammar
+
+punctuator:
+  __include: daagornt.lib.shared.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.shared.yaml:/key_binder
+
+recognizer:
+  __include: daagornt.lib.shared.yaml:/recognizer
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu
+
+zh_cn_simp:
+  __include: daagornt.lib.dict.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      - 'derive ([jqxy])ü $1u'
+      - 'derive ü v'
+      - 'derive ê eh'
+      - 'abbrev ^([a-z]).+$ $1'
+      - 'abbrev ^([zcs]h).+$ $1'
+      - 'abbrev ^(.+)[1-5]$ $1'
+      - 'xlit 12345 67890'
+  preedit:
+    __append:
+      - 'xlit 67890 12345'
+      - 'xform v ü'
+      - 'xform eh ê'

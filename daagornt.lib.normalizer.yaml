@@ -162,7 +162,8 @@ hanyu_pinyin:
       - 'xlit 阴阳上去轻 12345'
       - 'xform ([jqxy])[uv] $1ü'
       - 'xform ([nl])v $1ü'
-      - 'xform eh|ee ê'
+      - 'xform ([nl])ue $1üe'
+      - 'xform e[he] ê'
   output:
     __append:
       - xform/([jqxy])ü/$1u/
