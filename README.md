@@ -1,54 +1,78 @@
-# ℞大狗拼音核心版 Daagor Integration Core
+# ℞大狗拼音 Daagor Integration
 
-基于带调拼音的方案集合。核心版即功能仅有打字。（如需丰富功能欢迎基于此仓库开建新仓库添加功能）
+基于中州韵输入法引擎 (RIME) 构建的带调拼音方案集合。
 
-包含带调标准拼音、带调自然码双拼、带调小鹤双拼带调拼音加加双拼、汉心龙双拼及自然龙双拼，同时允许使用内置的地球拼音方案词库，或者冰雪拼音词库或万象词库。
+目前包含：
+- 带调标准汉语拼音 (HanYu PinYin, hanyu-pinyin)
+- 带调双拼
+  - 自然码双拼 (ZiRanMa, ziranma)
+  - 小鹤双拼 (Fly PinYin, flypy)
+  - 拼音加加双拼 (PinYinJiaJia, pinyinjiajia)
+  - 汉心龙双拼 (HanXin Long, hanxinlong)
+  - 自然龙双拼 (ZiRan Long, ziranlong)
+- 帶聲調通用拼音 (Tongyong Pinyin, tongyong-pinyin)
+- 國語注音符號第二式，國音二式 (Phonetic Symbols II (MPS II), mpsii)
+- 國語羅馬字 (Gwoyeu Romatzyh, gwoyeu)
+
+同时允许使用数种带声调词库：
+- RIME 发行版内置的[地球拼音方案词库](https://github.com/rime/rime-terra-pinyin)
+- [冰雪拼音词库](https://github.com/rimeinn/rime-snow-pinyin)
+- [万象词库](https://github.com/amzxyz/RIME-LMDG)
 
 目前所有方案所需词库及语言模型请自行到对应的仓库下载。
 
+[![Deepwiki Generated Documentation](https://deepwiki.com/badge.svg)](https://deepwiki.com/KobeArthurScofield/rime-daagor-integration)
+
 ## 文件解析
 
-`lib.component`： **（必需）** 输入法基础组件。
-
-`lib.experience`： **（必须）** 输入法体验组件。
-
-`lib.bridge`：（必需）提供词库及代码格式转换。
-
-`lib.dict`： **（根据调用词库必需）** 输入法调用词库所需配置。
-
-`lib.layout`： **（根据使用拼音方案必需）** 输入法键盘映射所需配置。
-
-`rscm`：基于以上文件组成的输入方案。
-
-`opencc/noop.json`：特殊繁简转换方案（阻止转换）。
-
-`terra-*`：基于地球拼音词库及八股文繁体字模型
-
-`snow-*`：基于冰雪拼音词库及万象通用模型
-
-`wanxiang-*`：基于万象原子词库及万象原子模型
+- `lib.shared`： **（必需）** 输入方案通用基础组件
+- `lib.babel`： **（必需）** 输入方案跨拼音规范转换库
+- `lib.normalizer`： **（必需）** 输入方案拼音形态转换库
+- `opencc`：特殊繁简转换方案
+  - `noop.json`：不转换
+- `experience`：Daagor Integration Experience，用于取代输入方案默认体验
+  - `lib.shared`：提供经过调整的 RIME 发行版默认以外的体验
+  - `lib.comment`：提供拼音提示转换功能，使拼音提示显示为输入方案相同而非词库方案；启用后全局生效
+  - `lib.preedit`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
+- `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库。选用的词库对所有方案全局生效。
+  - `rime-terra`：调用 RIME 发行版附带的地球拼音词库
+  - `rime-snow`：调用冰雪拼音词库
+  - `rime-lmdg`：调用万象拼音词库
+    - `dict.wanxiang.*`：词库分包文件
+- `rscm.*`：基于以上文件组成的输入方案
+- `supplimental`：用于提供额外方案。这些方案包含：
+  - 威妥玛拼音 (wade-giles)（及邮政拼音 (postcal) 和简化威妥玛拼音 (wand-giles-simp)）
+  - 法国远东学院拼音 (efeo)
+  - 德国式拼音 (lessing-othmer)
+  - 拉丁化新文字 (latinxua)
+  - 耶鲁拼音 (yale)
+  - 捷克式拼音 (cesky)
 
 ## 下载及部署
 
-1. 将下载的代码包解压（或者如果下载了[懒人包](releases/latest)，请和代码包（仓库克隆包或者 Source code.zip））；
+1. 将下载的代码包解压；
 2. 将以下文件复制到 RIME 前端设定的用户文件夹：
 
-  * `lib.component`
-  * `lib.bridge`
-  * `lib.experience`
-  * `lib.dict.<期望使用的词典名称>`
-    * `snow` 冰雪拼音词库
-    * `terra` 地球拼音词库
-    * `wanxiang` 万象拼音词库/RIME-LMDG
-  * `lib.layout.<期望使用的拼音布局名称>`
+  * `lib.shared`
+  * `lib.babel`
+  * `lib.normalizer`
+  * `opencc`
+    * 将 opencc 文件夹连同内含文件复制至与其以上文件同一个文件夹
+  * `rscm.<期望使用的方案名称>`
     * `flypy` 小鹤双拼布局
-    * `hxlong` 汉心龙/龙码双拼布局
-    * `pinyin` 标准全拼布局
-    * `pyjj` 拼音加加双拼布局
-    * `zrlong` 自然龙双拼布局
-    * `zrm` 自然码双拼布局
-  * `rscm.<词库名>-<布局名>`
-    * 复制自己所需的文件即可
+    * `gwoyeu` 国语罗马字布局
+    * `gwoyeu` 国语罗马字布局
+    * `hanxinlong` 汉心龙/龙码双拼布局
+    * `hanyu-pinyin` 汉语拼音布局
+    * `mpsii` 国音二式布局
+    * `pinyinjiajia` 拼音加加双拼布局
+    * `tongying-pinyin` 通用拼音布局
+    * `ziranlong` 自然龙双拼布局
+    * `ziranma` 自然码双拼布局
+  * `dictionary/<使用词库名称>/<所有文件>`
+    * 复制自己所需的词库调用文件，与以上文件置于同一个文件夹
+  * `supplimental`
+    * 复制自己所需的库文件及方案文件，与以上文件置于同一个文件夹
 
 3. 复制选用方案所需的词典文件及语法模型文件；
 
@@ -58,23 +82,16 @@
   * 词库及语法模型下载地址在后方内容
 
 4. Windows 下使用小狼毫，进入“小狼毫设置”勾取自己需要的输入方案并确定，等待部署完成。
-5. 非小狼毫用户，需在用户文件夹下的 `default.custom.yaml` 中添加以下内容（以添加使用地球拼音词库的小鹤双拼及全拼为例，格式为 `daagornt.rscm.<词库名>-<布局名>`），保存后部署：
+5. 非小狼毫用户，需在用户文件夹下的 `default.custom.yaml` 中添加以下内容（以添加使用地球拼音词库的小鹤双拼及全拼为例，格式为 `daagornt.rscm.<方案名>`），保存后部署：
 ``` yaml
 patch:
   schema_list:
-    - {schema: "daagornt.rscm.terra-flypy"}
-    - {schema: "daagornt.rscm.terra-pinyin"}
+    - {schema: "daagornt.rscm.flypy"}
+    - {schema: "daagornt.rscm.hanyu-pinyin"}
 ```
 
 
 ## 输入键盘布局
-
-- [汉心龙](https://hanxinma.gitlab.io/longma) 原作者：晡时之光
-- [自然龙](https://hanxinma.gitlab.io/longma/zrl) 原作者：晡时之光
-- 自然码 原作者：周志农
-- [小鹤双拼](https://flypy.com/) 原作者：何海峰
-- 拼音加加双拼 原作者：？？？
-- 拼音（或称全拼、标准拼音）
 
 布局本身不支持音调时，输入音调的方法为：在输入音节后，以主键盘上 6-0 分别代表阴平、阳平、上声、去声和轻声。不使用声调时可作普通拼音使用。
 
@@ -84,7 +101,7 @@ patch:
 
 新增按键见下：
 
-#### ExtK-HX-01
+#### ExtK-HX-01 标准
 
 | 拼音成份 | 按键（12345 声） |
 |--------|----------------|
@@ -101,7 +118,7 @@ patch:
 
 新增按键见下：
 
-#### ExtK-ZR-01
+#### ExtK-ZR-01 标准
 
 | 拼音成份 | 按键（12345 声） |
 |--------|----------------|
@@ -118,7 +135,7 @@ patch:
 
 - 八股文模型（繁体）： https://github.com/lotem/rime-octagram-data/tree/hant
 - 冰雪拼音词库： https://github.com/rimeinn/rime-snow-pinyin (*.dict.yaml)
-- 万象词库： https://github.com/amzxyz/RIME-LMDG/releases/tag/dict-nightly （需要同时下载 https://github.com/amzxyz/RIME-LMDG/blob/main/wanxiang.dict.yaml ）
+- 万象词库： https://github.com/amzxyz/RIME-LMDG/releases/tag/dict-nightly
 - 万象通用模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/v2n3
 - 万象原子模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS
 
@@ -126,11 +143,11 @@ patch:
 
 ### 拼音表示方式转换
 
-将音调转换至末尾标注时的转换方向，一种是仅转换音调而保留所有拼写（normal），另一种是将拼写压缩到常用拼音拼写组合（limited）；前者适用于所用布局能支持词库中所有拼写（如扩展后的汉心龙、自然龙），后者适用于所用布局仅能支持常见拼写（如一般双拼）。
+将音调转换至末尾标注时的转换方向，一种是仅转换音调而保留所有拼写，另一种是将拼写压缩到常用拼音拼写组合（limited）；前者适用于所用布局能支持词库中所有拼写（如扩展后的汉心龙、自然龙），后者适用于所用布局仅能支持常见拼写（如一般双拼）。
 
 示例如下：
 
-| 原形式 | normal | limited |
+| 原形式 | 完全拼写 | 受限拼写 |
 |----|----|----|
 | ê | ê | eh |
 | hm | hm | hun |
@@ -144,3 +161,14 @@ patch:
 ### 为何部分方案没有特定音节
 
 需要对应的词库支持该拼写。
+
+## 鸣谢
+
+- [RIME 输入引擎](https://github.com/rime)
+- [汉心龙](https://hanxinma.gitlab.io/longma/hanxinlong) 作者：晡时之光
+- [自然龙](https://hanxinma.gitlab.io/longma/ziranlong) 作者：小幽幽
+- 自然码 作者：（周志农）
+- [小鹤双拼](https://flypy.com/) 作者：散步的鹤（何海峰）
+- 拼音加加双拼 原作者：（廖恒毅）
+- [冰雪拼音](https://github.com/rimeinn/rime-snow-pinyin)
+- [万象拼音](https://github.com/amzxyz/RIME-LMDG)
