@@ -36,16 +36,21 @@
 
 # ㄪ <v> ㄫ <ng> ㄬ <gn>
 # If goes with <is>, use the first one; if go with <s>, use the second one
-# ㄭ <-i><-w>
-# ㆬ <-m> ㄯ <-n> ㆭ <-ng> ㆷ <-h>
+# ㄭ <_i><_w>
+# ㆬ <_m> ㄯ <_n> ㆭ <_ng> ㆷ <_h>
 
 # Special for ㄨㄥ but not pronunce as 'ueng', and for old mandarin tone
 # <ong>
+
+# Special: For older pronunces, these are also important:
+# <i><ai> <i><o> <y><o>
 
 # Tones. 0 means no tone and 5 means checked tone
 # <0><1><2><3><4><5>
 
 # Special content, checked tone not used in old mandarin and new mandarin
-# p <-p> t <-t> k <-k> ʔ <-oh>
-# p̚ <-pp> t̚ <-tt> k̚ <-kk>
-# b <-b> d <-d> g <-g>
+# p <_p> t <_t> k <_k> ʔ <_oh>
+# p̚ <_pp> t̚ <_tt> k̚ <_kk>
+# b <_b> d <_d> g <_g>
+
+# 

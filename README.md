@@ -21,7 +21,7 @@
 
 目前所有方案所需词库及语言模型请自行到对应的仓库下载。
 
-[![Deepwiki Generated Documentation](https://deepwiki.com/badge.svg)](https://deepwiki.com/KobeArthurScofield/rime-daagor-integration)
+AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/badge.svg)](https://deepwiki.com/KobeArthurScofield/rime-daagor-integration)
 
 ## 文件解析
 
@@ -32,9 +32,12 @@
   - `noop.json`：不转换
 - `experience`：Daagor Integration Experience，用于取代输入方案默认体验
   - `lib.shared`：提供经过调整的 RIME 发行版默认以外的体验
-  - `lib.comment`：提供拼音提示转换功能，使拼音提示显示为输入方案相同而非词库方案；启用后全局生效
-  - `lib.preedit`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
-- `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库。选用的词库对所有方案全局生效。
+    - `daagorxp.lib.keybinder`：非默认按键组合体验
+    - `daagorxp.lib.punctuation`：非默认标点输入体验
+    - `daagorxp.lib.recognizer`：非默认识别功能体验
+  - `daagorxp.lib.comment`：提供拼音提示转换功能，使拼音提示显示为输入方案相同而非词库方案；启用后全局生效
+  - `daagorxp.lib.preedit`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
+- `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
   - `rime-terra`：调用 RIME 发行版附带的地球拼音词库
   - `rime-snow`：调用冰雪拼音词库
   - `rime-lmdg`：调用万象拼音词库
@@ -72,7 +75,11 @@
   * `dictionary/<使用词库名称>/<所有文件>`
     * 复制自己所需的词库调用文件，与以上文件置于同一个文件夹
   * `supplimental`
-    * 复制自己所需的库文件及方案文件，与以上文件置于同一个文件夹
+    * 如果有需要，复制自己所需的库文件及方案文件，与以上文件置于同一个文件夹
+  * `experience`
+    * 如果希望使用非 RIME 自带的默认输入体验，可以按需复制其中文件与以上文件置于他送一个文件夹：
+      * `lib.comment` 与 `lib.preedit` 可以单独复制
+      * `lib.shared` 必须与 `lib.keybinder`、`lib.punctuation` 与 `lib.recognizer` 一并复制
 
 3. 复制选用方案所需的词典文件及语法模型文件；
 
@@ -112,6 +119,23 @@ patch:
 | 空韵母 n | CLTKC |
 | 空韵母 ng | CIGUC |
 
+#### ExtK-HX-02 标准
+
+| 拼音成份 | 按键（12345 声） |
+|--------|----------------|
+| 轻声 | 所有轻声的按键与其第一声相同 |
+| ê | LUICL |
+| 声母 v | G |
+| 声母 gn | L |
+| 声母 ng | Y |
+| 空韵母 h | MNCLM |
+| 空韵母 m | ULNIU |
+| 空韵母 n | CLTKC |
+| 空韵母 ng | CIGUC |
+| 韵母 iai | AJRBA |
+| 韵母 io | TQJFT |
+| 韵母 üo | SSPXS |
+
 ### 自然龙键盘布局
 
 ![键盘布局](image/zrlong-2025-01.jpg)
@@ -129,6 +153,23 @@ patch:
 | 空韵母 n | QYZBQ |
 | 空韵母 ng | QTJAQ |
 
+#### ExtK-ZR-02 标准
+
+| 拼音成份 | 按键（12345 声） |
+|--------|----------------|
+| 轻声 | 所有轻声的按键与其第一声相同 |
+| ê | YATQY |
+| 声母 v | W |
+| 声母 gn | G |
+| 声母 ng | N |
+| 空韵母 h | VZNXV |
+| 空韵母 m | AYBTA |
+| 空韵母 n | QYZBQ |
+| 空韵母 ng | QTJAQ |
+| 韵母 iai | BDUOB |
+| 韵母 io | PEIGP |
+| 韵母 üo | SLLPS |
+
 ## 词库及语法模型
 
 注意：不同词库之间会存在拼写差异。
@@ -143,18 +184,26 @@ patch:
 
 ### 拼音表示方式转换
 
-将音调转换至末尾标注时的转换方向，一种是仅转换音调而保留所有拼写，另一种是将拼写压缩到常用拼音拼写组合（limited）；前者适用于所用布局能支持词库中所有拼写（如扩展后的汉心龙、自然龙），后者适用于所用布局仅能支持常见拼写（如一般双拼）。
+将音调转换至输入方案支持的范围，一种是仅转换音调而保留所有拼写，另一种是将拼写压缩到常用拼音拼写组合（limited）；前者适用于所用布局能支持词库中所有拼写（如扩展后的汉心龙、自然龙），后者适用于所用布局仅能支持常见拼写（如一般双拼）。
 
-示例如下：
+示例如下（以汉语拼音示例）：
 
 | 原形式 | 完全拼写 | 受限拼写 |
 |----|----|----|
 | ê | ê | eh |
-| hm | hm | hun |
-| hng | hng | heng |
 | m | m | mu |
 | n | n | en |
 | ng | ng | eng |
+| 空韵母 -h | -h | -e |
+| 空韵母 -m | -m | -un |
+| 空韵母 -n | -n | -en |
+| 空韵母 -ng | -ng | -eng |
+| 声母 ng- | ng- | n- |
+| 声母 gn- | gn- | g- |
+| 声母 v- | v- | w- |
+| 韵母 -iai | -iai | -ai |
+| 韵母 -io | -io | -o |
+| 韵母 -üo | -üo | -uo |
 
 - 目前该框架可以正常支持包含但不限于《现代汉语词典》中存在的拼写，而压缩拼写组合则支持范围为《现代汉语词典中》存在的拼写。
 
