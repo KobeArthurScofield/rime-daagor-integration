@@ -171,7 +171,7 @@ hanyu_pinyin:
       - 'xform ([jqxy])ü $1u'
       - 'xform (i|u|ü|y)ê $1e'
       - 'xform 5 ·'
-      - 'xform ([aeiouü])(ng?|r)([1-5]) $1$3$2'
+      - 'xform (a|e|i|o|u|ü)(ng?|r)([1-5]) $1$3$2'
       - 'xform ([aeo])([iuo])([1-5]) $1$3$2'
       - 'xform a1 ā'
       - 'xform a2 á'

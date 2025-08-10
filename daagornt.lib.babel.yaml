@@ -143,7 +143,7 @@ hanyu_pinyin:
   input:
     __append:
       - 'xform ^yün <4y><en>'
-      - 'xform ([iüy])e $1<e3>'
+      - 'xform (i|ü|y)e $1<e3>'
       - 'xform yi([1-5]) <ji>$1'
       - 'xform wu([1-5]) <wu>$1'
       - 'xform yü([1-5]) <yu>$1'

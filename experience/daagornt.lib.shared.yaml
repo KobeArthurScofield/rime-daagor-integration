@@ -42,7 +42,7 @@ translator:
   enable_completion: true
 
 key_binder:
-  import_preset: default
+  import_preset: daagorxp.lib.keybinder
 
 punctuator:
   import_preset: default
