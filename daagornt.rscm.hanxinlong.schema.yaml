@@ -6,7 +6,7 @@ schema:
   schema_id: daagornt.rscm.hanxinlong
   author:
     - '键盘布局 晡时之光'
-    - 'KobeArSc'
+    - '方案集成 丢狼'
   description: |
     龙码双拼输入方案
   version: '2.0.0.1904.alpha.0002'
@@ -16,8 +16,6 @@ switches:
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
-  __patch:
-    - daagornt.lib.shared.yaml:/zh_cn_simp/engines
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm

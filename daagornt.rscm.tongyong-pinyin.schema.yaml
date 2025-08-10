@@ -5,9 +5,9 @@ schema:
   name: '大狗華語通用拼音'
   schema_id: daagornt.rscm.tongyong-pinyin
   author:
-    - 'KobeArSc'
+    - '專案匯集 丢狼'
   description: |
-    通用拼音輸入專案
+    華語通用拼音輸入專案
   version: '2.0.0.1904.alpha.0002'
 
 switches:
@@ -15,8 +15,6 @@ switches:
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
-  __patch:
-    - daagornt.lib.shared.yaml:/zh_tw/engines
 
 speller:
   alphabet: wertyuiopasdfghjklzcvbnm67890

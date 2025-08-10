@@ -5,7 +5,7 @@ schema:
   name: '大狗汉语拼音'
   schema_id: daagornt.rscm.hanyu-pinyin
   author:
-    - 'KobeArSc'
+    - '方案集成 丢狼'
   description: |
     汉语拼音方案输入方案
   version: '2.0.0.1904.alpha.0002'
@@ -15,8 +15,6 @@ switches:
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
-  __patch:
-    - daagornt.lib.shared.yaml:/zh_cn_simp/engines
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm67890
