@@ -9,13 +9,15 @@ schema:
     - 'KobeArSc'
   description: |
     自然龙双拼输入方案
-  version: '2.0.0.1904.alpha.0001'
+  version: '2.0.0.1904.alpha.0002'
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
+  __patch:
+    - daagornt.lib.shared.yaml:/zh_cn_simp/engines
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm
@@ -24,17 +26,17 @@ speller:
   use_space: false
   algebra:
     __patch:
-      - daagornt.lib.dict.yaml:/speller/algebra
+      - daagornt.lib.dict.yaml:/algebra/normalizer
+      - daagornt.lib.dict.yaml:/algebra/encoder
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict.yaml:/translator
-  prism: daagornt.hanyu-pinyin
+  prism: daagornt.ziranlong
   comment_format:
-    __patch:
-      - daagorxp.lib.comment.yaml:/hanyu_pinyin?
+    __include: daagorxp.lib.comment.yaml:/hanyu_pinyin?
 
 grammar:
   __include: daagornt.lib.dict.yaml:/grammar

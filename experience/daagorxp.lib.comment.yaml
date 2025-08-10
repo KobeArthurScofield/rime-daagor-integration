@@ -1,9 +1,13 @@
-# RIME: Comment convert library of Daagopr Integration
+# RIME: Comment convert library of Daagor Integration
+# encoding: utf-8#
+# Ver: 1.0.1
+#
 
 
 tongyong_pinyin:
   __patch:
-    - daagornt.lib.dict.yaml:/speller/algebra
+    - daagornt.lib.dict.yaml:/algebra/normalizer
+    - daagornt.lib.dict.yaml:/algebra/encoder
     - daagornt.lib.babel.yaml:/tongyong_pinyin/output
     - daagornt.lib.normalizer.yaml:/tongyong_pinyin/output
 
@@ -12,7 +16,8 @@ phonetic_symbols_ii:
 
 hanyu_pinyin:
   __patch:
-    - daagornt.lib.dict.yaml:/speller/algebra
+    - daagornt.lib.dict.yaml:/algebra/normalizer
+    - daagornt.lib.dict.yaml:/algebra/encoder
     - daagornt.lib.babel.yaml:/hanyu_pinyin/output
     - daagornt.lib.normalizer.yaml:/hanyu_pinyin/output
 

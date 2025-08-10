@@ -1,5 +1,7 @@
 # RIME: Shared component library
-# Ver: 1.0.0
+# encoding: utf-8#
+# Ver: 1.1.0
+#
 
 engines:
   processors:
@@ -21,11 +23,6 @@ engines:
     - echo_translator
     - punct_translator
     - script_translator
-  filters:
-    - simplifier@zh_cn_simp
-    - simplifier@zh_cn_trad
-    - simplifier@zh_tw
-    - simplifier@zh_hk
 
 translator:
   enable_encoder: true
@@ -52,6 +49,12 @@ menu:
   page_size: 5
 
 zh_cn_simp:
+  engines:
+    filters:
+      - simplifier@zh_cn_simp
+      - simplifier@zh_cn_trad
+      - simplifier@zh_tw
+      - simplifier@zh_hk
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
@@ -72,7 +75,7 @@ zh_cn_simp:
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
-    opencc_config: noop.json
+    opencc_config: daagornt.noop.json
     tips: all
   zh_cn_trad:
     option_name: zh_cn_trad
@@ -88,6 +91,12 @@ zh_cn_simp:
     tips: all
 
 zh_cn_trad:
+  engines:
+    filters:
+      - simplifier@zh_cn_simp
+      - simplifier@zh_cn_trad
+      - simplifier@zh_tw
+      - simplifier@zh_hk
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
@@ -112,7 +121,7 @@ zh_cn_trad:
     tips: all
   zh_cn_trad:
     option_name: zh_cn_trad
-    opencc_config: noop.json
+    opencc_config: daagornt.noop.json
     tips: all
   zh_tw:
     option_name: zh_tw
@@ -124,6 +133,11 @@ zh_cn_trad:
     tips: all
 
 zh_tw:
+  engines:
+    filters:
+      - simplifier@zh_cn_simp
+      - simplifier@zh_cn_trad
+      - simplifier@zh_tw
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
@@ -133,12 +147,10 @@ zh_tw:
       states: ['。，', '. , ']
     - options:
         - zh_tw
-        - zh_hk
         - zh_cn_trad
         - zh_cn_simp
       states:
         - 臺灣用字
-        - 港澳用字
         - 傳統用字
         - 简化用字
       reset: 0
@@ -152,14 +164,15 @@ zh_tw:
     tips: all
   zh_tw:
     option_name: zh_tw
-    opencc_config: noop.json
-    tips: all
-  zh_hk:
-    option_name: zh_hk
-    opencc_config: noop.json
+    opencc_config: daagornt.noop.json
     tips: all
 
 zh_hk:
+  engines:
+    filters:
+      - simplifier@zh_cn_simp
+      - simplifier@zh_cn_trad
+      - simplifier@zh_hk
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
@@ -169,12 +182,10 @@ zh_hk:
       states: ['。，', '. , ']
     - options:
         - zh_hk
-        - zh_tw
         - zh_cn_trad
         - zh_cn_simp
       states:
         - 港澳用字
-        - 臺灣用字
         - 傳統用字
         - 简化用字
       reset: 0
@@ -186,11 +197,7 @@ zh_hk:
     option_name: zh_cn_trad
     opencc_config: hk2t.json
     tips: all
-  zh_tw:
-    option_name: zh_tw
-    opencc_config: noop.json
-    tips: all
   zh_hk:
     option_name: zh_hk
-    opencc_config: noop.json
+    opencc_config: daagornt.noop.json
     tips: all

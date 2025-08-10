@@ -1,4 +1,7 @@
 # RIME: Preedit convert library of Daagopr Integration
+# encoding: utf-8#
+# Ver: 1.0.0
+#
 
 flypy:
   __patch:

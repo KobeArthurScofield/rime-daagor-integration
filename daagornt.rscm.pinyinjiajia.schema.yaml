@@ -9,13 +9,15 @@ schema:
     - 'KobeArSc'
   description: |
     拼音加加双拼输入方案
-  version: '2.0.0.1904.alpha.0001'
+  version: '2.0.0.1904.alpha.0002'
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
+  __patch:
+    - daagornt.lib.shared.yaml:/zh_cn_simp/engines
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm67890
@@ -26,20 +28,19 @@ speller:
   use_space: false
   algebra:
     __patch:
-      - daagornt.lib.dict.yaml:/speller/algebra
+      - daagornt.lib.dict.yaml:/algebra/normalizer
+      - daagornt.lib.dict.yaml:/algebra/encoder
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict.yaml:/translator
-  prism: daagornt.hanyu-pinyin
+  prism: daagornt.pinyinjiajia
   preedit_format:
-    __patch:
-      - daagorxp.lib.preedit.yaml:/pinyinjiajia?
+    __include: daagorxp.lib.preedit.yaml:/pinyinjiajia?
   comment_format:
-    __patch:
-      - daagorxp.lib.comment.yaml:/hanyu_pinyin?
+    __include: daagorxp.lib.comment.yaml:/hanyu_pinyin?
 
 grammar:
   __include: daagornt.lib.dict.yaml:/grammar
@@ -88,7 +89,8 @@ rule_convert:
       - 'derive <ts><i> <ts6><i>'
       - 'derive <tsh><i> <ts6h><i>'
       - 'derive <s><i> <s6><i>'
-      - 'xform ^<([aoe])> $1<$1>'
+      - 'xform ^<([ao])> $1<$1>'
+      - 'xform ^<(re)> e<$1>'
       - 'xform ^<([ae])i> $1<$1i>'
       - 'derive ^[ae]<([ae])i> $1i'
       - 'xform ^<au> a<au>'

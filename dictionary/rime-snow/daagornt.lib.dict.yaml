@@ -1,6 +1,7 @@
 # RIME: Dictionary (rime-snow) process for Daagor Integration
-# Ver: 2.0.0
-
+# encoding: utf-8#
+# Ver: 2.0.1
+#
 
 translator:
   dictionary: snow_pinyin
@@ -12,11 +13,11 @@ translator:
   max_homophones: 7
   max_homographs: 7
 
-speller:
-  algebra:
-    __patch:
-      - daagornt.lib.normalizer.yaml:/hanyu_pinyin/input
-      - daagornt.lib.babel.yaml:/hanyu_pinyin/input
+algebra:
+  normalizer:
+    __include: daagornt.lib.normalizer.yaml:/hanyu_pinyin/input
+  encoder:
+    __include: daagornt.lib.babel.yaml:/hanyu_pinyin/input
 
 zh_cn_simp:
   __include: daagornt.lib.shared.yaml:/zh_cn_simp/zh_cn_simp

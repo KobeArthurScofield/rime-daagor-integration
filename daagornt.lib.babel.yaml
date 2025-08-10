@@ -1,5 +1,7 @@
-# Rime: Tone convert engine for Daagor NT
-# Ver 1.0.0.00
+# Rime: Tone convert engine for Daagor Integration
+# encoding: utf-8#
+# Ver 1.0.0.02
+#
 
 tongyong_pinyin:
   input:

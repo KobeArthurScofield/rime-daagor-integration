@@ -1,5 +1,7 @@
 # Rime: Supplemental convert engine for Daagor NT
+# encoding: utf-8#
 # Ver 1.0.0.00
+#
 
 # Český přepis čínštiny
 # Have no sibilant differ. Requires flattening.

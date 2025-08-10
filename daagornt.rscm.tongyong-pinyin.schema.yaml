@@ -2,19 +2,21 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗通用拼音'
+  name: '大狗華語通用拼音'
   schema_id: daagornt.rscm.tongyong-pinyin
   author:
     - 'KobeArSc'
   description: |
     通用拼音輸入專案
-  version: '2.0.0.1904.alpha.0001'
+  version: '2.0.0.1904.alpha.0002'
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_tw/switches
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
+  __patch:
+    - daagornt.lib.shared.yaml:/zh_tw/engines
 
 speller:
   alphabet: wertyuiopasdfghjklzcvbnm67890
@@ -25,7 +27,8 @@ speller:
   use_space: false
   algebra:
     __patch:
-      - daagornt.lib.dict.yaml:/speller/algebra
+      - daagornt.lib.dict.yaml:/algebra/normalizer
+      - daagornt.lib.dict.yaml:/algebra/encoder
       - daagornt.lib.babel.yaml:/tongyong_pinyin/output
       - /rule_convert/layout
 
@@ -35,11 +38,9 @@ translator:
     - daagornt.lib.dict.yaml:/translator
   prism: daagornt.tongyong-pinyin
   preedit_format:
-    __patch:
-      - daagorxp.lib.preedit.yaml:/tongyong_pinyin?
+    __include: daagorxp.lib.preedit.yaml:/tongyong_pinyin?
   comment_format:
-    __patch:
-      - daagorxp.lib.comment.yaml:/tongyong_pinyin?
+    __include: daagorxp.lib.comment.yaml:/tongyong_pinyin?
 
 grammar:
   __include: daagornt.lib.dict.yaml:/grammar
