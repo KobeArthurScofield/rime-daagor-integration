@@ -12,6 +12,7 @@
   - 自然龙双拼 (ZiRan Long, ziranlong)
 - 帶聲調通用拼音 (Tongyong Pinyin, tongyong-pinyin)
 - 國語注音符號第二式，國音二式 (Phonetic Symbols II (MPS II), mpsii)
+- 注音輸入法（大千鍵盤佈局） (Bopomofo, bopomofo)
 - 國語羅馬字 (Gwoyeu Romatzyh, gwoyeu)
 
 同时允许使用数种带声调词库：
@@ -28,8 +29,7 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
 - `lib.shared`： **（必需）** 输入方案通用基础组件
 - `lib.babel`： **（必需）** 输入方案跨拼音规范转换库
 - `lib.normalizer`： **（必需）** 输入方案拼音形态转换库
-- `icon`： **（小狼毫必需）** 输入指示器图标
-  - `lib.icon`： 对应输入法的指示器图标
+- `lib.icon`： 对应输入法的指示器图标
 - `opencc`：特殊繁简转换方案
   - `noop.json`：不转换
 - `experience`：Daagor Integration Experience，用于取代输入方案默认体验
@@ -55,14 +55,14 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
 
 ## 下载及部署
 
-1. 将下载的代码包解压；
+1. 将[下载](releases/latest)的包解压；`base` 为基础文件，`extension` 为额外方案文件。
 2. 将以下文件复制到 RIME 前端设定的用户文件夹：
 
   * `lib.shared`
   * `lib.babel`
   * `lib.normalizer`
-  * `icon`
-    * 将 icon 文件夹内所需图标文件复制至与其以上文件同一个文件夹
+  * `lib.icon`
+    * 将所需图标文件复制至与其以上文件同一个文件夹
       * `lib.icon.ascii`：键盘直接字符模式图标，所有方案使用
       * `lib.icon.cn`：输入法转换模式图标，大陆流行方案使用
       * `lib.icon.hk`：输入法转换模式图标，港澳流行方案使用
@@ -70,6 +70,7 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
   * `opencc`
     * 将 opencc 文件夹连同内含文件复制至与其以上文件同一个文件夹
   * `rscm.<期望使用的方案名称>`
+    * `bopomofo` 注音（大千）布局
     * `flypy` 小鹤双拼布局
     * `gwoyeu` 国语罗马字布局
     * `gwoyeu` 国语罗马字布局
@@ -104,7 +105,6 @@ patch:
     - {schema: "daagornt.rscm.flypy"}
     - {schema: "daagornt.rscm.hanyu-pinyin"}
 ```
-
 
 ## 输入键盘布局
 

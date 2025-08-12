@@ -74,11 +74,20 @@ jobs:
           path: |
             ./${{ env.EXTN }}/*
 
-      - name: Upload binaries to release
+      - name: Upload base to release
         uses: svenstaro/upload-release-action@v2
         if: github.event_name == 'release'
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./${{ env.PKNAME }}-*
+          file: ./${{ env.PKNAME }}-${{ env.BASE }}
+          tag: ${{ github.ref }}
+          file_glob: true
+
+      - name: Upload extension to release
+        uses: svenstaro/upload-release-action@v2
+        if: github.event_name == 'release'
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./${{ env.PKNAME }}-${{ env.EXTN }}
           tag: ${{ github.ref }}
           file_glob: true
