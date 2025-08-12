@@ -48,35 +48,23 @@ grammar:
 
 punctuator:
   __include: daagornt.lib.shared.yaml:/punctuator
-  full_shape:
-    '<' : [ ，, 《, 〈, «, ‹ ]
-    '>' : [ 。, 》, 〉, », › ]
-    '?' : [ ？, ／, ÷ ]
-    ':' : [ ：, ； ]
-  half_shape:
-    '<' : [ ，, 《, 〈, «, ‹ ]
-    '>' : [ 。, 》, 〉, », › ]
-    '?' : [ ？, 、, '/', ／, ÷ ]
-    ':' : [ ：, ； ]
 
 key_binder:
   __include: daagornt.lib.shared.yaml:/key_binder
   bindings:
-    - { when: has_menu, accept: comma, send: comma }      # ㄝ
-    - { when: has_menu, accept: period, send: period }    # ㄡ
-    - { when: has_menu, accept: minus, send: minus }      # ㄦ
-    - { when: composing, accept: Control+comma, send: less}
-    - { when: composing, accept: Control+period, send: greater}
-    - { when: composing, accept: Control+slash, send: question}
-    - { when: composing, accept: Control+semicolon, send: colon}
+    - { when: has_menu, accept: comma, send: comma }         # ㄝ
+    - { when: has_menu, accept: period, send: period }       # ㄡ
+    - { when: has_menu, accept: semicolon, send: semicolon } # ㄤ
+    - { when: has_menu, accept: slash, send: slash }         # ㄥ
+    - { when: has_menu, accept: minus, send: minus }         # ㄦ
 
 recognizer:
   __include: daagornt.lib.shared.yaml:/recognizer
 
 menu:
   __include: daagornt.lib.shared.yaml:/menu
-  alternative_select_keys: "QWERTYUIOP"
-  alternative_select_labels: [ Q, W, E, R, T, Y, U, I, O, P ]
+  alternative_select_keys: "QWERTYUIO"
+  alternative_select_labels: [ Q, W, E, R, T, Y, U, I, O ]
 
 zh_cn_simp:
   __include: daagornt.lib.dict.yaml:/zh_cn_simp
