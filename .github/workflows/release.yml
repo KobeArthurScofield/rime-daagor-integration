@@ -52,13 +52,12 @@ jobs:
         if: github.event_name == 'release'
         shell: bash
         run: |
-          DIRS=($BASE $EXTN)
-          for DIR in ${DIRS}
-          do
-            pushd $DIR || exit 1
-            zip -9vr ../${PKNAME}-${DIR}.zip .
-            popd || exit 1
-          done
+          pushd $BASE || exit 1
+          zip -9vr ../${PKNAME}-${BASE}.zip .
+          popd || exit 1
+          pushd $EXTN || exit 1
+          zip -9vr ../${PKNAME}-${EXTN}.zip .
+          popd || exit 1
         
       - name: Upload base files to artifacts
         uses: actions/upload-artifact@v4
