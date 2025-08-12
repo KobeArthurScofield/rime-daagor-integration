@@ -9,7 +9,9 @@ schema:
     - '方案集成 丢狼'
   description: |
     龙码双拼输入方案
-  version: '2.0.0.1904.alpha.0002'
+  version: '2.0.0.1904.alpha.0003'
+  icon: daagornt.icon.imecn.ico
+  ascii_icon: daagornt.icon.ascii.ico
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
@@ -66,9 +68,15 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'derive <ts><i> <ts6><i>'
-      - 'derive <tsh><i> <ts6h><i>'
-      - 'derive <s><i> <s6><i>'
+      - 'xform <5> <0>'
+      # Sibilant Compatibility
+      - 'derive <ts><([iy])> <ts6><$1>'
+      - 'derive <tsh><([iy])> <ts6h><$1>'
+      - 'derive <s><([iy])> <s6><$1>'
+      - 'derive <k><([iy])> <ts6><$1>'
+      - 'derive <kh><([iy])> <ts6h><$1>'
+      - 'derive <[xh]><([iy])> <s6><$1>'
+      # Hanyu Pinyin key convert
       - 'xform <ji> <j><i>'
       - 'xform <wu> <w><u>'
       - 'xform <4y> <j><y>'

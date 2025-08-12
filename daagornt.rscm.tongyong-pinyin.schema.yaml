@@ -8,7 +8,9 @@ schema:
     - '專案匯集 丢狼'
   description: |
     華語通用拼音輸入專案
-  version: '2.0.0.1904.alpha.0002'
+  version: '2.0.0.1904.alpha.0003'
+  icon: daagornt.icon.imetw.ico
+  ascii_icon: daagornt.icon.ascii.ico
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_tw/switches

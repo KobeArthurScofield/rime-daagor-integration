@@ -1,0 +1,84 @@
+name: Releasing packages
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+  push:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  packaging-release-file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PKNAME: rime-daagornt
+      BASE: base
+      EXTN: extension
+    steps:
+      - name: Checkout base
+        uses: actions/checkout@v5
+      
+      - name: Prepare directories
+        run: |
+          mkdir -p ${BASE}
+          mkdir -p ${EXTN}
+
+      - name: Copy README.md & LICENSE
+        run: |
+          cp ${GITHUB_WORKSPACE}/README.md ./$BASE/README.md
+          cp ${GITHUB_WORKSPACE}/LICENSE ./$BASE/LICENSE
+          cp ${GITHUB_WORKSPACE}/README.md ./$EXTN/README.md
+          cp ${GITHUB_WORKSPACE}/LICENSE ./$EXTN/LICENSE
+      
+      - name: Copy base files
+        run: |
+          cp -rf ./dictionary ./${BASE}/
+          cp -rf ./experience ./${BASE}/
+          cp -rf ./opencc ./${BASE}/
+          cp -rf ./icon/* ./${BASE}/
+          cp -f ./daagornt.lib.* ./${BASE}/
+          cp -f ./daagornt.rscm.* ./${BASE}/
+          ls -al ./${BASE}/
+      
+      - name: Copy extension files
+        run: |
+          cp -rf ./supplimental ./${EXTN}/
+          ls -al ./${EXTN}/
+      
+      - name: Create ZIP package
+        if: github.event_name == 'release'
+        shell: bash
+        run: |
+          DIRS=($BASE $EXTN)
+          for DIR in ${DIRS}
+          do
+            pushd $DIR || exit 1
+            zip -9vr ../${PKNAME}-${DIR}.zip .
+            popd || exit 1
+          done
+        
+      - name: Upload base files to artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.PKNAME }}-${{ env.BASE }}
+          path: |
+            ./${{ env.BASE }}/*
+        
+      - name: Upload extension files to artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.PKNAME }}-${{ env.EXTN }}
+          path: |
+            ./${{ env.EXTN }}/*
+
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        if: github.event_name == 'release'
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./${{ env.PKNAME }}-*
+          tag: ${{ github.ref }}
+          file_glob: true

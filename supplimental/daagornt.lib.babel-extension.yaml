@@ -20,6 +20,61 @@ yale:
 latinxua:
   output:
     __append:
+      - 'xform (<ng>|<gn>) <ng>'
+      - 'xform <v> <w>'
+      - 'xform <[0-5]>'
+      - 'xform <[ji]><ong> yng'
+      - 'xform <i><en> in'
+      - 'xform <i><reng> ing'
+      - 'xform <u><ei> ui'
+      - 'xform <u><en> un'
+      - 'xform <y><en> yn'
+      - 'xform <p> b'
+      - 'xform <ph> p'
+      - 'xform <_?m> m'
+      - 'xform <f> f'
+      - 'xform <t> d'
+      - 'xform <th> t'
+      - 'xform <_?n> n'
+      - 'xform <l> l'
+      - 'xform <k> g'
+      - 'xform <kh> k'
+      - 'xform (<x>|<_?h>) h'
+      - 'xform <ts6> gi'
+      - 'xform <ts6h> ki'
+      - 'xform <s6> xi'
+      - 'xform <tis> zh'
+      - 'xform <tish> ch'
+      - 'xform <is> sh'
+      - 'xform <zi> rh'
+      - 'xform <ts> z'
+      - 'xform <tsh> c'
+      - 'xform <s> s'
+      - 'xform <j> j'
+      - 'xform <ji> ji'
+      - 'xform <w> w'
+      - 'xform <wu> wu'
+      - 'xform (<4y>|<yu>) y'
+      - xform/<_[iw]>//
+      - 'xform <a> a'
+      - 'xform <o> o'
+      - 'xform (<re>|<e3>) e'
+      - 'xform <i> i'
+      - 'xform <u> u'
+      - 'xform <y> y'
+      - 'xform <ar> r'
+      - 'xform <ai> ai'
+      - 'xform <ei> ei'
+      - 'xform <au> ao'
+      - 'xform <ou> ou'
+      - 'xform <an> an'
+      - 'xform <en> en'
+      - 'xform <ang> ang'
+      - 'xform <reng> eng'
+      - 'xform <ong> ung'
+      - 'xform <_ng> ng'
+      - 'xform ii i'
+      - 'xform iy y'
 
 # Lessing-Othmer-System
 # Have no sibilant differ. Requires flattening.
@@ -46,8 +101,6 @@ wade-giles-simp:
 # Postcal Romanization
 # A variant of Wade-Giles
 postcal:
-  input:
-    __append:
   output:
     __append:
 

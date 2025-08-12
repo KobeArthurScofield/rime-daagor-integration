@@ -1,6 +1,6 @@
 # Rime: Rewrite engine for Daagor Integration
 # encoding: utf-8#
-# Ver 1.0.1.03
+# Ver 1.0.2.04
 #
 
 tongyong_pinyin:
@@ -222,8 +222,22 @@ hanyu_pinyin:
 phonetic_symbols:
   input:
     __append:
+      - 'xform ㄚㆭ ㄤ'
+      - 'xform ㄜㆭ ㄥ'
+      - 'xform ㄚㄯ ㄢ'
+      - 'xform ㄜㄯ ㄣ'
+      - 'xform ㄚㄧ ㄞ'
+      - 'xform ㄝㄧ ㄟ'
+      - 'xform ㄚㄨ ㄠ'
+      - 'xform ㄜㄨ ㄡ'
   output:
     __append:
+      - xform/ㄭ//
+      - xform/ㆬ//
+      - xform/ㄯ//
+      - xform/ㆭ//
+      - xform/ㆷ//
+      - xform/˙(.+)/$1˙/
 
 gwoyeu_romatzyh:
   input:

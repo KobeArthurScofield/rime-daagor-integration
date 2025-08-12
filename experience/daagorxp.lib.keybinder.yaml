@@ -5,15 +5,7 @@
 
 key_binder:
   bindings:
-    __patch:
-      - /emacs_editing
-      - /move_by_word_with_tab
-      - /numbered_mode_switch
-      - /optimized_mode_switch
-
-
-emacs_editing:
-  __append:
+    # Emacs sytle editing
     - { when: composing, accept: Control+p, send: Up }
     - { when: composing, accept: Control+n, send: Down }
     - { when: composing, accept: Control+b, send: Left }
@@ -28,15 +20,11 @@ emacs_editing:
     - { when: composing, accept: Control+y, send: Page_Up }
     - { when: composing, accept: Alt+v, send: Page_Up }
     - { when: composing, accept: Control+v, send: Page_Down }
-
-move_by_word_with_tab:
-  __append:
+    # Move word by Tab
     - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
     - { when: composing, accept: Shift+Tab, send: Shift+Left }
     - { when: composing, accept: Tab, send: Shift+Right }
-
-numbered_mode_switch:
-  __append:
+    # Numbered mode switch
     - { when: always, accept: Control+Shift+1, select: .next }
     - { when: always, accept: Control+Shift+2, toggle: ascii_mode }
     - { when: always, accept: Control+Shift+3, toggle: full_shape }
@@ -47,14 +35,7 @@ numbered_mode_switch:
     - { when: always, accept: Control+Shift+numbersign, toggle: full_shape }
     - { when: always, accept: Control+Shift+dollar, toggle: simplification }
     - { when: always, accept: Control+Shift+percent, toggle: extended_charset }
-
-windows_compatible_mode_switch:
-  __append:
-    - { when: always, accept: Shift+space, toggle: full_shape }
-    - { when: always, accept: Control+period, toggle: ascii_punct }
-
-optimized_mode_switch:
-  __append:
+    # NNormal mode switch
     - { when: always, accept: Control+Shift+space, select: .next }
     - { when: always, accept: Shift+space, toggle: ascii_mode }
     - { when: always, accept: Control+comma, toggle: full_shape }

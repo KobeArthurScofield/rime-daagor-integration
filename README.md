@@ -28,6 +28,8 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
 - `lib.shared`： **（必需）** 输入方案通用基础组件
 - `lib.babel`： **（必需）** 输入方案跨拼音规范转换库
 - `lib.normalizer`： **（必需）** 输入方案拼音形态转换库
+- `icon`： **（小狼毫必需）** 输入指示器图标
+  - `lib.icon`： 对应输入法的指示器图标
 - `opencc`：特殊繁简转换方案
   - `noop.json`：不转换
 - `experience`：Daagor Integration Experience，用于取代输入方案默认体验
@@ -59,6 +61,12 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
   * `lib.shared`
   * `lib.babel`
   * `lib.normalizer`
+  * `icon`
+    * 将 icon 文件夹内所需图标文件复制至与其以上文件同一个文件夹
+      * `lib.icon.ascii`：键盘直接字符模式图标，所有方案使用
+      * `lib.icon.cn`：输入法转换模式图标，大陆流行方案使用
+      * `lib.icon.hk`：输入法转换模式图标，港澳流行方案使用
+      * `lib.icon.tw`：输入法转换模式图标，台湾流行方案使用
   * `opencc`
     * 将 opencc 文件夹连同内含文件复制至与其以上文件同一个文件夹
   * `rscm.<期望使用的方案名称>`

@@ -1,8 +1,7 @@
 # RIME: Comment convert library of Daagor Integration
 # encoding: utf-8#
-# Ver: 1.0.1
+# Ver: 1.1.0
 #
-
 
 tongyong_pinyin:
   __patch:
@@ -23,30 +22,9 @@ hanyu_pinyin:
 
 phonetic_symbols:
   __patch:
+    - daagornt.lib.dict.yaml:/algebra/normalizer
+    - daagornt.lib.dict.yaml:/algebra/encoder
+    - daagornt.lib.babel.yaml:/phonetic_symbols/output
 
 gwoyeu_romatzyh:
-  __patch:
-
-cesky:
-  __patch:
-
-yale:
-  __patch:
-
-latinxua:
-  __patch:
-
-lessing-othmer:
-  __patch:
-
-efeo:
-  __patch:
-
-wade-giles-simp:
-  __patch:
-
-postcal:
-  __patch:
-
-wade-giles:
   __patch:

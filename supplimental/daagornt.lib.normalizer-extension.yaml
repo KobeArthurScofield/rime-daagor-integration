@@ -14,6 +14,8 @@ yale:
 latinxua:
   output:
     __append:
+      - 'derive iou iu'
+      - 'derive ji i'
 
 lessing-othmer:
   output:
@@ -32,8 +34,6 @@ wade-giles-simp:
     __append:
 
 postcal:
-  input:
-    __append:
   output:
     __append:
 
