@@ -79,7 +79,7 @@ jobs:
         if: github.event_name == 'release'
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./${{ env.PKNAME }}-${{ env.BASE }}
+          file: ./${{ env.PKNAME }}-${{ env.BASE }}.*
           tag: ${{ github.ref }}
           file_glob: true
 
@@ -88,6 +88,6 @@ jobs:
         if: github.event_name == 'release'
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./${{ env.PKNAME }}-${{ env.EXTN }}
+          file: ./${{ env.PKNAME }}-${{ env.EXTN }}.*
           tag: ${{ github.ref }}
           file_glob: true
