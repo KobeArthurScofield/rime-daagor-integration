@@ -22,7 +22,7 @@ speller:
   alphabet: '1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 3467'
   initials: '1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-'
   finals: ' 3467'
-  delimiter: "'-;"
+  delimiter: "'`"
   auto_select: false
   use_space: true
   algebra:
@@ -63,8 +63,8 @@ recognizer:
 
 menu:
   __include: daagornt.lib.shared.yaml:/menu
-  alternative_select_keys: "QWERTYUIO"
-  alternative_select_labels: [ Q, W, E, R, T, Y, U, I, O ]
+  alternative_select_keys: "QWERTYUIOP"
+  alternative_select_labels: [ Q, W, E, R, T, Y, U, I, O, P ]
 
 zh_cn_simp:
   __include: daagornt.lib.dict.yaml:/zh_cn_simp
@@ -81,14 +81,10 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - derive/(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ)(ㄧ|ㄨ|ㄩ)/$2$1/
-      - derive/([ㄧ|ㄨ|ㄩ])(ㄛ|ㄜ|ㄝ|ㄞ|ㄟ|ㄠ|ㄡ|ㄢ|ㄣ|ㄤ|ㄥ|ㄦ)/$2$1/
-      - derive/([ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ])(ㄛ|ㄜ|ㄝ|ㄞ|ㄟ|ㄠ|ㄡ|ㄢ|ㄣ|ㄤ|ㄥ|ㄦ)/$2$1/
-      - derive/(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ)(ㄧ|ㄨ|ㄩ)/$2$1/
       - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+$/$1/
       - abbrev/^(.+)(ˉ|ˊ|ˇ|ˋ|˙)$/$1/
       - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+(ˉ|ˊ|ˇ|ˋ|˙)$/$1$2/
       - "xlit|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|"
   preedit:
     __append:
-      - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
+      - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'`|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙  |"
