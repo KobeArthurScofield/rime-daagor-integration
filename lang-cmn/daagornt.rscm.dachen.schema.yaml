@@ -2,13 +2,13 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗注音'
-  schema_id: daagornt.rscm.bopomofo
+  name: '大狗注音（大千排布）'
+  schema_id: daagornt.rscm.dachen
   author:
     - '專案匯集 丢狼'
   description: |
     注音符號輸入專案
-  version: '2.0.0.1904.alpha.0003'
+  version: '2.0.0.1904.alpha.0004'
   icon: daagornt.icon.imetw.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -37,9 +37,9 @@ translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn.yaml:/translator
-  prism: daagornt.bopomofo
+  prism: daagornt.dachen
   preedit_format:
-    __include: daagorxp.lib.preedit-cmn.yaml:/bopomofo?
+    __include: daagorxp.lib.preedit-cmn.yaml:/dachen?
   comment_format:
     __include: daagorxp.lib.comment-cmn.yaml:/phonetic_symbols?
 

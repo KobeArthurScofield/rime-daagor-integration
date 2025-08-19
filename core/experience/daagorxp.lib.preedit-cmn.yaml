@@ -1,11 +1,11 @@
 # RIME: Preedit convert library of Daagopr Integration
 # encoding: utf-8#
-# Ver: 1.1.0
+# Ver: 1.1.1
 #
 
-bopomofo:
+dachen:
   __patch:
-    - daagornt.rscm.bopomofo.schema.yaml:/rule_convert/preedit
+    - daagornt.rscm.dachen.schema.yaml:/rule_convert/preedit
     - daagornt.lib.normalizer-cmn.yaml:/phonetic_symbols/output
 
 flypy:
@@ -30,14 +30,16 @@ tongyong_pinyin:
 
 phonetic_symbols_ii:
   __patch:
+    - daagornt.rscm.mpsii.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.normalizer-cmn.yaml:/phonetic_symbols_ii/output
 
 hanyu_pinyin:
   __patch:
     - daagornt.rscm.hanyu-pinyin.schema.yaml:/rule_convert/preedit
     - daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/output
 
-phonetic_symbols:
-  __patch:
+# phonetic_symbols:
+#   __patch:
 
 gwoyeu_romatzyh:
   __patch:

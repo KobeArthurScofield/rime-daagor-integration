@@ -1,6 +1,6 @@
 # RIME: Comment convert library of Daagor Integration
 # encoding: utf-8#
-# Ver: 1.1.0
+# Ver: 1.1.1
 #
 
 tongyong_pinyin:
@@ -12,6 +12,10 @@ tongyong_pinyin:
 
 phonetic_symbols_ii:
   __patch:
+    - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn.yaml:/phonetic_symbols_ii/output
+    - daagornt.lib.normalizer-cmn.yaml:/phonetic_symbols_ii/output
 
 hanyu_pinyin:
   __patch:

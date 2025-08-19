@@ -10,7 +10,7 @@
   - 自然龙双拼 (ZiRan Long, ziranlong)
 - 帶聲調通用拼音 (Tongyong Pinyin, tongyong-pinyin)
 - 國語注音符號第二式，國音二式 (Phonetic Symbols II (MPS II), mpsii)
-- 注音輸入法（大千鍵盤佈局） (Bopomofo, bopomofo)
+- 注音輸入法（大千鍵盤排布） (Bopomofo Dachen, dachen)
 - 國語羅馬字 (Gwoyeu Romatzyh, gwoyeu)
 
 同时允许使用数种带声调词库：

@@ -2,12 +2,12 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗華語通用拼音'
-  schema_id: daagornt.rscm.tongyong-pinyin
+  name: '大狗國音二式'
+  schema_id: daagornt.rscm.mpsii
   author:
     - '專案匯集 丢狼'
   description: |
-    華語通用拼音輸入專案
+    國語注音第二式輸入專案
   version: '2.0.0.1904.alpha.0004'
   icon: daagornt.icon.imetw.ico
   ascii_icon: daagornt.icon.ascii.ico
@@ -29,18 +29,18 @@ speller:
     __patch:
       - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn.yaml:/algebra/encoder
-      - daagornt.lib.babel-cmn.yaml:/tongyong_pinyin/output
+      - daagornt.lib.babel-cmn.yaml:/phonetic_symbols_ii/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn.yaml:/translator
-  prism: daagornt.tongyong-pinyin
+  prism: daagornt.mpsii
   preedit_format:
-    __include: daagorxp.lib.preedit-cmn.yaml:/tongyong_pinyin?
+    __include: daagorxp.lib.preedit-cmn.yaml:/phonetic_symbols_ii?
   comment_format:
-    __include: daagorxp.lib.comment-cmn.yaml:/tongyong_pinyin?
+    __include: daagorxp.lib.comment-cmn.yaml:/phonetic_symbols_ii?
 
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar
@@ -72,10 +72,15 @@ zh_hk:
 rule_convert:
   layout:
     __append:
+      - 'derive ([iuy])ê $1e'
+      - 'derive ê eh'
+      - 'derive ê ee'
       - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^([jcs]h).+$ $1'
+      - 'abbrev ^([cs]h).+$ $1'
+      - 'abbrev ^(t[zs]).+$ $1'
       - 'abbrev ^(.+)[1-5]$ $1'
       - 'xlit 12345 67890'
   preedit:
     __append:
       - 'xlit 67890 12345'
+      - 'xform e[eh] ê'
