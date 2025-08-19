@@ -36,15 +36,17 @@ jobs:
       - name: Copy base files
         run: |
           cp -rf ./dictionary ./${BASE}/
-          cp -rf ./experience ./${BASE}/
           cp -rf ./opencc ./${BASE}/
-          cp -rf ./icon/* ./${BASE}/
-          cp -f ./daagornt.lib.* ./${BASE}/
-          cp -f ./daagornt.rscm.* ./${BASE}/
+          cp -rf ./core/daagornt.lib.* ./${BASE}/
+          cp -rf ./icon/daagornt.icon.* ./${BASE}/
+          cp -f ./lang-*/daagornt.lib.* ./${BASE}/
+          cp -f ./lang-*/daagornt.rscm.* ./${BASE}/
+          cp -f ./lang-*/README-* ./${BASE}/
           ls -al ./${BASE}/
       
       - name: Copy extension files
         run: |
+          cp -rf ./core/experience ./${EXTN}/
           cp -rf ./supplimental ./${EXTN}/
           ls -al ./${EXTN}/
       

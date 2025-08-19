@@ -45,7 +45,7 @@ key_binder:
   import_preset: daagorxp.lib.keybinder
 
 punctuator:
-  import_preset: daagorxp.lib.symbols
+  import_preset: daagorxp.lib.punctuation
 
 recognizer:
   patterns:

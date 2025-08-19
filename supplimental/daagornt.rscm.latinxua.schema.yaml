@@ -25,21 +25,21 @@ speller:
   use_space: false
   algebra:
     __patch:
-      - daagornt.lib.dict.yaml:/algebra/normalizer
-      - daagornt.lib.dict.yaml:/algebra/encoder
-      - daagornt.lib.babel-extension.yaml:/hanyu_pinyin/output
-      - daagornt.lib.normalization-extension.yaml:/hanyu_pinyin/output
+      - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
+      - daagornt.lib.dict-cmn.yaml:/algebra/encoder
+      - daagornt.lib.babel-extension-cmn.yaml:/hanyu_pinyin/output
+      - daagornt.lib.normalization-extension-cmn.yaml:/hanyu_pinyin/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
-    - daagornt.lib.dict.yaml:/translator
+    - daagornt.lib.dict-cmn.yaml:/translator
     - /dpatch
   prism: daagornt.latinxua
 
 grammar:
-  __include: daagornt.lib.dict.yaml:/grammar
+  __include: daagornt.lib.dict-cmn.yaml:/grammar
 
 punctuator:
   __include: daagornt.lib.shared.yaml:/punctuator
@@ -54,16 +54,16 @@ menu:
   __include: daagornt.lib.shared.yaml:/menu
 
 zh_cn_simp:
-  __include: daagornt.lib.dict.yaml:/zh_cn_simp
+  __include: daagornt.lib.dict-cmn.yaml:/zh_cn_simp
 
 zh_cn_trad:
-  __include: daagornt.lib.dict.yaml:/zh_cn_trad
+  __include: daagornt.lib.dict-cmn.yaml:/zh_cn_trad
 
 zh_tw:
-  __include: daagornt.lib.dict.yaml:/zh_tw
+  __include: daagornt.lib.dict-cmn.yaml:/zh_tw
 
 zh_hk:
-  __include: daagornt.lib.dict.yaml:/zh_hk
+  __include: daagornt.lib.dict-cmn.yaml:/zh_hk
 
 rule_convert:
   layout:

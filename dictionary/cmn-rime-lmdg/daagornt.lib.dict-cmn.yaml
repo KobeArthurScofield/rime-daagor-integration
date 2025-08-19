@@ -13,9 +13,9 @@ translator:
 
 algebra:
   normalizer:
-    __include: daagornt.lib.normalizer.yaml:/hanyu_pinyin/input
+    __include: daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/input
   encoder:
-    __include: daagornt.lib.babel.yaml:/hanyu_pinyin/input
+    __include: daagornt.lib.babel-cmn.yaml:/hanyu_pinyin/input
 
 zh_cn_simp:
   __include: daagornt.lib.shared.yaml:/zh_cn_simp/zh_cn_simp

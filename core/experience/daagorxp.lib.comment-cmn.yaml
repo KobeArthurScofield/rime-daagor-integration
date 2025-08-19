@@ -1,0 +1,30 @@
+# RIME: Comment convert library of Daagor Integration
+# encoding: utf-8#
+# Ver: 1.1.0
+#
+
+tongyong_pinyin:
+  __patch:
+    - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn.yaml:/tongyong_pinyin/output
+    - daagornt.lib.normalizer-cmn.yaml:/tongyong_pinyin/output
+
+phonetic_symbols_ii:
+  __patch:
+
+hanyu_pinyin:
+  __patch:
+    - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn.yaml:/hanyu_pinyin/output
+    - daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/output
+
+phonetic_symbols:
+  __patch:
+    - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn.yaml:/phonetic_symbols/output
+
+gwoyeu_romatzyh:
+  __patch:

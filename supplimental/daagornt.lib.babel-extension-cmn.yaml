@@ -87,6 +87,7 @@ lessing-othmer:
 efeo:
   input:
     __append:
+      # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
 
@@ -95,6 +96,7 @@ efeo:
 wade-giles-simp:
   input:
     __append:
+      # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
 
@@ -109,5 +111,6 @@ postcal:
 wade-giles:
   input:
     __append:
+      # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
