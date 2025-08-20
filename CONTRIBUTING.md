@@ -9,7 +9,7 @@ For creating a layout that belong to a language not existing in this project, on
     - Supported layout or romanized/tone-marking standard
     - The chart of standard middle form, no matter standarized or historical - it is up to the range you want to support
 - Create a new `lib.babel-<ISO 639-3 language code>` which contains the converting rules between the spelling form and the middle form.
-- Create a new `lib.normalizer-<ISO 639-3 language code>` which contains the forms changing between typing form and the existing form.
+- Create a new `lib.scribe-<ISO 639-3 language code>` which contains the forms changing between typing form and the existing form.
 - For schemas, the name should be `rscm.<layout name>`.
 - Create a new `README-<ISO 639-3 language code>` to indicating how this language being used.
 

@@ -21,7 +21,7 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
   * `lib.shared`
   * `lib.babel-<ISO 936-3>`
     * 视需要使用的拼音方案对应的语言区复制即可
-  * `lib.normalizer-<ISO 936-3>`
+  * `lib.scribe-<ISO 936-3>`
     * 视需要使用的拼音方案对应的语言区复制即可
   * `lib.icon`
     * 将所需图标文件复制至与其以上文件同一个文件夹
@@ -55,7 +55,7 @@ patch:
 
 - `lib.shared`： **（必需）** 输入方案通用基础组件
 - `lib.babel-<ISO 936-3>`： **（根据调用输入法必需）** 输入方案跨拼音规范转换库
-- `lib.normalizer-<ISO-936-3>`： **（根据调用输入法必需）** 输入方案拼音形态转换库
+- `lib.scribe-<ISO-936-3>`： **（根据调用输入法必需）** 输入方案拼音形态转换库
 - `lib.icon`： 对应输入法的指示器图标
 - `opencc`：特殊繁简转换方案
   - `noop.json`：不转换

@@ -8,21 +8,21 @@ tongyong_pinyin:
     - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
     - daagornt.lib.dict-cmn.yaml:/algebra/encoder
     - daagornt.lib.babel-cmn.yaml:/tongyong_pinyin/output
-    - daagornt.lib.normalizer-cmn.yaml:/tongyong_pinyin/output
+    - daagornt.lib.scribe-cmn.yaml:/tongyong_pinyin/output
 
 phonetic_symbols_ii:
   __patch:
     - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
     - daagornt.lib.dict-cmn.yaml:/algebra/encoder
     - daagornt.lib.babel-cmn.yaml:/phonetic_symbols_ii/output
-    - daagornt.lib.normalizer-cmn.yaml:/phonetic_symbols_ii/output
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols_ii/output
 
 hanyu_pinyin:
   __patch:
     - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
     - daagornt.lib.dict-cmn.yaml:/algebra/encoder
     - daagornt.lib.babel-cmn.yaml:/hanyu_pinyin/output
-    - daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/output
+    - daagornt.lib.scribe-cmn.yaml:/hanyu_pinyin/output
 
 phonetic_symbols:
   __patch:

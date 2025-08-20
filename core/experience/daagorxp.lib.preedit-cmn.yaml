@@ -6,37 +6,37 @@
 dachen:
   __patch:
     - daagornt.rscm.dachen.schema.yaml:/rule_convert/preedit
-    - daagornt.lib.normalizer-cmn.yaml:/phonetic_symbols/output
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols/output
 
 flypy:
   __patch:
     - daagornt.rscm.flypy.schema.yaml:/rule_convert/preedit
-    - daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/output
+    - daagornt.lib.scribe-cmn.yaml:/hanyu_pinyin/output
 
 pinyinjiajia:
   __patch:
     - daagornt.rscm.pinyinjiajia.schema.yaml:/rule_convert/preedit
-    - daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/output
+    - daagornt.lib.scribe-cmn.yaml:/hanyu_pinyin/output
 
 ziranma:
   __patch:
     - daagornt.rscm.ziranma.schema.yaml:/rule_convert/preedit
-    - daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/output
+    - daagornt.lib.scribe-cmn.yaml:/hanyu_pinyin/output
 
 tongyong_pinyin:
   __patch:
     - daagornt.rscm.tongyong-pinyin.schema.yaml:/rule_convert/preedit
-    - daagornt.lib.normalizer-cmn.yaml:/tongyong_pinyin/output
+    - daagornt.lib.scribe-cmn.yaml:/tongyong_pinyin/output
 
 phonetic_symbols_ii:
   __patch:
     - daagornt.rscm.mpsii.schema.yaml:/rule_convert/preedit
-    - daagornt.lib.normalizer-cmn.yaml:/phonetic_symbols_ii/output
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols_ii/output
 
 hanyu_pinyin:
   __patch:
     - daagornt.rscm.hanyu-pinyin.schema.yaml:/rule_convert/preedit
-    - daagornt.lib.normalizer-cmn.yaml:/hanyu_pinyin/output
+    - daagornt.lib.scribe-cmn.yaml:/hanyu_pinyin/output
 
 # phonetic_symbols:
 #   __patch:

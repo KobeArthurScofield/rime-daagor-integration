@@ -160,6 +160,8 @@ phonetic_symbols_ii:
       - 'xform ^(.*)z̀(.*)$ $1z$2去'
       - 'xlit 阴阳上去轻 12345'
       - 'xform e[he] ê'
+      - 'xform ^r([1-5])$ rr$1'
+      - 'xform ^tz([1-5]) tzz$1'
   output:
     __append:
       - 'xform ([iuy])ê $1e'

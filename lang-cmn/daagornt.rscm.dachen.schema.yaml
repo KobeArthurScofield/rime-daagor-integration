@@ -30,7 +30,7 @@ speller:
       - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn.yaml:/algebra/encoder
       - daagornt.lib.babel-cmn.yaml:/phonetic_symbols/output
-      - daagornt.lib.normalizer-cmn.yaml:/phonetic_symbols/output
+      - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols/output
       - /rule_convert/layout
 
 translator:
