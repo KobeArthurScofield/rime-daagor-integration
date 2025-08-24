@@ -5,15 +5,135 @@
 
 # Český přepis čínštiny
 # Have no sibilant differ. Requires flattening.
+# Work as a placeholder
 cesky:
   output:
     __append:
+      - 'derive <ts><([iy])> <ts6><$1>'
+      - 'derive <tsh><([iy])> <ts6h><$1>'
+      - 'derive <s><([iy])> <s6><$1>'
+      - 'derive <k><([iy])> <ts6><$1>'
+      - 'derive <kh><([iy])> <ts6h><$1>'
+      - 'derive <[xh]><([iy])> <s6><$1>'
+      - 'xform/<[0-5]>//'
+      - xform <gn> kn
+      - xform <ng> ng
+      - xform <v> v
+      - xform <p> p
+      - xform <ph> pch
+      - xform <m> m
+      - xform <f> f
+      - xform <t> t
+      - xform <th> tch
+      - xform <n> n
+      - xform <l> l
+      - xform <k> k
+      - xform <kh> kch
+      - xform (<x>|<h>) ch
+      - xform/<ts6>/t'/
+      - xform <ts6h> čch
+      - xform <s6> s
+      - xform <tis> č
+      - xform <tish> čch
+      - xform <is> š
+      - xform <zi> ž
+      - xform <ts> c
+      - xform <tsh> cch
+      - xform <s> s
+      - xform <j> j
+      - xform <w> w
+      - xform <i><en> in
+      - xform <i><an> ien
+      - xform <i><reng> ing
+      - xform <u><en> un
+      - xform <y><en> ün
+      - xform <4y> yü
+      - xform <a> a
+      - xform <o> o
+      - xform <re> e
+      - xform <e3> e
+      - xform <ar> er
+      - xform <i> i
+      - xform <u> u
+      - xform <y> ü
+      - xform/<-[iw]>/-'/
+      - xform <ai> aj
+      - xform <ei> ej
+      - xform <au> ao
+      - xform <ou> ou
+      - xform <an> an
+      - xform <en> en
+      - xform <ang> ang
+      - xform <reng> eng
+      - xform <ong> ung
 
 # Yale Romanization
 # Have no sibilant differ. Requires flattening.
 yale:
   output:
     __append:
+      - 'derive <ts><([iy])> <ts6><$1>'
+      - 'derive <tsh><([iy])> <ts6h><$1>'
+      - 'derive <s><([iy])> <s6><$1>'
+      - 'derive <k><([iy])> <ts6><$1>'
+      - 'derive <kh><([iy])> <ts6h><$1>'
+      - 'derive <[xh]><([iy])> <s6><$1>'
+      - 'xform/<[0-5]>//'
+      - xform <_w> $1z
+      - xform <_i> $1r
+      - xform <ng> ng
+      - xform <gn> gn
+      - xform <v> v
+      - xform <p> b
+      - xform <ph> p
+      - xform <m> m
+      - xform <f> f
+      - xform <t> d
+      - xform <th> t
+      - xform <n> n
+      - xform <l> l
+      - xform <k> g
+      - xform <kh> k
+      - xform (<x>|<h>) h
+      - xform <ts6> jy
+      - xform <ts6h> chy
+      - xform <s6> sy
+      - xform <tis> j
+      - xform <tish> ch
+      - xform <is> sh
+      - xform <zi> r
+      - xform <ts> dz
+      - xform <tsh> ts
+      - xform <s> s
+      - xform <j> y
+      - xform <w> w
+      - xform <4y>< yw<
+      - xform <i><en> yin
+      - xform <i><reng> ying
+      - xform <y><en> yun
+      - xform <4y> yu
+      - xform <i> yi
+      - xform <u> u
+      - xform <y>< yw<
+      - xform <y> yu
+      - xform <a> a
+      - xform <o> wo
+      - xform <re> e
+      - xform <e3> e
+      - xform <ar> er
+      - xform <ai> ai
+      - xform <ei> ei
+      - xform <au> au
+      - xform <ou> ou
+      - xform <an> an
+      - xform <en> en
+      - xform <ang> ang
+      - xform <reng> eng
+      - xform <ong> ung
+      - xform i([aoe]) $1
+      - xform yu([aoe]) yw$1
+      - xform u([aoe]) $1
+      - xform yy y
 
 # Latinxua Sin Wenz
 # Have sibilant differ
@@ -22,13 +142,13 @@ latinxua:
     __append:
       - 'xform (<ng>|<gn>) <ng>'
       - 'xform <v> <w>'
-      - 'xform <[0-5]>'
+      - 'xform/<[0-5]>//'
       - 'xform <[ji]><ong> yng'
       - 'xform <i><en> in'
       - 'xform <i><reng> ing'
       - 'xform <u><ei> ui'
       - 'xform <u><en> un'
-      - 'xform <y><en> yn'
+      - 'xform <4?y><en> yn'
       - 'xform <p> b'
       - 'xform <ph> p'
       - 'xform <_?m> m'
@@ -51,10 +171,8 @@ latinxua:
       - 'xform <tsh> c'
       - 'xform <s> s'
       - 'xform <j> j'
-      - 'xform <ji> ji'
       - 'xform <w> w'
-      - 'xform <wu> wu'
-      - 'xform (<4y>|<yu>) y'
+      - 'xform <4y> y'
       - xform/<_[iw]>//
       - 'xform <a> a'
       - 'xform <o> o'
@@ -78,9 +196,77 @@ latinxua:
 
 # Lessing-Othmer-System
 # Have no sibilant differ. Requires flattening.
+# Working as placeholder
 lessing-othmer:
   output:
     __append:
+      - 'derive <ts><([iy])> <ts6><$1>'
+      - 'derive <tsh><([iy])> <ts6h><$1>'
+      - 'derive <s><([iy])> <s6><$1>'
+      - 'derive <k><([iy])> <ts6><$1>'
+      - 'derive <kh><([iy])> <ts6h><$1>'
+      - 'derive <[xh]><([iy])> <s6><$1>'
+      - 'xform/<[0-5]>//'
+      - xform <_[iw]> $1ï
+      - xform <ng> ng
+      - xform <gn> gn
+      - xform <v> v
+      - xform <p> b
+      - xform <ph> p
+      - xform <m> m
+      - xform <f> f
+      - xform <t> d
+      - xform <th> t
+      - xform <n> n
+      - xform <l> l
+      - xform <k> g
+      - xform <kh> k
+      - xform (<x>|<h>) h
+      - xform <ts6> dj
+      - xform <ts6h> tj
+      - xform <s6> hs
+      - xform <tis> dsch
+      - xform <tish> tsch
+      - xform <is> sch
+      - xform <zi> j
+      - xform <ts> dz
+      - xform <tsh> ts
+      - xform <s> s
+      - xform <i><e3> iä
+      - xform <j><e3> yä
+      - xform <i><ou> iu
+      - xform <j><ou> yu
+      - xform <i><an> iän
+      - xform <j><an> yän
+      - xform <i><en> in
+      - xform <i><reng> ing
+      - xform <u><ei> ui
+      - xform <w><ei> we
+      - xform <u><en> un
+      - xform <y><a> üä
+      - xform <y><en> ün
+      - xform <w><reng> wung
+      - xform <j> y
+      - xform <w> w
+      - xform <4y> yü
+      - xform <4y> yu
+      - xform <i> yi
+      - xform <u> u
+      - xform <y> ü
+      - xform <a> a
+      - xform <o> o
+      - xform <re> ö
+      - xform <e3> ä
+      - xform <ar> örl
+      - xform <ai> ai
+      - xform <ei> e
+      - xform <au> au
+      - xform <ou> ou
+      - xform <an> an
+      - xform <en> ën
+      - xform <ang> ang
+      - xform <reng> ëng
+      - xform <ong> ung
 
 # Système de l'École française d'Extrême-Orient
 # Have sibilant differ
@@ -90,6 +276,7 @@ efeo:
       # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
+      # Historical differ
 
 # Wade-Giles simplified
 # A variant of Wade-Giles. No sibilant differ.
@@ -99,12 +286,65 @@ wade-giles-simp:
       # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
-
-# Postcal Romanization
-# A variant of Wade-Giles
-postcal:
-  output:
-    __append:
+      - xform <_w> $1y
+      - xform <_i> $1y
+      - xform <ng> ng
+      - xform <gn> gn
+      - xform <v> v
+      - xform <p> p
+      - xform <ph> ph
+      - xform <m> m
+      - xform <f> f
+      - xform <t> t
+      - xform <th> th
+      - xform <n> n
+      - xform <l> l
+      - xform <k> k
+      - xform <kh> kh
+      - xform (<x>|<h>) h
+      - xform <ts6> chi
+      - xform <ts6h> chhi
+      - xform <s6> hsi
+      - xform <tis> ch
+      - xform <tish> chh
+      - xform <is> sh
+      - xform <zi> r
+      - xform <ts> ts
+      - xform <tsh> tsh
+      - xform <s> s
+      - xform <i><ou> yiu
+      - xform <i><an> yien
+      - xform <j><an> yen
+      - xform <i><en> yin
+      - xform <i><reng> ying
+      - xform <u><en> un
+      - xform <y><en> yun
+      - xform <j> y
+      - xform <w> w
+      - xform <4y> yu
+      - xform <i> yi
+      - xform <u> u
+      - xform <y> yu
+      - xform <a> a
+      - xform <o> o
+      - xform <re> e
+      - xform <e3> eh
+      - xform <ar> erh
+      - xform <ai> ai
+      - xform <ei> ei
+      - xform <au> ao
+      - xform <ou> ou
+      - xform <an> an
+      - xform <en> en
+      - xform <ang> ang
+      - xform <reng> eng
+      - xform <ong> ung
+      - xform yy y
+      - /xform/<1>//
+      - xform <2> v
+      - xform <3> x
+      - xform <4> z
+      - /xform/<[56]>//
 
 # Wade-Giles
 # Have sibilant differ, new mandarin pronuncitaion
@@ -114,3 +354,58 @@ wade-giles:
       # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
+      - xform <_w> $1ŭ
+      - xform <_i> $1ih
+      - xform <ng> ng
+      - xform <gn> gn
+      - xform <v> v
+      - xform <p> p
+      - xform/<ph>/p'/
+      - xform <m> m
+      - xform <f> f
+      - xform <t> t
+      - xform/<th>/t'/
+      - xform <n> n
+      - xform <l> l
+      - xform <k> k
+      - xform/<kh>/k'/
+      - xform (<x>|<h>) h
+      - xform <ts6> chi
+      - xform/<ts6h>/ch'i/
+      - xform <s6> hsi
+      - xform <tis> ch
+      - xform/<tish>/ch'/
+      - xform <is> sh
+      - xform <zi> j
+      - xform <ts> ts
+      - xform/<tsh>/ts'/
+      - xform <s> s
+      - xform <i><ou> iu
+      - xform <j><ou> yu
+      - xform <i><an> ien
+      - xform <j><an> yen
+      - xform <i><en> in
+      - xform <i><reng> ing
+      - xform <u><ei> uei
+      - xform <u><en> un
+      - xform <y><en> ün
+      - xform <j> y
+      - xform <w> w
+      - xform <4y> yü
+      - xform <i> i
+      - xform <u> u
+      - xform <y> ü
+      - xform <a> a
+      - xform <o> o
+      - xform <re> ê
+      - xform <e3> eh
+      - xform <ar> êrh
+      - xform <ai> ai
+      - xform <ei> ei
+      - xform <au> ao
+      - xform <ou> ou
+      - xform <an> an
+      - xform <en> ên
+      - xform <ang> ang
+      - xform <reng> êng
+      - xform <ong> ung

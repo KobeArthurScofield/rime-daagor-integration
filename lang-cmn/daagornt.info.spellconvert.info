@@ -28,8 +28,9 @@
 # ㄓ <tis> ㄔ <tish> ㄕ <is> ㄖ <zi>
 # ㄗ <ts> ㄘ <tsh> ㄙ <s>
 
-# When use as the start, use the first one; not the start use the second; when single, use the last one
-# ㄧ <j><i><ji> ㄨ <w><u><wu> ㄩ <4y><y><yu>
+# When use as the start, use the first one; not the start use the second
+# For [y], singleton should use the first one
+# ㄧ <j><i> ㄨ <w><u> ㄩ <4y><y>
 
 # ㄚ <a> ㄛ <o> ㄜ <re> ㄝ <e3>
 # ㄞ <ai> ㄟ <ei> ㄠ <au> ㄡ<ou>

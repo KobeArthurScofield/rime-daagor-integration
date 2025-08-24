@@ -29,6 +29,11 @@ phonetic_symbols:
     - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
     - daagornt.lib.dict-cmn.yaml:/algebra/encoder
     - daagornt.lib.babel-cmn.yaml:/phonetic_symbols/output
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols/output
 
 gwoyeu_romatzyh:
   __patch:
+    - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn.yaml:/gwoyeu_romatzyh/output
+    - daagornt.lib.scribe-cmn.yaml:/gwoyeu_romatzyh/output

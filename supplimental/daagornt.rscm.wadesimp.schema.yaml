@@ -2,12 +2,12 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗北方話拉丁化新文字輸入'
-  schema_id: daagornt.rscm.latinxua
+  name: '大狗簡化威妥瑪拼音輸入'
+  schema_id: daagornt.rscm.wadesimp
   author:
     - '方案集成 丢狼'
   description: |
-    北方話拉丁化新文字輸入方案
+    簡化威妥瑪拼音輸入方案
   version: '2.0.0.1904.alpha.0004'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
@@ -19,7 +19,7 @@ engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wertyuiopasdfghjklzxcvbnm
+  alphabet: qwertyuiopasdfghjklzxcvbnm
   delimiter: " -;"
   auto_select: false
   use_space: false
@@ -27,8 +27,7 @@ speller:
     __patch:
       - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn.yaml:/algebra/encoder
-      - daagornt.lib.babel-extension-cmn.yaml:/latinxua/output
-      - daagornt.lib.scribe-extension-cmn.yaml:/latinxua/output
+      - daagornt.lib.babel-extension-cmn.yaml:/wade-giles-simp/output
       - /rule_convert/layout
 
 translator:
@@ -36,7 +35,7 @@ translator:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn.yaml:/translator
     - /dpatch
-  prism: daagornt.latinxua
+  prism: daagornt.wadesimp
 
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar
@@ -70,6 +69,10 @@ rule_convert:
     __append:
       - 'abbrev ^([a-z]).+$ $1'
       - 'abbrev ^([zcsr]h).+$ $1'
+      - 'abbrev ^([ptkcs]h).+$ $1'
+      - 'abbrev ^([sc]hh).+$ $1'
+      - 'abbrev ^([th]s).+$ $1'
+      - 'abbrev ^(.+)[vxz] $1'
 
 dpatch:
   spelling_hints: 0

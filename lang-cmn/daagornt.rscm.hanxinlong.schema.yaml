@@ -77,10 +77,7 @@ rule_convert:
       - 'derive <kh><([iy])> <ts6h><$1>'
       - 'derive <[xh]><([iy])> <s6><$1>'
       # Hanyu Pinyin key convert
-      - 'xform <ji> <j><i>'
-      - 'xform <wu> <w><u>'
       - 'xform <4y> <j><y>'
-      - 'xform <yu> <j><y>'
       # Pre-process for zero-consonant
       - xform/^(<a><[0-5]>)$/<a>$1/
       - xform/^(<o><[0-5]>)$/<o>$1/

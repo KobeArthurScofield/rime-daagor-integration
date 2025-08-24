@@ -2,12 +2,13 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗北方話拉丁化新文字輸入'
-  schema_id: daagornt.rscm.latinxua
+  name: '大狗國語羅馬字數碼聲調'
+  schema_id: daagornt.rscm.gwoyeu-num
   author:
-    - '方案集成 丢狼'
+    - '專案匯集 丢狼'
   description: |
-    北方話拉丁化新文字輸入方案
+    國語羅馬字數碼聲調輸入專案
+    陰平 6  陽平 7  上聲 8  去聲 9  輕聲 0  入聲 -
   version: '2.0.0.1904.alpha.0004'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
@@ -19,24 +20,28 @@ engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wertyuiopasdfghjklzxcvbnm
-  delimiter: " -;"
+  alphabet: wertyuiopasdfghjklzcvbnm67890
+  initials: wertyuiopasdfghjklzcvbnm
+  finals: '67890'
+  delimiter: " ';"
   auto_select: false
   use_space: false
   algebra:
     __patch:
       - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn.yaml:/algebra/encoder
-      - daagornt.lib.babel-extension-cmn.yaml:/latinxua/output
-      - daagornt.lib.scribe-extension-cmn.yaml:/latinxua/output
+      - daagornt.lib.babel-cmn.yaml:/gwoyeu_romatzyh/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn.yaml:/translator
-    - /dpatch
-  prism: daagornt.latinxua
+  prism: daagornt.gwoyeu-num
+  preedit_format:
+    __include: daagorxp.lib.preedit-cmn.yaml:/gwoyeu_romatzyh?
+  comment_format:
+    __include: daagorxp.lib.comment-cmn.yaml:/gwoyeu_romatzyh?
 
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar
@@ -69,8 +74,10 @@ rule_convert:
   layout:
     __append:
       - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^([zcsr]h).+$ $1'
-
-dpatch:
-  spelling_hints: 0
-  always_show_comments: false
+      - 'abbrev ^([cs]h).+$ $1'
+      - 'abbrev ^(t[zs]).+$ $1'
+      - 'abbrev ^(.+)[1-6]$ $1'
+      - 'xlit 123456 67890-'
+  preedit:
+    __append:
+      - 'xlit 67890- 123456'

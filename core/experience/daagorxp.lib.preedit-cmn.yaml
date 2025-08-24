@@ -43,3 +43,5 @@ hanyu_pinyin:
 
 gwoyeu_romatzyh:
   __patch:
+    - daagornt.rscm.gwoyeu-num.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.scribe-cmn.yaml:/gwoyeu_romatzyh/output

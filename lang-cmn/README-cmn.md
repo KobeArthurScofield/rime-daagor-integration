@@ -77,7 +77,7 @@ patch:
 
 ### 汉心龙键盘布局
 
-![键盘布局](image/hxlong-2025-01.png)
+![键盘布局](/image/hxlong-2025-01.png)
 
 新增按键见下：
 
@@ -111,7 +111,7 @@ patch:
 
 ### 自然龙键盘布局
 
-![键盘布局](image/zrlong-2025-01.jpg)
+![键盘布局](/image/zrlong-2025-01.jpg)
 
 新增按键见下：
 
