@@ -28,6 +28,7 @@ speller:
       - daagornt.lib.dict-cmn.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn.yaml:/algebra/encoder
       - daagornt.lib.babel-extension-cmn.yaml:/yale/output
+      - daagornt.lib.scribe-extension-cmn.yaml:/yale/output
       - /rule_convert/layout
 
 translator:

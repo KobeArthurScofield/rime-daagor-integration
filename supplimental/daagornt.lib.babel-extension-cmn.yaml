@@ -1,6 +1,6 @@
 # Rime: Supplemental convert engine for Daagor NT
 # encoding: utf-8#
-# Ver 1.0.0.00
+# Ver 1.0.1.02
 #
 
 # Český přepis čínštiny
@@ -170,7 +170,8 @@ latinxua:
       - 'xform <ts> z'
       - 'xform <tsh> c'
       - 'xform <s> s'
-      - 'xform <j> j'
+      - 'xform <j><i> ji'
+      - 'xform <j> i'
       - 'xform <w> w'
       - 'xform <4y> y'
       - xform/<_[iw]>//
@@ -286,6 +287,11 @@ wade-giles-simp:
       # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
+      - xform (<k>|<kh>|<x>|<h>)<re> $1o
+      - xform (<k>|<kh>|<x>|<h>)<u><o> $1uo
+      - xform <ts><_w> tz<_w>
+      - xform/<tsh><_w>/tz'<_w>/
+      - xform <s><_w> ss<_w>
       - xform <_w> $1y
       - xform <_i> $1y
       - xform <ng> ng
@@ -317,8 +323,9 @@ wade-giles-simp:
       - xform <j><an> yen
       - xform <i><en> yin
       - xform <i><reng> ying
+      - xform <u><o> o
       - xform <u><en> un
-      - xform <y><en> yun
+      - xform <4?y><en> yun
       - xform <j> y
       - xform <w> w
       - xform <4y> yu
@@ -328,8 +335,8 @@ wade-giles-simp:
       - xform <a> a
       - xform <o> o
       - xform <re> e
-      - xform <e3> eh
-      - xform <ar> erh
+      - xform <e3> e
+      - xform <ar> er
       - xform <ai> ai
       - xform <ei> ei
       - xform <au> ao
@@ -354,6 +361,11 @@ wade-giles:
       # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
+      - xform (<k>|<kh>|<x>|<h>)<re> $1o
+      - xform (<k>|<kh>|<x>|<h>)<u><o> $1uo
+      - xform <ts><_w> tz<_w>
+      - xform/<tsh><_w>/tz'<_w>/
+      - xform <s><_w> ss<_w>
       - xform <_w> $1ŭ
       - xform <_i> $1ih
       - xform <ng> ng
@@ -386,9 +398,11 @@ wade-giles:
       - xform <j><an> yen
       - xform <i><en> in
       - xform <i><reng> ing
+      - xform <u><o> o
       - xform <u><ei> uei
       - xform <u><en> un
       - xform <y><en> ün
+      - xform <4y><en> yün
       - xform <j> y
       - xform <w> w
       - xform <4y> yü
@@ -409,3 +423,6 @@ wade-giles:
       - xform <ang> ang
       - xform <reng> êng
       - xform <ong> ung
+      - xform ii i
+      - xform <([1-4])> $1
+      - xform/<[06]>//

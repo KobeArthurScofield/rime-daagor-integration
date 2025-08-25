@@ -1,0 +1,26 @@
+# macOS specific files
+.DS_Store
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archives and compressed files
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.bz2
+
+# Logs
+*.log
+
+# System files
+Thumbs.db
+ehthumbs.db
+
+# Other common ignores
+*.bak
+*.tmp

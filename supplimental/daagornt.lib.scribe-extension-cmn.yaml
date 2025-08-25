@@ -1,6 +1,6 @@
 # Rime: Extensive rewrite engine for Daagor NT
 # encoding: utf-8#
-# Ver 1.0.0.00
+# Ver 1.0.1.01
 #
 
 cesky:
@@ -10,6 +10,8 @@ cesky:
 yale:
   output:
     __append:
+      - 'xform zz z'
+      - 'xform rr r'
 
 latinxua:
   output:
