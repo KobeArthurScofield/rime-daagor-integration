@@ -1,7 +1,27 @@
 # RIME: Preedit convert library of Daagopr Integration
 # encoding: utf-8#
-# Ver: 1.1.1
+# Ver: 1.1.3
 #
+
+mitac:
+  __patch:
+    - daagornt.rscm.mitac.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols/output
+
+eten41:
+  __patch:
+    - daagornt.rscm.eten41.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols/output
+
+chingyeh:
+  __patch:
+    - daagornt.rscm.chingyeh.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols/output
+
+bpmfibm:
+  __patch:
+    - daagornt.rscm.bpmfibm.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.scribe-cmn.yaml:/phonetic_symbols/output
 
 dachen:
   __patch:

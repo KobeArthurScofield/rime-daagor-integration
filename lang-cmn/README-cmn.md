@@ -10,7 +10,14 @@
   - 自然龙双拼 (ZiRan Long, ziranlong)
 - 帶聲調通用拼音 (Tongyong Pinyin, tongyong-pinyin)
 - 國語注音符號第二式，國音二式 (Phonetic Symbols II (MPS II), mpsii)
-- 注音輸入法（大千鍵盤排布） (Bopomofo Dachen, dachen)
+- 注音輸入法
+  - 大千鍵盤排布 (Bopomofo Dachen, dachen)
+  - 許氏鍵盤排布 (Bopomofo Hsu, bpmfhsu)
+  - 倚天 41 鍵排布 (Eten 41 keys, eten41)
+  - 倚天忘形 26 鍵排布 (Eten 26 keys, eten26)
+  - IBM 鍵盤排布 (Bopomofo IBM, bpmfibm)
+  - 精業鍵盤排布 (Ching-yeh, chingyeh)
+  - 神通鍵盤排布 (MiTAC, mitac)
 - 國語羅馬字 (Gwoyeu Romatzyh, gwoyeu)
 
 同时允许使用数种带声调词库：
@@ -77,7 +84,7 @@ patch:
 
 ### 汉心龙键盘布局
 
-![键盘布局](/image/hxlong-2025-01.png)
+![键盘布局](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/hxlong-2025-01.png)
 
 新增按键见下：
 
@@ -111,7 +118,7 @@ patch:
 
 ### 自然龙键盘布局
 
-![键盘布局](/image/zrlong-2025-01.jpg)
+![键盘布局](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/zrlong-2025-01.jpg)
 
 新增按键见下：
 
