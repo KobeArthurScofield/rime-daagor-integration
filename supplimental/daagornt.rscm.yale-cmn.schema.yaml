@@ -8,7 +8,7 @@ schema:
     - '方案集成 丢狼'
   description: |
     國語耶魯拼音輸入方案
-  version: '2.0.0.1904.alpha.0004'
+  version: '2.0.0.1904.beta'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 

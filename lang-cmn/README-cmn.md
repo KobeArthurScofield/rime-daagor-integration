@@ -44,11 +44,18 @@
   - `cmn-rime-lmdg`：调用万象拼音词库
     - `dict.wanxiang.*`：词库分包文件
 - `rscm.*`：基于以上文件组成的输入方案
-    - `bopomofo` 注音（大千）布局
+    - `bpmfhsu` 注音（許氏）布局
+    - `bpmfibm` 注音（IBM）布局
+    - `chingyeh` 注音（精業）布局
+    - `dachen` 注音（大千）布局
+    - `eten26` 注音（倚天忘形 26 鍵）布局
+    - `eten41` 注音（倚天 41 鍵）布局
     - `flypy` 小鹤双拼布局
     - `gwoyeu` 国语罗马字布局
+    - `gwoyeu-num` 国语罗马字数字音调布局
     - `hanxinlong` 汉心龙/龙码双拼布局
     - `hanyu-pinyin` 汉语拼音布局
+    - `mitac` 注音（神通）布局
     - `mpsii` 国音二式布局
     - `pinyinjiajia` 拼音加加双拼布局
     - `tongying-pinyin` 通用拼音布局
