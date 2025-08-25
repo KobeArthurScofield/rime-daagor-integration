@@ -38,6 +38,9 @@ translator:
   comment_format:
     __include: daagorxp.lib.comment-cmn.yaml:/hanyu_pinyin?
 
+history:
+  __include: daagornt.lib.shared.yaml:/history
+
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar
 
@@ -52,6 +55,15 @@ recognizer:
 
 menu:
   __include: daagornt.lib.shared.yaml:/menu
+
+style:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/style?
+
+editor:
+  __include: daagornt.lib.shared.yaml:/editor
+
+ascii_composer:
+  __include: daagornt.lib.shared.yaml:/ascii_composer
 
 zh_cn_simp:
   __include: daagornt.lib.dict-cmn.yaml:/zh_cn_simp

@@ -1,0 +1,59 @@
+# Engine features
+
+- [x] ascii set/unset
+
+``` yaml
+ascii_composer
+  switch_key:
+    Shift_L: noop
+    Shift_R: noop
+    Alt_L: set_ascii_mode
+    Alt_R: unset_ascii_mode
+    Super_L: set_ascii_mode
+    Super_R: unset_ascii_mode
+```
+
+- [x] commit digit seperator
+
+``` yaml
+punctuator:
+  digit_separator_action: commit # or false
+```
+
+- [x] punctuator: digit seperator
+
+``` yaml
+punctuator:
+  digit_separators: ",.;'"
+```
+
+- [x] auto complete longer word
+
+``` yaml
+translator:
+  enable_completion: true
+```
+
+- [?] When predicting
+
+Key binding condition: {when: predicting}
+
+- x 
+
+``` yaml
+reverse_lookup_filter:
+  append_comment: true # or false
+```
+
+- [x] short switch label
+``` yaml
+switches:
+  -
+    abbrev: []
+```
+
+- [x] inherit comment in simplifier
+``` yaml
+simplifier:
+  inherit_comment: true # or false
+```

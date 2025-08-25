@@ -23,6 +23,7 @@ engines:
     - echo_translator
     - punct_translator
     - script_translator
+    - history_translator@history
   filters:
     - simplifier@zh_cn_simp
     - simplifier@zh_cn_trad
@@ -30,22 +31,26 @@ engines:
     - simplifier@zh_hk
 
 translator:
-  enable_encoder: true
   enable_sentence: true
   contextual_suggestions: true
-  encode_commit_history: true
-  sentence_over_completion: true
   enable_user_dict: true
   db_class: userdb
   spelling_hints: 4
   always_show_comments: true
-  enable_completion: true
+  enable_correction: false # Will map to nearby keys, which may have consequense
+
+history:
+  closing_tips: 【歷史】
+  size: 10
+  input: ~prev
 
 key_binder:
   import_preset: daagorxp.lib.keybinder
 
 punctuator:
   import_preset: daagorxp.lib.punctuation
+  digit_separators: ",."
+  digit_separator_action: commit
 
 recognizer:
   patterns:
@@ -53,150 +58,223 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     punct: "^`([0-9]0?|[A-Za-z]+)$"
+    history: "^~prev$"
 
 menu:
   page_size: 5
+
+editor:
+  bindings:
+    space: confirm
+    Return: commit_composition
+    Shift+Return: commit_script_text
+    Control+Return: commit_raw_input
+    Control+Shift+Return: commit_comment
+    BackSpace: back
+    Delete: delete
+    Control+BackSpace: back_syllable
+    Control+Delete: delete_candidate
+    Control+Shift+Backspace: revert
+    Escape: cancel
+
+ascii_composer:
+  good_old_caps_lock: true
+  switch_key:
+    Shift_L: inline_ascii
+    Shift_R: inline_ascii
+    Control_L: noop
+    Control_R: noop
+    Alt_L: noop
+    Alt_R: noop
+    Meta_L: set_ascii_mode
+    Meta_R: unset_ascii_mode
+    Super_L: set_ascii_mode
+    Super_R: unset_ascii_mode
+    Hyper_L: set_ascii_mode
+    Hyper_R: unset_ascii_mode
+    Caps_Lock: clear
+    Eisu_toggle: clear
 
 zh_cn_simp:
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
+      abbrev: ['中', 'ABC']
     - name: full_shape
       states: ['窄字', '全宽字']
+      abbrev: ['窄', '宽']
     - name: ascii_punct
       states: ['。，', '. , ']
+      abbrev: ['。，', '. , ']
     - options:
         - zh_cn_simp
         - zh_cn_trad
         - zh_tw
         - zh_hk
       states:
-        - 简化用字
-        - 傳統用字
-        - 臺灣用字
-        - 港澳用字
+        - 字型 简体用字
+        - 字型 傳統用字
+        - 字型 臺灣用字
+        - 字型 港澳用字
+      abbrev: ['陆', '陸', '臺', '港']
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
     opencc_config: daagornt.noop.json
     tips: all
+    inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
     opencc_config: s2t.json
     tips: all
+    inherit_comment: true
   zh_tw:
     option_name: zh_tw
     opencc_config: s2twp.json
     tips: all
+    inherit_comment: true
   zh_hk:
     option_name: zh_hk
     opencc_config: s2hk.json
     tips: all
+    inherit_comment: true
+  style:
+    font_face: 'Noto Sans SC Regular'
 
 zh_cn_trad:
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
+      abbrev: ['中', 'ABC']
     - name: full_shape
       states: ['窄字', '全寬字']
+      abbrev: ['窄', '寬']
     - name: ascii_punct
       states: ['。，', '. , ']
+      abbrev: ['。，', '. , ']
     - options:
         - zh_cn_trad
         - zh_tw
         - zh_hk
         - zh_cn_simp
       states:
-        - 傳統用字
-        - 臺灣用字
-        - 港澳用字
-        - 简化用字
+        - 字型 傳統用字
+        - 字型 臺灣用字
+        - 字型 港澳用字
+        - 字型 简体用字
+      abbrev: ['陸', '臺', '港', '陆']
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
     opencc_config: t2s.json
     tips: all
+    inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
     opencc_config: daagornt.noop.json
     tips: all
+    inherit_comment: true
   zh_tw:
     option_name: zh_tw
     opencc_config: t2tw.json
     tips: all
+    inherit_comment: true
   zh_hk:
     option_name: zh_hk
     opencc_config: t2hk.json
     tips: all
+    inherit_comment: true
+  style:
+    font_face: 'Noto Sans SC Regular'
 
 zh_tw:
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
+      abbrev: ['中', 'ABC']
     - name: full_shape
       states: ['窄字', '全寬字']
+      abbrev: ['窄', '寬']
     - name: ascii_punct
       states: ['。，', '. , ']
+      abbrev: ['。，', '. , ']
     - options:
         - zh_tw
         - zh_hk
         - zh_cn_trad
         - zh_cn_simp
       states:
-        - 臺灣用字
-        - 港澳用字
-        - 傳統用字
-        - 简化用字
+        - 字型 臺灣用字
+        - 字型 港澳用字
+        - 字型 傳統用字
+        - 字型 简体用字
+      abbrev: ['臺', '港', '陸', '陆']
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
     opencc_config: tw2sp.json
     tips: all
+    inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
     opencc_config: tw2t.json
     tips: all
+    inherit_comment: true
   zh_tw:
     option_name: zh_tw
     opencc_config: daagornt.noop.json
     tips: all
+    inherit_comment: true
   zh_hk:
     option_name: zh_hk
     opencc_config: daagornt.noop.json
     tips: all
+    inherit_comment: true
+  style:
+    font_face: 'Noto Sans TC Regular'
 
 zh_hk:
   switches:
     - name: ascii_mode
       states: ['中文', 'ABC']
+      abbrev: ['中', 'ABC']
     - name: full_shape
       states: ['窄字', '全寬字']
+      abbrev: ['窄', '寬']
     - name: ascii_punct
       states: ['。，', '. , ']
+      abbrev: ['。，', '. , ']
     - options:
         - zh_hk
         - zh_tw
         - zh_cn_trad
         - zh_cn_simp
       states:
-        - 港澳用字
-        - 臺灣用字
-        - 傳統用字
-        - 简化用字
+        - 字型 港澳用字
+        - 字型 臺灣用字
+        - 字型 傳統用字
+        - 字型 简体用字
+      abbrev: ['港', '臺', '陸', '陆']
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
     opencc_config: hk2s.json
     tips: all
+    inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
     opencc_config: hk2t.json
     tips: all
+    inherit_comment: true
   zh_tw:
     option_name: zh_tw
     opencc_config: daagornt.noop.json
     tips: all
+    inherit_comment: true
   zh_hk:
     option_name: zh_hk
     opencc_config: daagornt.noop.json
     tips: all
+    inherit_comment: true
+  style:
+    font_face: 'Noto Sans HK Regular'

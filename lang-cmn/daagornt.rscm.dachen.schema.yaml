@@ -43,6 +43,9 @@ translator:
   comment_format:
     __include: daagorxp.lib.comment-cmn.yaml:/phonetic_symbols?
 
+history:
+  __include: daagornt.lib.shared.yaml:/history
+
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar
 
@@ -65,6 +68,15 @@ menu:
   __include: daagornt.lib.shared.yaml:/menu
   alternative_select_keys: "QWERTYUIOP"
   alternative_select_labels: [ Q, W, E, R, T, Y, U, I, O, P ]
+
+style:
+  __include: daagornt.lib.shared.yaml:/zh_tw/style?
+
+editor:
+  __include: daagornt.lib.shared.yaml:/editor
+
+ascii_composer:
+  __include: daagornt.lib.shared.yaml:/ascii_composer
 
 zh_cn_simp:
   __include: daagornt.lib.dict-cmn.yaml:/zh_cn_simp
