@@ -93,9 +93,9 @@ rule_convert:
       - 'abbrev ^([a-z]).+$ $1'
       - 'abbrev ^([zcs]h).+$ $1'
       - 'abbrev ^(.+)[1-5]$ $1'
-      - 'xlit 12345 67890'
+      - 'xlit 12345 7890-'
   preedit:
     __append:
-      - 'xlit 67890 12345'
+      - 'xlit 7890- 12345'
       - 'xform v ü'
       - 'xform eh ê'

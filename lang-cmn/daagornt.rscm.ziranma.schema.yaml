@@ -187,7 +187,7 @@ rule_convert:
       - 'xform <([1-4])> $1'
       - 'xform <0> 5'
       - 'abbrev ^(.+)[1-5]$ $1'
-      - 'xlit 12345 67890'
+      - 'xlit 12345 7890-'
   preedit:
     __append:
       - xform/([bpmnljqxy])n/$1in/
@@ -221,4 +221,4 @@ rule_convert:
       - "xform/(^|[ '])v/$1zh/"
       - "xform/(^|[ '])i/$1ch/"
       - "xform/(^|[ '])u/$1sh/"
-      - 'xlit 67890 12345'
+      - 'xlit 7890- 12345'

@@ -69,7 +69,7 @@ recognizer:
   __include: daagornt.lib.shared.yaml:/recognizer
 
 menu:
-  __include: daagornt.lib.shared.yaml:/menu
+  __include: daagornt.lib.shared.yaml:/menu_narrow
   alternative_select_keys: "=[]\\'"
   alternative_select_labels: [ '=', '[', ']', '\', '''' ]
 
