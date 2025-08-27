@@ -8,6 +8,8 @@
   - 拼音加加双拼 (PinYinJiaJia, pinyinjiajia)
   - 汉心龙双拼 (HanXin Long, hanxinlong)
   - 自然龙双拼 (ZiRan Long, ziranlong)
+  - 小浪双拼 (Xiao Lang, xiaolang)
+  - 冰雪四拼/声笔四拼 (Snow Si-pin, snowsipin)
 - 帶聲調通用拼音 (Tongyong Pinyin, tongyong-pinyin)
 - 國語注音符號第二式，國音二式 (Phonetic Symbols II (MPS II), mpsii)
 - 注音輸入法
@@ -58,7 +60,9 @@
     - `mitac` 注音（神通）布局
     - `mpsii` 国音二式布局
     - `pinyinjiajia` 拼音加加双拼布局
+    - `snowsipin` 冰雪四拼布局
     - `tongying-pinyin` 通用拼音布局
+    - `xiaolang` 小浪双拼布局
     - `ziranlong` 自然龙双拼布局
     - `ziranma` 自然码双拼布局
 - `supplimental`：用于提供额外方案。这些方案包含：
@@ -197,6 +201,8 @@
 - 自然码 作者：（周志农）
 - [小鹤双拼](https://flypy.com/) 作者：散步的鹤（何海峰）
 - 拼音加加双拼 原作者：（廖恒毅）
+- 小浪双拼 原作者：小浪
+- [冰雪四拼](https://input.tansongchen.com/snow4/)/[声笔四拼](https://sbxlm.github.io/sbsp/) 原作者：谭淞宸
 - 許氏鍵盤 原作者：許聞廉
 - IBM 注音鍵盤 原作者：IBM
 - 精業鍵盤 原作者：精業資訊

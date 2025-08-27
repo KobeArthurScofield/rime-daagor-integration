@@ -22,7 +22,7 @@ engine:
 speller:
   alphabet: "2wsx3edcrfvtgb6yhnujm-['8ik,9ol.0p;/= qaz1"
   initials: "2wsx3edcrfvtgb6yhnujm-['8ik,9ol.0p;/="
-  finals: " qaz1"
+  finals: ' qaz1'
   delimiter: "`"
   auto_select: false
   use_space: true

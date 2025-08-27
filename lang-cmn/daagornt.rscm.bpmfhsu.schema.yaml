@@ -20,8 +20,8 @@ engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: "bpmfdtnlgkhjvcrzasexuyiwo "
-  initials: "bpmfdtnlgkhjvcrzasexuyiwo"
+  alphabet: 'bpmfdtnlgkhjvcrzasexuyiwo '
+  initials: 'bpmfdtnlgkhjvcrzasexuyiwo'
   finals: ' dfjs'
   delimiter: "'`"
   auto_select: false

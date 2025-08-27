@@ -19,10 +19,10 @@ engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wertyuiopasdfghjklzcvbnm67890
+  alphabet: wertyuiopasdfghjklzcvbnm7890-
   initials: wertyuiopasdfghjklzcvbnm
-  finals: '67890'
-  delimiter: " -;"
+  finals: '7890-'
+  delimiter: " ;"
   auto_select: false
   use_space: false
   algebra:

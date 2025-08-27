@@ -38,6 +38,10 @@ pinyinjiajia:
     - daagornt.rscm.pinyinjiajia.schema.yaml:/rule_convert/preedit
     - daagornt.lib.scribe-cmn.yaml:/hanyu_pinyin/output
 
+xiaolang:
+  __patch:
+    - daagornt.rscm.xiaolang.schema.yaml:/rule_convert/preedit
+
 ziranma:
   __patch:
     - daagornt.rscm.ziranma.schema.yaml:/rule_convert/preedit
