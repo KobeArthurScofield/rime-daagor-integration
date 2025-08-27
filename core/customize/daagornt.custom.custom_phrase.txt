@@ -1,6 +1,6 @@
 # Rime table
 # coding: utf-8
-#@db/db_name	daagornt.dict.custom_phrase
+#@db/db_name	daagornt.custom.custom_phrase
 #@db/db_type	tabledb
 #
 # 自定義短語

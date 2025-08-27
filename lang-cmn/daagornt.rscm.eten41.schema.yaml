@@ -72,8 +72,8 @@ recognizer:
 
 menu:
   __include: daagornt.lib.shared.yaml:/menu
-  alternative_select_keys: "QWERTYUIOP"
-  alternative_select_labels: [ Q, W, E, R, T, Y, U, I, O, P ]
+  alternative_select_keys: "56[]\\"
+  alternative_select_labels: [ '5', '6', '[', ']', '\' ]
 
 style:
   __include: daagornt.lib.shared.yaml:/zh_tw/style?
