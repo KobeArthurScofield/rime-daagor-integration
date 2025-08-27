@@ -1,6 +1,6 @@
 # Rime: Tone convert engine for Daagor Integration
 # encoding: utf-8#
-# Ver 1.0.2.05
+# Ver 1.0.3.06
 #
 
 tongyong_pinyin:
@@ -18,7 +18,9 @@ tongyong_pinyin:
       - 'xform ([jcs]h)ih $1<_i>'
       - 'xform (r)ih $1<_i>'
       - 'xform ([zcs])ih $1<_w>'
+      - 'xform ^v <v>'
       - 'xform ^ng <ng>'
+      - 'xform ^gn <gn>'
       - 'xform ^b <p>'
       - 'xform ^p <ph>'
       - 'xform ^m <m>'
@@ -65,6 +67,7 @@ tongyong_pinyin:
       - 'xform n([1-5])$ <_n>$1'
       - 'xform ng([1-5])$ <_ng>$1'
       - 'xform h([1-5])$ <_h>$1'
+      - 'xform ^<([mnh]g?)>([1-5])$ <_$1>$2'
       - 'xform ([1-4])$ <$1>'
       - 'xform 5$ <0>'
   output:
@@ -147,7 +150,9 @@ phonetic_symbols_ii:
       - 'xform ([cs]h)r $1<_i>'
       - 'xform (t[zs])z $1<_w>'
       - 'xform (s)z $1<_w>'
+      - 'xform ^v <v>'
       - 'xform ^ng <ng>'
+      - 'xform ^gn <gn>'
       - 'xform ^b <p>'
       - 'xform ^p <ph>'
       - 'xform ^m <m>'
@@ -193,6 +198,7 @@ phonetic_symbols_ii:
       - 'xform n([1-5])$ <_n>$1'
       - 'xform ng([1-5])$ <_ng>$1'
       - 'xform h([1-5])$ <_h>$1'
+      - 'xform ^<([mnh]g?)>([1-5])$ <_$1>$2'
       - 'xform ([1-4])$ <$1>'
       - 'xform 5$ <0>'
   output:
@@ -271,7 +277,9 @@ hanyu_pinyin:
       - 'xform ^([zcs]h)i $1<_i>'
       - 'xform ^(r)i $1<_i>'
       - 'xform ^([zcs])i $1<_w>'
+      - 'xform ^v <v>'
       - 'xform ^ng <ng>'
+      - 'xform ^gn <gn>'
       - 'xform ^b <p>'
       - 'xform ^p <ph>'
       - 'xform ^m <m>'
@@ -320,6 +328,7 @@ hanyu_pinyin:
       - 'xform n([1-5])$ <_n>$1'
       - 'xform ng([1-5])$ <_ng>$1'
       - 'xform h([1-5])$ <_h>$1'
+      - 'xform ^<([mnh]g?)>([1-5])$ <_$1>$2'
       - 'xform ([1-4])$ <$1>'
       - 'xform 5$ <0>'
   output:
@@ -450,8 +459,10 @@ phonetic_symbols:
       - 'xform ㄯ <_n>'
       - 'xform ㆭ <_ng>'
       - 'xform ㆷ <_h>'
+      - 'xform ^<([mnh]g?)>(<[0-5]>)$ <_$1>$2'
   output:
     __append:
+      - 'xform ^<_([mnh]g?)> <$1>'
       - 'xform <[ji]><ong> ㄩㄥ'
       - 'xform <p> ㄅ'
       - 'xform <ph> ㄆ'
@@ -492,6 +503,9 @@ phonetic_symbols:
       - 'xform <ong> ㄨㄥ'
       - 'xform <ar> ㄦ'
       - 'xform <_[iw]> ㄭ'
+      - 'xform <v> ㄪ'
+      - 'xform <ng> ㄫ'
+      - 'xform <gn> ㄬ'
       - 'xform <_m> ㆬ'
       - 'xform <_n> ㄯ'
       - 'xform <_ng> ㆭ'
@@ -568,6 +582,7 @@ gwoyeu_romatzyh:
       - 'xform n([1-6])$ <_n>$1'
       - 'xform ng([1-6])$ <_ng>$1'
       - 'xform h([1-6])$ <_h>$1'
+      - 'xform ^<([mnh]g?)>([1-6])$ <_$1>$2'
       - 'xform ([1-4])$ <$1>'
       - 'xform 5$ <0>'
       - 'xform 6$ <5>'

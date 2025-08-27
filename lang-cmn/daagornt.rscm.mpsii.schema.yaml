@@ -91,6 +91,7 @@ rule_convert:
       - 'derive ê eh'
       - 'derive ê ee'
       - 'abbrev ^([a-z]).+$ $1'
+      - 'abbrev ^(ng|gn).+$ $1'
       - 'abbrev ^([cs]h).+$ $1'
       - 'abbrev ^(t[zs]).+$ $1'
       - 'abbrev ^(.+)[1-5]$ $1'

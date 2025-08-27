@@ -83,6 +83,7 @@ rule_convert:
   layout:
     __append:
       - 'abbrev ^([a-z]).+$ $1'
+      - 'abbrev ^(ng|gn).+$ $1'
       - 'abbrev ^([zcsr]h).+$ $1'
       - 'abbrev ^([ptkcs]h).+$ $1'
       - 'abbrev ^([sc]hh).+$ $1'

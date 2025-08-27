@@ -90,12 +90,10 @@ rule_convert:
       # Hanyu Pinyin Flattening
       - 'xform ^<e3> <ei>'
       - 'xform <_h> <re>'
+      - 'xform ^<_m> <m><u>'
       - 'xform <_m> <u><en>'
       - 'xform <_n> <en>'
       - 'xform <_ng> <reng>'
-      - 'xform ^<m>(<[0-5]>) <m><u>$1'
-      - 'xform ^<n>(<[0-5]>) <en>$1'
-      - 'xform ^<ng>(<[0-5]>) <reng>$1'
       - 'xform <ng> <n>'
       - 'xform <gn> <g>'
       - 'xform <v> <w>'
