@@ -41,6 +41,9 @@ translator:
 history:
   __include: daagornt.lib.shared.yaml:/history
 
+custom_phrase:
+  __include: daagornt.lib.shared.yaml:/custom_phrase
+
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar
 

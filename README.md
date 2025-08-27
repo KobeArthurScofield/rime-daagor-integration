@@ -31,6 +31,9 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
       * `lib.icon.tw`：输入法转换模式图标，台湾流行方案使用
   * `opencc`
     * 将 opencc 文件夹连同内含文件复制至与其以上文件同一个文件夹
+  * `customize`
+    * 若为初次安装，将 customize 内含文件复制至与其以上文件同一个文件夹
+    * 若自己已有相关自定义文件内容，切勿直接覆盖文件以免造成内容丢失
   * `rscm.<期望使用的方案名称>`
   * `dictionary/<使用词库名称>/<所有文件>`
     * 复制自己所需的词库调用文件，与以上文件置于同一个文件夹
@@ -59,6 +62,9 @@ patch:
 - `lib.icon`： 对应输入法的指示器图标
 - `opencc`：特殊繁简转换方案
   - `noop.json`：不转换
+- `customize`: 输入法可自定义内容
+  - `custom.custom_phrase`: 自定义短语，该短语可跨布局及 ISO 936-3 使用，直接输入编码即可。
+    - 更新时注意：如果自己已有自定义短语内容，切勿使用解包后文件直接替换！会造成内容丢失！
 - `experience`：Daagor Integration Experience，用于取代输入方案默认体验
   - `lib.shared`：提供经过调整的 RIME 发行版默认以外的体验
     - `daagorxp.lib.keybinder`：非默认按键组合体验
@@ -70,13 +76,6 @@ patch:
 - `rscm.*`：基于以上文件组成的输入方案
 - `supplimental`：用于提供额外方案。
 
-## 鸣谢
+## 致谢
 
 - [RIME 输入引擎](https://github.com/rime)
-- [汉心龙](https://hanxinma.gitlab.io/longma/hanxinlong) 作者：晡时之光
-- [自然龙](https://hanxinma.gitlab.io/longma/ziranlong) 作者：小幽幽
-- 自然码 作者：（周志农）
-- [小鹤双拼](https://flypy.com/) 作者：散步的鹤（何海峰）
-- 拼音加加双拼 原作者：（廖恒毅）
-- [冰雪拼音](https://github.com/rimeinn/rime-snow-pinyin)
-- [万象拼音](https://github.com/amzxyz/RIME-LMDG)

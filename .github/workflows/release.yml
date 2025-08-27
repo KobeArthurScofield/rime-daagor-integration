@@ -37,6 +37,7 @@ jobs:
         run: |
           cp -rf ./dictionary ./${BASE}/
           cp -rf ./opencc ./${BASE}/
+          cp -rf ./core/customize ./${BASE}/
           cp -rf ./core/daagornt.lib.* ./${BASE}/
           cp -rf ./icon/daagornt.icon.* ./${BASE}/
           cp -f ./lang-*/daagornt.lib.* ./${BASE}/

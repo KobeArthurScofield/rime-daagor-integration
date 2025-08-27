@@ -69,21 +69,12 @@
   - 耶鲁拼音 (yale)
   - 捷克式拼音 (cesky)
 
-3. 复制选用方案所需的词典文件及语法模型文件；
+## 方案所需的词典文件及语法模型文件；
 
   * 冰雪拼音语法模型使用 `amz-v2n3m1-zh-hans.gram`
   * 地球拼音语法模型使用 `zh-han?-t-essay-bg?.gram`
   * 万象拼音语法模型使用 `wanxiang-lts-zh-hans.gram`
   * 词库及语法模型下载地址在后方内容
-
-4. Windows 下使用小狼毫，进入“小狼毫设置”勾取自己需要的输入方案并确定，等待部署完成。
-5. 非小狼毫用户，需在用户文件夹下的 `default.custom.yaml` 中添加以下内容（以添加使用地球拼音词库的小鹤双拼及全拼为例，格式为 `daagornt.rscm.<方案名>`），保存后部署：
-``` yaml
-patch:
-  schema_list:
-    - {schema: "daagornt.rscm.flypy"}
-    - {schema: "daagornt.rscm.hanyu-pinyin"}
-```
 
 ## 输入键盘布局
 
@@ -198,7 +189,7 @@ patch:
 
 需要对应的词库支持该拼写。
 
-## 鸣谢
+## 致谢
 
 - [RIME 输入引擎](https://github.com/rime)
 - [汉心龙](https://hanxinma.gitlab.io/longma/hanxinlong) 作者：晡时之光
@@ -206,5 +197,10 @@ patch:
 - 自然码 作者：（周志农）
 - [小鹤双拼](https://flypy.com/) 作者：散步的鹤（何海峰）
 - 拼音加加双拼 原作者：（廖恒毅）
+- 許氏鍵盤 原作者：許聞廉
+- IBM 注音鍵盤 原作者：IBM
+- 精業鍵盤 原作者：精業資訊
+- 倚天 41 鍵、倚天忘形 26 鍵 原作者：倚天資訊
+- 神通鍵盤 原作者：神通電腦
 - [冰雪拼音](https://github.com/rimeinn/rime-snow-pinyin)
 - [万象拼音](https://github.com/amzxyz/RIME-LMDG)

@@ -5,6 +5,7 @@ schema:
   name: '大狗注音（許氏鍵盤排布）'
   schema_id: daagornt.rscm.bpmfhsu
   author:
+    - '鍵盤排列 許聞廉'
     - '專案匯集 丢狼'
   description: |
     注音符號輸入專案
@@ -43,6 +44,9 @@ translator:
 
 history:
   __include: daagornt.lib.shared.yaml:/history
+
+custom_phrase:
+  __include: daagornt.lib.shared.yaml:/custom_phrase
 
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar

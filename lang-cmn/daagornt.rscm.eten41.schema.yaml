@@ -5,6 +5,7 @@ schema:
   name: '大狗注音（倚天 41 鍵排布）'
   schema_id: daagornt.rscm.eten41
   author:
+    - '鍵盤排列 倚天資訊'
     - '專案匯集 丢狼'
   description: |
     注音符號輸入專案
@@ -45,6 +46,9 @@ translator:
 
 history:
   __include: daagornt.lib.shared.yaml:/history
+
+custom_phrase:
+  __include: daagornt.lib.shared.yaml:/custom_phrase
 
 grammar:
   __include: daagornt.lib.dict-cmn.yaml:/grammar

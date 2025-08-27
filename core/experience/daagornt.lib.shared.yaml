@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.0.1
+# Ver: 1.1.2
 #
 
 engines:
@@ -23,6 +23,7 @@ engines:
     - echo_translator
     - punct_translator
     - script_translator
+    - table_translator@custom_phrase
     - history_translator@history
   filters:
     - simplifier@zh_cn_simp
@@ -38,11 +39,27 @@ translator:
   spelling_hints: 4
   always_show_comments: true
   enable_correction: false # Will map to nearby keys, which may have consequense
+  initial_quality: 12
 
 history:
   closing_tips: 【歷史】
   size: 10
-  input: ~prev
+  input: PREV
+  initial_quality: 15
+
+custom_phrase:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: true
+  enable_user_dict: true
+  dictionary: ""
+  user_dict: daagornt.custom.custom_phrase
+  db_class: stabledb
+  prism: daagornt.custom_phrase
+  initial_quality: 14
 
 key_binder:
   import_preset: daagorxp.lib.keybinder
@@ -58,7 +75,6 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     punct: "^`([0-9]0?|[A-Za-z]+)$"
-    history: "^~prev$"
 
 menu:
   page_size: 5
