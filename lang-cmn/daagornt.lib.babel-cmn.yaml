@@ -1,6 +1,6 @@
 # Rime: Tone convert engine for Daagor Integration
 # encoding: utf-8#
-# Ver 1.0.3.06
+# Ver 1.0.4.07
 #
 
 tongyong_pinyin:
@@ -485,8 +485,8 @@ phonetic_symbols:
       - 'xform <ts> ㄗ'
       - 'xform <tsh> ㄘ'
       - 'xform <s> ㄙ'
-      - 'xform (<[ji]>|<j><i>) ㄧ'
-      - 'xform (<[wu]>|<w><u>) ㄨ'
+      - 'xform (<j><i>|<[ji]>) ㄧ'
+      - 'xform (<w><u>|<[wu]>) ㄨ'
       - 'xform <4?y> ㄩ'
       - 'xform <a> ㄚ'
       - 'xform <o> ㄛ'

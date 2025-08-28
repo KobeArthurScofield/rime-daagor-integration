@@ -9,9 +9,10 @@
 # 在此處使用的編碼為何則實際使用時輸入相應編碼即可。
 #
 # 每行格式：文字 <tab> 編碼 <tab> 權重（權重越高，順序越靠前）
+# 不要在開頭有 # 符號
 #
 # 示例：
-大狗集成	daagornt	0
-大狗體驗	daagorxp	0
-大狗拼音	daagornt	0
-大狗体验	daagorxp	0
+#大狗集成	daagornt	0
+#大狗體驗	daagorxp	0
+#大狗拼音	daagornt	0
+#大狗体验	daagorxp	0

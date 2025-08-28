@@ -1,6 +1,6 @@
 # Rime: Supplemental convert engine for Daagor NT
 # encoding: utf-8#
-# Ver 1.0.1.02
+# Ver 1.0.2.04
 #
 
 # Český přepis čínštiny
@@ -171,7 +171,7 @@ latinxua:
       - 'xform <tsh> c'
       - 'xform <s> s'
       - 'xform <j><i> ji'
-      - 'xform <j> i'
+      - 'xform <j> j'
       - 'xform <w> w'
       - 'xform <4y> y'
       - xform/<_[iw]>//
@@ -250,7 +250,6 @@ lessing-othmer:
       - xform <j> y
       - xform <w> w
       - xform <4y> yü
-      - xform <4y> yu
       - xform <i> yi
       - xform <u> u
       - xform <y> ü

@@ -92,6 +92,3 @@ rule_convert:
       - abbrev/^(.+)(ˉ|ˊ|ˇ|ˋ|˙)$/$1/
       - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+(ˉ|ˊ|ˇ|ˋ|˙)$/$1$2/
       - "xlit|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|bpmfdtnlgkhjvcjvcrzasexuyhgeiawomnkll dfjs|"
-  preedit:
-    __append:
-      # Placeholder

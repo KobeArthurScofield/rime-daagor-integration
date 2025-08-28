@@ -110,7 +110,8 @@ rule_convert:
       - 'derive <[xh]><([iy])> <s6><$1>'
       # Double pinyin key convert
       - 'xform ^<([ao])> $1<$1>'
-      - 'xform ^<(re)> u<$1>'
+      - 'xform ^<(re)> uu'
+      - 'derive ^uu u<re>'
       - 'xform ^<ai> ai'
       - 'derive ^ai a<ai>'
       - 'xform ^<ei> ui'

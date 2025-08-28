@@ -22,7 +22,6 @@ engine:
 speller:
   alphabet: bpmfdtnlgkhjqxzcsrwyvaeiou
   initials: bpmfdtnlgkhjqxzcsrwyv
-  finals: aeiou
   delimiter: " ';"
   auto_select: false
   use_space: false
@@ -99,9 +98,9 @@ rule_convert:
       - 'derive <kh><([iy])> <ts6h><$1>'
       - 'derive <[xh]><([iy])> <s6><$1>'
       # Schemata key convert
-      - 'xform $(<[aoe]) r$1'
-      - 'xform $(<re) r$1'
-      - 'xform $(<_) r$1'
+      - 'xform ^(<[aoe]) r$1'
+      - 'xform ^(<re) r$1'
+      - 'xform ^(<_) r$1'
       - 'xform <j> f<i>'
       - 'xform <w> s<u>'
       - 'xform <4y> k<y>'
@@ -165,3 +164,6 @@ rule_convert:
       - 'xform <2> e'
       - 'xform <3> u'
       - 'xform <4> a'
+      - 'abbrev ^(.).+$ $1'
+      - 'abbrev ^(.)([aeiou]).+$ $1$2'
+      - 'abbrev ^(.)([aeiou])([aeiou]).+$ $1$2$3'
