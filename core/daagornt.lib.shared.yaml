@@ -44,7 +44,7 @@ translator:
 history:
   closing_tips: 【歷史】
   size: 5
-  input: PREV
+  input: prev
   initial_quality: 15
 
 custom_phrase:
