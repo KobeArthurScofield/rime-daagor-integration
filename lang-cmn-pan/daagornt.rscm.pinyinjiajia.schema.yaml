@@ -1,0 +1,223 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: '大狗拼音加加双拼'
+  schema_id: daagornt.rscm.pinyinjiajia
+  author:
+    - '键盘布局 廖恒毅'
+    - '方案集成 丢狼'
+  description: |
+    拼音加加双拼输入方案
+  version: '2.0.0.1904.beta'
+  icon: daagornt.icon.imecn.ico
+  ascii_icon: daagornt.icon.ascii.ico
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
+
+engine:
+  __include: daagornt.lib.shared.yaml:/engines
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm7890-
+  initials: qwertyuiopasdfghjklzxcvbnm
+  finals: '7890-'
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+  algebra:
+    __patch:
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.shared.yaml:/translator
+    - daagornt.lib.dict-cmn-pan.yaml:/translator
+  prism: daagornt.pinyinjiajia
+  preedit_format:
+    __include: daagorxp.lib.preedit-cmn-pan.yaml:/pinyinjiajia?
+  comment_format:
+    __include: daagorxp.lib.comment-cmn-pan.yaml:/hanyu_pinyin?
+
+history:
+  __include: daagornt.lib.shared.yaml:/history
+
+custom_phrase:
+  __include: daagornt.lib.shared.yaml:/custom_phrase
+
+grammar:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
+
+punctuator:
+  __include: daagornt.lib.shared.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.shared.yaml:/key_binder
+
+recognizer:
+  __include: daagornt.lib.shared.yaml:/recognizer
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu
+
+style:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/style?
+
+editor:
+  __include: daagornt.lib.shared.yaml:/editor
+
+ascii_composer:
+  __include: daagornt.lib.shared.yaml:/ascii_composer
+
+zh_cn_simp:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      # Hanyu Pinyin Flattening
+      - 'xform ^<e3> <ei>'
+      - 'xform <_h> <re>'
+      - 'xform ^<_m> <m><u>'
+      - 'xform <_m> <u><en>'
+      - 'xform <_n> <en>'
+      - 'xform <_ng> <reng>'
+      - 'xform <ng> <n>'
+      - 'xform <gn> <g>'
+      - 'xform <v> <w>'
+      - 'xform <i><ai> <ai>'
+      - 'xform <i><o> <o>'
+      - 'xform <y><o> <u><o>'
+      - 'xform <5> <0>'
+      # Sibilant Compatibility
+      - 'derive <ts><([iy])> <ts6><$1>'
+      - 'derive <tsh><([iy])> <ts6h><$1>'
+      - 'derive <s><([iy])> <s6><$1>'
+      - 'derive <k><([iy])> <ts6><$1>'
+      - 'derive <kh><([iy])> <ts6h><$1>'
+      - 'derive <[xh]><([iy])> <s6><$1>'
+      # Double pinyin key convert
+      - 'xform ^<([ao])> $1<$1>'
+      - 'xform ^<(re)> e<$1>'
+      - 'xform ^<([ae])i> $1<$1i>'
+      - 'derive ^[ae]<([ae])i> $1i'
+      - 'xform ^<au> a<au>'
+      - 'derive ^a<au> ao'
+      - 'xform ^<ou> o<ou>'
+      - 'derive ^o<ou> ou'
+      - 'xform ^<([ae])n> $1<$1n>'
+      - 'derive ^[ae]<([ae])n> $1n'
+      - 'xform ^<ang> a<ang>'
+      - 'xform ^<reng> e<reng>'
+      - 'xform <4y> <j><y>'
+      - 'xform ^<ar> eq'
+      - 'xform <ar> q'
+      - 'xform <i><a> b'
+      - 'xform <u><a> b'
+      - 'xform <u><ai> x'
+      - 'xform <i><au> k'
+      - 'xform <i><an> j'
+      - 'xform <u><an> c'
+      - 'xform <y><an> c'
+      - 'xform <i><ang> h'
+      - 'xform <u><ang> h'
+      - 'xform <u><o> o'
+      - 'xform <i><ou> n'
+      - 'xform <i><ong> y'
+      - 'xform <i><e3> m'
+      - 'xform <y><e3> x'
+      - 'xform <u><ei> v'
+      - 'xform <i><en> l'
+      - 'xform <u><en> z'
+      - 'xform <y><en> z'
+      - 'xform <i><reng> q'
+      - 'xform <p> b'
+      - 'xform <ph> p'
+      - 'xform <m> m'
+      - 'xform <f> f'
+      - 'xform <t> d'
+      - 'xform <th> t'
+      - 'xform <n> n'
+      - 'xform <l> l'
+      - 'xform <k> g'
+      - 'xform <kh> k'
+      - 'xform (<x>|<h>) h'
+      - 'xform <ts6> j'
+      - 'xform <ts6h> q'
+      - 'xform <s6> x'
+      - 'xform <tis> v'
+      - 'xform <tish> u'
+      - 'xform <is> i'
+      - 'xform <zi> r'
+      - 'xform <ts> z'
+      - 'xform <tsh> c'
+      - 'xform <s> s'
+      - 'xform <j> y'
+      - 'xform <i> i'
+      - 'xform <w> w'
+      - 'xform <u> u'
+      - 'xform <y> v'
+      - 'xform <a> a'
+      - 'xform <o> o'
+      - 'xform <re> e'
+      - 'xform <e3> e'
+      - 'xform <ai> s'
+      - 'xform <ei> w'
+      - 'xform <au> d'
+      - 'xform <ou> p'
+      - 'xform <an> f'
+      - 'xform <en> r'
+      - 'xform <ang> g'
+      - 'xform <reng> t'
+      - 'xform <ong> y'
+      - 'xform <_[iw]> i'
+      - 'xform <([1-4])> $1'
+      - 'xform <0> 5'
+      - 'abbrev ^(.+)[1-5]$ $1'
+      - 'xlit 12345 7890-'
+  preedit:
+    __append:
+      - xform/([bpmnljqxy])l/$1in/
+      - xform/(\w)t/$1eng/
+      - xform/(\w)n/$1iu/
+      - xform/([gkhvuirzcs])b/$1ua/
+      - xform/(\w)b/$1ia/
+      - xform/([dtnlgkhjqxyvuirzcs])c/$1uan/
+      - xform/er/er/
+      - xform/([dtgkhvuirzcs])v/$1ui/
+      - xform/(\w)v/$1ü/
+      - xform/([gkhvuirzcs])x/$1uai/
+      - xform/(\w)x/$1üe/
+      - xform/([dtnlgkhvuirzcs])o/$1uo/
+      - xform/(\w)z/$1un/
+      - xform/([jqx])y/$1iong/
+      - xform/(\w)y/$1ong/
+      - xform/([jqxnlb])h/$1iang/
+      - xform/(\w)h/$1uang/
+      - xform/(\w)r/$1en/
+      - xform/(\w)g/$1ang/
+      - xform/(\w)f/$1an/
+      - xform/(\w)d/$1ao/
+      - xform/(\w)s/$1ai/
+      - xform/(\w)w/$1ei/
+      - xform/(\w)m/$1ie/
+      - xform/(\w)k/$1iao/
+      - xform/(\w)p/$1ou/
+      - xform/(\w)j/$1ian/
+      - xform/(\w)q/$1ing/
+      - "xform/(^|[ '])v/$1zh/"
+      - "xform/(^|[ ‘])u/$1ch/"
+      - "xform/(^|[ ‘])i/$1sh/"
+      - 'xlit 7890- 12345'

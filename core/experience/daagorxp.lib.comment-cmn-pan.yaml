@@ -1,0 +1,39 @@
+# RIME: Comment convert library of Daagor Integration
+# encoding: utf-8#
+# Ver: 1.1.2
+#
+
+tongyong_pinyin:
+  __patch:
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn-pan.yaml:/tongyong_pinyin/output
+    - daagornt.lib.scribe-cmn-pan.yaml:/tongyong_pinyin/output
+
+phonetic_symbols_ii:
+  __patch:
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn-pan.yaml:/phonetic_symbols_ii/output
+    - daagornt.lib.scribe-cmn-pan.yaml:/phonetic_symbols_ii/output
+
+hanyu_pinyin:
+  __patch:
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn-pan.yaml:/hanyu_pinyin/output
+    - daagornt.lib.scribe-cmn-pan.yaml:/hanyu_pinyin/output
+
+phonetic_symbols:
+  __patch:
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn-pan.yaml:/phonetic_symbols/output
+    - daagornt.lib.scribe-cmn-pan.yaml:/phonetic_symbols/output
+
+gwoyeu_romatzyh:
+  __patch:
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+    - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+    - daagornt.lib.babel-cmn-pan.yaml:/gwoyeu_romatzyh/output
+    - daagornt.lib.scribe-cmn-pan.yaml:/gwoyeu_romatzyh/output

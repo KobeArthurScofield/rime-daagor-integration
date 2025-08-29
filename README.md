@@ -3,9 +3,9 @@
 基于中州韵输入法引擎 (RIME) 构建的带调拼音方案集合。
 
 目前支持：
-- 基于北方官话的[拼音注音方案输入](lang-cmn/README-cmn.md) (ISO 936-3 cmn)
+- 基于北方官话的[拼音注音方案输入](lang-cmn-pan/README-cmn-pan.md) (ISO 639-3 cmn)
 
-警告：所有方案及词库无法跨 ISO 936-3 语言代码使用！
+警告：所有方案及词库无法跨 ISO 639-3 语言代码使用！
 
 AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/badge.svg)](https://deepwiki.com/KobeArthurScofield/rime-daagor-integration)
 
@@ -19,9 +19,9 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
 2. 将以下文件复制到 RIME 前端设定的用户文件夹：
 
   * `lib.shared`
-  * `lib.babel-<ISO 936-3>`
+  * `lib.babel-<ISO 639-3>`
     * 视需要使用的拼音方案对应的语言区复制即可
-  * `lib.scribe-<ISO 936-3>`
+  * `lib.scribe-<ISO 639-3>`
     * 视需要使用的拼音方案对应的语言区复制即可
   * `lib.icon`
     * 将所需图标文件复制至与其以上文件同一个文件夹
@@ -39,7 +39,7 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
     * 复制自己所需的词库调用文件，与以上文件置于同一个文件夹
   * `experience`
     * 如果希望使用非 RIME 默认自带的输入体验，可以按需复制其中文件与以上文件置于同一个文件夹：
-      * `lib.comment-<ISO 936-3>` 与 `lib.preedit-<ISO 936-3>` 可以单独复制
+      * `lib.comment-<ISO 639-3>` 与 `lib.preedit-<ISO 639-3>` 可以单独复制
       * `lib.shared` 必须与 `lib.keybinder` 与 `lib.punctuation` 一并复制
   * `supplimental`
     * 如果有需要，复制自己所需的库文件及方案文件，与以上文件置于同一个文件夹
@@ -57,21 +57,21 @@ patch:
 ## 文件解析
 
 - `lib.shared`： **（必需）** 输入方案通用基础组件
-- `lib.babel-<ISO 936-3>`： **（根据调用输入法必需）** 输入方案跨拼音规范转换库
+- `lib.babel-<ISO 639-3>`： **（根据调用输入法必需）** 输入方案跨拼音规范转换库
 - `lib.scribe-<ISO-936-3>`： **（根据调用输入法必需）** 输入方案拼音形态转换库
 - `lib.icon`： 对应输入法的指示器图标
 - `opencc`：特殊繁简转换方案
   - `noop.json`：不转换
 - `customize`: 输入法可自定义内容
-  - `custom.custom_phrase`: 自定义短语，该短语可跨布局及 ISO 936-3 使用，直接输入编码即可。
+  - `custom.custom_phrase`: 自定义短语，该短语可跨布局及 ISO 639-3 使用，直接输入编码即可。
     - 更新时注意：如果自己已有自定义短语内容，切勿使用解包后文件直接替换！会造成内容丢失！
 - `experience`：Daagor Integration Experience，用于取代输入方案默认体验
   - `lib.shared`：提供经过调整的 RIME 发行版默认以外的体验
     - `daagorxp.lib.keybinder`：非默认按键组合体验
     - `daagorxp.lib.punctuation`：非默认标点输入体验
     - `daagorxp.lib.recognizer`：非默认识别功能体验
-  - `daagorxp.lib.comment-<ISO 936-3>`：提供拼音提示转换功能，使拼音提示显示为输入方案相同而非词库方案；启用后全局生效
-  - `daagorxp.lib.preedit-<ISO 936-3>`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
+  - `daagorxp.lib.comment-<ISO 639-3>`：提供拼音提示转换功能，使拼音提示显示为输入方案相同而非词库方案；启用后全局生效
+  - `daagorxp.lib.preedit-<ISO 639-3>`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
 - `rscm.*`：基于以上文件组成的输入方案
 - `supplimental`：用于提供额外方案。

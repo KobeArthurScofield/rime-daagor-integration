@@ -2,41 +2,45 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗國語耶魯拼音輸入'
-  schema_id: daagornt.rscm.yale-cmn
+  name: '大狗汉语拼音'
+  schema_id: daagornt.rscm.hanyu-pinyin
   author:
     - '方案集成 丢狼'
   description: |
-    國語耶魯拼音輸入方案
+    汉语拼音方案输入方案
   version: '2.0.0.1904.beta'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
 switches:
-  __include: daagornt.lib.shared.yaml:/zh_cn_trad/switches
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wertyuiopasdfghjklzcvbnm
-  delimiter: " -;"
+  alphabet: qwertyuiopasdfghjklzxcvbnm7890-
+  initials: qwertyuiopasdfghjklzxcvbnm
+  finals: '7890-'
+  delimiter: " ';"
   auto_select: false
   use_space: false
   algebra:
     __patch:
       - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
-      - daagornt.lib.babel-extension-cmn-pan.yaml:/yale/output
-      - daagornt.lib.scribe-extension-cmn-pan.yaml:/yale/output
+      - daagornt.lib.babel-cmn-pan.yaml:/hanyu_pinyin/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn-pan.yaml:/translator
-    - /dpatch
-  prism: daagornt.yale-cmn
+  prism: daagornt.hanyu-pinyin
+  preedit_format:
+    __include: daagorxp.lib.preedit-cmn-pan.yaml:/hanyu_pinyin?
+  comment_format:
+    __include: daagorxp.lib.comment-cmn-pan.yaml:/hanyu_pinyin?
 
 history:
   __include: daagornt.lib.shared.yaml:/history
@@ -60,7 +64,7 @@ menu:
   __include: daagornt.lib.shared.yaml:/menu
 
 style:
-  __include: daagornt.lib.shared.yaml:/zh_cn_trad/style?
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/style?
 
 editor:
   __include: daagornt.lib.shared.yaml:/editor
@@ -83,12 +87,16 @@ zh_hk:
 rule_convert:
   layout:
     __append:
+      - 'derive ([jqxy])ü $1u'
+      - 'derive ü v'
+      - 'derive ê eh'
       - 'abbrev ^([a-z]).+$ $1'
       - 'abbrev ^(ng|gn).+$ $1'
-      - 'abbrev ^([cs]h).+$ $1'
-      - 'abbrev ^(dz).+$ $1'
-      - 'abbrev ^(ts).+$ $1'
-
-dpatch:
-  spelling_hints: 0
-  always_show_comments: false
+      - 'abbrev ^([zcs]h).+$ $1'
+      - 'abbrev ^(.+)[1-5]$ $1'
+      - 'xlit 12345 7890-'
+  preedit:
+    __append:
+      - 'xlit 7890- 12345'
+      - 'xform v ü'
+      - 'xform eh ê'

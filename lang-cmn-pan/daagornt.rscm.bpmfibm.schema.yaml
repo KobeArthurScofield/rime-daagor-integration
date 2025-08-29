@@ -1,0 +1,107 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: '大狗注音（IBM 排布）'
+  schema_id: daagornt.rscm.bpmfibm
+  author:
+    - '鍵盤排列 IBM【國際商業機器公司】'
+    - '專案匯集 丢狼'
+  description: |
+    注音符號輸入專案
+  version: '2.0.0.1904.beta'
+  icon: daagornt.icon.imetw.ico
+  ascii_icon: daagornt.icon.ascii.ico
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_tw/switches
+
+engine:
+  __include: daagornt.lib.shared.yaml:/engines
+
+speller:
+  alphabet: '1234567890-qwertyuiopasdfghjkl;zxcvbn m,./'
+  initials: '1234567890-qwertyuiopasdfghjkl;zxcvbn'
+  finals: ' m,./'
+  delimiter: "'`"
+  auto_select: false
+  use_space: true
+  algebra:
+    __patch:
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+      - daagornt.lib.babel-cmn-pan.yaml:/phonetic_symbols/output
+      - daagornt.lib.scribe-cmn-pan.yaml:/phonetic_symbols/output
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.shared.yaml:/translator
+    - daagornt.lib.dict-cmn-pan.yaml:/translator
+  prism: daagornt.bpmfibm
+  preedit_format:
+    __include: daagorxp.lib.preedit-cmn-pan.yaml:/bpmfibm?
+  comment_format:
+    __include: daagorxp.lib.comment-cmn-pan.yaml:/phonetic_symbols?
+
+history:
+  __include: daagornt.lib.shared.yaml:/history
+
+custom_phrase:
+  __include: daagornt.lib.shared.yaml:/custom_phrase
+
+grammar:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
+
+punctuator:
+  __include: daagornt.lib.shared.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.shared.yaml:/key_binder
+  bindings:
+    - { when: has_menu, accept: comma, send: comma }
+    - { when: has_menu, accept: period, send: period }
+    - { when: has_menu, accept: semicolon, send: semicolon }
+    - { when: has_menu, accept: slash, send: slash }
+    - { when: has_menu, accept: minus, send: minus }
+
+recognizer:
+  __include: daagornt.lib.shared.yaml:/recognizer
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu_narrow
+  alternative_select_keys: "=[]\\'"
+  alternative_select_labels: [ '=', '[', ']', '\', '''' ]
+
+style:
+  __include: daagornt.lib.shared.yaml:/zh_tw/style?
+
+editor:
+  __include: daagornt.lib.shared.yaml:/editor
+
+ascii_composer:
+  __include: daagornt.lib.shared.yaml:/ascii_composer
+
+zh_cn_simp:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      - 'xlit|ㄪㄫㄬ|ㄨㄋㄍ|'
+      - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+$/$1/
+      - abbrev/^(.+)(ˉ|ˊ|ˇ|ˋ|˙)$/$1/
+      - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+(ˉ|ˊ|ˇ|ˋ|˙)$/$1$2/
+      - "xlit|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|1234567890-qwertyuiopasdfghjkl;zxcvbn m,./|"
+  preedit:
+    __append:
+      - "xlit|1234567890-qwertyuiopasdfghjkl;zxcvbn m,./'`|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙  |"

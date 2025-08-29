@@ -2,12 +2,13 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗國語耶魯拼音輸入'
-  schema_id: daagornt.rscm.yale-cmn
+  name: '大狗國語羅馬字數碼聲調'
+  schema_id: daagornt.rscm.gwoyeu-num
   author:
-    - '方案集成 丢狼'
+    - '專案匯集 丢狼'
   description: |
-    國語耶魯拼音輸入方案
+    國語羅馬字數碼聲調輸入專案
+    陰平 6  陽平 7  上聲 8  去聲 9  輕聲 0  入聲 -
   version: '2.0.0.1904.beta'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
@@ -19,24 +20,28 @@ engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wertyuiopasdfghjklzcvbnm
-  delimiter: " -;"
+  alphabet: wertyuiopasdfghjklzcvbnm7890-=
+  initials: wertyuiopasdfghjklzcvbnm
+  finals: 7890-=
+  delimiter: " ';"
   auto_select: false
   use_space: false
   algebra:
     __patch:
       - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
-      - daagornt.lib.babel-extension-cmn-pan.yaml:/yale/output
-      - daagornt.lib.scribe-extension-cmn-pan.yaml:/yale/output
+      - daagornt.lib.babel-cmn-pan.yaml:/gwoyeu_romatzyh/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn-pan.yaml:/translator
-    - /dpatch
-  prism: daagornt.yale-cmn
+  prism: daagornt.gwoyeu-num
+  preedit_format:
+    __include: daagorxp.lib.preedit-cmn-pan.yaml:/gwoyeu_romatzyh?
+  comment_format:
+    __include: daagorxp.lib.comment-cmn-pan.yaml:/gwoyeu_romatzyh?
 
 history:
   __include: daagornt.lib.shared.yaml:/history
@@ -86,9 +91,9 @@ rule_convert:
       - 'abbrev ^([a-z]).+$ $1'
       - 'abbrev ^(ng|gn).+$ $1'
       - 'abbrev ^([cs]h).+$ $1'
-      - 'abbrev ^(dz).+$ $1'
-      - 'abbrev ^(ts).+$ $1'
-
-dpatch:
-  spelling_hints: 0
-  always_show_comments: false
+      - 'abbrev ^(t[zs]).+$ $1'
+      - 'abbrev ^(.+)[1-6]$ $1'
+      - 'xlit 123456 7890-='
+  preedit:
+    __append:
+      - 'xlit 7890-= 123456'

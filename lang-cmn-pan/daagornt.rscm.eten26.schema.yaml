@@ -2,41 +2,45 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗國語耶魯拼音輸入'
-  schema_id: daagornt.rscm.yale-cmn
+  name: '大狗注音（倚天忘形 26 鍵排布）'
+  schema_id: daagornt.rscm.eten26
   author:
-    - '方案集成 丢狼'
+    - '鍵盤排列 倚天資訊'
+    - '專案匯集 丢狼'
   description: |
-    國語耶魯拼音輸入方案
+    注音符號輸入專案
   version: '2.0.0.1904.beta'
-  icon: daagornt.icon.imecn.ico
+  icon: daagornt.icon.imetw.ico
   ascii_icon: daagornt.icon.ascii.ico
 
 switches:
-  __include: daagornt.lib.shared.yaml:/zh_cn_trad/switches
+  __include: daagornt.lib.shared.yaml:/zh_tw/switches
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wertyuiopasdfghjklzcvbnm
-  delimiter: " -;"
+  alphabet: "bpmfdtnlvkhgcyjqwsexuaoriz "
+  initials: "bpmfdtnlvkhgcyjqwsexuaoriz"
+  finals: ' fjkd'
+  delimiter: "'`"
   auto_select: false
-  use_space: false
+  use_space: true
   algebra:
     __patch:
       - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
       - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
-      - daagornt.lib.babel-extension-cmn-pan.yaml:/yale/output
-      - daagornt.lib.scribe-extension-cmn-pan.yaml:/yale/output
+      - daagornt.lib.babel-cmn-pan.yaml:/phonetic_symbols/output
+      - daagornt.lib.scribe-cmn-pan.yaml:/phonetic_symbols/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn-pan.yaml:/translator
-    - /dpatch
-  prism: daagornt.yale-cmn
+  prism: daagornt.eten26
+  comment_format:
+    __include: daagorxp.lib.comment-cmn-pan.yaml:/phonetic_symbols?
 
 history:
   __include: daagornt.lib.shared.yaml:/history
@@ -60,7 +64,7 @@ menu:
   __include: daagornt.lib.shared.yaml:/menu
 
 style:
-  __include: daagornt.lib.shared.yaml:/zh_cn_trad/style?
+  __include: daagornt.lib.shared.yaml:/zh_tw/style?
 
 editor:
   __include: daagornt.lib.shared.yaml:/editor
@@ -83,12 +87,8 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^(ng|gn).+$ $1'
-      - 'abbrev ^([cs]h).+$ $1'
-      - 'abbrev ^(dz).+$ $1'
-      - 'abbrev ^(ts).+$ $1'
-
-dpatch:
-  spelling_hints: 0
-  always_show_comments: false
+      - 'xlit|ㄪㄫㄬ|ㄨㄋㄍ|'
+      - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+$/$1/
+      - abbrev/^(.+)(ˉ|ˊ|ˇ|ˋ|˙)$/$1/
+      - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+(ˉ|ˊ|ˇ|ˋ|˙)$/$1$2/
+      - "xlit|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|bpmfdtnlvkhgvcgycjqwsexuaorwiqzpmntlh fjkd|"

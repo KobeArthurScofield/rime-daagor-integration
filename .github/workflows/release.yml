@@ -23,18 +23,21 @@ jobs:
       
       - name: Prepare directories
         run: |
+          cd ${GITHUB_WORKSPACE}
           mkdir -p ${BASE}
           mkdir -p ${EXTN}
 
       - name: Copy README.md & LICENSE
         run: |
-          cp ${GITHUB_WORKSPACE}/README.md ./$BASE/README.md
-          cp ${GITHUB_WORKSPACE}/LICENSE ./$BASE/LICENSE
-          cp ${GITHUB_WORKSPACE}/README.md ./$EXTN/README.md
-          cp ${GITHUB_WORKSPACE}/LICENSE ./$EXTN/LICENSE
+          cd ${GITHUB_WORKSPACE}
+          cp $./README.md ./$BASE/README.md
+          cp $./LICENSE ./$BASE/LICENSE
+          cp $./README.md ./$EXTN/README.md
+          cp $./LICENSE ./$EXTN/LICENSE
       
       - name: Copy base files
         run: |
+          cd ${GITHUB_WORKSPACE}
           cp -rf ./dictionary ./${BASE}/
           cp -rf ./opencc ./${BASE}/
           cp -rf ./core/customize ./${BASE}/
@@ -47,6 +50,7 @@ jobs:
       
       - name: Copy extension files
         run: |
+          cd ${GITHUB_WORKSPACE}
           cp -rf ./core/experience ./${EXTN}/
           cp -rf ./supplimental ./${EXTN}/
           ls -al ./${EXTN}/
@@ -55,6 +59,7 @@ jobs:
         if: github.event_name == 'release'
         shell: bash
         run: |
+          cd ${GITHUB_WORKSPACE}
           pushd $BASE || exit 1
           zip -9vr ../${PKNAME}-${BASE}.zip .
           popd || exit 1

@@ -2,6 +2,16 @@
 
 ## Adding a new language of Chinese
 
+::: warning
+
+`<ISO 639-3 language code>` is normally must used. If there are several specified language type, append a tag and join the code and tag with a hypen, like:
+
+`<language-code>-<tag>`
+
+The `<tag>` can be either an ISO-639-6 code or a customized tag.
+
+:::
+
 For creating a layout that belong to a language not existing in this project, one should:
 - Create a new folder with the folder name `lang-<ISO 639-3 language code>`.
 - Create a new `info.spellconvert.info` inside this folder, which contains the information of tonal scheme that new layouts being supported, and the middle form of the tones of this language.
