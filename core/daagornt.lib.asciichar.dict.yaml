@@ -1,0 +1,94 @@
+# Rime dict
+# coding: utf-8
+#
+# 西文字符
+# 該西文字符對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
+# 在此處使用的編碼為何則實際使用時輸入相應編碼即可。
+#
+
+---
+name: "daagornt.lib.asciichar"
+version: "stb"
+sort: by_weight
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - weight
+...
+
+# 希腊字母
+Α	alpha	1
+α	alpha	1
+Β	beta	1
+β	beta	1
+Γ	gamma	1
+γ	gamma	1
+Δ	delta	1
+δ	delta	1
+Ε	epsilon	1
+ε	epsilon	1
+Ζ	zeta	1
+ζ	zeta	1
+Ͱ	heta	1
+ͱ	heta	1
+Η	eta	1
+η	eta	1
+Θ	theta	1
+θ	theta	1
+Ι	iota	1
+ι	iota	1
+Κ	kappa	1
+κ	kappa	1
+Λ	lambda	1
+Λ	lamda	1
+Λ	labda	1
+λ	lambda	1
+λ	lamda	1
+λ	labda	1
+Μ	mu	1
+μ	mu	1
+Ν	nu	1
+ν	nu	1
+Ξ	xi	1
+ξ	xi	1
+Ο	omicron	1
+ο	omicron	1
+Π	pi	1
+π	pi	1
+Ϻ	san	1
+ϻ	san	1
+Ρ	rho	1
+ρ	rho	1
+Σ	sigma	1
+Σ	sigma	1
+σ	sigma	1
+ς	sigma	1
+Τ	tau	1
+τ	tau	1
+Υ	upsilon	1
+υ	upsilon	1
+Φ	phi	1
+φ	phi	1
+Χ	chi	1
+χ	chi	1
+Ψ	psi	1
+ψ	psi	1
+Ω	omega	1
+ω	omega	1
+Ϛ	stigma	1
+ϛ	stigma	1
+Ϝ	digamma	1
+ϝ	digamma	1
+Ͷ	digamma	1
+ͷ	digamma	1
+Ϟ	koppa	1
+ϟ	koppa	1
+Ϙ	koppa	1
+ϙ	koppa	1
+Ϡ	sampi	1
+ϡ	sampi	1
+Ͳ	sampi	1
+ͳ	sampi	1
+Ϳ	yot	1
+ϳ	yot	1

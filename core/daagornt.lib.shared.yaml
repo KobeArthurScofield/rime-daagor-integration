@@ -24,6 +24,9 @@ engines:
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
+    - table_translator@ascii_phrase
+    - table_translator@ascii_char
+    - table_translator@quick_phrase
     - history_translator@history
   filters:
     - simplifier@zh_cn_simp
@@ -61,6 +64,49 @@ custom_phrase:
   prism: daagornt.custom_phrase
   initial_quality: 14
 
+ascii_phrase:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: true
+  enable_user_dict: true
+  dictionary: daagornt.lib.asciiphrase
+  user_dict: daagornt.lib
+  db_class: userdb
+  prism: daagornt.ascii_phrase
+  initial_quality: 12
+
+ascii_char:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: true
+  enable_user_dict: true
+  dictionary: daagornt.lib.asciichar
+  user_dict: daagornt.lib
+  db_class: userdb
+  prism: daagornt.ascii_char
+  initial_quality: 12
+
+quick_phrase:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: true
+  enable_user_dict: true
+  dictionary: daagornt.lib.quickphrase
+  user_dict: daagornt.lib
+  db_class: userdb
+  prism: daagornt.quick_phrase
+  initial_quality: 13
+  tag: quick_phrase
+
 key_binder:
   import_preset: default
 
@@ -69,6 +115,8 @@ punctuator:
 
 recognizer:
   import_preset: default
+  patterns:
+    quick_phrase: "^([A-Z]+)([-0-9A-Za-z]*)$"
 
 menu:
   page_size: 6

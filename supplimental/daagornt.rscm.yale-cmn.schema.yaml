@@ -44,6 +44,15 @@ history:
 custom_phrase:
   __include: daagornt.lib.shared.yaml:/custom_phrase
 
+ascii_char:
+  __include: daagornt.lib.shared.yaml:/ascii_char
+
+ascii_phrase:
+  __include: daagornt.lib.shared.yaml:/ascii_phrase
+
+quick_phrase:
+  __include: daagornt.lib.shared.yaml:/quick_phrase
+
 grammar:
   __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
 

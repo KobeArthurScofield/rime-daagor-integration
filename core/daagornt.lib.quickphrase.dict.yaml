@@ -1,0 +1,306 @@
+# Rime table
+# coding: utf-8
+#@db/db_name	daagornt.lib.quickphrase
+#@db/db_type	tabledb
+#
+# 快速短語
+# 該快速短語對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
+# 在此處使用的編碼為何則實際使用時輸入相應編碼即可。
+#
+
+---
+name: "daagornt.lib.quickphrase"
+version: "stb"
+sort: by_weight
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - weight
+...
+
+# I-Ching/Bagua/Hexagram
+⚋	Yin	0
+⚊	Yang	0
+⚌	TaiYang	0
+⚎	ShaoYang	0
+⚍	ShaoYin	0
+⚏	TaiYin	0
+☰	Qian	0
+☱	Dui	0
+☲	Li	0
+☳	Zhen	0
+☴	Xun	0
+☵	Kan	0
+☶	Gen	0
+☷	Kun	0
+䷀	Force	0
+䷁	Field	0
+䷂	Sprouting	0
+䷃	Enveloping	0
+䷄	Attending	0
+䷅	Arguing	0
+䷆	Leading	0
+䷇	Grouping	0
+䷈	SmallAccumulating	0
+䷉	Treading	0
+䷊	Pervading	0
+䷋	Obstruction	0
+䷌	ConcordingPeople	0
+䷍	GreatPossessing	0
+䷎	Humbling	0
+䷏	ProvidingFor	0
+䷐	Following	0
+䷑	Correcting	0
+䷒	Nearing	0
+䷓	Viewing	0
+䷔	GnawingBite	0
+䷕	Adorning	0
+䷖	Stripping	0
+䷗	Returning	0
+䷘	WithoutEmbroiling	0
+䷙	GreatAccumulating	0
+䷚	Swallowing	0
+䷛	GreatExceeding	0
+䷜	Gorge	0
+䷝	Radiance	0
+䷞	Conjoining	0
+䷟	Persevering	0
+䷠	Retiring	0
+䷡	GreatInvigorating	0
+䷢	Prospering	0
+䷣	DarkeningoftheLight	0
+䷤	DwellingPeople	0
+䷥	Polarising	0
+䷦	Limping	0
+䷧	TakingApart	0
+䷨	Diminishing	0
+䷩	Augmenting	0
+䷪	Displacement	0
+䷫	Coupling	0
+䷬	Clustering	0
+䷭	Ascending	0
+䷮	Confining	0
+䷯	Welling	0
+䷰	Skinning	0
+䷱	Holding	0
+䷲	Shake	0
+䷳	Bound	0
+䷴	Infiltrating	0
+䷵	ConvertingtheMaiden	0
+䷶	Abounding	0
+䷷	Sojourning	0
+䷸	Ground	0
+䷹	Open	0
+䷺	Dispersing	0
+䷻	Articulating	0
+䷼	CenterReturning	0
+䷽	SmallExceeding	0
+䷾	AlreadyFording	0
+䷿	NotYetFording	0
+陰	Yin	0
+陽	Yang	0
+太陽	TaiYang	0
+少陽	ShaoYang	0
+少陰	ShaoYin	0
+太陰	TaiYin	0
+乾	Qian	0
+兌	Dui	0
+離	Li	0
+震	Zhen	0
+巽	Xun	0
+坎	Kan	0
+艮	Gen	0
+坤	Kun	0
+乾	Force	0
+坤	Field	0
+屯	Sprouting	0
+蒙	Enveloping	0
+需	Attending	0
+訟	Arguing	0
+師	Leading	0
+比	Grouping	0
+小畜	SmallAccumulating	0
+履	Treading	0
+泰	Pervading	0
+否	Obstruction	0
+同人	ConcordingPeople	0
+大有	GreatPossessing	0
+謙	Humbling	0
+豫	ProvidingFor	0
+隨	Following	0
+蠱	Correcting	0
+臨	Nearing	0
+觀	Viewing	0
+噬嗑	GnawingBite	0
+賁	Adorning	0
+剝	Stripping	0
+復	Returning	0
+无妄	WithoutEmbroiling	0
+大畜	GreatAccumulating	0
+頤	Swallowing	0
+大過	GreatExceeding	0
+坎	Gorge	0
+離	Radiance	0
+咸	Conjoining	0
+恆	Persevering	0
+遯	Retiring	0
+大壯	GreatInvigorating	0
+晉	Prospering	0
+明夷	DarkeningoftheLight	0
+家人	DwellingPeople	0
+睽	Polarising	0
+蹇	Limping	0
+解	TakingApart	0
+損	Diminishing	0
+益	Augmenting	0
+夬	Displacement	0
+姤	Coupling	0
+萃	Clustering	0
+升	Ascending	0
+困	Confining	0
+井	Welling	0
+革	Skinning	0
+鼎	Holding	0
+震	Shake	0
+艮	Bound	0
+漸	Infiltrating	0
+歸妹	ConvertingtheMaiden	0
+豐	Abounding	0
+旅	Sojourning	0
+巽	Ground	0
+兌	Open	0
+渙	Dispersing	0
+節	Articulating	0
+中孚	CenterReturning	0
+小過	SmallExceeding	0
+既濟	AlreadyFording	0
+未濟	NotYetFording	0
+阴	Yin	0
+阳	Yang	0
+太阳	TaiYang	0
+少阳	ShaoYang	0
+少阴	ShaoYin	0
+太阴	TaiYin	0
+乾	Qian	0
+兑	Dui	0
+离	Li	0
+震	Zhen	0
+巽	Xun	0
+坎	Kan	0
+艮	Gen	0
+坤	Kun	0
+乾	Force	0
+坤	Field	0
+屯	Sprouting	0
+蒙	Enveloping	0
+需	Attending	0
+讼	Arguing	0
+师	Leading	0
+比	Grouping	0
+小畜	SmallAccumulating	0
+履	Treading	0
+泰	Pervading	0
+否	Obstruction	0
+同人	ConcordingPeople	0
+大有	GreatPossessing	0
+谦	Humbling	0
+豫	ProvidingFor	0
+随	Following	0
+蛊	Correcting	0
+临	Nearing	0
+观	Viewing	0
+噬嗑	GnawingBite	0
+贲	Adorning	0
+剥	Stripping	0
+复	Returning	0
+无妄	WithoutEmbroiling	0
+大畜	GreatAccumulating	0
+颐	Swallowing	0
+大过	GreatExceeding	0
+坎	Gorge	0
+离	Radiance	0
+咸	Conjoining	0
+恒	Persevering	0
+遯	Retiring	0
+大壮	GreatInvigorating	0
+晋	Prospering	0
+明夷	DarkeningoftheLight	0
+家人	DwellingPeople	0
+睽	Polarising	0
+蹇	Limping	0
+解	TakingApart	0
+损	Diminishing	0
+益	Augmenting	0
+夬	Displacement	0
+姤	Coupling	0
+萃	Clustering	0
+升	Ascending	0
+困	Confining	0
+井	Welling	0
+革	Skinning	0
+鼎	Holding	0
+震	Shake	0
+艮	Bound	0
+渐	Infiltrating	0
+归妹	ConvertingtheMaiden	0
+丰	Abounding	0
+旅	Sojourning	0
+巽	Ground	0
+兑	Open	0
+涣	Dispersing	0
+节	Articulating	0
+中孚	CenterReturning	0
+小过	SmallExceeding	0
+既济	AlreadyFording	0
+未济	NotYetFording	0
+
+# ARRL Numbered Radiogram
+Everyone safe here. Please don't worry.	ONE	0
+Coming home as soon as possible.	TWO	0
+Am in _____ hospital. Receiving excellent care and recovering fine.	THREE	0
+Only slight property damage here. Do not be concerned about disaster reports.	FOUR	0
+Am moving to new location. Send no further mail or communication. Will inform you of new address when relocated.	FIVE	0
+Will contact you as soon as possible.	SIX	0
+Please reply by Amateur Radio through the amateur delivering this message. This is a free public service.	SEVEN	0
+Need additional _____ mobile or portable equipment for immediate emergency use.	EIGHT	0
+Additional _____ radio operators needed to assist with emergency at this location.	NINE	0
+Please contact _____. Advise to standby and provide further emergency information, instructions or assistance.	TEN	0
+Establish Amateur Radio emergency communications with _____ on _____ MHz.	ELEVEN	0
+Anxious to hear from you. No word in some time. Please contact me as soon as possible.	TWELVE	0
+Medical emergency situation exists here.	THIRTEEN	0
+Situation here becoming critical. Losses and damage from _____ increasing.	FOURTEEN	0
+Please advise your condition and what help is needed.	FIFTEEN	0
+Property damage very severe in this area.	SIXTEEN	0
+REACT communications services also available. Establish REACT communication with _____ on channel _____.	SEVENTEEN	0
+Please contact me as soon as possible at _______.	EIGHTEEN	0
+Request health and welfare report on _____. (State name, address and telephone number.)	NINETEEN	0
+Temporarily stranded. Will need some assistance. Please contact me at _____.	TWENTY	0
+Search and Rescue assistance is needed by local authorities here. Advise availability.	TWENTYONE	0
+Need accurate information on the extent and type of conditions now existing at your location. Please furnish this information and reply without delay.	TWENTYTWO	0
+Report at once the accessibility and best way to reach your location.	TWENTYTHREE	0
+Evacuation of residents from this area urgently needed. Advise plans for help.	TWENTYFOUR	0
+Furnish as soon as possible the weather conditions at your location.	TWENTYFIVE	0
+Help and care for evacuation of sick and injured from this location needed at once.	TWENTYSIX	0
+Greetings on your birthday and best wishes for many more to come.	FORTYSIX	0
+Reference your message number _____ to _____ delivered on _____ at _____ UTC.	FORTYSEVEN	0
+Greetings by Amateur Radio.	FIFTY	0
+Greetings by Amateur Radio. This message is sent as a free public service by ham radio operators at _______. Am having a wonderful time.	FIFTYONE	0
+Really enjoyed being with you. Looking forward to getting together again.	FIFTYTWO	0
+Received your _______. It's appreciated; many thanks.	FIFTYTHREE	0
+Many thanks for your good wishes.	FIFTYFOUR	0
+Good news is always welcome. Very delighted to hear about yours.	FIFTYFIVE	0
+Congratulations on your _______, a most worthy and deserved achievement.	FIFTYSIX	0
+Wish we could be together	FIFTYSEVEN	0
+Have a wonderful time. Let us know when you return.	FIFTYEIGHT	0
+Congratulations on the new arrival. Hope mother and child are well.	FIFTYNINE	0
+Wishing you the best of everything on _______.	SIXTY	0
+Wishing you a very Merry Christmas and a Happy New Year.	SIXTYONE	0
+Greetings and best wishes to you for a pleasant _______ holiday season.	SIXTYTWO	0
+Victory or defeat, our best wishes are with you. Hope you win.	SIXTYTHREE	0
+Arrived safely at _______.	SIXTYFOUR	0
+Arriving _______ on _______. Please arrange to meet me there.	SIXTYFIVE	0
+DX QSLs are on hand for you at the _______ QSL Bureau. Send _______ self addressed envelopes.	SIXTYSIX	0
+Your message number _______ undeliverable because of _______. Please advise.	SIXTYSEVEN	0
+Sorry to hear you are ill. Best wishes for a speedy recovery.	SIXTYEIGHT	0
+Welcome to the _______. We are glad to have you with us and hope you will enjoy the fun and fellowship of the organization.	SIXTYNINE	0
