@@ -1,7 +1,8 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.1.2
+# Ver: 1.1.3
 #
+# Note: The font settings in Weasel and Squirrel are different for font weight, so fallback is required.
 
 engines:
   processors:
@@ -158,7 +159,10 @@ zh_cn_simp:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans SC Regular'
+    font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    label_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    comment_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    inline_preedit: true
 
 zh_cn_trad:
   switches:
@@ -204,7 +208,10 @@ zh_cn_trad:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans SC Regular'
+    font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    label_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    comment_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    inline_preedit: true
 
 zh_tw:
   switches:
@@ -250,7 +257,10 @@ zh_tw:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans TC Regular'
+    font_face: 'Noto Sans TC:semi_light, Noto Sans TC-semi_light'
+    label_font_face: 'Noto Sans TC:semi_light, Noto Sans TC-semi_light'
+    comment_font_face: 'Noto Sans TC:semi_light, Noto Sans TC-semi_light'
+    inline_preedit: true
 
 zh_hk:
   switches:
@@ -296,4 +306,7 @@ zh_hk:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans HK Regular'
+    font_face: 'Noto Sans HK:semi_light, Noto Sans HK-semi_light'
+    label_font_face: 'Noto Sans HK:semi_light, Noto Sans HK-semi_light'
+    comment_font_face: 'Noto Sans HK:semi_light, Noto Sans HK-semi_light'
+    inline_preedit: true
