@@ -4,10 +4,7 @@
 #
 
 translator:
-  dictionary: daagornt.dict.wanxiang.base
-  packs:
-    - daagornt.dict.wanxiang.intelligence
-    - daagornt.dict.wanxiang.expansion
+  dictionary: daagornt.dict.wanxiang
   max_homophones: 5
   max_homographs: 5
 

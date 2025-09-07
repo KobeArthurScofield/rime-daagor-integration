@@ -4,10 +4,8 @@
 #
 
 translator:
-  dictionary: daagornt.dict.wanxiang.base
+  dictionary: daagornt.dict.wanxiang
   packs:
-    - daagornt.dict.wanxiang.intelligence
-    - daagornt.dict.wanxiang.expansion
     # Requires https://github.com/suiginko/moetype
     - tone_moe.dict.yaml
   max_homophones: 5
