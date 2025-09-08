@@ -792,6 +792,1210 @@ Zurich	Z	4
 ㏾	ZZY	2
 世	ZZY	2
 
+# Big Chinese number
+零	Nt0	6
+壹	Nt1	6
+貳	Nt2	6
+參	Nt3	6
+肆	Nt4	6
+伍	Nt5	6
+陸	Nt6	6
+柒	Nt7	6
+捌	Nt8	6
+玖	Nt9	6
+拾	Nt10	6
+佰	Nt102	6
+仟	Nt103	6
+萬	Nt104	6
+億	Nt108	6
+兆	Nt112	6
+京	Nt116	6
+垓	Nt120	6
+秭	Nt124	6
+穰	Nt128	6
+溝	Nt132	6
+澗	Nt136	6
+正	Nt140	6
+載	Nt144	6
+念	Nt20	6
+參拾	Nt30	6
+肆拾	Nt20	6
+貳佰	Nt200	6
+零	Ns0	6
+壹	Ns1	6
+贰	Ns2	6
+叁	Ns3	6
+肆	Ns4	6
+伍	Ns5	6
+陆	Ns6	6
+柒	Ns7	6
+捌	Ns8	6
+玖	Ns9	6
+拾	Ns10	6
+佰	Ns102	6
+仟	Ns103	6
+萬	Ns104	6
+億	Ns108	6
+兆	Ns112	6
+京	Ns116	6
+垓	Ns120	6
+秭	Ns124	6
+穰	Ns128	6
+沟	Ns132	6
+涧	Ns136	6
+正	Ns140	6
+载	Ns144	6
+念	Ns20	6
+叁拾	Ns30	6
+肆拾	Ns20	6
+贰佰	Ns200	6
+
+# Communication Chinese number
+洞	Nc0	6
+么	Nc1	6
+幺	Nc1	6
+兩	Nc2	6
+两	Nc2	6
+三	Nc3	6
+四	Nc4	6
+五	Nc5	6
+六	Nc6	6
+拐	Nc7	6
+八	Nc8	6
+勾	Nc9	6
+
+# Soutseu Number
+〡	Nf01	6
+〢	Nf02	6
+〣	Nf03	6
+〤	Nf04	6
+〥	Nf05	6
+〦	Nf06	6
+〧	Nf07	6
+〨	Nf08	6
+〩	Nf09	6
+〸	Nf10	6
+〹	Nf20	6
+〺	Nf30	6
+
+# Month
+㋀	Jan	2
+㋁	Feb	2
+㋂	Mar	2
+㋃	Apr	2
+㋄	May	2
+㋅	Jun	2
+㋆	Jul	2
+㋇	Aug	2
+㋈	Sep	2
+㋉	Oct	2
+㋊	Nov	2
+㋋	Dec	2
+一月	Jan	3
+二月	Feb	3
+三月	Mar	3
+四月	Apr	3
+五月	May	3
+六月	Jun	3
+七月	Jul	3
+八月	Aug	3
+九月	Sep	3
+十月	Oct	3
+十一月	Nov	3
+十二月	Dec	3
+
+# Weekday
+月	Mon	6
+火	Tue	6
+水	Wed	6
+木	Thu	6
+金	Fri	6
+土	Sat	6
+日	Sun	6
+日曜月	Mon	8
+日曜火	Tue	8
+日曜水	Wed	8
+日曜木	Thu	8
+日曜金	Fri	8
+日曜土	Sat	8
+日曜日	Sun	8
+㊊	Mon	6
+㊋	Tue	6
+㊌	Wed	6
+㊍	Thu	6
+㊎	Fri	6
+㊏	Sat	6
+㊐	Sun	6
+㈪	Mon	6
+㈫	Tue	6
+㈬	Wed	6
+㈭	Thu	6
+㈮	Fri	6
+㈯	Sat	6
+㈰	Sun	6
+星期一	Mon	8
+星期二	Tue	8
+星期三	Wed	8
+星期四	Thu	8
+星期五	Fri	8
+星期六	Sat	8
+星期日	Sun	8
+周一	Mon	8
+周二	Tue	8
+周三	Wed	8
+周四	Thu	8
+周五	Fri	8
+周六	Sat	8
+周日	Sun	8
+礼拜一	Mon	8
+礼拜二	Tue	8
+礼拜三	Wed	8
+礼拜四	Thu	8
+礼拜五	Fri	8
+礼拜六	Sat	8
+礼拜天	Sun	8
+
+# SPEMark
+㋀	M01	2
+㋁	M02	2
+㋂	M03	2
+㋃	M04	2
+㋄	M05	2
+㋅	M06	2
+㋆	M07	2
+㋇	M08	2
+㋈	M09	2
+㋉	M10	2
+㋊	M11	2
+㋋	M12	2
+一月	M01	8
+二月	M02	8
+三月	M03	8
+四月	M04	8
+五月	M05	8
+六月	M06	8
+七月	M07	8
+八月	M08	8
+九月	M09	8
+十月	M10	8
+十一月	M11	8
+十二月	M12	8
+Jan	M01	4
+Feb	M02	4
+Mar	M03	4
+Apr	M04	4
+May	M05	4
+Jun	M06	4
+Jul	M07	4
+Aug	M08	4
+Sep	M09	4
+Oct	M10	4
+Nov	M11	4
+Dec	M12	4
+January	M01	6
+February	M02	6
+March	M03	6
+April	M04	6
+May	M05	6
+June	M06	6
+July	M07	6
+August	M08	6
+September	M09	6
+October	M10	6
+November	M11	6
+December	M12	6
+㏠	D01	2
+㏡	D02	2
+㏢	D03	2
+㏣	D04	2
+㏤	D05	2
+㏥	D06	2
+㏦	D07	2
+㏧	D08	2
+㏨	D09	2
+㏩	D10	2
+㏪	D11	2
+㏫	D12	2
+㏬	D13	2
+㏭	D14	2
+㏮	D15	2
+㏯	D16	2
+㏰	D17	2
+㏱	D18	2
+㏲	D19	2
+㏳	D20	2
+㏴	D21	2
+㏵	D22	2
+㏶	D23	2
+㏷	D24	2
+㏸	D25	2
+㏹	D26	2
+㏺	D27	2
+㏻	D28	2
+㏼	D29	2
+㏽	D30	2
+㏾	D31	2
+1 日	D01	8
+2 日	D02	8
+3 日	D03	8
+4 日	D04	8
+5 日	D05	8
+6 日	D06	8
+7 日	D07	8
+8 日	D08	8
+9 日	D09	8
+10 日	D10	8
+11 日	D11	8
+12 日	D12	8
+13 日	D13	8
+14 日	D14	8
+15 日	D15	8
+16 日	D16	8
+17 日	D17	8
+18 日	D18	8
+19 日	D19	8
+20 日	D20	8
+21 日	D21	8
+22 日	D22	8
+23 日	D23	8
+24 日	D24	8
+25 日	D25	8
+26 日	D26	8
+27 日	D27	8
+28 日	D28	8
+29 日	D29	8
+30 日	D30	8
+31 日	D31	8
+一日	D01	6
+二日	D02	6
+三日	D03	6
+四日	D04	6
+五日	D05	6
+六日	D06	6
+七日	D07	6
+八日	D08	6
+九日	D09	6
+十日	D10	6
+十一日	D11	6
+十二日	D12	6
+十三日	D13	6
+十四日	D14	6
+十五日	D15	6
+十六日	D16	6
+十七日	D17	6
+十八日	D18	6
+十九日	D19	6
+二十日	D20	6
+二十一日	D21	6
+二十二日	D22	6
+二十三日	D23	6
+二十四日	D24	6
+二十五日	D25	6
+二十六日	D26	6
+二十七日	D27	6
+二十八日	D28	6
+二十九日	D29	6
+三十日	D30	6
+三十一日	D31	6
+月	W01	6
+火	W02	6
+水	W03	6
+木	W04	6
+金	W05	6
+土	W06	6
+日	W07	6
+日曜月	W01	8
+日曜火	W02	8
+日曜水	W03	8
+日曜木	W04	8
+日曜金	W05	8
+日曜土	W06	8
+日曜日	W07	8
+㊊	W01	2
+㊋	W02	2
+㊌	W03	2
+㊍	W04	2
+㊎	W05	2
+㊏	W06	2
+㊐	W07	2
+㈪	W01	2
+㈫	W02	2
+㈬	W03	2
+㈭	W04	2
+㈮	W05	2
+㈯	W06	2
+㈰	W07	2
+Mon	W01	6
+Tue	W02	6
+Wed	W03	6
+Thu	W04	6
+Fri	W05	6
+Sat	W06	6
+Sun	W07	6
+Monday	W01	6
+Tuesday	W02	6
+Wednesday	W03	6
+Thursday	W04	6
+Friday	W05	6
+Saturday	W06	6
+Sunday	W07	6
+星期一	W01	8
+星期二	W02	8
+星期三	W03	8
+星期四	W04	8
+星期五	W05	8
+星期六	W06	8
+星期日	W07	8
+周一	W01	8
+周二	W02	8
+周三	W03	8
+周四	W04	8
+周五	W05	8
+周六	W06	8
+周日	W07	8
+礼拜一	W01	8
+礼拜二	W02	8
+礼拜三	W03	8
+礼拜四	W04	8
+礼拜五	W05	8
+礼拜六	W06	8
+礼拜天	W07	8
+㍘	H00	2
+㍙	H01	2
+㍚	H02	2
+㍛	H03	2
+㍜	H04	2
+㍝	H05	2
+㍞	H06	2
+㍟	H07	2
+㍠	H08	2
+㍡	H09	2
+㍢	H10	2
+㍣	H11	2
+㍤	H12	2
+㍥	H13	2
+㍦	H14	2
+㍧	H15	2
+㍨	H16	2
+㍩	H17	2
+㍪	H18	2
+㍫	H19	2
+㍬	H20	2
+㍭	H21	2
+㍮	H22	2
+㍯	H23	2
+㍰	H24	2
+0 点	H00	8
+1 点	H01	8
+2 点	H02	8
+3 点	H03	8
+4 点	H04	8
+5 点	H05	8
+6 点	H06	8
+7 点	H07	8
+8 点	H08	8
+9 点	H09	8
+10 点	H10	8
+11 点	H11	8
+12 点	H12	8
+13 点	H13	8
+14 点	H14	8
+15 点	H15	8
+16 点	H16	8
+17 点	H17	8
+18 点	H18	8
+19 点	H19	8
+20 点	H20	8
+21 点	H21	8
+22 点	H22	8
+23 点	H23	8
+24 点	H24	8
+0 时	H00	8
+1 时	H01	8
+2 时	H02	8
+3 时	H03	8
+4 时	H04	8
+5 时	H05	8
+6 时	H06	8
+7 时	H07	8
+8 时	H08	8
+9 时	H09	8
+10 时	H10	8
+11 时	H11	8
+12 时	H12	8
+13 时	H13	8
+14 时	H14	8
+15 时	H15	8
+16 时	H16	8
+17 时	H17	8
+18 时	H18	8
+19 时	H19	8
+20 时	H20	8
+21 时	H21	8
+22 时	H22	8
+23 时	H23	8
+24 时	H24	8
+0 時	H00	8
+1 時	H01	8
+2 時	H02	8
+3 時	H03	8
+4 時	H04	8
+5 時	H05	8
+6 時	H06	8
+7 時	H07	8
+8 時	H08	8
+9 時	H09	8
+10 時	H10	8
+11 時	H11	8
+12 時	H12	8
+13 時	H13	8
+14 時	H14	8
+15 時	H15	8
+16 時	H16	8
+17 時	H17	8
+18 時	H18	8
+19 時	H19	8
+20 時	H20	8
+21 時	H21	8
+22 時	H22	8
+23 時	H23	8
+24 時	H24	8
+零点	H00	6
+一点	H01	6
+二点	H02	6
+三点	H03	6
+四点	H04	6
+五点	H05	6
+六点	H06	6
+七点	H07	6
+八点	H08	6
+九点	H09	6
+十点	H10	6
+十一点	H11	6
+十二点	H12	6
+十三点	H13	6
+十四点	H14	6
+十五点	H15	6
+十六点	H16	6
+十七点	H17	6
+十八点	H18	6
+十九点	H19	6
+二十点	H20	6
+二十一点	H21	6
+二十二点	H22	6
+二十三点	H23	6
+二十四点	H24	6
+零时	H00	6
+一时	H01	6
+二时	H02	6
+三时	H03	6
+四时	H04	6
+五时	H05	6
+六时	H06	6
+七时	H07	6
+八时	H08	6
+九时	H09	6
+十时	H10	6
+十一时	H11	6
+十二时	H12	6
+十三时	H13	6
+十四时	H14	6
+十五时	H15	6
+十六时	H16	6
+十七时	H17	6
+十八时	H18	6
+十九时	H19	6
+二十时	H20	6
+二十一时	H21	6
+二十二时	H22	6
+二十三时	H23	6
+二十四时	H24	6
+零時	H00	6
+一時	H01	6
+二時	H02	6
+三時	H03	6
+四時	H04	6
+五時	H05	6
+六時	H06	6
+七時	H07	6
+八時	H08	6
+九時	H09	6
+十時	H10	6
+十一時	H11	6
+十二時	H12	6
+十三時	H13	6
+十四時	H14	6
+十五時	H15	6
+十六時	H16	6
+十七時	H17	6
+十八時	H18	6
+十九時	H19	6
+二十時	H20	6
+二十一時	H21	6
+二十二時	H22	6
+二十三時	H23	6
+二十四時	H24	6
+
+# Solar Term
+立春	SpringCommences	8
+雨水	RainWater	8
+驚蟄	InsectsWaken	8
+惊蛰	InsectsWaken	8
+春分	VernalEquinox	8
+清明	BrightAndClear	8
+穀雨	CornRain	8
+谷雨	CornRain	8
+立夏	SummerCommences	8
+小滿	CornForms	8
+小满	CornForms	8
+芒種	CornOnEar	8
+芒种	CornOnEar	8
+夏至	SummerSolstice	8
+小暑	ModerateHeat	8
+大暑	GreatHeat	8
+立秋	AutumnCommences	8
+處暑	EndOfHeat	8
+处暑	EndOfHeat	8
+白露	WhiteDew	8
+秋分	AutumnalEquinox	8
+寒露	ColdDew	8
+霜降	Frost	8
+立冬	WinterCommences	8
+小雪	LightSnow	8
+大雪	HeavySnow	8
+冬至	WinterSolstice	8
+小寒	ModerateCold	8
+大寒	SevereCold	8
+
+# Heavenly Stems, Earthly Branches, and Sexagenary cycles
+甲	HE1	8
+乙	HE2	8
+丙	HE3	8
+丁	HE4	8
+戊	HE5	8
+己	HE6	8
+庚	HE7	8
+辛	HE8	8
+壬	HE9	8
+癸	HE0	8
+子	EA01	8
+丑	EA02	8
+寅	EA03	8
+卯	EA04	8
+辰	EA05	8
+巳	EA06	8
+午	EA07	8
+未	EA08	8
+申	EA09	8
+酉	EA10	8
+戌	EA11	8
+亥	EA12	8
+甲子	SEG01	8
+乙丑	SEG02	8
+丙寅	SEG03	8
+丁卯	SEG04	8
+戊辰	SEG05	8
+己巳	SEG06	8
+庚午	SEG07	8
+辛未	SEG08	8
+壬申	SEG09	8
+癸酉	SEG10	8
+甲戌	SEG11	8
+乙亥	SEG12	8
+丙子	SEG13	8
+丁丑	SEG14	8
+戊寅	SEG15	8
+己卯	SEG16	8
+庚辰	SEG17	8
+辛巳	SEG18	8
+壬午	SEG19	8
+癸未	SEG20	8
+甲申	SEG21	8
+乙酉	SEG22	8
+丙戌	SEG23	8
+丁亥	SEG24	8
+戊子	SEG25	8
+己丑	SEG26	8
+庚寅	SEG27	8
+辛卯	SEG28	8
+壬辰	SEG29	8
+癸巳	SEG30	8
+甲午	SEG31	8
+乙未	SEG32	8
+丙申	SEG33	8
+丁酉	SEG34	8
+戊戌	SEG35	8
+己亥	SEG36	8
+庚子	SEG37	8
+辛丑	SEG38	8
+壬寅	SEG39	8
+癸卯	SEG40	8
+甲辰	SEG41	8
+乙巳	SEG42	8
+丙午	SEG43	8
+丁未	SEG44	8
+戊申	SEG45	8
+己酉	SEG46	8
+庚戌	SEG47	8
+辛亥	SEG48	8
+壬子	SEG49	8
+癸丑	SEG50	8
+甲寅	SEG51	8
+乙卯	SEG52	8
+丙辰	SEG53	8
+丁巳	SEG54	8
+戊午	SEG55	8
+己未	SEG56	8
+庚申	SEG57	8
+辛酉	SEG58	8
+壬戌	SEG59	8
+癸亥	SEG60	8
+
+# Chinese Lunar Calendar
+正月	CLM01	8
+二月	CLM02	8
+三月	CLM03	8
+四月	CLM04	8
+五月	CLM05	8
+六月	CLM06	8
+七月	CLM07	8
+八月	CLM08	8
+九月	CLM09	8
+十月	CLM10	8
+冬月	CLM11	8
+腊月	CLM12	8
+闰正月	CLML01	8
+闰二月	CLML02	8
+闰三月	CLML03	8
+闰四月	CLML04	8
+闰五月	CLML05	8
+闰六月	CLML06	8
+闰七月	CLML07	8
+闰八月	CLML08	8
+闰九月	CLML09	8
+闰十月	CLML10	8
+闰冬月	CLML11	8
+闰腊月	CLML12	8
+臘月	CLM12	8
+閏正月	CLML01	8
+閏二月	CLML02	8
+閏三月	CLML03	8
+閏四月	CLML04	8
+閏五月	CLML05	8
+閏六月	CLML06	8
+閏七月	CLML07	8
+閏八月	CLML08	8
+閏九月	CLML09	8
+閏十月	CLML10	8
+閏冬月	CLML11	8
+閏臘月	CLML12	8
+初一	CLD01	8
+初二	CLD02	8
+初三	CLD03	8
+初四	CLD04	8
+初五	CLD05	8
+初六	CLD06	8
+初七	CLD07	8
+初八	CLD08	8
+初九	CLD09	8
+初十	CLD10	8
+十一	CLD11	8
+十二	CLD12	8
+十三	CLD13	8
+十四	CLD14	8
+十五	CLD15	8
+十六	CLD16	8
+十七	CLD17	8
+十八	CLD18	8
+十九	CLD19	8
+二十	CLD20	8
+廿一	CLD21	8
+廿二	CLD22	8
+廿三	CLD23	8
+廿四	CLD24	8
+廿五	CLD25	8
+廿六	CLD26	8
+廿七	CLD27	8
+廿八	CLD28	8
+廿九	CLD29	8
+三十	CLD30	8
+
+# Chinese zodiacs
+鼠	Rat	8
+牛	Ox	8
+虎	Tiger	8
+兔	Rabbit	8
+龙	Dragon	8
+蛇	Snake	8
+马	Horse	8
+羊	Goat	8
+猴	Monkey	8
+鸡	Rooster	8
+狗	Dog	8
+猪	Pig	8
+
+# Mysterious contents (Sexagenary cycle Year/Month/Day)
+甲子年	SEY01	8
+乙丑年	SEY02	8
+丙寅年	SEY03	8
+丁卯年	SEY04	8
+戊辰年	SEY05	8
+己巳年	SEY06	8
+庚午年	SEY07	8
+辛未年	SEY08	8
+壬申年	SEY09	8
+癸酉年	SEY10	8
+甲戌年	SEY11	8
+乙亥年	SEY12	8
+丙子年	SEY13	8
+丁丑年	SEY14	8
+戊寅年	SEY15	8
+己卯年	SEY16	8
+庚辰年	SEY17	8
+辛巳年	SEY18	8
+壬午年	SEY19	8
+癸未年	SEY20	8
+甲申年	SEY21	8
+乙酉年	SEY22	8
+丙戌年	SEY23	8
+丁亥年	SEY24	8
+戊子年	SEY25	8
+己丑年	SEY26	8
+庚寅年	SEY27	8
+辛卯年	SEY28	8
+壬辰年	SEY29	8
+癸巳年	SEY30	8
+甲午年	SEY31	8
+乙未年	SEY32	8
+丙申年	SEY33	8
+丁酉年	SEY34	8
+戊戌年	SEY35	8
+己亥年	SEY36	8
+庚子年	SEY37	8
+辛丑年	SEY38	8
+壬寅年	SEY39	8
+癸卯年	SEY40	8
+甲辰年	SEY41	8
+乙巳年	SEY42	8
+丙午年	SEY43	8
+丁未年	SEY44	8
+戊申年	SEY45	8
+己酉年	SEY46	8
+庚戌年	SEY47	8
+辛亥年	SEY48	8
+壬子年	SEY49	8
+癸丑年	SEY50	8
+甲寅年	SEY51	8
+乙卯年	SEY52	8
+丙辰年	SEY53	8
+丁巳年	SEY54	8
+戊午年	SEY55	8
+己未年	SEY56	8
+庚申年	SEY57	8
+辛酉年	SEY58	8
+壬戌年	SEY59	8
+癸亥年	SEY60	8
+寅月	SEM01	8
+卯月	SEM02	8
+辰月	SEM03	8
+巳月	SEM04	8
+午月	SEM05	8
+未月	SEM06	8
+申月	SEM07	8
+酉月	SEM08	8
+戌月	SEM09	8
+亥月	SEM10	8
+子月	SEM11	8
+丑月	SEM12	8
+丙寅月	SEM01	6
+丁卯月	SEM02	6
+戊辰月	SEM03	6
+己巳月	SEM04	6
+庚午月	SEM05	6
+辛未月	SEM06	6
+壬申月	SEM07	6
+癸酉月	SEM08	6
+甲戌月	SEM09	6
+乙亥月	SEM10	6
+丙子月	SEM11	6
+丁丑月	SEM12	6
+戊寅月	SEM01	6
+己卯月	SEM02	6
+庚辰月	SEM03	6
+辛巳月	SEM04	6
+壬午月	SEM05	6
+癸未月	SEM06	6
+甲申月	SEM07	6
+乙酉月	SEM08	6
+丙戌月	SEM09	6
+丁亥月	SEM10	6
+戊子月	SEM11	6
+己丑月	SEM12	6
+庚寅月	SEM01	6
+辛卯月	SEM02	6
+壬辰月	SEM03	6
+癸巳月	SEM04	6
+甲午月	SEM05	6
+乙未月	SEM06	6
+丙申月	SEM07	6
+丁酉月	SEM08	6
+戊戌月	SEM09	6
+己亥月	SEM10	6
+庚子月	SEM11	6
+辛丑月	SEM12	6
+壬寅月	SEM01	6
+癸卯月	SEM02	6
+甲辰月	SEM03	6
+乙巳月	SEM04	6
+丙午月	SEM05	6
+丁未月	SEM06	6
+戊申月	SEM07	6
+己酉月	SEM08	6
+庚戌月	SEM09	6
+辛亥月	SEM10	6
+壬子月	SEM11	6
+癸丑月	SEM12	6
+甲寅月	SEM01	6
+乙卯月	SEM02	6
+丙辰月	SEM03	6
+丁巳月	SEM04	6
+戊午月	SEM05	6
+己未月	SEM06	6
+庚申月	SEM07	6
+辛酉月	SEM08	6
+壬戌月	SEM09	6
+癸亥月	SEM10	6
+甲子月	SEM11	6
+乙丑月	SEM12	6
+建寅	SEM01	4
+建卯	SEM02	4
+建辰	SEM03	4
+建巳	SEM04	4
+建午	SEM05	4
+建未	SEM06	4
+建申	SEM07	4
+建酉	SEM08	4
+建戌	SEM09	4
+建亥	SEM10	4
+建子	SEM11	4
+建丑	SEM12	4
+甲子日	SED01	8
+乙丑日	SED02	8
+丙寅日	SED03	8
+丁卯日	SED04	8
+戊辰日	SED05	8
+己巳日	SED06	8
+庚午日	SED07	8
+辛未日	SED08	8
+壬申日	SED09	8
+癸酉日	SED10	8
+甲戌日	SED11	8
+乙亥日	SED12	8
+丙子日	SED13	8
+丁丑日	SED14	8
+戊寅日	SED15	8
+己卯日	SED16	8
+庚辰日	SED17	8
+辛巳日	SED18	8
+壬午日	SED19	8
+癸未日	SED20	8
+甲申日	SED21	8
+乙酉日	SED22	8
+丙戌日	SED23	8
+丁亥日	SED24	8
+戊子日	SED25	8
+己丑日	SED26	8
+庚寅日	SED27	8
+辛卯日	SED28	8
+壬辰日	SED29	8
+癸巳日	SED30	8
+甲午日	SED31	8
+乙未日	SED32	8
+丙申日	SED33	8
+丁酉日	SED34	8
+戊戌日	SED35	8
+己亥日	SED36	8
+庚子日	SED37	8
+辛丑日	SED38	8
+壬寅日	SED39	8
+癸卯日	SED40	8
+甲辰日	SED41	8
+乙巳日	SED42	8
+丙午日	SED43	8
+丁未日	SED44	8
+戊申日	SED45	8
+己酉日	SED46	8
+庚戌日	SED47	8
+辛亥日	SED48	8
+壬子日	SED49	8
+癸丑日	SED50	8
+甲寅日	SED51	8
+乙卯日	SED52	8
+丙辰日	SED53	8
+丁巳日	SED54	8
+戊午日	SED55	8
+己未日	SED56	8
+庚申日	SED57	8
+辛酉日	SED58	8
+壬戌日	SED59	8
+癸亥日	SED60	8
+甲子年	EAY01	8
+乙丑年	EAY02	8
+丙寅年	EAY03	8
+丁卯年	EAY04	8
+戊辰年	EAY05	8
+己巳年	EAY06	8
+庚午年	EAY07	8
+辛未年	EAY08	8
+壬申年	EAY09	8
+癸酉年	EAY10	8
+甲戌年	EAY11	8
+乙亥年	EAY12	8
+丙子年	EAY01	8
+丁丑年	EAY02	8
+戊寅年	EAY03	8
+己卯年	EAY04	8
+庚辰年	EAY05	8
+辛巳年	EAY06	8
+壬午年	EAY07	8
+癸未年	EAY08	8
+甲申年	EAY09	8
+乙酉年	EAY10	8
+丙戌年	EAY11	8
+丁亥年	EAY12	8
+戊子年	EAY01	8
+己丑年	EAY02	8
+庚寅年	EAY03	8
+辛卯年	EAY04	8
+壬辰年	EAY05	8
+癸巳年	EAY06	8
+甲午年	EAY07	8
+乙未年	EAY08	8
+丙申年	EAY09	8
+丁酉年	EAY10	8
+戊戌年	EAY11	8
+己亥年	EAY12	8
+庚子年	EAY01	8
+辛丑年	EAY02	8
+壬寅年	EAY03	8
+癸卯年	EAY04	8
+甲辰年	EAY05	8
+乙巳年	EAY06	8
+丙午年	EAY07	8
+丁未年	EAY08	8
+戊申年	EAY09	8
+己酉年	EAY10	8
+庚戌年	EAY11	8
+辛亥年	EAY12	8
+壬子年	EAY01	8
+癸丑年	EAY02	8
+甲寅年	EAY03	8
+乙卯年	EAY04	8
+丙辰年	EAY05	8
+丁巳年	EAY06	8
+戊午年	EAY07	8
+己未年	EAY08	8
+庚申年	EAY09	8
+辛酉年	EAY10	8
+壬戌年	EAY11	8
+癸亥年	EAY12	8
+鼠年	EAY01	6
+牛年	EAY02	6
+虎年	EAY03	6
+兔年	EAY04	6
+龙年	EAY05	6
+蛇年	EAY06	6
+马年	EAY07	6
+羊年	EAY08	6
+猴年	EAY09	6
+鸡年	EAY10	6
+狗年	EAY11	6
+猪年	EAY12	6
+子時	SEH01	8
+丑時	SEH02	8
+寅時	SEH03	8
+卯時	SEH04	8
+辰時	SEH05	8
+巳時	SEH06	8
+午時	SEH07	8
+未時	SEH08	8
+申時	SEH09	8
+酉時	SEH10	8
+戌時	SEH11	8
+亥時	SEH12	8
+甲子時	SEH01	6
+乙丑時	SEH02	6
+丙寅時	SEH03	6
+丁卯時	SEH04	6
+戊辰時	SEH05	6
+己巳時	SEH06	6
+庚午時	SEH07	6
+辛未時	SEH08	6
+壬申時	SEH09	6
+癸酉時	SEH10	6
+甲戌時	SEH11	6
+乙亥時	SEH12	6
+丙子時	SEH01	6
+丁丑時	SEH02	6
+戊寅時	SEH03	6
+己卯時	SEH04	6
+庚辰時	SEH05	6
+辛巳時	SEH06	6
+壬午時	SEH07	6
+癸未時	SEH08	6
+甲申時	SEH09	6
+乙酉時	SEH10	6
+丙戌時	SEH11	6
+丁亥時	SEH12	6
+戊子時	SEH01	6
+己丑時	SEH02	6
+庚寅時	SEH03	6
+辛卯時	SEH04	6
+壬辰時	SEH05	6
+癸巳時	SEH06	6
+甲午時	SEH07	6
+乙未時	SEH08	6
+丙申時	SEH09	6
+丁酉時	SEH10	6
+戊戌時	SEH11	6
+己亥時	SEH12	6
+庚子時	SEH01	6
+辛丑時	SEH02	6
+壬寅時	SEH03	6
+癸卯時	SEH04	6
+甲辰時	SEH05	6
+乙巳時	SEH06	6
+丙午時	SEH07	6
+丁未時	SEH08	6
+戊申時	SEH09	6
+己酉時	SEH10	6
+庚戌時	SEH11	6
+辛亥時	SEH12	6
+壬子時	SEH01	6
+癸丑時	SEH02	6
+甲寅時	SEH03	6
+乙卯時	SEH04	6
+丙辰時	SEH05	6
+丁巳時	SEH06	6
+戊午時	SEH07	6
+己未時	SEH08	6
+庚申時	SEH09	6
+辛酉時	SEH10	6
+壬戌時	SEH11	6
+癸亥時	SEH12	6
+子时	SEH01	8
+丑时	SEH02	8
+寅时	SEH03	8
+卯时	SEH04	8
+辰时	SEH05	8
+巳时	SEH06	8
+午时	SEH07	8
+未时	SEH08	8
+申时	SEH09	8
+酉时	SEH10	8
+戌时	SEH11	8
+亥时	SEH12	8
+甲子时	SEH01	6
+乙丑时	SEH02	6
+丙寅时	SEH03	6
+丁卯时	SEH04	6
+戊辰时	SEH05	6
+己巳时	SEH06	6
+庚午时	SEH07	6
+辛未时	SEH08	6
+壬申时	SEH09	6
+癸酉时	SEH10	6
+甲戌时	SEH11	6
+乙亥时	SEH12	6
+丙子时	SEH01	6
+丁丑时	SEH02	6
+戊寅时	SEH03	6
+己卯时	SEH04	6
+庚辰时	SEH05	6
+辛巳时	SEH06	6
+壬午时	SEH07	6
+癸未时	SEH08	6
+甲申时	SEH09	6
+乙酉时	SEH10	6
+丙戌时	SEH11	6
+丁亥时	SEH12	6
+戊子时	SEH01	6
+己丑时	SEH02	6
+庚寅时	SEH03	6
+辛卯时	SEH04	6
+壬辰时	SEH05	6
+癸巳时	SEH06	6
+甲午时	SEH07	6
+乙未时	SEH08	6
+丙申时	SEH09	6
+丁酉时	SEH10	6
+戊戌时	SEH11	6
+己亥时	SEH12	6
+庚子时	SEH01	6
+辛丑时	SEH02	6
+壬寅时	SEH03	6
+癸卯时	SEH04	6
+甲辰时	SEH05	6
+乙巳时	SEH06	6
+丙午时	SEH07	6
+丁未时	SEH08	6
+戊申时	SEH09	6
+己酉时	SEH10	6
+庚戌时	SEH11	6
+辛亥时	SEH12	6
+壬子时	SEH01	6
+癸丑时	SEH02	6
+甲寅时	SEH03	6
+乙卯时	SEH04	6
+丙辰时	SEH05	6
+丁巳时	SEH06	6
+戊午时	SEH07	6
+己未时	SEH08	6
+庚申时	SEH09	6
+辛酉时	SEH10	6
+壬戌时	SEH11	6
+癸亥时	SEH12	6
+子初	SEHB01	8
+丑初	SEHB02	8
+寅初	SEHB03	8
+卯初	SEHB04	8
+辰初	SEHB05	8
+巳初	SEHB06	8
+午初	SEHB07	8
+未初	SEHB08	8
+申初	SEHB09	8
+酉初	SEHB10	8
+戌初	SEHB11	8
+亥初	SEHB12	8
+子正	SEHM01	8
+丑正	SEHM02	8
+寅正	SEHM03	8
+卯正	SEHM04	8
+辰正	SEHM05	8
+巳正	SEHM06	8
+午正	SEHM07	8
+未正	SEHM08	8
+申正	SEHM09	8
+酉正	SEHM10	8
+戌正	SEHM11	8
+亥正	SEHM12	8
+初初刻	SEQ1	8
+初一刻	SEQ2	8
+初二刻	SEQ3	8
+初三刻	SEQ4	8
+正初刻	SEQ5	8
+正一刻	SEQ6	8
+正二刻	SEQ7	8
+正三刻	SEQ8	8
+初初刻	SEQ01	8
+初一刻	SEQ02	8
+初二刻	SEQ03	8
+初三刻	SEQ04	8
+正初刻	SEQ11	8
+正一刻	SEQ12	8
+正二刻	SEQ13	8
+正三刻	SEQ14	8
+
 # Telegram communication
 All after	AA	10
 Call signs are to be abbreviated until further notice.	AA	10
