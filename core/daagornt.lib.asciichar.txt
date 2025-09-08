@@ -1,21 +1,12 @@
-# Rime dict
+# Rime table
 # coding: utf-8
+#@db/db_name	daagornt.lib.asciichar
+#@db/db_type	tabledb
 #
 # 西文字符
 # 該西文字符對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
 # 在此處使用的編碼為何則實際使用時輸入相應編碼即可。
 #
-
----
-name: "daagornt.lib.asciichar"
-version: "stb"
-sort: by_weight
-use_preset_vocabulary: false
-columns:
-  - text
-  - code
-  - weight
-...
 
 # 希腊字母
 Α	alpha	1

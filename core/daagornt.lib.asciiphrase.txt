@@ -8,17 +8,6 @@
 # 在此處使用的編碼為何則實際使用時輸入相應編碼即可。
 #
 
----
-name: "daagornt.lib.asciiphrase"
-version: "stb"
-sort: by_weight
-use_preset_vocabulary: false
-columns:
-  - text
-  - code
-  - weight
-...
-
 # 现代汉语词典第七版
 # 该区段只允许更改词频、纠错及跟进新版词典修订
 # 如有补充必须加至其它区段

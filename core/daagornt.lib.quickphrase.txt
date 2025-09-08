@@ -1,0 +1,1709 @@
+# Rime table
+# coding: utf-8
+#@db/db_name	daagornt.lib.quickphrase
+#@db/db_type	tabledb
+#
+# 快速短語
+# 該快速短語對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
+# 在此處使用的編碼為何則實際使用時輸入相應編碼即可。
+#
+
+# NATO Alphabet
+Able	A	4
+Adam	A	4
+Alfa	A	4
+Alpha	A4
+Amsterdam	A	4
+Ana	A	4
+Argentine	A	4
+Baker	B	4
+Baltimore	B	4
+Beta	B	4
+Bravo	B	4
+Brazil	B	4
+Brussels	B	4
+Canada	C	4
+Casablanca	C	4
+Charlie	C	4
+Coca	C	4
+Coco	C	4
+Dado	D	4
+Damascus	D	4
+Danemark	D	4
+David	D	4
+Delta	D	4
+Denmark	D	4
+Dog	D	4
+Easy	E	4
+Echo	E	4
+Ecuador	E	4
+Eddystone	E	4
+Edison	E	4
+Edward	E	4
+Elsa	E	4
+Equis	X	4
+eXtra	X	4
+Fiesta	F	4
+Florida	F	4
+Fox	F	4
+Foxtrot	F	4
+France	F	4
+Francisco	F	4
+Freedie	F	4
+Gallipoli	G	4
+Gato	G	4
+George	G	4
+Gibraltar	G	4
+Gold	G	4
+Golf	G	4
+Greece	G	4
+Hanover	H	4
+Harry	H	4
+Havana	H	4
+Hombre	H	4
+Hotel	H	4
+How	H	4
+Ida	I	4
+India	I	4
+Italia	I	4
+Italy	I	4
+Item	I	4
+Japan	J	4
+Jerusalem	J	4
+Jig	J	4
+John	J	4
+Juliet	J	4
+Juliett	J	4
+Julietta	J	4
+Julio	J	4
+Khartoum	K	4
+Kilo	K	4
+Kilogramme	K	4
+Kimberley	K	4
+King	K	4
+Lewis	L	4
+Lima	L	4
+Liverpool	L	4
+Love	L	4
+Luis	L	4
+Madagascar	M	4
+Madrid	M	4
+Mama	M	4
+Mary	M	4
+Metro	M	4
+Mike	M	4
+Nan	N	4
+Nancy	N	4
+Nectar	N	4
+Neufchatel	N	4
+New York	N	4
+Nickel	N	4
+Norma	N	4
+November	N	4
+Oboe	O	4
+Ontario	O	4
+Opera	O	4
+Oscar	O	4
+Oslo	O	4
+Ostend	O	4
+Otto	O	4
+Papa	P	4
+Paris	P	4
+Peru	P	4
+Peter	P	4
+Polka	P	4
+Portugal	P	4
+Quebec	Q	4
+Queen	Q	4
+Rivoli	R	4
+Robert	R	4
+Roger	R	4
+Roma	R	4
+Rome	R	4
+Romeo	R	4
+Rosa	R	4
+Sail	S	4
+Santiago	S	4
+Sara	S	4
+Sardinia	S	4
+Sierra	S	4
+Sugar	S	4
+Susan	S	4
+Tango	T	4
+Tare	T	4
+Thomas	T	4
+Tokio	T	4
+Tomas	T	4
+Tripoli	T	4
+Uncle	U	4
+Uniform	U	4
+Union	U	4
+Upsala	U	4
+Uruguay	U	4
+Valencia	V	4
+Victor	V	4
+Victoria	V	4
+Washington	W	4
+Whiskey	W	4
+Whisky	W	4
+William	W	4
+X-ray	X	4
+Xaintrie	X	4
+Xanthippe	X	4
+Xantippe	X	4
+Yankee	Y	4
+Yankey	Y	4
+Yoke	Y	4
+Yokohama	Y	4
+Yolanda	Y	4
+Young	Y	4
+Zanzibar	Z	4
+Zebra	Z	4
+Zeta	Z	4
+Zulu	Z	4
+Zululand	Z	4
+Zurich	Z	4
+
+# I-Ching/Bagua/Hexagram
+⚊	Yang	8
+阳	Yang	8
+陽	Yang	8
+⚋	Yin	8
+阴	Yin	8
+陰	Yin	8
+⚎	ShaoYang	8
+少阳	ShaoYang	8
+少陽	ShaoYang	8
+⚍	ShaoYin	8
+少阴	ShaoYin	8
+少陰	ShaoYin	8
+⚌	TaiYang	8
+太阳	TaiYang	8
+太陽	TaiYang	8
+⚏	TaiYin	8
+太阴	TaiYin	8
+太陰	TaiYin	8
+☱	Dui	8
+兌	Dui	8
+兑	Dui	8
+☶	Gen	8
+艮	Gen	8
+☵	Kan	8
+坎	Kan	8
+☷	Kun	8
+坤	Kun	8
+☲	Li	8
+离	Li	8
+離	Li	8
+☰	Qian	8
+乾	Qian	8
+☴	Xun	8
+巽	Xun	8
+☳	Zhen	8
+震	Zhen	8
+䷶	Abounding	8
+丰	Abounding	8
+豐	Abounding	8
+䷕	Adorning	8
+賁	Adorning	8
+贲	Adorning	8
+䷾	AlreadyFording	8
+既济	AlreadyFording	8
+既濟	AlreadyFording	8
+䷅	Arguing	8
+訟	Arguing	8
+讼	Arguing	8
+䷻	Articulating	8
+節	Articulating	8
+节	Articulating	8
+䷭	Ascending	8
+升	Ascending	8
+䷄	Attending	8
+需	Attending	8
+䷩	Augmenting	8
+益	Augmenting	8
+䷳	Bound	8
+艮	Bound	8
+䷼	CenterReturning	8
+中孚	CenterReturning	8
+䷬	Clustering	8
+萃	Clustering	8
+䷌	ConcordingPeople	8
+同人	ConcordingPeople	8
+䷮	Confining	8
+困	Confining	8
+䷞	Conjoining	8
+咸	Conjoining	8
+䷵	ConvertingtheMaiden	8
+归妹	ConvertingtheMaiden	8
+歸妹	ConvertingtheMaiden	8
+䷑	Correcting	8
+蛊	Correcting	8
+蠱	Correcting	8
+䷫	Coupling	8
+姤	Coupling	8
+䷣	DarkeningoftheLight	8
+明夷	DarkeningoftheLight	8
+䷨	Diminishing	8
+损	Diminishing	8
+損	Diminishing	8
+䷺	Dispersing	8
+涣	Dispersing	8
+渙	Dispersing	8
+䷪	Displacement	8
+夬	Displacement	8
+䷤	DwellingPeople	8
+家人	DwellingPeople	8
+䷃	Enveloping	8
+蒙	Enveloping	8
+䷁	Field	8
+坤	Field	8
+䷐	Following	8
+随	Following	8
+隨	Following	8
+䷀	Force	8
+乾	Force	8
+䷔	GnawingBite	8
+噬嗑	GnawingBite	8
+䷜	Gorge	8
+坎	Gorge	8
+䷙	GreatAccumulating	8
+大畜	GreatAccumulating	8
+䷛	GreatExceeding	8
+大过	GreatExceeding	8
+大過	GreatExceeding	8
+䷡	GreatInvigorating	8
+大壮	GreatInvigorating	8
+大壯	GreatInvigorating	8
+䷍	GreatPossessing	8
+大有	GreatPossessing	8
+䷸	Ground	8
+巽	Ground	8
+䷇	Grouping	8
+比	Grouping	8
+䷱	Holding	8
+鼎	Holding	8
+䷎	Humbling	8
+謙	Humbling	8
+谦	Humbling	8
+䷴	Infiltrating	8
+渐	Infiltrating	8
+漸	Infiltrating	8
+䷆	Leading	8
+师	Leading	8
+師	Leading	8
+䷦	Limping	8
+蹇	Limping	8
+䷒	Nearing	8
+临	Nearing	8
+臨	Nearing	8
+䷿	NotYetFording	8
+未济	NotYetFording	8
+未濟	NotYetFording	8
+䷋	Obstruction	8
+否	Obstruction	8
+䷹	Open	8
+兌	Open	8
+兑	Open	8
+䷟	Persevering	8
+恆	Persevering	8
+恒	Persevering	8
+䷊	Pervading	8
+泰	Pervading	8
+䷥	Polarising	8
+睽	Polarising	8
+䷢	Prospering	8
+晉	Prospering	8
+晋	Prospering	8
+䷏	ProvidingFor	8
+豫	ProvidingFor	8
+䷝	Radiance	8
+离	Radiance	8
+離	Radiance	8
+䷠	Retiring	8
+遯	Retiring	8
+䷗	Returning	8
+复	Returning	8
+復	Returning	8
+䷲	Shake	8
+震	Shake	8
+䷰	Skinning	8
+革	Skinning	8
+䷈	SmallAccumulating	8
+小畜	SmallAccumulating	8
+䷽	SmallExceeding	8
+小过	SmallExceeding	8
+小過	SmallExceeding	8
+䷷	Sojourning	8
+旅	Sojourning	8
+䷂	Sprouting	8
+屯	Sprouting	8
+䷖	Stripping	8
+剝	Stripping	8
+剥	Stripping	8
+䷚	Swallowing	8
+頤	Swallowing	8
+颐	Swallowing	8
+䷧	TakingApart	8
+解	TakingApart	8
+䷉	Treading	8
+履	Treading	8
+䷓	Viewing	8
+觀	Viewing	8
+观	Viewing	8
+䷯	Welling	8
+井	Welling	8
+䷘	WithoutEmbroiling	8
+无妄	WithoutEmbroiling	8
+
+# Rhyme Day
+东	GRI	4
+东	TD2639	4
+東	GRI	4
+東	TD2639	4
+先	AND	4
+先	TD0341	4
+冬	APC	4
+冬	TD0392	4
+萧	OVL	4
+萧	TD5618	4
+蕭	OVL	4
+蕭	TD5618	4
+江	ICJ	4
+江	TD3068	4
+肴	ODJ	4
+肴	TD5149	4
+支	FUJ	4
+支	TD2388	4
+豪	QYS	4
+豪	TD6275	4
+微	ELD	4
+微	TD1792	4
+歌	HVO	4
+歌	TD2960	4
+魚	UTO	4
+魚	TD7625	4
+鱼	UTO	4
+鱼	TD7625	4
+麻	VAK	4
+麻	TD7802	4
+虞	OZC	4
+虞	TD5713	4
+阳	UAF	4
+阳	TD7122	4
+陽	UAF	4
+陽	TD7122	4
+庚	EFQ	4
+庚	TD1649	4
+齊	VGO	4
+齊	TD7871	4
+齐	VGO	4
+齐	TD7871	4
+佳	AGH	4
+佳	TD0163	4
+青	UEJ	4
+青	TD7230	4
+灰	ITA	4
+灰	TD3500	4
+蒸	OSP	4
+蒸	TD5544	4
+尤	DUB	4
+尤	TD1429	4
+眞	KUS	4
+眞	TD4176	4
+真	KUS	4
+真	TD4176	4
+侵	AHF	4
+侵	TD0187	4
+文	FYG	4
+文	TD2429	4
+元	AMZ	4
+元	TD0337	4
+覃	PZI	4
+覃	TD6009	4
+寒	DOL	4
+寒	TD1383	4
+盐	UZE	4
+盐	TD7770	4
+鹽	UZE	4
+鹽	TD7770	4
+删	ARC	4
+删	TD0444	4
+刪	ARC	4
+刪	TD0444	4
+咸	BGA	4
+咸	TD0752	4
+諫	QOM	4
+諫	TD6169	4
+谏	QOM	4
+谏	TD6169	4
+銑	TEM	4
+銑	TD6897	4
+铣	TEM	4
+铣	TD6897	4
+篠	MMU	4
+篠	TD4646	4
+霰	UDS	4
+霰	TD7213	4
+啸	BUA	4
+啸	TD0876	4
+嘯	BUA	4
+嘯	TD0876	4
+巧	ECI	4
+巧	TD1564	4
+效	FUV	4
+效	TD2400	4
+皓	KOI	4
+皓	TD4110	4
+号	OZD	4
+号	TD5714	4
+號	OZD	4
+號	TD5714	4
+哿	BIM	4
+哿	TD0776	4
+个	MIO	4
+个	TD4612	4
+箇	MIO	4
+箇	TD4612	4
+馬	UNB	4
+馬	TD7456	4
+马	UNB	4
+马	TD7456	4
+养	YYA	4
+养	TD9502	4
+養	YYA	4
+養	TD9502	4
+祃	LOX	4
+祃	TD4401	4
+禡	LOX	4
+禡	TD4401	4
+梗	HAI	4
+梗	TD2739	4
+漾	INT	4
+漾	TD3363	4
+敬	FXA	4
+敬	TD2417	4
+迥	SDY	4
+迥	TD6608	4
+径	EKO	4
+径	TD1777	4
+徑	EKO	4
+徑	TD1777	4
+有	GMI	4
+有	TD2589	4
+宥	DLY	4
+宥	TD1359	4
+寝	DOU	4
+寝	TD1392	4
+寢	DOU	4
+寢	TD1392	4
+感	ERE	4
+感	TD1949	4
+沁	ICZ	4
+沁	TD3084	4
+俭	AMB	4
+俭	TD0313	4
+儉	AMB	4
+儉	TD0313	4
+勘	AUC	4
+勘	TD0522	4
+艳	QYK	4
+艳	TD6267	4
+豔	QYK	4
+豔	TD6267	4
+豏	QYL	4
+豏	TD6268	4
+陷	UAC	4
+陷	TD7119	4
+世	AAN	4
+世	TD0013	4
+
+# Date and Time
+㍘	TD9800	6
+㍙	TD9801	6
+㍚	TD9802	6
+㍛	TD9803	6
+㍜	TD9804	6
+㍝	TD9805	6
+㍞	TD9806	6
+㍟	TD9807	6
+㍠	TD9808	6
+㍡	TD9809	6
+㍢	TD9810	6
+㍣	TD9811	6
+㍤	TD9812	6
+㍥	TD9813	6
+㍦	TD9814	6
+㍧	TD9815	6
+㍨	TD9816	6
+㍩	TD9817	6
+㍪	TD9818	6
+㍫	TD9819	6
+㍬	TD9820	6
+㍭	TD9821	6
+㍮	TD9822	6
+㍯	TD9823	6
+㍰	TD9824	6
+㏠	TD9901	6
+东	TD9901	6
+東	TD9901	6
+先	TD9901	6
+㏡	TD9902	6
+冬	TD9902	6
+萧	TD9902	6
+蕭	TD9902	6
+㏢	TD9903	6
+江	TD9903	6
+肴	TD9903	6
+㏣	TD9904	6
+支	TD9904	6
+豪	TD9904	6
+㏤	TD9905	6
+微	TD9905	6
+歌	TD9905	6
+㏥	TD9906	6
+魚	TD9906	6
+鱼	TD9906	6
+麻	TD9906	6
+㏦	TD9907	6
+虞	TD9907	6
+阳	TD9907	6
+陽	TD9907	6
+㏧	TD9908	6
+庚	TD9908	6
+齊	TD9908	6
+齐	TD9908	6
+㏨	TD9909	6
+佳	TD9909	6
+青	TD9909	6
+㏩	TD9910	6
+灰	TD9910	6
+蒸	TD9910	6
+㏪	TD9911	6
+尤	TD9911	6
+眞	TD9911	6
+真	TD9911	6
+㏫	TD9912	6
+侵	TD9912	6
+文	TD9912	6
+㏬	TD9913	6
+元	TD9913	6
+覃	TD9913	6
+㏭	TD9914	6
+寒	TD9914	6
+盐	TD9914	6
+鹽	TD9914	6
+㏮	TD9915	6
+删	TD9915	6
+刪	TD9915	6
+咸	TD9915	6
+㏯	TD9916	6
+諫	TD9916	6
+谏	TD9916	6
+銑	TD9916	6
+铣	TD9916	6
+㏰	TD9917	6
+篠	TD9917	6
+霰	TD9917	6
+㏱	TD9918	6
+啸	TD9918	6
+嘯	TD9918	6
+巧	TD9918	6
+㏲	TD9919	6
+效	TD9919	6
+皓	TD9919	6
+㏳	TD9920	6
+号	TD9920	6
+號	TD9920	6
+哿	TD9920	6
+㏴	TD9921	6
+个	TD9921	6
+箇	TD9921	6
+馬	TD9921	6
+马	TD9921	6
+㏵	TD9922	6
+养	TD9922	6
+養	TD9922	6
+祃	TD9922	6
+禡	TD9922	6
+㏶	TD9923	6
+梗	TD9923	6
+漾	TD9923	6
+㏷	TD9924	6
+敬	TD9924	6
+迥	TD9924	6
+㏸	TD9925	6
+径	TD9925	6
+徑	TD9925	6
+有	TD9925	6
+㏹	TD9926	6
+宥	TD9926	6
+寝	TD9926	6
+寢	TD9926	6
+㏺	TD9927	6
+感	TD9927	6
+沁	TD9927	6
+㏻	TD9928	6
+俭	TD9928	6
+儉	TD9928	6
+勘	TD9928	6
+㏼	TD9929	6
+艳	TD9929	6
+豔	TD9929	6
+豏	TD9929	6
+㏽	TD9930	6
+陷	TD9930	6
+㏾	TD9931	6
+世	TD9931	6
+㍘	ZTO	2
+㍙	ZTU	2
+㍚	ZTY	2
+㍛	ZUA	2
+㍜	ZUB	2
+㍝	ZUC	2
+㍞	ZUD	2
+㍟	ZUE	2
+㍠	ZUF	2
+㍡	ZUG	2
+㍢	ZUH	2
+㍣	ZUI	2
+㍤	ZUJ	2
+㍥	ZUK	2
+㍦	ZUL	2
+㍧	ZUM	2
+㍨	ZUN	2
+㍩	ZUO	2
+㍪	ZUP	2
+㍫	ZUQ	2
+㍬	ZUR	2
+㍭	ZUS	2
+㍮	ZUT	2
+㍯	ZUU	2
+㍰	ZUV	2
+㏠	ZYB	2
+东	ZYB	2
+東	ZYB	2
+先	ZYB	2
+㏡	ZYC	2
+冬	ZYC	2
+萧	ZYC	2
+蕭	ZYC	2
+㏢	ZYD	2
+江	ZYD	2
+肴	ZYD	2
+㏣	ZYE	2
+支	ZYE	2
+豪	ZYE	2
+㏤	ZYF	2
+微	ZYF	2
+歌	ZYF	2
+㏥	ZYG	2
+魚	ZYG	2
+鱼	ZYG	2
+麻	ZYG	2
+㏦	ZYH	2
+虞	ZYH	2
+阳	ZYH	2
+陽	ZYH	2
+㏧	ZYI	2
+庚	ZYI	2
+齊	ZYI	2
+齐	ZYI	2
+㏨	ZYJ	2
+佳	ZYJ	2
+青	ZYJ	2
+㏩	ZYK	2
+灰	ZYK	2
+蒸	ZYK	2
+㏪	ZYL	2
+尤	ZYL	2
+眞	ZYL	2
+真	ZYL	2
+㏫	ZYM	2
+侵	ZYM	2
+文	ZYM	2
+㏬	ZYN	2
+元	ZYN	2
+覃	ZYN	2
+㏭	ZYO	2
+寒	ZYO	2
+盐	ZYO	2
+鹽	ZYO	2
+㏮	ZYP	2
+删	ZYP	2
+刪	ZYP	2
+咸	ZYP	2
+㏯	ZYQ	2
+諫	ZYQ	2
+谏	ZYQ	2
+銑	ZYQ	2
+铣	ZYQ	2
+㏰	ZYR	2
+篠	ZYR	2
+霰	ZYR	2
+㏱	ZYS	2
+啸	ZYS	2
+嘯	ZYS	2
+巧	ZYS	2
+㏲	ZYT	2
+效	ZYT	2
+皓	ZYT	2
+㏳	ZYU	2
+号	ZYU	2
+號	ZYU	2
+哿	ZYU	2
+㏴	ZYV	2
+个	ZYV	2
+箇	ZYV	2
+馬	ZYV	2
+马	ZYV	2
+㏵	ZYW	2
+养	ZYW	2
+養	ZYW	2
+祃	ZYW	2
+禡	ZYW	2
+㏶	ZYX	2
+梗	ZYX	2
+漾	ZYX	2
+㏷	ZYY	2
+敬	ZYY	2
+迥	ZYY	2
+㏸	ZYZ	2
+径	ZYZ	2
+徑	ZYZ	2
+有	ZYZ	2
+㏹	ZZA	2
+宥	ZZA	2
+寝	ZZA	2
+寢	ZZA	2
+㏺	ZZE	2
+感	ZZE	2
+沁	ZZE	2
+㏻	ZZI	2
+俭	ZZI	2
+儉	ZZI	2
+勘	ZZI	2
+㏼	ZZO	2
+艳	ZZO	2
+豔	ZZO	2
+豏	ZZO	2
+㏽	ZZU	2
+陷	ZZU	2
+㏾	ZZY	2
+世	ZZY	2
+
+# Telegram communication
+All after	AA	10
+Call signs are to be abbreviated until further notice.	AA	10
+The identity of the station with whom I am attempting to establish communication is unknown.	AA	10
+The portion of the message to which I have reference is all that follows	AA	10
+UNKNOWN STATION	AA	10
+以后	AA	10
+以後	AA	10
+本句完，接下一句	AAA	10
+我有消息发送	AAAAA	10
+我有訊息傳送	AAAAA	10
+All before	AB	10
+The portion of the message to which I have reference is all that precedes	AB	10
+之前	AB	10
+About	ABT	10
+大約	ABT	10
+大约	ABT	10
+Address	ADS	10
+位址	ADS	10
+地址	ADS	10
+Again	AGN	10
+再一次	AGN	10
+Antenna	ANT	10
+天線	ANT	10
+天线	ANT	10
+End of message.	AR	10
+End of transmission.	AR	10
+OUT	AR	10
+This is the end of my transmission to you and no answer is required or expected.	AR	10
+消息结束	AR	10
+訊息結束	AR	10
+American Radio Relay League	ARRL	10
+美国无线电中继联盟	ARRL	10
+美國無線電中繼聯盟	ARRL	10
+I am engaged in a contact with another station; please wait quietly.	AS	10
+I must pause for a few minutes.	AS	10
+I must pause for a few seconds	AS	10
+WAIT	AS	10
+等待	AS	10
+I must pause for longer than a few seconds.	ASAR	10
+I must pause for more than a few minutes.	ASAR	10
+WAIT OUT	ASAR	10
+Transmitting station has additional traffic for the receiving station.	B	10
+BREAK-IN	BK	10
+Break	BK	10
+All between	BN	10
+The portion of the message to which I refer is all that falls between	BN	10
+之間	BN	10
+之间	BN	10
+BREAK	BT	10
+I hereby indicate the separation of the text from other portions of the message	BT	10
+Start new section of message.	BT	10
+分隔符	BT	10
+Semiautomatic key	BUG	10
+半自动电键	BUG	10
+半自動電鍵	BUG	10
+AFFIRMATIVE	C	10
+An error has been made in this transmission. The correct version is	C	10
+CONFIRM	C	10
+CORRECT	C	10
+That which follows has been verified at your request and is repeated.	C	10
+That which follows is a corrected version in answer to your request for verification	C	10
+YES	C	10
+好	C	10
+是	C	10
+Callbook address	CBA	10
+呼号手册	CBA	10
+呼號手冊	CBA	10
+CONFIRM	CFM	10
+I ACKNOWLEDGE	CFM	10
+确认	CFM	10
+確認	CFM	10
+Check	CK	10
+CLOSING	CL	10
+Calling	CLG	10
+呼叫	CLG	10
+CALLING FOR	CP	10
+Calling several stations	CP	10
+General call to any station	CQ	10
+呼叫任意台站	CQ	10
+All stations: Distress	CQD	10
+所有电台：紧急情况	CQD	10
+所有電台：緊急情況	CQD	10
+Calling station	CS	10
+See you Later	CUL	10
+再見	CUL	10
+再见	CUL	10
+Because	CUZ	10
+因为	CUZ	10
+因為	CUZ	10
+Continuous wave	CW	10
+连续波	CW	10
+連續波	CW	10
+Conditions	CX	10
+状况	CX	10
+狀況	CX	10
+Copy	CY	10
+抄收	CY	10
+From	DE	10
+This transmission is from the station whose designator immediately follows.	DE	10
+來自	DE	10
+来自	DE	10
+Distance	DX	10
+Long distance	DX	10
+距离	DX	10
+距離	DX	10
+Receipt sign	EEEEE	10
+An error has been made in this transmission. Transmission will continue with the last word correctly transmitted.	EEEEEEEE	10
+This transmission is in error, disregard it.	EEEEEEEEAR	10
+And	ES	10
+also	ES	10
+且	ES	10
+和	ES	10
+Stations called are not to answer this call, receipt for this message, or otherwise transmit in connection with this transmission.	F	10
+Fine business	FB	10
+Good	FB	10
+确定	FB	10
+確定	FB	10
+For	FER	10
+为了	FER	10
+為了	FER	10
+From	FM	10
+Frequency	FREQ	10
+頻率	FREQ	10
+频率	FREQ	10
+Forward 	FWD	10
+Repeat this entire transmission back to me exactly as received	G	10
+Go ahead	GA	10
+Good afternoon	GA	10
+午安	GA	10
+請發報	GA	10
+请发报	GA	10
+Good evening	GE	10
+晚安	GE	10
+Good morning	GM	10
+早安	GM	10
+Ground	GND	10
+ground potential	GND	10
+地电位	GND	10
+地電位	GND	10
+地面	GND	10
+This message contains the number of groups indicated by the numeral following.	GR	10
+The groups in this message have not been counted.	GRNC	10
+Good	GUD	10
+好	GUD	10
+CORRECTION	HH	10
+Preceding text was in error. The following is the corrected text.	HH	10
+有錯，從上一字重新開始	HH	10
+有错，从上一字重新开始	HH	10
+DISREGARD THIS TRANSMISSION OUT	HHAR	10
+The entire message just sent is in error, disregard it.	HHAR	10
+Laughter	HI	10
+笑	HI	10
+Cease transmissions on this net immediately. Silence will be maintained until lifted.	HMHMHM	10
+Here	HR	10
+这里	HR	10
+這裡	HR	10
+Have	HV	10
+有	HV	10
+Error	II	10
+I repeat	II	10
+I say again	II	10
+Separative sign break	II	10
+同样	II	10
+同樣	II	10
+I am repeating transmission or portion indicated.	IMI	10
+Repeat all of your last transmission.	IMI	10
+請重覆你的電碼，我不是很明白	IMI	10
+请重复你的电码，我不是很明白	IMI	10
+information	INFO	10
+INTERROGATIVE	INT	10
+The following is my response to your instructions to read back	IRB	10
+Action on the message or signal following is to be carried out on receipt of the EXECUTE.	IX	10
+Action on the message or signal that follows is to be carried out upon receipt of the proword EXECUTE.	IX	10
+Verify entire message with the originator and send correct version.	J	10
+I am ready to receive your message	K	10
+OVER	K	10
+This is the end of my transmission to you and a response is necessary. Go ahead, transmit	K	10
+report	K	10
+我已准备好，请开始发送消息	K	10
+我已準備好，請開始傳送訊息	K	10
+ATTENTION	KA	10
+Over to you	KN	10
+Lid	LID	10
+Poor operator	LID	10
+覆盖	LID	10
+覆蓋	LID	10
+Milliamperes	MILS	10
+毫安培	MILS	10
+Best regards + Love and kisses	MN161	10
+Finished	MN30	10
+No more	MN30	10
+This is the end	MN30	10
+Best regards	MN72	10
+Best regards	MN73	10
+致敬	MN73	10
+Derogatory term for a disliked operator	MN75	10
+Long Live CW, wishing you many happy CW contacts	MN77	10
+Love and kisses	MN88	10
+吻別	MN88	10
+Get lost!	MN99	10
+走开	MN99	10
+走開	MN99	10
+Message	MSG	10
+NEGATIVE	N	10
+NO	N	10
+I have nothing to send you 	NIL	10
+NOTHING HEARD	NIL	10
+Nothing	NIL	10
+无收信	NIL	10
+無收信	NIL	10
+空白	NIL	10
+Answering sign	NNNNN	10
+Dropped.	NNNNN	10
+Number	NR	10
+第	NR	10
+編號	NR	10
+编号	NR	10
+Precedence IMMEDIATE	O	10
+Old boy	OB	10
+老大哥	OB	10
+Old chap	OC	10
+老伙計	OC	10
+Okay 	OK	10
+Old man	OM	10
+前輩	OM	10
+前辈	OM	10
+Official Observer	OO	10
+官方觀察員	OO	10
+官方观察员	OO	10
+Out Of Order	OOO	10
+錯誤	OOO	10
+错误	OOO	10
+Old old timers club	OOTC	10
+資深老手俱樂部	OOTC	10
+资深老手俱乐部	OOTC	10
+Operator	OP	10
+操作员	OP	10
+操作員	OP	10
+Old timer	OT	10
+老前輩	OT	10
+老前辈	OT	10
+Old timers club	OTC	10
+老手俱乐部	OTC	10
+老手俱樂部	OTC	10
+Precedence PRIORITY	P	10
+Please	PLS	10
+Paper 	PPR	10
+Please	PSE	10
+請	PSE	10
+请	PSE	10
+Power	PWR	10
+功率	PWR	10
+Prefix	PX	10
+The call sign of my station is	QRA	10
+The name of my station is	QRA	10
+What is the call sign of your station	QRA	10
+What is the name of your station?	QRA	10
+你的电台名称是？	QRA	10
+你的電台名稱是？	QRA	10
+我的电台名称是	QRA	10
+我的電台名稱是	QRA	10
+你台离我台多远？	QRB	10
+你台離我台多遠？	QRB	10
+我们相距约为	QRB	10
+我們相距約為	QRB	10
+你到哪裡去，從哪裡來？	QRD	10
+你到哪里去，从哪里来？	QRD	10
+我到...去，从...来	QRD	10
+我到...去，從...來	QRD	10
+你預計何時到達...？	QRE	10
+你預計何時經過...？	QRE	10
+你预计何时到达...？	QRE	10
+你预计何时经过...？	QRE	10
+我預計到達...的時候是...	QRE	10
+我預計經過...的時候是...	QRE	10
+我预计到达...的时候是...	QRE	10
+我预计经过...的时候是...	QRE	10
+你是否正在返回...？	QRF	10
+我正在返回...	QRF	10
+Will you tell me my exact frequency?	QRG	10
+Your exact frequency is ____	QRG	10
+你的准确频率是...	QRG	10
+你的準確頻率是...	QRG	10
+我的准确频率是多少？	QRG	10
+我的準確頻率是多少？	QRG	10
+Does my frequency vary?	QRH	10
+Your frequency varies.	QRH	10
+你的頻率不穩定	QRH	10
+你的频率不稳定	QRH	10
+我的頻率穩定嗎？	QRH	10
+我的频率稳定吗？	QRH	10
+How is the tone of my transmission?	QRI	10
+我的音調如何？	QRI	10
+我的音调如何？	QRI	10
+The tone of your transmission is Good	QRI1	10
+你的音調是 T1	QRI1	10
+你的音调是 T1	QRI1	10
+The tone of your transmission is Variable	QRI2	10
+你的音調是 T2	QRI2	10
+你的音调是 T2	QRI2	10
+The tone of your transmission is Bad	QRI3	10
+你的音調是 T3	QRI3	10
+你的音调是 T3	QRI3	10
+你的音調是 T4	QRI4	10
+你的音调是 T4	QRI4	10
+你的音調是 T5	QRI5	10
+你的音调是 T5	QRI5	10
+你的音調是 T6	QRI6	10
+你的音调是 T6	QRI6	10
+你的音調是 T7	QRI7	10
+你的音调是 T7	QRI7	10
+你的音調是 T8	QRI8	10
+你的音调是 T8	QRI8	10
+你的音調是 T9	QRI9	10
+你的音调是 T9	QRI9	10
+How many voice contacts do you want to make?	QRJ	10
+I want to make ____ voice contacts.	QRJ	10
+你的信号小	QRJ	10
+你的信號小	QRJ	10
+我的信号小吗？	QRJ	10
+我的信號小嗎？	QRJ	10
+What is the readability of my signals?	QRK	10
+我的信号可辨度是多少？	QRK	10
+我的信號可辨度是多少？	QRK	10
+The readability of your signals is 1.	QRK1	10
+你的信号可辨度是 R1	QRK1	10
+你的信號可辨度是 R1	QRK1	10
+The readability of your signals is 2.	QRK2	10
+你的信号可辨度是 R2	QRK2	10
+你的信號可辨度是 R2	QRK2	10
+The readability of your signals is 3.	QRK3	10
+你的信号可辨度是 R3	QRK3	10
+你的信號可辨度是 R3	QRK3	10
+The readability of your signals is 4.	QRK4	10
+你的信号可辨度是 R4	QRK4	10
+你的信號可辨度是 R4	QRK4	10
+The readability of your signals is 5.	QRK5	10
+你的信号可辨度是 R5	QRK5	10
+你的信號可辨度是 R5	QRK5	10
+Are you busy?	QRL	10
+I am busy. Please do not interfere.	QRL	10
+你忙吗？	QRL	10
+你忙嗎？	QRL	10
+我正忙	QRL	10
+Do you have interference?	QRM	10
+I have interference.	QRM	10
+你受到他台干扰吗？	QRM	10
+你受到他台干擾嗎？	QRM	10
+我正受到他台无干扰	QRM1	10
+我正受到他台無干擾	QRM1	10
+我正受到他台稍有干扰	QRM2	10
+我正受到他台稍有干擾	QRM2	10
+我正受到他台中等干扰	QRM3	10
+我正受到他台中等干擾	QRM3	10
+我正受到他台严重干扰	QRM4	10
+我正受到他台嚴重干擾	QRM4	10
+我正受到他台极端干扰	QRM5	10
+我正受到他台極端干擾	QRM5	10
+Are you troubled by static?	QRN	10
+I am troubled by static.	QRN	10
+你受到天电干扰吗？	QRN	10
+你受到天電干擾嗎？	QRN	10
+我正受到天电无干扰	QRN1	10
+我正受到天電無干擾	QRN1	10
+我正受到天电干稍有扰	QRN2	10
+我正受到天電稍有干擾	QRN2	10
+我正受到天电中等干扰	QRN3	10
+我正受到天電中等干擾	QRN3	10
+我正受到天电严重干扰	QRN4	10
+我正受到天電嚴重干擾	QRN4	10
+我正受到天电极端干扰	QRN5	10
+我正受到天電極端干擾	QRN5	10
+Increase power.	QRO	10
+Shall I increase power?	QRO	10
+要我增加发信功率吗？	QRO	10
+要我增加發信功率嗎？	QRO	10
+請增加發信功率	QRO	10
+请增加发信功率	QRO	10
+Decrease power.	QRP	10
+Shall I decrease power?	QRP	10
+要我减低发信功率吗？	QRP	10
+要我減低發信功率嗎？	QRP	10
+請減低發信功率	QRP	10
+请减低发信功率	QRP	10
+Send faster.	QRQ	10
+Shall I send faster?	QRQ	10
+要我发得快些吗？	QRQ	10
+要我發得快些嗎？	QRQ	10
+請發快些	QRQ	10
+请发快些	QRQ	10
+你已經準備好使用自動操作了嗎？	QRR	10
+你已经准备好使用自动操作了吗？	QRR	10
+我已准备好使用自动操作	QRR	10
+我已準備好使用自動操作	QRR	10
+Send more slowly.	QRS	10
+Shall I send more slowly?	QRS	10
+Your transmission is too fast. Reduce speed of transmission.	QRS	10
+要我发得慢些吗？	QRS	10
+要我發得慢些嗎？	QRS	10
+請發慢些	QRS	10
+请发慢些	QRS	10
+Shall I stop sending?	QRT	10
+Stop sending.	QRT	10
+要我停止拍发吗？	QRT	10
+要我停止拍發嗎？	QRT	10
+請停止拍發	QRT	10
+请停止拍发	QRT	10
+Have you anything for me?	QRU	10
+I have messages for you.	QRU	10
+你有事吗？	QRU	10
+你有事嗎？	QRU	10
+无事	QRU	10
+無事	QRU	10
+Are you ready?	QRV	10
+I am ready.	QRV	10
+你准备好了吗？	QRV	10
+你準備好了嗎？	QRV	10
+我已准备好了	QRV	10
+我已準備好了	QRV	10
+Please inform ____ that I am calling on ____ .	QRW	10
+Shall I inform ____ that you are calling on ____ ?	QRW	10
+請轉告	QRW	10
+请转告	QRW	10
+需要我轉告嗎？	QRW	10
+需要我转告吗？	QRW	10
+I will call you again at ____ on ____	QRX	10
+Please standby	QRX	10
+Shall I standby?	QRX	10
+When will you call me again?	QRX	10
+要我等多長時間？	QRX	10
+要我等多长时间？	QRX	10
+請等待... ...分鐘	QRX	10
+请等待... ...分钟	QRX	10
+...正在...KHz/MHz上呼叫你	QRZ	10
+Who is calling me?	QRZ	10
+You are being called by ____ on ____	QRZ	10
+誰在呼叫我？	QRZ	10
+谁在呼叫我？	QRZ	10
+What is the strength of my signals?	QSA	10
+你的信号强度是	QSA	10
+你的信號強度是	QSA	10
+我的信号强度是多少？	QSA	10
+我的信號強度是多少？	QSA	10
+The strength of your signals is 1.	QSA1	10
+The strength of your signals is 2.	QSA2	10
+The strength of your signals is 3.	QSA3	10
+The strength of your signals is 4.	QSA4	10
+The strength of your signals is 5.	QSA5	10
+Are my signals fading?	QSB	10
+Your signals are fading.	QSB	10
+我的信号有衰落吗？	QSB	10
+我的信號有衰落嗎？	QSB	10
+你的信号强度是几乎不能抄收	QSB1	10
+你的信號強度是幾乎不能抄收	QSB1	10
+你的信号强度是弱	QSB2	10
+你的信號強度是弱	QSB2	10
+你的信号强度是还好	QSB3	10
+你的信號強度是還好	QSB3	10
+你的信号强度是好	QSB4	10
+你的信號強度是好	QSB4	10
+你的信号强度是很好	QSB5	10
+你的信號強度是很好	QSB5	10
+Is my keying defective?	QSD	10
+Your keying is defective.	QSD	10
+你的信号不完整	QSD	10
+你的信號不完整	QSD	10
+我的信号不完整吗?	QSD	10
+我的信號不完整嗎?	QSD	10
+Send ____ telegrams (messages) at a time.	QSG	10
+Shall I send ____ telegrams (messages) at a time?	QSG	10
+要我每次连发...份电报吗？	QSG	10
+要我每次連發...份電報嗎？	QSG	10
+請每次連發...份電報	QSG	10
+请每次连发...份电报	QSG	10
+在你发报时我未能插入	QSI	10
+在你發報時我未能插入	QSI	10
+Can you hear me between your signals?	QSK	10
+I can hear you between my signals.	QSK	10
+在你所发的信号中间能否收听到我？如果能，我能插入你的发送吗？	QSK	10
+在你所發的信號中間能否收聽到我？如果能，我能插入你的發送嗎？	QSK	10
+在我所发的信号中间能收听到你；你可以插入我的发送	QSK	10
+在我所發的信號中間能收聽到你；你可以插入我的發送	QSK	10
+An instruction to the addressee that the message must be acknowledged	QSL	10
+Can you acknowledge receipt?	QSL	10
+I will acknowledge receipt.	QSL	10
+你确认收妥？	QSL	10
+你確認收妥？	QSL	10
+我确认收妥	QSL	10
+我確認收妥	QSL	10
+Repeat the last message which you sent me (or message(s) numbers(s) ____ ).	QSM	10
+Shall I repeat the last message which I sent you, or some previous message?	QSM	10
+将你发给我的最末一份电报重发	QSM	10
+将你发给我的电报号数重发	QSM	10
+將你發給我的最末一份電報重發	QSM	10
+將你發給我的電報號數重發	QSM	10
+要我将发给你的以前的几份电报重发吗？	QSM	10
+要我将发给你的最末一份电报重发吗？	QSM	10
+要我將發給你的以前的幾份電報重發嗎？	QSM	10
+要我將發給你的最末一份電報重發嗎？	QSM	10
+Did you hear me on ____ ?	QSN	10
+I did hear you on ____ .	QSN	10
+你在...上听到我台吗？	QSN	10
+你在...上聽到我台嗎？	QSN	10
+我已在...上听到你台	QSN	10
+我已在...上聽到你台	QSN	10
+Can you communicate with ____ direct or by relay?	QSO	10
+I can communicate with ____ by relay through ____ .	QSO	10
+I can communicate with ____ direct.	QSO	10
+你能否和...直接通信？	QSO	10
+你能否和...轉接通信？	QSO	10
+你能和...直接通信？	QSO	10
+你能和...转接通信？	QSO	10
+I will relay a message to ____ .	QSP	10
+Will you relay a message to ____ ?	QSP	10
+你能中轉到...嗎？	QSP	10
+你能中转到...吗？	QSP	10
+我能中轉到...	QSP	10
+我能中转到...	QSP	10
+Do you want me to repeat my call?	QSR	10
+Please repeat your call; I did not hear you.	QSR	10
+I will use the working frequency ____ .	QSS	10
+What working frequency will you use?	QSS	10
+Here follows a broadcast message to all amateurs.	QST	10
+Should I repeat the prior message to all amateurs I contact?	QST	10
+Send or reply on this frequency.	QSU	10
+Shall I send or reply on this frequency?	QSU	10
+我将在此频率回复	QSU	10
+我將在此頻率回復	QSU	10
+能在这个频率回复吗？	QSU	10
+能在這個頻率回復嗎？	QSU	10
+有天电干扰要我在此频率发一串 V 字吗？	QSV	10
+有天電干擾要我在此頻率發一串 V 字嗎？	QSV	10
+請在此頻率發一串 V 字	QSV	10
+请在此频率发一串 V 字	QSV	10
+I am going to send on this frequency.	QSW	10
+Will you send on this frequency?	QSW	10
+你将在此频率发吗？	QSW	10
+你將在此頻率發嗎？	QSW	10
+我将在此频率发	QSW	10
+我將在此頻率發	QSW	10
+I am listening to ____ on ____ 	QSX	10
+Will you listen to ____ on ____ ?	QSX	10
+你将在某频率收听吗？	QSX	10
+你將在某頻率收聽嗎？	QSX	10
+我将在某频率收听	QSX	10
+我將在某頻率收聽	QSX	10
+Change to transmission on another frequency.	QSY	10
+Shall I change to transmission on another frequency?	QSY	10
+要我改用其他頻率拍發嗎？	QSY	10
+要我改用其他频率拍发吗？	QSY	10
+請改用...拍發	QSY	10
+请改用...拍发	QSY	10
+Communication is difficult. Transmit each phrase twice.	QSZ	10
+Send each word or group twice.	QSZ	10
+Shall I send each word or group more than once?	QSZ	10
+要我每組發兩遍嗎？	QSZ	10
+要我每组发两遍吗？	QSZ	10
+請每組發兩遍	QSZ	10
+请每组发两遍	QSZ	10
+Cancel message number ____ as if it had not been sent.	QTA	10
+Shall I cancel message number ____ as if it had not been sent?	QTA	10
+要我查对组数吗？	QTB	10
+要我查對組數嗎？	QTB	10
+請查對組數	QTB	10
+请查对组数	QTB	10
+How many messages have you to send?	QTC	10
+I have ____ messages for you.	QTC	10
+你有几份报要发？	QTC	10
+你有幾份報要發？	QTC	10
+我有...份報要發	QTC	10
+我有...份报要发	QTC	10
+My position is ____ latitude ____ longitude.	QTH	10
+What is your position in latitude and longitude?	QTH	10
+你的地理位置是？	QTH	10
+我的地理位置是...	QTH	10
+REQUEST TIME CHECK	QTR	10
+TIME IS	QTR	10
+The correct time is ____ hours UTC.	QTR	10
+Time-check request.	QTR	10
+What is the correct time?	QTR	10
+你的标准时间是？	QTR	10
+你的標準時間是？	QTR	10
+我的标准时间是...	QTR	10
+我的標準時間是...	QTR	10
+At what times are you operating?	QTU	10
+I am operating from ____ to ____ hours.	QTU	10
+I will keep my station open for further communication with you until further notice.	QTX	10
+Will you keep your station open for further communication with me until further notice?	QTX	10
+Have you news of ____ ?	QUA	10
+Here is news of ____ .	QUA	10
+The number (or other indication) of the last message I received from you is ____.	QUC	10
+What is the number of the last message you received from me ?	QUC	10
+Have you received the urgency signal sent by ____ ?	QUD	10
+I have received the urgency signal sent by ____ at ____ hours.	QUD	10
+Can you speak in ____ – with interpreter if necessary – if so, on what frequencies?	QUE	10
+I can speak in ____ on ____ .	QUE	10
+Have you received the distress signal sent by ____ ?	QUF	10
+I have received the distress signal sent by ____ at ____ hours.	QUF	10
+Precedence ROUTINE.	R	10
+ROGER	R	10
+Received as transmitted	R	10
+This is a method of receipt. I have received your last transmission satisfactorily.	R	10
+消息已收到	R	10
+訊息已收到	R	10
+Receiver	RCVR	10
+接收机	RCVR	10
+接收機	RCVR	10
+I repeat as follows	RPT	10
+Repeat please	RPT	10
+Report	RPT	10
+報告	RPT	10
+报告	RPT	10
+重复	RPT	10
+重複	RPT	10
+Further message sign	RRRRR	10
+Readability (1-5) / Strength (1-9) / Noise (1-9)	RSN	10
+Signal report format	RST	10
+信号报告格式	RST	10
+訊號報告格式	RST	10
+Radioteletype	RTTY	10
+无线电传	RTTY	10
+無線電傳	RTTY	10
+Receive 	RX	10
+接收	RX	10
+Said	SED	10
+說	SED	10
+说	SED	10
+Says	SEZ	10
+說	SEZ	10
+说	SEZ	10
+So far	SFR	10
+Signal	SIG	10
+Signature	SIG	10
+信号	SIG	10
+訊號	SIG	10
+Signals	SIGS	10
+信号	SIGS	10
+訊號	SIGS	10
+End of work	SK	10
+Frequency no longer in use	SK	10
+Line is now free	SK	10
+Out	SK	10
+Silent Key	SK	10
+联系结束	SK	10
+聯絡結束	SK	10
+Schedule	SKED	10
+行程表	SKED	10
+Soon	SN	10
+很快	SN	10
+我将重新发送最后一个单词	SN	10
+我將重新傳送最後一個單詞	SN	10
+Save Our Souls	SOS	10
+求救	SOS	10
+求救信号	SOS	10
+求救訊號	SOS	10
+Sorry	SRI	10
+抱歉	SRI	10
+Station	STN	10
+台站	STN	10
+The message that follows is a SERVICE message	SVC	10
+Please	SVP	10
+Dollars	SX	10
+Transmit this message to all addressees	T	10
+字收到了	T	10
+Temperature	TEMP	10
+温度	TEMP	10
+溫度	TEMP	10
+Thank You 	THX	10
+Tomorrow	TMW	10
+明天	TMW	10
+Thanks	TNX	10
+謝謝	TNX	10
+谢谢	TNX	10
+The addressees immediately following are addressed for action	TO	10
+我正在接收你的消息	TTTTT	10
+我正在接收你的訊息	TTTTT	10
+Thank you	TU	10
+謝謝你	TU	10
+谢谢你	TU	10
+Transmit	TX	10
+发射	TX	10
+發射	TX	10
+You	U	10
+你	U	10
+You're	UR	10
+Your	UR	10
+你是	UR	10
+你的	UR	10
+Yours	URS	10
+你的	URS	10
+General call	VE	10
+Message is verified.	VE	10
+VERIFIED	VE	10
+Very	VY	10
+很	VY	10
+非常	VY	10
+The word of the message to which I have reference is that which follows	WA	10
+Word after 	WA	10
+The word of the message to which I have reference is that which precedes	WB	10
+Word before 	WB	10
+Will comply	WC	10
+Word	WD	10
+Words	WDS	10
+詞	WDS	10
+词	WDS	10
+Worked	WKD	10
+工作	WKD	10
+Well	WL	10
+Will	WL	10
+好	WL	10
+将会	WL	10
+將會	WL	10
+Would	WUD	10
+将会	WUD	10
+將會	WUD	10
+Weather	WX	10
+Weather report follows	WX	10
+天气	WX	10
+天氣	WX	10
+Transceiver	XCVR	10
+The station(s) immediately following is (are) exempted from the collective call or from collective address	XMT	10
+Transmitter	XMTR	10
+发射机	XMTR	10
+發射機	XMTR	10
+Former Young Lady	XYL	10
+Wife	XYL	10
+妻子	XYL	10
+Young lady	YL	10
+女報務員	YL	10
+女报务员	YL	10
+Precedence FLASH	Z	10
+Zulu time	Z	10
+貴臺未遵守網路紀律	ZAA	10
+贵台未遵守网络纪律	ZAA	10
+所收貴臺之通訊簡語不明瞭	ZAD1	10
+所收贵台之通讯简语不明了	ZAD1	10
+所收貴臺之通訊簡語未持有	ZAD2	10
+所收贵台之通讯简语未持有	ZAD2	10
+I am closing down due to	ZAL	10
+Work Simplex	ZAP1	10
+Work Duplex	ZAP2	10
+Work Diplex	ZAP3	10
+Work Multiplex	ZAP4	10
+Work Single sideband	ZAP5	10
+Work With automatic error correction system	ZAP6	10
+Work Without automatic error correction system	ZAP7	10
+Work With time and frequency diversity modem	ZAP8	10
+請於發報前做初次呼叫	ZBH	10
+请于发报前做初次呼叫	ZBH	10
+Are you receiving my traffic clear?	ZBK	10
+I am receiving your traffic clear	ZBK1	10
+I am receiving your traffic garbled	ZBK2	10
+Place a competent operator on this circuit	ZBM2	10
+A message that requires recording is about to follow.	ZBO	10
+优先等级	ZBO	10
+優先等級	ZBO	10
+Change to backup frequency ...	ZBW	10
+Measure of printability Garbled / unreadable	ZBZ1	10
+Measure of printability Poor	ZBZ2	10
+Measure of printability Moderate	ZBZ3	10
+Measure of printability Good	ZBZ4	10
+Measure of printability Perfect	ZBZ5	10
+遗漏	ZEP	10
+遺漏	ZEP	10
+練習電報	ZEU	10
+练习电报	ZEU	10
+An instruction to the addressee that the message must be acknowledged	ZEV	10
+抄电	ZEZ	10
+抄電	ZEZ	10
+按照字母順序發送	ZGB1	10
+按照字母顺序发送	ZGB1	10
+按照下列呼号之顺序发送	ZGB2	10
+按照下列呼號之順序發送	ZGB2	10
+To be used when no reply is received from a call station.	ZGN	10
+The station called is to answer after call sign........when answering transmissions.	ZGO	10
+本台将频率稍减以避免干扰	ZHA	10
+本台將頻率稍減以避免干擾	ZHA	10
+本台将频率稍增以避免干扰	ZHB	10
+本台將頻率稍增以避免干擾	ZHB	10
+本日(本次)最后一份电报	ZIC	10
+本日(本次)最後一份電報	ZIC	10
+日时组	ZII	10
+日時組	ZII	10
+I am assuming control of this net until further notice	ZKA	10
+本台为管制台	ZKA	10
+本台為管制台	ZKA	10
+From now until further notice this net is directed.	ZKB	10
+各台发报前须经管制台同意	ZKB	10
+各台發報前須經管制台同意	ZKB	10
+You will assume control of this net until further notice	ZKD	10
+本台接替管制台	ZKD	10
+報到入網	ZKE	10
+报到入网	ZKE	10
+報備離網	ZKF	10
+报备离网	ZKF	10
+Stations are to close down when indicated. Acknowledgments are required	ZKJ	10
+I cannot transmit pictures	ZLD2	10
+貴臺解譯之通報簡語有誤	ZNA1	10
+贵台解译之通报简语有误	ZNA1	10
+貴臺解譯之無線電呼號有誤	ZNA2	10
+贵台解译之无线电呼号有误	ZNA2	10
+貴臺解譯之地址組有誤	ZNA3	10
+贵台解译之地址组有误	ZNA3	10
+The group that follows is the reply to your challenge to authenticate	ZNB	10
+辨證因子	ZNB	10
+辨证因子	ZNB	10
+Relay your message through me	ZOE	10
+Transmit this message to all addressees	ZOF	10
+Relay your message through call sign	ZOK	10
+本台现在以最大功率发射	ZPE	10
+本台現在以最大功率發射	ZPE	10
+請將發射機調整至規定頻率	ZRC1	10
+请将发射机调整至规定频率	ZRC1	10
+All stations are to net their radios on the unmodulated carrier wave that I am about to transmit.	ZRC2	10
+請將發射機調整至與本台產生零差	ZRC2	10
+请将发射机调整至与本台产生零差	ZRC2	10
+Switch off IFF	ZSF1	10
+Switch off IFF sets for 10 minutes in area denoted except for ships with the following call signs	ZSF2	10
+正确	ZUE	10
+正確	ZUE	10
+No. Cancel message(s) sent by the Delayed Executive Method.	ZUG	10
+否定	ZUG	10
+Silence is lifted.	ZUGHMHMHM	10
+From now until further notice this net is free.	ZUGZKB	10
+注意	ZUI	10
+Stand by.	ZUJ	10
+WRONG	ZWF	10
+Your last transmission was incorrect. The correct version is	ZWF	10
+本简语后呼号不必抄收	ZWL	10
+本簡語後呼號不必抄收	ZWL	10
+請改用主頻連絡	ZYA1	10
+请改用主频连络	ZYA1	10
+請改用複頻連絡	ZYA2	10
+请改用复频连络	ZYA2	10
+請改用備用頻連絡	ZYA3	10
+请改用备用频连络	ZYA3	10
+請改用日[夜]頻連絡	ZYA4	10
+请改用日[夜]频连络	ZYA4	10
+本台接收机故障	ZYB1	10
+本台接收機故障	ZYB1	10
+本台发射机故障	ZYB2	10
+本台發射機故障	ZYB2	10
+本台电源故障	ZYB3	10
+本台電源故障	ZYB3	10
+本台雷达故障	ZYB4	10
+本台雷達故障	ZYB4	10
+本台天線故障	ZYB5	10
+本台天线故障	ZYB5	10
+本台无此密本请重新译发	ZYE1	10
+本台無此密本請重新譯發	ZYE1	10
+本台譯不成文請重新譯發	ZYE2	10
+本台译不成文请重新译发	ZYE2	10
+本台指标错误请重新译发	ZYE3	10
+本台指標錯誤請重新譯發	ZYE3	10
+請勿任意出呼	ZYF	10
+请勿任意出呼	ZYF	10
+现有不明电台冒充与他人连络	ZYL	10
+現有不明電台冒充與他人連絡	ZYL	10
+现有不明电台连络	ZZB	10
+現有不明電台連絡	ZZB	10
+請對準我頻率校正	ZZX	10
+请对准我频率校正	ZZX	10
+請即刻開啟某網路	ZZY	10
+请即刻开启某网络	ZZY	10
+
+# ARRL Numbered Radiogram
+Everyone safe here. Please don't worry.	ONE	10
+Coming home as soon as possible.	TWO	10
+Am in _____ hospital. Receiving excellent care and recovering fine.	THREE	10
+Only slight property damage here. Do not be concerned about disaster reports.	FOUR	10
+Am moving to new location. Send no further mail or communication. Will inform you of new address when relocated.	FIVE	10
+Will contact you as soon as possible.	SIX	10
+Please reply by Amateur Radio through the amateur delivering this message. This is a free public service.	SEVEN	10
+Need additional _____ mobile or portable equipment for immediate emergency use.	EIGHT	10
+Additional _____ radio operators needed to assist with emergency at this location.	NINE	10
+Please contact _____. Advise to standby and provide further emergency information, instructions or assistance.	TEN	10
+Establish Amateur Radio emergency communications with _____ on _____ MHz.	ELEVEN	10
+Anxious to hear from you. No word in some time. Please contact me as soon as possible.	TWELVE	10
+Medical emergency situation exists here.	THIRTEEN	10
+Situation here becoming critical. Losses and damage from _____ increasing.	FOURTEEN	10
+Please advise your condition and what help is needed.	FIFTEEN	10
+Property damage very severe in this area.	SIXTEEN	10
+REACT communications services also available. Establish REACT communication with _____ on channel _____.	SEVENTEEN	10
+Please contact me as soon as possible at _______.	EIGHTEEN	10
+Request health and welfare report on _____. (State name, address and telephone number.)	NINETEEN	10
+Temporarily stranded. Will need some assistance. Please contact me at _____.	TWENTY	10
+Search and Rescue assistance is needed by local authorities here. Advise availability.	TWENTYONE	10
+Need accurate information on the extent and type of conditions now existing at your location. Please furnish this information and reply without delay.	TWENTYTWO	10
+Report at once the accessibility and best way to reach your location.	TWENTYTHREE	10
+Evacuation of residents from this area urgently needed. Advise plans for help.	TWENTYFOUR	10
+Furnish as soon as possible the weather conditions at your location.	TWENTYFIVE	10
+Help and care for evacuation of sick and injured from this location needed at once.	TWENTYSIX	10
+Greetings on your birthday and best wishes for many more to come.	FORTYSIX	10
+Reference your message number _____ to _____ delivered on _____ at _____ UTC.	FORTYSEVEN	10
+Greetings by Amateur Radio.	FIFTY	10
+Greetings by Amateur Radio. This message is sent as a free public service by ham radio operators at _______. Am having a wonderful time.	FIFTYONE	10
+Really enjoyed being with you. Looking forward to getting together again.	FIFTYTWO	10
+Received your _______. It's appreciated; many thanks.	FIFTYTHREE	10
+Many thanks for your good wishes.	FIFTYFOUR	10
+Good news is always welcome. Very delighted to hear about yours.	FIFTYFIVE	10
+Congratulations on your _______, a most worthy and deserved achievement.	FIFTYSIX	10
+Wish we could be together	FIFTYSEVEN	10
+Have a wonderful time. Let us know when you return.	FIFTYEIGHT	10
+Congratulations on the new arrival. Hope mother and child are well.	FIFTYNINE	10
+Wishing you the best of everything on _______.	SIXTY	10
+Wishing you a very Merry Christmas and a Happy New Year.	SIXTYONE	10
+Greetings and best wishes to you for a pleasant _______ holiday season.	SIXTYTWO	10
+Victory or defeat, our best wishes are with you. Hope you win.	SIXTYTHREE	10
+Arrived safely at _______.	SIXTYFOUR	10
+Arriving _______ on _______. Please arrange to meet me there.	SIXTYFIVE	10
+DX QSLs are on hand for you at the _______ QSL Bureau. Send _______ self addressed envelopes.	SIXTYSIX	10
+Your message number _______ undeliverable because of _______. Please advise.	SIXTYSEVEN	10
+Sorry to hear you are ill. Best wishes for a speedy recovery.	SIXTYEIGHT	10
+Welcome to the _______. We are glad to have you with us and hope you will enjoy the fun and fellowship of the organization.	SIXTYNINE	10

@@ -19,6 +19,7 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
 2. 将以下文件复制到 RIME 前端设定的用户文件夹：
 
   * `lib.shared`
+  * `lib.asciichar`、`lib.asciiphrase`及`lib.quickphrase`
   * `lib.babel-<ISO 639-3>`
     * 视需要使用的拼音方案对应的语言区复制即可
   * `lib.scribe-<ISO 639-3>`
@@ -31,6 +32,12 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
       * `lib.icon.tw`：输入法转换模式图标，台湾流行方案使用
   * `opencc`
     * 将 opencc 文件夹连同内含文件复制至与其以上文件同一个文件夹
+      * 建议按照使用词库的繁体/简体属性复制，其中：
+        * `hk2*`：词库类型为香港繁体时使用
+        * `s2*`：词库类型为简体时使用
+        * `t2*`：词库类型为大陆传统体时使用
+        * `tw2*`：词库类型为台湾正体时使用
+        * `noop`：所有方案必须，当词库及输入方案默认字型相同时使用，表示“不转换”
   * `customize`
     * 若为初次安装，将 customize 内含文件复制至与其以上文件同一个文件夹
     * 若自己已有相关自定义文件内容，切勿直接覆盖文件以免造成内容丢失
@@ -57,11 +64,12 @@ patch:
 ## 文件解析
 
 - `lib.shared`： **（必需）** 输入方案通用基础组件
+- `lib.asciichar`、`lib.asciiphrase`及`lib.quickphrase`
+  - 特殊词典文件，用于快速输入符号及短语
 - `lib.babel-<ISO 639-3>`： **（根据调用输入法必需）** 输入方案跨拼音规范转换库
 - `lib.scribe-<ISO-936-3>`： **（根据调用输入法必需）** 输入方案拼音形态转换库
 - `lib.icon`： 对应输入法的指示器图标
-- `opencc`：特殊繁简转换方案
-  - `noop.json`：不转换
+- `opencc`：繁简转换方案
 - `customize`: 输入法可自定义内容
   - `custom.custom_phrase`: 自定义短语，该短语可跨布局及 ISO 639-3 使用，直接输入编码即可。
     - 更新时注意：如果自己已有自定义短语内容，切勿使用解包后文件直接替换！会造成内容丢失！

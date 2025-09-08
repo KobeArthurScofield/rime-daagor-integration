@@ -44,7 +44,7 @@
   - `cmn-pan-rime-terra`：调用 RIME 发行版附带的地球拼音词库
   - `cmn-pan-rime-snow`：调用冰雪拼音词库
   - `cmn-pan-rime-lmdg`：调用万象拼音词库
-    - `dict.wanxiang.*`：词库分包文件
+    - `dict.wanxiang`：词库合包文件
 - `rscm.*`：基于以上文件组成的输入方案
     - `bpmfhsu` 注音（許氏）布局
     - `bpmfibm` 注音（IBM）布局

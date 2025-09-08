@@ -57,12 +57,11 @@ custom_phrase:
   encode_commit_history: false
   enable_completion: true
   sentence_over_completion: false
-  enable_sentence: true
+  enable_sentence: false
   enable_user_dict: true
   dictionary: ""
   user_dict: daagornt.custom.custom_phrase
   db_class: stabledb
-  prism: daagornt.custom_phrase
   initial_quality: 14
 
 ascii_phrase:
@@ -71,13 +70,12 @@ ascii_phrase:
   encode_commit_history: false
   enable_completion: true
   sentence_over_completion: false
-  enable_sentence: true
+  enable_sentence: false
   enable_user_dict: true
-  dictionary: daagornt.lib.asciiphrase
-  user_dict: daagornt.lib
-  db_class: userdb
-  prism: daagornt.ascii_phrase
-  initial_quality: 12
+  dictionary: ""
+  user_dict: daagornt.lib.asciiphrase
+  db_class: stabledb
+  initial_quality: 11
 
 ascii_char:
   enable_charset_filter: false
@@ -85,13 +83,12 @@ ascii_char:
   encode_commit_history: false
   enable_completion: true
   sentence_over_completion: false
-  enable_sentence: true
+  enable_sentence: false
   enable_user_dict: true
-  dictionary: daagornt.lib.asciichar
-  user_dict: daagornt.lib
-  db_class: userdb
-  prism: daagornt.ascii_char
-  initial_quality: 12
+  dictionary: ""
+  user_dict: daagornt.lib.asciichar
+  db_class: stabledb
+  initial_quality: 11
 
 quick_phrase:
   enable_charset_filter: false
@@ -99,12 +96,11 @@ quick_phrase:
   encode_commit_history: false
   enable_completion: true
   sentence_over_completion: false
-  enable_sentence: true
+  enable_sentence: false
   enable_user_dict: true
-  dictionary: daagornt.lib.quickphrase
-  user_dict: daagornt.lib
-  db_class: userdb
-  prism: daagornt.quick_phrase
+  dictionary: ""
+  user_dict: daagornt.lib.quickphrase
+  db_class: stabledb
   initial_quality: 13
   tag: quick_phrase
 
@@ -141,7 +137,7 @@ editor:
     Delete: delete
     Control+BackSpace: back_syllable
     Control+Delete: delete_candidate
-    Control+Shift+Backspace: revert
+    Control+Shift+BackSpace: revert
     Escape: cancel
 
 ascii_composer:
@@ -192,17 +188,17 @@ zh_cn_simp:
     inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
-    opencc_config: s2t.json
+    opencc_config: daagornt.s2t.json
     tips: all
     inherit_comment: true
   zh_tw:
     option_name: zh_tw
-    opencc_config: s2twp.json
+    opencc_config: daagornt.s2tw.json
     tips: all
     inherit_comment: true
   zh_hk:
     option_name: zh_hk
-    opencc_config: s2hk.json
+    opencc_config: daagornt.s2hk.json
     tips: all
     inherit_comment: true
   style:
@@ -236,7 +232,7 @@ zh_cn_trad:
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
-    opencc_config: t2s.json
+    opencc_config: daagornt.t2s.json
     tips: all
     inherit_comment: true
   zh_cn_trad:
@@ -246,12 +242,12 @@ zh_cn_trad:
     inherit_comment: true
   zh_tw:
     option_name: zh_tw
-    opencc_config: t2tw.json
+    opencc_config: daagornt.t2tw.json
     tips: all
     inherit_comment: true
   zh_hk:
     option_name: zh_hk
-    opencc_config: t2hk.json
+    opencc_config: daagornt.t2hk.json
     tips: all
     inherit_comment: true
   style:
@@ -285,12 +281,12 @@ zh_tw:
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
-    opencc_config: tw2sp.json
+    opencc_config: daagornt.tw2s.json
     tips: all
     inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
-    opencc_config: tw2t.json
+    opencc_config: daagornt.tw2t.json
     tips: all
     inherit_comment: true
   zh_tw:
@@ -300,7 +296,7 @@ zh_tw:
     inherit_comment: true
   zh_hk:
     option_name: zh_hk
-    opencc_config: daagornt.noop.json
+    opencc_config: daagornt.tw2hk.json
     tips: all
     inherit_comment: true
   style:
@@ -334,17 +330,17 @@ zh_hk:
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
-    opencc_config: hk2s.json
+    opencc_config: daagornt.hk2s.json
     tips: all
     inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
-    opencc_config: hk2t.json
+    opencc_config: daagornt.hk2t.json
     tips: all
     inherit_comment: true
   zh_tw:
     option_name: zh_tw
-    opencc_config: daagornt.noop.json
+    opencc_config: daagornt.hk2tw.json
     tips: all
     inherit_comment: true
   zh_hk:

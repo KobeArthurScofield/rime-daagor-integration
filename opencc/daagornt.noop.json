@@ -1,3 +1,16 @@
 {
-  "name": "No operation for conversion"
+  "name": "DaagorNT: No operation for conversion",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "daagornt.noop.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "daagornt.noop.txt"
+    }
+  }]
 }
