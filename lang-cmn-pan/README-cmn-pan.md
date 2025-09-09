@@ -10,6 +10,7 @@
   - 自然龙双拼 (ZiRan Long, ziranlong)
   - 小浪双拼 (Xiao Lang, xiaolang)
   - 冰雪四拼/声笔四拼 (Snow Si-pin, snowsipin)
+  - 简龙（原作暂定名龙三） (Jian Long, jianlong)
 - 帶聲調通用拼音 (Tongyong Pinyin, tongyong-pinyin)
 - 國語注音符號第二式，國音二式 (Phonetic Symbols II (MPS II), mpsii)
 - 注音輸入法
@@ -57,6 +58,7 @@
     - `gwoyeu-num` 国语罗马字数字音调布局
     - `hanxinlong` 汉心龙/龙码双拼布局
     - `hanyu-pinyin` 汉语拼音布局
+    - `jianlong` 简龙/龙三双拼布局
     - `mitac` 注音（神通）布局
     - `mpsii` 国音二式布局
     - `pinyinjiajia` 拼音加加双拼布局
@@ -152,6 +154,29 @@
 | 韵母 io | PEIGP |
 | 韵母 üo | SLLPS |
 
+### 简龙/龙三键盘布局
+
+见 (https://hanxinma.gitlab.io/longma/longsan/)
+
+新增按键见下：
+
+#### ExtK-ZR-02 标准
+
+| 拼音成份 | 按键（12345 声） |
+|--------|----------------|
+| 轻声 | 所有轻声的按键与其第一声相同 |
+| ê | ERRYE |
+| 声母 v | W |
+| 声母 gn | G |
+| 声母 ng | N |
+| 空韵母 h | RYYOR |
+| 空韵母 m | OAAGO |
+| 空韵母 n | TPPHT |
+| 空韵母 ng | LBBEL |
+| 韵母 iai | FCCHF |
+| 韵母 io | VWWXV |
+| 韵母 üo | KOOJK |
+
 ## 词库及语法模型
 
 注意：不同词库之间会存在拼写差异。
@@ -198,6 +223,7 @@
 - [RIME 输入引擎](https://github.com/rime)
 - [汉心龙](https://hanxinma.gitlab.io/longma/hanxinlong) 作者：晡时之光
 - [自然龙](https://hanxinma.gitlab.io/longma/ziranlong) 作者：小幽幽
+- [简龙](https://hanxinma.gitlab.io/longma/longsan)/[龙三] 作者：青蛙
 - 自然码 作者：（周志农）
 - [小鹤双拼](https://flypy.com/) 作者：散步的鹤（何海峰）
 - 拼音加加双拼 原作者：（廖恒毅）
