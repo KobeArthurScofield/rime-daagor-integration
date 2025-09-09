@@ -75,7 +75,7 @@ ascii_phrase:
   dictionary: ""
   user_dict: daagornt.lib.asciiphrase
   db_class: stabledb
-  initial_quality: 11
+  initial_quality: 12
 
 ascii_char:
   enable_charset_filter: false
