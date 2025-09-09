@@ -18,6 +18,7 @@ engines:
     - matcher
     - abc_segmentor
     - punct_segmentor
+    - affix_segmentor@quick_phrase
     - fallback_segmentor
   translators:
     - echo_translator
@@ -167,17 +168,17 @@ zh_cn_simp:
     inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
-    opencc_config: daagornt.s2t.json
+    opencc_config: s2t.json
     tips: all
     inherit_comment: true
   zh_tw:
     option_name: zh_tw
-    opencc_config: daagornt.s2tw.json
+    opencc_config: s2twp.json
     tips: all
     inherit_comment: true
   zh_hk:
     option_name: zh_hk
-    opencc_config: daagornt.s2hk.json
+    opencc_config: s2hk.json
     tips: all
     inherit_comment: true
 
@@ -206,7 +207,7 @@ zh_cn_trad:
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
-    opencc_config: daagornt.t2s.json
+    opencc_config: t2s.json
     tips: all
     inherit_comment: true
   zh_cn_trad:
@@ -216,12 +217,12 @@ zh_cn_trad:
     inherit_comment: true
   zh_tw:
     option_name: zh_tw
-    opencc_config: daagornt.t2tw.json
+    opencc_config: t2tw.json
     tips: all
     inherit_comment: true
   zh_hk:
     option_name: zh_hk
-    opencc_config: daagornt.t2hk.json
+    opencc_config: t2hk.json
     tips: all
     inherit_comment: true
 
@@ -250,12 +251,12 @@ zh_tw:
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
-    opencc_config: daagornt.tw2s.json
+    opencc_config: tw2sp.json
     tips: all
     inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
-    opencc_config: daagornt.tw2t.json
+    opencc_config: tw2t.json
     tips: all
     inherit_comment: true
   zh_tw:
@@ -294,12 +295,12 @@ zh_hk:
       reset: 0
   zh_cn_simp:
     option_name: zh_cn_simp
-    opencc_config: daagornt.hk2s.json
+    opencc_config: hk2s.json
     tips: all
     inherit_comment: true
   zh_cn_trad:
     option_name: zh_cn_trad
-    opencc_config: daagornt.hk2t.json
+    opencc_config: hk2t.json
     tips: all
     inherit_comment: true
   zh_tw:
