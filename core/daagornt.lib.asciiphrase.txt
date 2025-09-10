@@ -9,86 +9,86 @@
 #
 
 # 星座
-Aries	aries	2
-Taurus	taurus	2
-Gemini	gemini	2
-Cancer	cancer	2
-Leo	leo	2
-Virgo	virgo	2
-Libra	libra	2
-Scorpio	scorpio	2
-Sagittarius	sagittarius	2
-Capricorn	capricorn	2
-Aquarius	aquarius	2
-Pisces	pisces	2
-白羊座	aries	3
-白羊宮	aries	3
-白羊宫	aries	3
-金牛座	taurus	3
-金牛宮	taurus	3
-金牛宫	taurus	3
-雙子座	gemini	3
-雙子宮	gemini	3
-双子座	gemini	3
-双子宫	gemini	3
-巨蟹座	cancer	3
-巨蟹宮	cancer	3
-巨蟹宫	cancer	3
-獅子座	leo	3
-獅子宮	leo	3
-狮子座	leo	3
-狮子宫	leo	3
-室女座	virgo	3
-室女宮	virgo	3
-室女宫	virgo	3
-天秤座	libra	3
-天秤宮	libra	3
-天秤宫	libra	3
-天蠍座	scorpio	3
-天蠍宮	scorpio	3
-天蝎座	scorpio	3
-天蝎宫	scorpio	3
-人馬座	sagittarius	3
-人馬宮	sagittarius	3
-人马座	sagittarius	3
-人马宫	sagittarius	3
-摩羯座	capricorn	3
-摩羯宮	capricorn	3
-摩羯宫	capricorn	3
-寶瓶座	aquarius	3
-寶瓶宮	aquarius	3
-宝瓶座	aquarius	3
-宝瓶宫	aquarius	3
-雙魚座	pisces	3
-雙魚宮	pisces	3
-双鱼座	pisces	3
-双鱼宫	pisces	3
+Aries	aries	1
+Taurus	taurus	1
+Gemini	gemini	1
+Cancer	cancer	1
+Leo	leo	1
+Virgo	virgo	1
+Libra	libra	1
+Scorpio	scorpio	1
+Sagittarius	sagittarius	1
+Capricorn	capricorn	1
+Aquarius	aquarius	1
+Pisces	pisces	1
+白羊座	aries	2
+白羊宮	aries	2
+白羊宫	aries	2
+金牛座	taurus	2
+金牛宮	taurus	2
+金牛宫	taurus	2
+雙子座	gemini	2
+雙子宮	gemini	2
+双子座	gemini	2
+双子宫	gemini	2
+巨蟹座	cancer	2
+巨蟹宮	cancer	2
+巨蟹宫	cancer	2
+獅子座	leo	2
+獅子宮	leo	2
+狮子座	leo	2
+狮子宫	leo	2
+室女座	virgo	2
+室女宮	virgo	2
+室女宫	virgo	2
+天秤座	libra	2
+天秤宮	libra	2
+天秤宫	libra	2
+天蠍座	scorpio	2
+天蠍宮	scorpio	2
+天蝎座	scorpio	2
+天蝎宫	scorpio	2
+人馬座	sagittarius	2
+人馬宮	sagittarius	2
+人马座	sagittarius	2
+人马宫	sagittarius	2
+摩羯座	capricorn	2
+摩羯宮	capricorn	2
+摩羯宫	capricorn	2
+寶瓶座	aquarius	2
+寶瓶宮	aquarius	2
+宝瓶座	aquarius	2
+宝瓶宫	aquarius	2
+雙魚座	pisces	2
+雙魚宮	pisces	2
+双鱼座	pisces	2
+双鱼宫	pisces	2
 
 # 月份
-一月	jan	3
-二月	feb	3
-三月	mar	3
-四月	apr	3
-五月	may	3
-六月	jun	3
-七月	jul	3
-八月	aug	3
-九月	sep	3
-十月	oct	3
-十一月	nov	3
-十二月	dec	3
-Jan	jan	2
-Feb	feb	2
-Mar	mar	2
-Apr	apr	2
-May	may	2
-Jun	jun	2
-Jul	jul	2
-Aug	aug	2
-Sep	sep	2
-Oct	oct	2
-Nov	nov	2
-Dec	dec	2
+一月	jan	4
+二月	feb	4
+三月	mar	4
+四月	apr	4
+五月	may	4
+六月	jun	4
+七月	jul	4
+八月	aug	4
+九月	sep	4
+十月	oct	4
+十一月	nov	4
+十二月	dec	4
+Jan	jan	1
+Feb	feb	1
+Mar	mar	1
+Apr	apr	1
+May	may	1
+Jun	jun	1
+Jul	jul	1
+Aug	aug	1
+Sep	sep	1
+Oct	oct	1
+Nov	nov	1
+Dec	dec	1
 January	jan	2
 February	feb	2
 March	mar	2
@@ -103,13 +103,13 @@ November	nov	2
 December	dec	2
 
 # 星期
-Mon	mon	2
-Tue	tue	2
-Wed	wed	2
-Thu	thu	2
-Fri	fri	2
-Sat	sat	2
-Sun	sun	2
+Mon	mon	1
+Tue	tue	1
+Wed	wed	1
+Thu	thu	1
+Fri	fri	1
+Sat	sat	1
+Sun	sun	1
 Monday	mon	2
 Tuesday	tue	2
 Wednesday	wed	2
@@ -117,654 +117,654 @@ Thursday	thu	2
 Friday	fri	2
 Saturday	sat	2
 Sunday	sun	2
-月	mon	2
-火	tue	2
-水	wed	2
-木	thu	2
-金	fri	2
-土	sat	2
-日	sun	2
-月曜日	mon	2
-火曜日	tue	2
-水曜日	wed	2
-木曜日	thu	2
-金曜日	fri	2
-土曜日	sat	2
-日曜日	sun	2
-星期一	mon	3
-星期二	tue	3
-星期三	wed	3
-星期四	thu	3
-星期五	fri	3
-星期六	sat	3
-星期日	sun	3
-周一	mon	3
-周二	tue	3
-周三	wed	3
-周四	thu	3
-周五	fri	3
-周六	sat	3
-周日	sun	3
-礼拜一	mon	3
-礼拜二	tue	3
-礼拜三	wed	3
-礼拜四	thu	3
-礼拜五	fri	3
-礼拜六	sat	3
-礼拜天	sun	3
+月	mon	3
+火	tue	3
+水	wed	3
+木	thu	3
+金	fri	3
+土	sat	3
+日	sun	3
+月曜日	mon	3
+火曜日	tue	3
+水曜日	wed	3
+木曜日	thu	3
+金曜日	fri	3
+土曜日	sat	3
+日曜日	sun	3
+星期一	mon	4
+星期二	tue	4
+星期三	wed	4
+星期四	thu	4
+星期五	fri	4
+星期六	sat	4
+星期日	sun	4
+周一	mon	4
+周二	tue	4
+周三	wed	4
+周四	thu	4
+周五	fri	4
+周六	sat	4
+周日	sun	4
+礼拜一	mon	4
+礼拜二	tue	4
+礼拜三	wed	4
+礼拜四	thu	4
+礼拜五	fri	4
+礼拜六	sat	4
+礼拜天	sun	4
 
 # 现代汉语词典第七版
 # 该区段只允许更改词频、纠错及跟进新版词典修订
 # 如有补充必须加至其它区段
 ABC	abc	1
 ABS	abs	1
-anti-lock braking system	abs	2
-防抱死制动系统	abs	3
+anti-lock braking system	abs	1
+防抱死制动系统	abs	2
 ADSL	adsl	1
-asymmetric digital subscriber line	adsl	2
-不对称数字用户线	adsl	3
+asymmetric digital subscriber line	adsl	1
+不对称数字用户线	adsl	2
 AI	ai	1
-artificial intelligence	ai	2
-人工智能	ai	3
+artificial intelligence	ai	1
+人工智能	ai	2
 AIDS	aids	1
-Acquired Immune Deficiency Syndrome	aids	2
-获得性免疫缺陷综合征	aids	3
-艾滋病	aids	3
+Acquired Immune Deficiency Syndrome	aids	1
+获得性免疫缺陷综合征	aids	2
+艾滋病	aids	2
 AM	am	1
-amplitude modulation	am	2
-调幅	am	3
+amplitude modulation	am	1
+调幅	am	2
 APC	apc	1
-复方阿司匹林	apc	3
+复方阿司匹林	apc	2
 APEC	apec	1
-Asia Pacific Economic Cooperation	apec	2
-亚太经济合作组织	apec	3
+Asia Pacific Economic Cooperation	apec	1
+亚太经济合作组织	apec	2
 API	api	1
-air pollution index	api	2
-空气污染指数	api	3
+air pollution index	api	1
+空气污染指数	api	2
 AQ	aq	1
-adversity quotient	aq	2
-逆境商数	aq	3
+adversity quotient	aq	1
+逆境商数	aq	2
 ATM	atm	1
-automated teller machine	atm	2
+automated teller machine	atm	1
 AV	av	1
-audio visual	av	2
-音频和视频	av	3
+audio visual	av	1
+音频和视频	av	2
 B2B	b2b	1
-B to B	b2b	2
-business-to-business	b2b	2
+B to B	b2b	1
+business-to-business	b2b	1
 B2C	b2c	1
-B to C	b2c	2
-business-to-customer	b2c	2
+B to C	b2c	1
+business-to-customer	b2c	1
 BBC	bbc	1
-British Broadcasting Corporation	bbc	2
-英国广播公司	bbc	3
+British Broadcasting Corporation	bbc	1
+英国广播公司	bbc	2
 BBS	bbs	1
-bulletin board system	bbs	2
-bulletin board service	bbs	2
-公告板系统	bbs	3
-公告板服务	bbs	3
+bulletin board system	bbs	1
+bulletin board service	bbs	1
+公告板系统	bbs	2
+公告板服务	bbs	2
 BD	bd	1
-Blu-ray Disc	bd	2
-蓝光光盘	bd	3
+Blu-ray Disc	bd	1
+蓝光光盘	bd	2
 BEC	bec	1
-Business English Certificate	bec	2
-商务英语证书	bec	3
+Business English Certificate	bec	1
+商务英语证书	bec	2
 BP	bp	1
-beeper	bp	2
+beeper	bp	1
 BRT	brt	1
-bus rapid transit	brt	2
-快速公交系统	brt	3
+bus rapid transit	brt	1
+快速公交系统	brt	2
 C2C	c2c	1
-consumer-to-consumer	c2c	2
+consumer-to-consumer	c2c	1
 C⁴ISR	c4isr	1
-军事指挥信息系统	c4isr	3
-军队指挥自动化系统	c4isr	3
+军事指挥信息系统	c4isr	2
+军队指挥自动化系统	c4isr	2
 CAD	cad	1
-computer-aided design	cad	2
-计算机辅助设计	cad	3
+computer-aided design	cad	1
+计算机辅助设计	cad	2
 CAI	cai	1
-computer-aided instruction	cai	2
-计算机辅助教学	cai	3
+computer-aided instruction	cai	1
+计算机辅助教学	cai	2
 CATV	catv	1
-cable television	catv	2
-有线电视	catv	3
+cable television	catv	1
+有线电视	catv	2
 CBA	cba	1
-Chinese Basketball Association	cba	2
-中国篮球协会	cba	3
+Chinese Basketball Association	cba	1
+中国篮球协会	cba	2
 CBD	cbd	1
-central business district	cbd	2
-中央商务区	cbd	3
+central business district	cbd	1
+中央商务区	cbd	2
 CCC	ccc	1
-China Compulsory Certification	ccc	2
-中国强制性产品认证	ccc	3
-3C认证	ccc	3
+China Compulsory Certification	ccc	1
+中国强制性产品认证	ccc	2
+3C认证	ccc	2
 CCD	ccd	1
-charge-coupled device	ccd	2
-电荷耦合器件	ccd	3
+charge-coupled device	ccd	1
+电荷耦合器件	ccd	2
 CCTV	cctv	1
-China Central Television	cctv	2
-中国中央电视台	cctv	3
+China Central Television	cctv	1
+中国中央电视台	cctv	2
 CD	cd	1
-compact disc	cd	2
-激光唱盘	cd	3
+compact disc	cd	1
+激光唱盘	cd	2
 CDC	cdc	1
-Centerfor Disease Control and Prevention	cdc	2
-疾病预防控制中心	cdc	3
-疾控中心	cdc	3
+Centerfor Disease Control and Prevention	cdc	1
+疾病预防控制中心	cdc	2
+疾控中心	cdc	2
 CDMA	cdma	1
-code division multiple aceess	cdma	2
-码分多址	cdma	3
+code division multiple aceess	cdma	1
+码分多址	cdma	2
 CD-R	cdr	1
-compact disc-recordable	cdr	2
-可录光盘	cdr	3
+compact disc-recordable	cdr	1
+可录光盘	cdr	2
 CD-ROM	cdrom	1
-compact disc read-only memory	cdrom	2
-只读光盘	cdrom	3
+compact disc read-only memory	cdrom	1
+只读光盘	cdrom	2
 CD-RW	cdrw	1
-compact disc-rewritable	cdrw	2
-可擦写光盘	cdrw	3
+compact disc-rewritable	cdrw	1
+可擦写光盘	cdrw	2
 CEO	ceo	1
-chief executive officer	ceo	2
-首席执行官	ceo	3
+chief executive officer	ceo	1
+首席执行官	ceo	2
 CEPA	cepa	1
-Closer Economic Partnership Arrangerment	cepa	2
-关于建立更紧密经贸关系的安排	cepa	3
+Closer Economic Partnership Arrangerment	cepa	1
+关于建立更紧密经贸关系的安排	cepa	2
 CET	cet	1
-College English Test	cet	2
-大学英语考试	cet	3
+College English Test	cet	1
+大学英语考试	cet	2
 CFO	cfo	1
-chief financial officer	cfo	2
-首席财务官	cfo	3
+chief financial officer	cfo	1
+首席财务官	cfo	2
 CI	ci	1
-corporate identity	ci	2
-corporate image	ci	2
-企业标志	ci	3
-企业形象	ci	3
+corporate identity	ci	1
+corporate image	ci	1
+企业标志	ci	2
+企业形象	ci	2
 CIA	cia	1
-Central Intelligence Agency	cia	2
-美国中央情报局	cia	3
-美国中情局	cia	3
+Central Intelligence Agency	cia	1
+美国中央情报局	cia	2
+美国中情局	cia	2
 CIMS	cims	1
-computer integrated manufacturing system	cims	2
-计算机集成制造系统	cims	3
+computer integrated manufacturing system	cims	1
+计算机集成制造系统	cims	2
 CIP	cip	1
-cataloguing in publication	cip	2
-在版编目	cip	3
-预编目录	cip	3
+cataloguing in publication	cip	1
+在版编目	cip	2
+预编目录	cip	2
 CMOS	cmos	1
-complementary metal oxide semiconductor	cmos	2
-互补性氧化金属半导体	cmos	3
+complementary metal oxide semiconductor	cmos	1
+互补性氧化金属半导体	cmos	2
 CNN	cnn	1
-Cable News Network	cnn	2
-美国有线电视新闻网	cnn	3
+Cable News Network	cnn	1
+美国有线电视新闻网	cnn	2
 CPA	cpa	1
-certified publicac countant	cpa	2
-注册会计师	cpa	3
+certified publicac countant	cpa	1
+注册会计师	cpa	2
 CPI	cpi	1
-consumer price index	cpi	2
-消费者价格指数	cpi	3
-居民消费价格指数	cpi	3
+consumer price index	cpi	1
+消费者价格指数	cpi	2
+居民消费价格指数	cpi	2
 CPU	cpu	1
-central processing unit	cpu	2
-中央处理器	cpu	3
+central processing unit	cpu	1
+中央处理器	cpu	2
 CRT	crt	1
-cathode ray tube	crt	2
-阴极射线管	crt	3
+cathode ray tube	crt	1
+阴极射线管	crt	2
 CT	ct	1
-computerized tomography	ct	2
-计算机层析成像	ct	3
-计算机层析成像仪	ct	3
+computerized tomography	ct	1
+计算机层析成像	ct	2
+计算机层析成像仪	ct	2
 DC	dc	1
-digital camcra	dc	2
-数字相机	dc	3
+digital camcra	dc	1
+数字相机	dc	2
 DIY	diy	1
-do it yourself	diy	2
-自己动手做	diy	3
+do it yourself	diy	1
+自己动手做	diy	2
 DJ	dj	1
-disc jockey	dj	2
-音响师	dj	3
-电台音乐节目主持人	dj	3
+disc jockey	dj	1
+音响师	dj	2
+电台音乐节目主持人	dj	2
 DNA	dna	1
-deoxyribo nucleic acid	dna	2
-脱氧核糖核酸	dna	3
+deoxyribo nucleic acid	dna	1
+脱氧核糖核酸	dna	2
 DOS	dos	1
-disk operating system	dos	2
-磁盘操作系统	dos	3
+disk operating system	dos	1
+磁盘操作系统	dos	2
 DSL	dsl	1
-digital subseriber line	dsl	2
-数字用户线	dsl	3
+digital subseriber line	dsl	1
+数字用户线	dsl	2
 DV	dv	1
-digital video	dv	2
-数字视频	dv	3
-数字摄像机	dv	3
+digital video	dv	1
+数字视频	dv	2
+数字摄像机	dv	2
 DVD	dvd	1
-digital video disc	dvd	2
-数字激光视盘	dvd	3
+digital video disc	dvd	1
+数字激光视盘	dvd	2
 EBD	ebd	1
-electronic brakeforce distribution	ebd	2
-电子制动力分配系统	ebd	3
+electronic brakeforce distribution	ebd	1
+电子制动力分配系统	ebd	2
 ECFA	ecfa	1
-Economic Cooperation Framework Agreement	ecfa	2
-海峡两岸经济合作框架协议	ecfa	3
+Economic Cooperation Framework Agreement	ecfa	1
+海峡两岸经济合作框架协议	ecfa	2
 ED	ed	1
-erectile dysfunction	ed	2
-男性勃起功能障碍	ed	3
+erectile dysfunction	ed	1
+男性勃起功能障碍	ed	2
 EDI	edi	1
-electronic data interchange	edi	2
-电子数据交换	edi	3
+electronic data interchange	edi	1
+电子数据交换	edi	2
 E-mail	email	1
-电子邮件	email	3
+电子邮件	email	2
 EMBA	emba	1
-Executive Master of Business Administration	emba	2
-高级管理人员工商管理硕士	emba	3
+Executive Master of Business Administration	emba	1
+高级管理人员工商管理硕士	emba	2
 EMS	ems	1
-express mail service	ems	2
-邮政特快专递	ems	3
+express mail service	ems	1
+邮政特快专递	ems	2
 EQ	eq	1
-emotional quotient	eq	2
-情商	eq	3
+emotional quotient	eq	1
+情商	eq	2
 ETC	etc	1
-electronic toll collection	etc	2
-电子不停车收费系统	etc	3
+electronic toll collection	etc	1
+电子不停车收费系统	etc	2
 EV	ev	1
-electric vehicle	ev	2
-电动汽车	ev	3
+electric vehicle	ev	1
+电动汽车	ev	2
 F1	f1	1
-formula 1	f1	2
-一级方程式锦标赛	f1	3
+formula 1	f1	1
+一级方程式锦标赛	f1	2
 FAX	fax	1
-facsimile	fax	2
-传真件	fax	3
-传真	fax	3
-传真系统	fax	3
+facsimile	fax	1
+传真件	fax	2
+传真	fax	2
+传真系统	fax	2
 FBI	fbi	1
-Federal Bureau of Investigation	fbi	2
-美国联邦调查局	fbi	3
+Federal Bureau of Investigation	fbi	1
+美国联邦调查局	fbi	2
 FM	fm	1
-frequency modulation	fm	2
-调频	fm	3
+frequency modulation	fm	1
+调频	fm	2
 FTA	fta	1
-free trade agreement	fta	2
-free trade area	fta	2
-自由贸易协定	fta	3
-自由贸易区	fta	3
+free trade agreement	fta	1
+free trade area	fta	1
+自由贸易协定	fta	2
+自由贸易区	fta	2
 GB	gb	1
-国家标准	gb	3
-中国国家标准	gb	3
-国标	gb	3
+国家标准	gb	2
+中国国家标准	gb	2
+国标	gb	2
 GDP	gdp	1
-gross domestic product	gdp	2
-国内生产总值	gdp	3
+gross domestic product	gdp	1
+国内生产总值	gdp	2
 GIS	gis	1
-geographic information system	gis	2
-地理信息系统	gis	3
+geographic information system	gis	1
+地理信息系统	gis	2
 GMAT	gmat	1
-Graduate Management Admission Test	gmat	2
-管理专业研究生入学资格考试	gmat	3
+Graduate Management Admission Test	gmat	1
+管理专业研究生入学资格考试	gmat	2
 GMP	gmp	1
-Good Manufacturing Practices	gmp	2
-药品生产质量管埋规范	gmp	3
+Good Manufacturing Practices	gmp	1
+药品生产质量管埋规范	gmp	2
 GNP	gnp	1
-gross national product	gnp	2
-国民生产总值	gnp	3
+gross national product	gnp	1
+国民生产总值	gnp	2
 GPS	gps	1
-Global Positioning System	gps	2
-全球定位系统	gps	3
+Global Positioning System	gps	1
+全球定位系统	gps	2
 GRE	gre	1
-Graduate Record Examination	gre	2
-研究生入学资格考试	gre	3
+Graduate Record Examination	gre	1
+研究生入学资格考试	gre	2
 GSM	gsm	1
-Global System for Mobile Communications	gsm	2
-全球移动通信系统	gsm	3
+Global System for Mobile Communications	gsm	1
+全球移动通信系统	gsm	2
 HDMI	hdmi	1
-high definition multimed iainterface	hdmi	2
-高清晰度多媒体接口	hdmi	3
+high definition multimed iainterface	hdmi	1
+高清晰度多媒体接口	hdmi	2
 HDTV	hdtv	1
-high definition television	hdtv	2
-高清晰度电视	hdtv	3
+high definition television	hdtv	1
+高清晰度电视	hdtv	2
 Hi-Fi	hifi	1
-high fidelity	hifi	2
-高保真度	hifi	3
+high fidelity	hifi	1
+高保真度	hifi	2
 HIV	hiv	1
-human immunodeficiency virus	hiv	2
-人类免疫缺陷病毒	hiv	3
-艾滋病病毒	hiv	3
+human immunodeficiency virus	hiv	1
+人类免疫缺陷病毒	hiv	2
+艾滋病病毒	hiv	2
 HR	hr	1
-human resources	hr	2
-人力资源	hr	3
+human resources	hr	1
+人力资源	hr	2
 HSK	hsk	1
-汉语水平考试	hsk	3
+汉语水平考试	hsk	2
 IC	ic	1
-integrated circuit	ic	2
-集成电路	ic	3
+integrated circuit	ic	1
+集成电路	ic	2
 ICP	icp	1
-Internet content provider	icp	2
-因特网内容提供者	icp	3
+Internet content provider	icp	1
+因特网内容提供者	icp	2
 ICU	icu	1
-intensive care unit	icu	2
-重症监护治疗病房	icu	3
-重症监护室	icu	3
+intensive care unit	icu	1
+重症监护治疗病房	icu	2
+重症监护室	icu	2
 IDC	idc	1
-internet data center	idc	2
-互联网数据中心	idc	3
+internet data center	idc	1
+互联网数据中心	idc	2
 IMAX	imax	1
-image maximum	imax	2
-巨幕电影放映系统	imax	3
+image maximum	imax	1
+巨幕电影放映系统	imax	2
 IMF	imf	1
-International Monetary Fund	imf	2
-国际货币基金组织	imf	3
+International Monetary Fund	imf	1
+国际货币基金组织	imf	2
 IOC	ioc	1
-International Olympic Committee	ioc	2
-国际奥林匹克委员会	ioc	3
+International Olympic Committee	ioc	1
+国际奥林匹克委员会	ioc	2
 IP	ip	1
-Internet protocol	ip	2
-网际协议	ip	3
+Internet protocol	ip	1
+网际协议	ip	2
 IPO	ipo	1
-initial public offering	ipo	2
-首次公开募股	ipo	3
+initial public offering	ipo	1
+首次公开募股	ipo	2
 IPTV	iptv	1
-Internet protocol television	iptv	2
-网络电视	iptv	3
+Internet protocol television	iptv	1
+网络电视	iptv	2
 IQ	iq	1
-intelligence quotient	iq	2
-智商	iq	3
+intelligence quotient	iq	1
+智商	iq	2
 ISBN	isbn	1
-International Standard Book Number	isbn	2
-国际标准书号	isbn	3
+International Standard Book Number	isbn	1
+国际标准书号	isbn	2
 ISO	iso	1
-International Organization for Standardization	iso	2
-国际标准化组织	iso	3
+International Organization for Standardization	iso	1
+国际标准化组织	iso	2
 ISP	isp	1
-Internet service provider	isp	2
-因特网服务提供者	isp	3
+Internet service provider	isp	1
+因特网服务提供者	isp	2
 ISSN	issn	1
-International Standard Serial Number	issn	2
-国际标准期刊号	issn	3
+International Standard Serial Number	issn	1
+国际标准期刊号	issn	2
 IT	it	1
-information technology	it	2
-信息技术	it	3
+information technology	it	1
+信息技术	it	2
 ITS	its	1
-intelligent transportation system	its	2
-智能交通系统	its	3
+intelligent transportation system	its	1
+智能交通系统	its	2
 KTV	ktv	1
 LCD	lcd	1
-liquid crystal display	lcd	2
-液晶显示	lcd	3
-液晶显示器	lcd	3
+liquid crystal display	lcd	1
+液晶显示	lcd	2
+液晶显示器	lcd	2
 LD	ld	1
-laser disc	ld	2
-激光视盘	ld	3
+laser disc	ld	1
+激光视盘	ld	2
 LED	led	1
-light emitting diode	led	2
-发光二极管	led	3
+light emitting diode	led	1
+发光二极管	led	2
 LPG	lpg	1
-liquefied petroleum gas	lpg	2
-液化石油气	lpg	3
+liquefied petroleum gas	lpg	1
+液化石油气	lpg	2
 M0	m0	1
-流通中现金	m0	3
+流通中现金	m0	2
 M1	m1	1
-狭义货币供应量	m1	3
+狭义货币供应量	m1	2
 M2	m2	1
-广义货币供应量	m2	3
+广义货币供应量	m2	2
 MBA	mba	1
-Master of Business Administration	mba	2
-工商管理硕士	mba	3
+Master of Business Administration	mba	1
+工商管理硕士	mba	2
 MP3	mp3	1
-MPEG 1 audio layer 3	mp3	2
+MPEG 1 audio layer 3	mp3	1
 MP4	mp4	1
 MPA	mpa	1
-Master of Public Administration	mpa	2
-公共管理硕士	mpa	3
+Master of Public Administration	mpa	1
+公共管理硕士	mpa	2
 MPEG	mpeg	1
-Motion Pictures Experts Group	mpeg	2
-运动图像压缩标准	mpeg	3
+Motion Pictures Experts Group	mpeg	1
+运动图像压缩标准	mpeg	2
 MRI	mri	1
-magnetic resonance imaging	mri	2
-磁共振	mri	3
+magnetic resonance imaging	mri	1
+磁共振	mri	2
 MTV	mtv	1
-music television	mtv	2
-音乐电视	mtv	3
+music television	mtv	1
+音乐电视	mtv	2
 MV	mv	1
-music video	mv	2
+music video	mv	1
 NBA	nba	1
-National Basketball Association	nba	2
-全国篮球协会	nba	3
-美国全国篮球协会	nba	3
+National Basketball Association	nba	1
+全国篮球协会	nba	2
+美国全国篮球协会	nba	2
 NCAP	ncap	1
-new car assessment program	ncap	2
-新车安全评价规程	ncap	3
+new car assessment program	ncap	1
+新车安全评价规程	ncap	2
 NG	ng	1
-no good	ng	2
-不合格	ng	3
-不好	ng	3
+no good	ng	1
+不合格	ng	2
+不好	ng	2
 NGO	ngo	1
-non governmental organization	ngo	2
-非政府组织	ngo	3
+non governmental organization	ngo	1
+非政府组织	ngo	2
 NHK	nhk	1
-Nippon Hoso Kyokai	nhk	2
-日本放送协会	nhk	3
-日本广播协会	nhk	3
+Nippon Hoso Kyokai	nhk	1
+日本放送协会	nhk	2
+日本广播协会	nhk	2
 NMD	nmd	1
-national missile defense	nmd	2
-美国国家导弹防御系统	nmd	3
+national missile defense	nmd	1
+美国国家导弹防御系统	nmd	2
 O2O	o2o	1
-O to O	o2o	2
-online-to-offline	o2o	2
+O to O	o2o	1
+online-to-offline	o2o	1
 OA	oa	1
-office automation	oa	2
-办公自动化	oa	3
+office automation	oa	1
+办公自动化	oa	2
 OCR	ocr	1
-optical character recognition	ocr	2
-光学字符识别	ocr	3
+optical character recognition	ocr	1
+光学字符识别	ocr	2
 OEM	oem	1
-original equipment manufacturer	oem	2
-原始设备制造商	oem	3
+original equipment manufacturer	oem	1
+原始设备制造商	oem	2
 OL	ol	1
-office lady	ol	2
-办公室职业女性	ol	3
+office lady	ol	1
+办公室职业女性	ol	2
 OLED	oled	1
-organic light emitting diode	oled	2
-有机发光二极管	oled	3
+organic light emitting diode	oled	1
+有机发光二极管	oled	2
 OPEC	opec	1
-Organization of the Petroleum Exporting Countries	opec	2
-石油输出国组织	opec	3
-欧佩克	opec	3
+Organization of the Petroleum Exporting Countries	opec	1
+石油输出国组织	opec	2
+欧佩克	opec	2
 OTC	otc	1
-over the counter	otc	2
-非处方药	otc	3
+over the counter	otc	1
+非处方药	otc	2
 PC	pc	1
-personal computer	pc	2
-个人计算机	pc	3
+personal computer	pc	1
+个人计算机	pc	2
 PDA	pda	1
-personal digital assistant	pda	2
-个人数字助理	pda	3
+personal digital assistant	pda	1
+个人数字助理	pda	2
 PDP	pdp	1
-plasma display panel	pdp	2
-等离子显示板	pdp	3
-等离子体显示板	pdp	3
+plasma display panel	pdp	1
+等离子显示板	pdp	2
+等离子体显示板	pdp	2
 PE	pe	1
-price earningsratio	pe	2
-poly ethylene	pe	2
-市盈率	pe	3
-聚乙烯	pe	3
+price earningsratio	pe	1
+poly ethylene	pe	1
+市盈率	pe	2
+聚乙烯	pe	2
 PET	pet	1
-positron emission tomography	pet	2
-正电子发射断层扫描装置	pet	3
+positron emission tomography	pet	1
+正电子发射断层扫描装置	pet	2
 PETS	pets	1
-Public English Test System	pets	2
-全国英语等级考试	pets	3
+Public English Test System	pets	1
+全国英语等级考试	pets	2
 pH	ph	1
-potentield hydrogene	ph	2
+potentield hydrogene	ph	1
 PK	pk	1
-player killing	pk	2
-对决	pk	3
+player killing	pk	1
+对决	pk	2
 PM	pm	1
-particulate matter	pm	2
-颗粒物	pm	3
+particulate matter	pm	1
+颗粒物	pm	2
 PM2.5	pm25	1
-细颗粒物	pm25	3
+细颗粒物	pm25	2
 PM10	pm10	1
-可吸入颗粒物	pm10	3
+可吸入颗粒物	pm10	2
 PMI	pmi	1
-purchasing manager's index	pmi	2
-制造业采购经理指数	pmi	3
+purchasing manager's index	pmi	1
+制造业采购经理指数	pmi	2
 POS	pos	1
-point of sale	pos	2
-销售点	pos	3
+point of sale	pos	1
+销售点	pos	2
 PPA	ppa	1
-phenyl propanol amine	ppa	2
-苯丙醇胺	ppa	3
-N-去甲麻黄碱	ppa	3
+phenyl propanol amine	ppa	1
+苯丙醇胺	ppa	2
+N-去甲麻黄碱	ppa	2
 PPI	ppi	1
-producer price index	ppi	2
-工业品出厂价格指数	ppi	3
+producer price index	ppi	1
+工业品出厂价格指数	ppi	2
 PS	ps	1
-Photoshop	ps	2
+Photoshop	ps	1
 PSC	psc	1
-普通话水平测试	psc	3
+普通话水平测试	psc	2
 PT	pt	1
-particular transfer	pt	2
-特别转让	pt	3
+particular transfer	pt	1
+特别转让	pt	2
 PVC	pvc	1
-poly vinyl chloride	pvc	2
-聚氯乙烯	pvc	3
+poly vinyl chloride	pvc	1
+聚氯乙烯	pvc	2
 QC	qc	1
-quality control	qc	2
-质量管理	qc	3
+quality control	qc	1
+质量管理	qc	2
 QDII	qdii	1
-qualified domestic institutional investor	qdii	2
-合格境内机构投资者	qdii	3
+qualified domestic institutional investor	qdii	1
+合格境内机构投资者	qdii	2
 QFII	qfii	1
-qualified foreign institutional investor	qfii	2
-合格境外机构投资者	qfii	3
+qualified foreign institutional investor	qfii	1
+合格境外机构投资者	qfii	2
 QQ	qq	1
 QS	qs	1
-quality safety	qs	2
-质量安全	qs	3
-食品质量安全市场准入	qs	3
+quality safety	qs	1
+质量安全	qs	2
+食品质量安全市场准入	qs	2
 RAM	ram	1
-random access memory	ram	2
-随机存取存储器	ram	3
+random access memory	ram	1
+随机存取存储器	ram	2
 RFID	rfid	1
-radio frequency identification	rfid	2
-射频识别	rfid	3
+radio frequency identification	rfid	1
+射频识别	rfid	2
 RMB	rmb	1
-人民币	rmb	3
+人民币	rmb	2
 RNA	rna	1
-ribo nucleic acid	rna	2
-核糖核酸	rna	3
+ribo nucleic acid	rna	1
+核糖核酸	rna	2
 ROM	rom	1
-read only memory	rom	2
-只读存储器	rom	3
+read only memory	rom	1
+只读存储器	rom	2
 RS	rs	1
-remote sensing	rs	2
-遥感技术	rs	3
+remote sensing	rs	1
+遥感技术	rs	2
 SARS	sars	1
-Severe Acute Respiratory Syndrome	sars	2
-严重急性呼吸综合征	sars	3
-非典型肺炎	sars	3
+Severe Acute Respiratory Syndrome	sars	1
+严重急性呼吸综合征	sars	2
+非典型肺炎	sars	2
 SCI	sci	1
-science citation index	sci	2
-科学引文索引	sci	3
+science citation index	sci	1
+科学引文索引	sci	2
 SDR	sdr	1
-special drawing rights	sdr	2
-特别提款权	sdr	3
+special drawing rights	sdr	1
+特别提款权	sdr	2
 SIM	sim	1
-Subscriber Identification Module	sim	2
-用户身份识别模块	sim	3
+Subscriber Identification Module	sim	1
+用户身份识别模块	sim	2
 SNG	sng	1
-satellite news gathering	sng	2
-卫星新闻采集	sng	3
-卫星新闻采访车	sng	3
+satellite news gathering	sng	1
+卫星新闻采集	sng	2
+卫星新闻采访车	sng	2
 SNS	sns	1
-social networking service	sns	2
-social networking site	sns	2
-社交网络服务	sns	3
-社交网站	sns	3
+social networking service	sns	1
+social networking site	sns	1
+社交网络服务	sns	2
+社交网站	sns	2
 SOHO	soho	1
-small office home office	soho	2
-小型家居办公室	soho	3
+small office home office	soho	1
+小型家居办公室	soho	2
 SOS	sos	1
-save our souls	sos	2
-紧急呼救	sos	3
-救命	sos	3
-求救	sos	3
-求助	sos	3
+save our souls	sos	1
+紧急呼救	sos	2
+救命	sos	2
+求救	sos	2
+求助	sos	2
 SSD	ssd	1
-solid state disk	ssd	2
-固态硬盘	ssd	3
+solid state disk	ssd	1
+固态硬盘	ssd	2
 ST	st	1
-special treatment	st	2
-特别处理	st	3
+special treatment	st	1
+特别处理	st	2
 STD	std	1
-sexually transmitted disease	std	2
-性传播疾病	std	3
+sexually transmitted disease	std	1
+性传播疾病	std	2
 SUV	suv	1
-sport utility vehicle	suv	2
-运动型多功能车	suv	3
+sport utility vehicle	suv	1
+运动型多功能车	suv	2
 Tel	tel	1
-telephone	tel	2
-电话	tel	3
-电话号码	tel	3
+telephone	tel	1
+电话	tel	2
+电话号码	tel	2
 TMD	tmd	1
-theater missile defense	tmd	2
-美国战区导弹防御系统	tmd	3
+theater missile defense	tmd	1
+美国战区导弹防御系统	tmd	2
 TNT	tnt	1
-trinitrotoluene	tnt	2
-梯恩梯	tnt	3
+trinitrotoluene	tnt	1
+梯恩梯	tnt	2
 TV	tv	1
-television	tv	2
-电视	tv	3
+television	tv	1
+电视	tv	2
 UFO	ufo	1
-unidentified flying object	ufo	2
-不明飞行物	ufo	3
+unidentified flying object	ufo	1
+不明飞行物	ufo	2
 UHD	uhd	1
-ultra high definition	uhd	2
-超高清	uhd	3
+ultra high definition	uhd	1
+超高清	uhd	2
 USB	usb	1
-Universal Serial Bus	usb	2
-通用串行总线	usb	3
+Universal Serial Bus	usb	1
+通用串行总线	usb	2
 UV	uv	1
-ultra violet	uv	2
-紫外线	uv	3
+ultra violet	uv	1
+紫外线	uv	2
 VCD	vcd	1
-video compact disc	vcd	2
-激光压缩视盘	vcd	3
+video compact disc	vcd	1
+激光压缩视盘	vcd	2
 VCR	vcr	1
-video cassette recorder	vcr	2
-盒式磁带录像机	vcr	3
-录像	vcr	3
-短片	vcr	3
+video cassette recorder	vcr	1
+盒式磁带录像机	vcr	2
+录像	vcr	2
+短片	vcr	2
 VIP	vip	1
-very important person	vip	2
-要人	vip	3
-贵宾	vip	3
+very important person	vip	1
+要人	vip	2
+贵宾	vip	2
 VOD	vod	1
-video on demand	vod	2
-视频点播	vod	3
+video on demand	vod	1
+视频点播	vod	2
 VR	vr	1
-virtual reality	vr	2
-虚拟现实	vr	3
+virtual reality	vr	1
+虚拟现实	vr	2
 vs	vs	1
-versus	vs	2
-对比	vs	3
+versus	vs	1
+对比	vs	2
 WAP	wap	1
-wireless application protocol	wap	2
-无线应用协议	wap	3
+wireless application protocol	wap	1
+无线应用协议	wap	2
 WC	wc	1
-water closet	wc	2
-盥洗室	wc	3
-厕所	wc	3
+water closet	wc	1
+盥洗室	wc	2
+厕所	wc	2
 WHO	who	1
-World Health Organization	who	2
-世界卫生组织	who	3
+World Health Organization	who	1
+世界卫生组织	who	2
 Wi-Fi	wifi	1
 WSK	wsk	1
-全国外语水平考试	wsk	3
+全国外语水平考试	wsk	2
 WTO	wto	1
-World Trade Organization	wto	2
-世界贸易组织	wto	3
+World Trade Organization	wto	1
+世界贸易组织	wto	2
 WWW	www	1
-world wide web	www	2
-万维网	www	3
+world wide web	www	1
+万维网	www	2
 # 现代汉语词典区段结束

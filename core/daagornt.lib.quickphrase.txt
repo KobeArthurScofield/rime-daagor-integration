@@ -11,31 +11,31 @@
 # NATO Alphabet
 Able	A	4
 Adam	A	4
-Alfa	A	8
-Alpha	A	8
+Alfa	A	12
+Alpha	A	12
 Amsterdam	A	4
 Ana	A	4
 Argentine	A	4
 Baker	B	4
 Baltimore	B	4
 Beta	B	4
-Bravo	B	8
+Bravo	B	12
 Brazil	B	4
 Brussels	B	4
 Canada	C	4
 Casablanca	C	4
-Charlie	C	8
+Charlie	C	12
 Coca	C	4
 Coco	C	4
 Dado	D	4
 Damascus	D	4
 Danemark	D	4
 David	D	4
-Delta	D	8
+Delta	D	12
 Denmark	D	4
 Dog	D	4
 Easy	E	4
-Echo	E	8
+Echo	E	12
 Ecuador	E	4
 Eddystone	E	4
 Edison	E	4
@@ -44,7 +44,7 @@ Elsa	E	4
 Fiesta	F	4
 Florida	F	4
 Fox	F	4
-Foxtrot	F	8
+Foxtrot	F	12
 France	F	4
 Francisco	F	4
 Freedie	F	4
@@ -53,16 +53,16 @@ Gato	G	4
 George	G	4
 Gibraltar	G	4
 Gold	G	4
-Golf	G	8
+Golf	G	12
 Greece	G	4
 Hanover	H	4
 Harry	H	4
 Havana	H	4
 Hombre	H	4
-Hotel	H	8
+Hotel	H	12
 How	H	4
 Ida	I	4
-India	I	8
+India	I	12
 Italia	I	4
 Italy	I	4
 Item	I	4
@@ -71,16 +71,16 @@ Jerusalem	J	4
 Jig	J	4
 John	J	4
 Juliet	J	4
-Juliett	J	8
+Juliett	J	12
 Julietta	J	4
 Julio	J	4
 Khartoum	K	4
-Kilo	K	8
+Kilo	K	12
 Kilogramme	K	4
 Kimberley	K	4
 King	K	4
 Lewis	L	4
-Lima	L	8
+Lima	L	12
 Liverpool	L	4
 Love	L	4
 Luis	L	4
@@ -89,7 +89,7 @@ Madrid	M	4
 Mama	M	4
 Mary	M	4
 Metro	M	4
-Mike	M	8
+Mike	M	12
 Nan	N	4
 Nancy	N	4
 Nectar	N	4
@@ -97,61 +97,61 @@ Neufchatel	N	4
 New York	N	4
 Nickel	N	4
 Norma	N	4
-November	8	4
+November	N	12
 Oboe	O	4
 Ontario	O	4
 Opera	O	4
-Oscar	O	8
+Oscar	O	12
 Oslo	O	4
 Ostend	O	4
 Otto	O	4
-Papa	P	8
+Papa	P	12
 Paris	P	4
 Peru	P	4
 Peter	P	4
 Polka	P	4
 Portugal	P	4
-Quebec	Q	8
+Quebec	Q	12
 Queen	Q	4
 Rivoli	R	4
 Robert	R	4
 Roger	R	4
 Roma	R	4
 Rome	R	4
-Romeo	R	8
+Romeo	R	12
 Rosa	R	4
 Sail	S	4
 Santiago	S	4
 Sara	S	4
 Sardinia	S	4
-Sierra	S	8
+Sierra	S	12
 Sugar	S	4
 Susan	S	4
-Tango	T	8
+Tango	T	12
 Tare	T	4
 Thomas	T	4
 Tokio	T	4
 Tomas	T	4
 Tripoli	T	4
 Uncle	U	4
-Uniform	U	8
+Uniform	U	12
 Union	U	4
 Upsala	U	4
 Uruguay	U	4
 Valencia	V	4
-Victor	V	8
+Victor	V	12
 Victoria	V	4
 Washington	W	4
 Whiskey	W	4
-Whisky	W	8
+Whisky	W	12
 William	W	4
-X-ray	X	8
+X-ray	X	12
 Equis	X	4
 eXtra	X	4
 Xaintrie	X	4
 Xanthippe	X	4
 Xantippe	X	4
-Yankee	Y	8
+Yankee	Y	12
 Yankey	Y	4
 Yoke	Y	4
 Yokohama	Y	4
@@ -160,871 +160,871 @@ Young	Y	4
 Zanzibar	Z	4
 Zebra	Z	4
 Zeta	Z	4
-Zulu	Z	8
+Zulu	Z	12
 Zululand	Z	4
 Zurich	Z	4
 
 # I-Ching/Bagua/Hexagram
-⚋	YYin	8
-陰	YYin	8
-阴	YYin	8
-⚊	YYang	8
-陽	YYang	8
-阳	YYang	8
-⚌	YTaiYang	8
-太陽	YTaiYang	8
-太阳	YTaiYang	8
-⚎	YShaoYang	8
-少陽	YShaoYang	8
-少阳	YShaoYang	8
-⚍	YShaoYin	8
-少陰	YShaoYin	8
-少阴	YShaoYin	8
-⚏	YTaiYin	8
-太陰	YTaiYin	8
-太阴	YTaiYin	8
-☰	YQian	8
-乾	YQian	8
-☱	YDui	8
-兌	YDui	8
-兑	YDui	8
-☲	YLi	8
-離	YLi	8
-离	YLi	8
-☳	YZhen	8
-震	YZhen	8
-☴	YXun	8
-巽	YXun	8
-☵	YKan	8
-坎	YKan	8
-☶	YGen	8
-艮	YGen	8
-☷	YKun	8
-坤	YKun	8
-䷀	YForce	8
-乾	YForce	8
-䷁	YField	8
-坤	YField	8
-䷂	YSprouting	8
-屯	YSprouting	8
-䷃	YEnveloping	8
-蒙	YEnveloping	8
-䷄	YAttending	8
-需	YAttending	8
-䷅	YArguing	8
-訟	YArguing	8
-讼	YArguing	8
-䷆	YLeading	8
-師	YLeading	8
-师	YLeading	8
-䷇	YGrouping	8
-比	YGrouping	8
-䷈	YSmallAccumulating	8
-小畜	YSmallAccumulating	8
-䷉	YTreading	8
-履	YTreading	8
-䷊	YPervading	8
-泰	YPervading	8
-䷋	YObstruction	8
-否	YObstruction	8
-䷌	YConcordingPeople	8
-同人	YConcordingPeople	8
-䷍	YGreatPossessing	8
-大有	YGreatPossessing	8
-䷎	YHumbling	8
-謙	YHumbling	8
-谦	YHumbling	8
-䷏	YProvidingFor	8
-豫	YProvidingFor	8
-䷐	YFollowing	8
-隨	YFollowing	8
-随	YFollowing	8
-䷑	YCorrecting	8
-蠱	YCorrecting	8
-蛊	YCorrecting	8
-䷒	YNearing	8
-臨	YNearing	8
-临	YNearing	8
-䷓	YViewing	8
-觀	YViewing	8
-观	YViewing	8
-䷔	YGnawingBite	8
-噬嗑	YGnawingBite	8
-䷕	YAdorning	8
-賁	YAdorning	8
-贲	YAdorning	8
-䷖	YStripping	8
-剝	YStripping	8
-剥	YStripping	8
-䷗	YReturning	8
-復	YReturning	8
-复	YReturning	8
-䷘	YWithoutEmbroiling	8
-无妄	YWithoutEmbroiling	8
-䷙	YGreatAccumulating	8
-大畜	YGreatAccumulating	8
-䷚	YSwallowing	8
-頤	YSwallowing	8
-颐	YSwallowing	8
-䷛	YGreatExceeding	8
-大過	YGreatExceeding	8
-大过	YGreatExceeding	8
-䷜	YGorge	8
-坎	YGorge	8
-䷝	YRadiance	8
-離	YRadiance	8
-离	YRadiance	8
-䷞	YConjoining	8
-咸	YConjoining	8
-䷟	YPersevering	8
-恆	YPersevering	8
-恒	YPersevering	8
-䷠	YRetiring	8
-遯	YRetiring	8
-䷡	YGreatInvigorating	8
-大壯	YGreatInvigorating	8
-大壮	YGreatInvigorating	8
-䷢	YProspering	8
-晉	YProspering	8
-晋	YProspering	8
-䷣	YDarkeningoftheLight	8
-明夷	YDarkeningoftheLight	8
-䷤	YDwellingPeople	8
-家人	YDwellingPeople	8
-䷥	YPolarising	8
-睽	YPolarising	8
-䷦	YLimping	8
-蹇	YLimping	8
-䷧	YTakingApart	8
-解	YTakingApart	8
-䷨	YDiminishing	8
-損	YDiminishing	8
-损	YDiminishing	8
-䷩	YAugmenting	8
-益	YAugmenting	8
-䷪	YDisplacement	8
-夬	YDisplacement	8
-䷫	YCoupling	8
-姤	YCoupling	8
-䷬	YClustering	8
-萃	YClustering	8
-䷭	YAscending	8
-升	YAscending	8
-䷮	YConfining	8
-困	YConfining	8
-䷯	YWelling	8
-井	YWelling	8
-䷰	YSkinning	8
-革	YSkinning	8
-䷱	YHolding	8
-鼎	YHolding	8
-䷲	YShake	8
-震	YShake	8
-䷳	YBound	8
-艮	YBound	8
-䷴	YInfiltrating	8
-漸	YInfiltrating	8
-渐	YInfiltrating	8
-䷵	YConvertingtheMaiden	8
-歸妹	YConvertingtheMaiden	8
-归妹	YConvertingtheMaiden	8
-䷶	YAbounding	8
-豐	YAbounding	8
-丰	YAbounding	8
-䷷	YSojourning	8
-旅	YSojourning	8
-䷸	YGround	8
-巽	YGround	8
-䷹	YOpen	8
-兌	YOpen	8
-兑	YOpen	8
-䷺	YDispersing	8
-渙	YDispersing	8
-涣	YDispersing	8
-䷻	YArticulating	8
-節	YArticulating	8
-节	YArticulating	8
-䷼	YCenterReturning	8
-中孚	YCenterReturning	8
-䷽	YSmallExceeding	8
-小過	YSmallExceeding	8
-小过	YSmallExceeding	8
-䷾	YAlreadyFording	8
-既濟	YAlreadyFording	8
-既济	YAlreadyFording	8
-䷿	YNotYetFording	8
-未濟	YNotYetFording	8
-未济	YNotYetFording	8
+⚋	YYin	6
+陰	YYin	6
+阴	YYin	6
+⚊	YYang	6
+陽	YYang	6
+阳	YYang	6
+⚌	YTaiYang	6
+太陽	YTaiYang	6
+太阳	YTaiYang	6
+⚎	YShaoYang	6
+少陽	YShaoYang	6
+少阳	YShaoYang	6
+⚍	YShaoYin	6
+少陰	YShaoYin	6
+少阴	YShaoYin	6
+⚏	YTaiYin	6
+太陰	YTaiYin	6
+太阴	YTaiYin	6
+☰	YQian	6
+乾	YQian	6
+☱	YDui	6
+兌	YDui	6
+兑	YDui	6
+☲	YLi	6
+離	YLi	6
+离	YLi	6
+☳	YZhen	6
+震	YZhen	6
+☴	YXun	6
+巽	YXun	6
+☵	YKan	6
+坎	YKan	6
+☶	YGen	6
+艮	YGen	6
+☷	YKun	6
+坤	YKun	6
+䷀	YForce	6
+乾	YForce	6
+䷁	YField	6
+坤	YField	6
+䷂	YSprouting	6
+屯	YSprouting	6
+䷃	YEnveloping	6
+蒙	YEnveloping	6
+䷄	YAttending	6
+需	YAttending	6
+䷅	YArguing	6
+訟	YArguing	6
+讼	YArguing	6
+䷆	YLeading	6
+師	YLeading	6
+师	YLeading	6
+䷇	YGrouping	6
+比	YGrouping	6
+䷈	YSmallAccumulating	6
+小畜	YSmallAccumulating	6
+䷉	YTreading	6
+履	YTreading	6
+䷊	YPervading	6
+泰	YPervading	6
+䷋	YObstruction	6
+否	YObstruction	6
+䷌	YConcordingPeople	6
+同人	YConcordingPeople	6
+䷍	YGreatPossessing	6
+大有	YGreatPossessing	6
+䷎	YHumbling	6
+謙	YHumbling	6
+谦	YHumbling	6
+䷏	YProvidingFor	6
+豫	YProvidingFor	6
+䷐	YFollowing	6
+隨	YFollowing	6
+随	YFollowing	6
+䷑	YCorrecting	6
+蠱	YCorrecting	6
+蛊	YCorrecting	6
+䷒	YNearing	6
+臨	YNearing	6
+临	YNearing	6
+䷓	YViewing	6
+觀	YViewing	6
+观	YViewing	6
+䷔	YGnawingBite	6
+噬嗑	YGnawingBite	6
+䷕	YAdorning	6
+賁	YAdorning	6
+贲	YAdorning	6
+䷖	YStripping	6
+剝	YStripping	6
+剥	YStripping	6
+䷗	YReturning	6
+復	YReturning	6
+复	YReturning	6
+䷘	YWithoutEmbroiling	6
+无妄	YWithoutEmbroiling	6
+䷙	YGreatAccumulating	6
+大畜	YGreatAccumulating	6
+䷚	YSwallowing	6
+頤	YSwallowing	6
+颐	YSwallowing	6
+䷛	YGreatExceeding	6
+大過	YGreatExceeding	6
+大过	YGreatExceeding	6
+䷜	YGorge	6
+坎	YGorge	6
+䷝	YRadiance	6
+離	YRadiance	6
+离	YRadiance	6
+䷞	YConjoining	6
+咸	YConjoining	6
+䷟	YPersevering	6
+恆	YPersevering	6
+恒	YPersevering	6
+䷠	YRetiring	6
+遯	YRetiring	6
+䷡	YGreatInvigorating	6
+大壯	YGreatInvigorating	6
+大壮	YGreatInvigorating	6
+䷢	YProspering	6
+晉	YProspering	6
+晋	YProspering	6
+䷣	YDarkeningoftheLight	6
+明夷	YDarkeningoftheLight	6
+䷤	YDwellingPeople	6
+家人	YDwellingPeople	6
+䷥	YPolarising	6
+睽	YPolarising	6
+䷦	YLimping	6
+蹇	YLimping	6
+䷧	YTakingApart	6
+解	YTakingApart	6
+䷨	YDiminishing	6
+損	YDiminishing	6
+损	YDiminishing	6
+䷩	YAugmenting	6
+益	YAugmenting	6
+䷪	YDisplacement	6
+夬	YDisplacement	6
+䷫	YCoupling	6
+姤	YCoupling	6
+䷬	YClustering	6
+萃	YClustering	6
+䷭	YAscending	6
+升	YAscending	6
+䷮	YConfining	6
+困	YConfining	6
+䷯	YWelling	6
+井	YWelling	6
+䷰	YSkinning	6
+革	YSkinning	6
+䷱	YHolding	6
+鼎	YHolding	6
+䷲	YShake	6
+震	YShake	6
+䷳	YBound	6
+艮	YBound	6
+䷴	YInfiltrating	6
+漸	YInfiltrating	6
+渐	YInfiltrating	6
+䷵	YConvertingtheMaiden	6
+歸妹	YConvertingtheMaiden	6
+归妹	YConvertingtheMaiden	6
+䷶	YAbounding	6
+豐	YAbounding	6
+丰	YAbounding	6
+䷷	YSojourning	6
+旅	YSojourning	6
+䷸	YGround	6
+巽	YGround	6
+䷹	YOpen	6
+兌	YOpen	6
+兑	YOpen	6
+䷺	YDispersing	6
+渙	YDispersing	6
+涣	YDispersing	6
+䷻	YArticulating	6
+節	YArticulating	6
+节	YArticulating	6
+䷼	YCenterReturning	6
+中孚	YCenterReturning	6
+䷽	YSmallExceeding	6
+小過	YSmallExceeding	6
+小过	YSmallExceeding	6
+䷾	YAlreadyFording	6
+既濟	YAlreadyFording	6
+既济	YAlreadyFording	6
+䷿	YNotYetFording	6
+未濟	YNotYetFording	6
+未济	YNotYetFording	6
 
 # Taixuanjing
-⚊	THeaven	8
-天	THeaven	8
-⚋	TEarth	8
-地	TEarth	8
-𝌀	THuman	8
-人	THuman	8
-⚌	THeaven	8
-天天	THeaven	8
-⚍	THeavenlyEarth	8
-地天	THeavenlyEarth	8
-⚎	TEarthlyHeaven	8
-天地	TEarthlyHeaven	8
-⚏	TEarth	8
-地地	TEarth	8
-𝌁	THeavenlyHuman	8
-人天	THeavenlyHuman	8
-𝌂	THumanlyHeaven	8
-天人	THumanlyHeaven	8
-𝌃	THumanlyEarth	8
-地人	THumanlyEarth	8
-𝌄	TEarthlyHuman	8
-人地	TEarthlyHuman	8
-𝌅	THuman	8
-人人	T	8
-𝌆	TCentre	8
-中	TCentre	8
-𝌇	TFullCircle	8
-周	TFullCircle	8
-𝌈	TMired	8
-礥	TMired	8
-𝌉	TBarrier	8
-閑	TBarrier	8
-闲	TBarrier	8
-𝌊	TKeepingSmall	8
-少	TKeepingSmall	8
-𝌋	TContrariety	8
-戾	TContrariety	8
-𝌌	TAscent	8
-上	TAscent	8
-𝌍	TOpposition	8
-干	TOpposition	8
-𝌎	TBranchingOut	8
-𤕠	TBranchingOut	8
-𝌏	TDistortion	8
-羨	TDistortion	8
-羡	TDistortion	8
-𝌐	TDivergence	8
-差	TDivergence	8
-𝌑	TYouthfulness	8
-童	TYouthfulness	8
-𝌒	TIncrease	8
-增	TIncrease	8
-𝌓	TPenetration	8
-銳	TPenetration	8
-锐	TPenetration	8
-𝌔	TReach	8
-達	TReach	8
-达	TReach	8
-𝌕	TContact	8
-交	TContact	8
-𝌖	THoldingback	8
-䎡	THoldingback	8
-𝌗	TWaiting	8
-傒	TWaiting	8
-𝌘	TFollowing	8
-從	TFollowing	8
-从	TFollowing	8
-𝌙	TAdvance	8
-進	TAdvance	8
-进	TAdvance	8
-𝌚	TRelease	8
-釋	TRelease	8
-释	TRelease	8
-𝌛	TResistance	8
-格	TResistance	8
-𝌜	TEase	8
-夷	TEase	8
-𝌝	TJoy	8
-樂	TJoy	8
-乐	TJoy	8
-𝌞	TContention	8
-爭	TContention	8
-争	TContention	8
-𝌟	TEndeavour	8
-務	TEndeavour	8
-务	TEndeavour	8
-𝌠	TDuties	8
-事	TDuties	8
-𝌡	TChange	8
-更	TChange	8
-𝌢	TDecisiveness	8
-斷	TDecisiveness	8
-断	TDecisiveness	8
-𝌣	TBoldResolution	8
-毅	TBoldResolution	8
-𝌤	TPacking	8
-裝	TPacking	8
-装	TPacking	8
-𝌥	TLegion	8
-眾	TLegion	8
-众	TLegion	8
-𝌦	TCloseness	8
-密	TCloseness	8
-𝌧	TKinship	8
-親	TKinship	8
-亲	TKinship	8
-𝌨	TGathering	8
-斂	TGathering	8
-敛	TGathering	8
-𝌩	TStrength	8
-彊	TStrength	8
-𝌪	TPurity	8
-睟	TPurity	8
-𝌫	TFullness	8
-盛	TFullness	8
-𝌬	TResidence	8
-居	TResidence	8
-𝌭	TLaw	8
-法	TLaw	8
-𝌮	TResponse	8
-応	TResponse	8
-𝌯	TGoingToMeet	8
-迎	TGoingToMeet	8
-𝌰	TEncounters	8
-遇	TEncounters	8
-𝌱	TStove	8
-竈	TStove	8
-灶	TStove	8
-𝌲	TGreatness	8
-大	TGreatness	8
-𝌳	TEnlargement	8
-廓	TEnlargement	8
-𝌴	TPattern	8
-文	TPattern	8
-𝌵	TRitual	8
-禮	TRitual	8
-礼	TRitual	8
-𝌶	TFlight	8
-逃	TFlight	8
-𝌷	TVastness	8
-唐	TVastness	8
-𝌸	TConstancy	8
-常	TConstancy	8
-𝌹	TMeasure	8
-度	TMeasure	8
-𝌺	TEternity	8
-永	TEternity	8
-𝌻	TUnity	8
-昆	TUnity	8
-𝌼	TDeminishment	8
-減	TDeminishment	8
-减	TDeminishment	8
-𝌽	TClosedMouth	8
-唫	TClosedMouth	8
-𝌾	TGuardedness	8
-守	TGuardedness	8
-𝌿	TGatheringIn	8
-翕	TGatheringIn	8
-𝍀	TMassing	8
-聚	TMassing	8
-𝍁	TAccumulation	8
-積	TAccumulation	8
-积	TAccumulation	8
-𝍂	TEmbellishment	8
-飾	TEmbellishment	8
-饰	TEmbellishment	8
-𝍃	TDoubt	8
-疑	TDoubt	8
-𝍄	TWatch	8
-視	TWatch	8
-视	TWatch	8
-𝍅	TSinking	8
-沈	TSinking	8
-𝍆	TInner	8
-內	TInner	8
-内	TInner	8
-𝍇	TDeparture	8
-去	TDeparture	8
-𝍈	TDarkening	8
-晦	TDarkening	8
-𝍉	TDimming	8
-瞢	TDimming	8
-𝍊	TExhaustion	8
-窮	TExhaustion	8
-穷	TExhaustion	8
-𝍋	TSeverance	8
-割	TSeverance	8
-𝍌	TStoppage	8
-止	TStoppage	8
-𝍍	THardness	8
-堅	THardness	8
-坚	THardness	8
-𝍎	TCompletion	8
-成	TCompletion	8
-𝍏	TClosure	8
-䦯	TClosure	8
-𝍐	TFailure	8
-失	TFailure	8
-𝍑	TAggravation	8
-劇	TAggravation	8
-剧	TAggravation	8
-𝍒	TCompliance	8
-馴	TCompliance	8
-驯	TCompliance	8
-𝍓	TOnTheVerge	8
-將	TOnTheVerge	8
-将	TOnTheVerge	8
-𝍔	TDifficulties	8
-難	TDifficulties	8
-难	TDifficulties	8
-𝍕	TLabouring	8
-勤	TLabouring	8
-𝍖	TFostering	8
-養	TFostering	8
-养	TFostering	8
+⚊	THeaven	6
+天	THeaven	6
+⚋	TEarth	6
+地	TEarth	6
+𝌀	THuman	6
+人	THuman	6
+⚌	THeaven	6
+天天	THeaven	6
+⚍	THeavenlyEarth	6
+地天	THeavenlyEarth	6
+⚎	TEarthlyHeaven	6
+天地	TEarthlyHeaven	6
+⚏	TEarth	6
+地地	TEarth	6
+𝌁	THeavenlyHuman	6
+人天	THeavenlyHuman	6
+𝌂	THumanlyHeaven	6
+天人	THumanlyHeaven	6
+𝌃	THumanlyEarth	6
+地人	THumanlyEarth	6
+𝌄	TEarthlyHuman	6
+人地	TEarthlyHuman	6
+𝌅	THuman	6
+人人	T	6
+𝌆	TCentre	6
+中	TCentre	6
+𝌇	TFullCircle	6
+周	TFullCircle	6
+𝌈	TMired	6
+礥	TMired	6
+𝌉	TBarrier	6
+閑	TBarrier	6
+闲	TBarrier	6
+𝌊	TKeepingSmall	6
+少	TKeepingSmall	6
+𝌋	TContrariety	6
+戾	TContrariety	6
+𝌌	TAscent	6
+上	TAscent	6
+𝌍	TOpposition	6
+干	TOpposition	6
+𝌎	TBranchingOut	6
+𤕠	TBranchingOut	6
+𝌏	TDistortion	6
+羨	TDistortion	6
+羡	TDistortion	6
+𝌐	TDivergence	6
+差	TDivergence	6
+𝌑	TYouthfulness	6
+童	TYouthfulness	6
+𝌒	TIncrease	6
+增	TIncrease	6
+𝌓	TPenetration	6
+銳	TPenetration	6
+锐	TPenetration	6
+𝌔	TReach	6
+達	TReach	6
+达	TReach	6
+𝌕	TContact	6
+交	TContact	6
+𝌖	THoldingback	6
+䎡	THoldingback	6
+𝌗	TWaiting	6
+傒	TWaiting	6
+𝌘	TFollowing	6
+從	TFollowing	6
+从	TFollowing	6
+𝌙	TAdvance	6
+進	TAdvance	6
+进	TAdvance	6
+𝌚	TRelease	6
+釋	TRelease	6
+释	TRelease	6
+𝌛	TResistance	6
+格	TResistance	6
+𝌜	TEase	6
+夷	TEase	6
+𝌝	TJoy	6
+樂	TJoy	6
+乐	TJoy	6
+𝌞	TContention	6
+爭	TContention	6
+争	TContention	6
+𝌟	TEndeavour	6
+務	TEndeavour	6
+务	TEndeavour	6
+𝌠	TDuties	6
+事	TDuties	6
+𝌡	TChange	6
+更	TChange	6
+𝌢	TDecisiveness	6
+斷	TDecisiveness	6
+断	TDecisiveness	6
+𝌣	TBoldResolution	6
+毅	TBoldResolution	6
+𝌤	TPacking	6
+裝	TPacking	6
+装	TPacking	6
+𝌥	TLegion	6
+眾	TLegion	6
+众	TLegion	6
+𝌦	TCloseness	6
+密	TCloseness	6
+𝌧	TKinship	6
+親	TKinship	6
+亲	TKinship	6
+𝌨	TGathering	6
+斂	TGathering	6
+敛	TGathering	6
+𝌩	TStrength	6
+彊	TStrength	6
+𝌪	TPurity	6
+睟	TPurity	6
+𝌫	TFullness	6
+盛	TFullness	6
+𝌬	TResidence	6
+居	TResidence	6
+𝌭	TLaw	6
+法	TLaw	6
+𝌮	TResponse	6
+応	TResponse	6
+𝌯	TGoingToMeet	6
+迎	TGoingToMeet	6
+𝌰	TEncounters	6
+遇	TEncounters	6
+𝌱	TStove	6
+竈	TStove	6
+灶	TStove	6
+𝌲	TGreatness	6
+大	TGreatness	6
+𝌳	TEnlargement	6
+廓	TEnlargement	6
+𝌴	TPattern	6
+文	TPattern	6
+𝌵	TRitual	6
+禮	TRitual	6
+礼	TRitual	6
+𝌶	TFlight	6
+逃	TFlight	6
+𝌷	TVastness	6
+唐	TVastness	6
+𝌸	TConstancy	6
+常	TConstancy	6
+𝌹	TMeasure	6
+度	TMeasure	6
+𝌺	TEternity	6
+永	TEternity	6
+𝌻	TUnity	6
+昆	TUnity	6
+𝌼	TDeminishment	6
+減	TDeminishment	6
+减	TDeminishment	6
+𝌽	TClosedMouth	6
+唫	TClosedMouth	6
+𝌾	TGuardedness	6
+守	TGuardedness	6
+𝌿	TGatheringIn	6
+翕	TGatheringIn	6
+𝍀	TMassing	6
+聚	TMassing	6
+𝍁	TAccumulation	6
+積	TAccumulation	6
+积	TAccumulation	6
+𝍂	TEmbellishment	6
+飾	TEmbellishment	6
+饰	TEmbellishment	6
+𝍃	TDoubt	6
+疑	TDoubt	6
+𝍄	TWatch	6
+視	TWatch	6
+视	TWatch	6
+𝍅	TSinking	6
+沈	TSinking	6
+𝍆	TInner	6
+內	TInner	6
+内	TInner	6
+𝍇	TDeparture	6
+去	TDeparture	6
+𝍈	TDarkening	6
+晦	TDarkening	6
+𝍉	TDimming	6
+瞢	TDimming	6
+𝍊	TExhaustion	6
+窮	TExhaustion	6
+穷	TExhaustion	6
+𝍋	TSeverance	6
+割	TSeverance	6
+𝍌	TStoppage	6
+止	TStoppage	6
+𝍍	THardness	6
+堅	THardness	6
+坚	THardness	6
+𝍎	TCompletion	6
+成	TCompletion	6
+𝍏	TClosure	6
+䦯	TClosure	6
+𝍐	TFailure	6
+失	TFailure	6
+𝍑	TAggravation	6
+劇	TAggravation	6
+剧	TAggravation	6
+𝍒	TCompliance	6
+馴	TCompliance	6
+驯	TCompliance	6
+𝍓	TOnTheVerge	6
+將	TOnTheVerge	6
+将	TOnTheVerge	6
+𝍔	TDifficulties	6
+難	TDifficulties	6
+难	TDifficulties	6
+𝍕	TLabouring	6
+勤	TLabouring	6
+𝍖	TFostering	6
+養	TFostering	6
+养	TFostering	6
 
 # Rhyme Day
 東	GRI	4
-東	TD2639	4
+東	LD2639	4
 东	GRI	4
-东	TD2639	4
+东	LD2639	4
 先	AND	4
-先	TD0341	4
+先	LD0341	4
 冬	APC	4
-冬	TD0392	4
+冬	LD0392	4
 蕭	OVL	4
-蕭	TD5618	4
+蕭	LD5618	4
 萧	OVL	4
-萧	TD5618	4
+萧	LD5618	4
 江	ICJ	4
-江	TD3068	4
+江	LD3068	4
 肴	ODJ	4
-肴	TD5149	4
+肴	LD5149	4
 支	FUJ	4
-支	TD2388	4
+支	LD2388	4
 豪	QYS	4
-豪	TD6275	4
+豪	LD6275	4
 微	ELD	4
-微	TD1792	4
+微	LD1792	4
 歌	HVO	4
-歌	TD2960	4
+歌	LD2960	4
 魚	UTO	4
-魚	TD7625	4
+魚	LD7625	4
 鱼	UTO	4
-鱼	TD7625	4
+鱼	LD7625	4
 麻	VAK	4
-麻	TD7802	4
+麻	LD7802	4
 虞	OZC	4
-虞	TD5713	4
+虞	LD5713	4
 陽	UAF	4
-陽	TD7122	4
+陽	LD7122	4
 阳	UAF	4
-阳	TD7122	4
+阳	LD7122	4
 齊	VGO	4
-齊	TD7871	4
+齊	LD7871	4
 齐	VGO	4
-齐	TD7871	4
+齐	LD7871	4
 庚	EFQ	4
-庚	TD1649	4
+庚	LD1649	4
 佳	AGH	4
-佳	TD0163	4
+佳	LD0163	4
 青	UEJ	4
-青	TD7230	4
+青	LD7230	4
 灰	ITA	4
-灰	TD3500	4
+灰	LD3500	4
 蒸	OSP	4
-蒸	TD5544	4
+蒸	LD5544	4
 眞	KUS	4
-眞	TD4176	4
+眞	LD4176	4
 真	KUS	4
-真	TD4176	4
+真	LD4176	4
 尤	DUB	4
-尤	TD1429	4
+尤	LD1429	4
 文	FYG	4
-文	TD2429	4
+文	LD2429	4
 侵	AHF	4
-侵	TD0187	4
+侵	LD0187	4
 元	AMZ	4
-元	TD0337	4
+元	LD0337	4
 覃	PZI	4
-覃	TD6009	4
+覃	LD6009	4
 寒	DOL	4
-寒	TD1383	4
+寒	LD1383	4
 鹽	UZE	4
-鹽	TD7770	4
+鹽	LD7770	4
 盐	UZE	4
-盐	TD7770	4
+盐	LD7770	4
 刪	ARC	4
-刪	TD0444	4
+刪	LD0444	4
 删	ARC	4
-删	TD0444	4
+删	LD0444	4
 咸	BGA	4
-咸	TD0752	4
+咸	LD0752	4
 銑	TEM	4
-銑	TD6897	4
+銑	LD6897	4
 铣	TEM	4
-铣	TD6897	4
+铣	LD6897	4
 諫	QOM	4
-諫	TD6169	4
+諫	LD6169	4
 谏	QOM	4
-谏	TD6169	4
+谏	LD6169	4
 篠	MMU	4
-篠	TD4646	4
+篠	LD4646	4
 霰	UDS	4
-霰	TD7213	4
+霰	LD7213	4
 巧	ECI	4
-巧	TD1564	4
+巧	LD1564	4
 嘯	BUA	4
-嘯	TD0876	4
+嘯	LD0876	4
 啸	BUA	4
-啸	TD0876	4
+啸	LD0876	4
 皓	KOI	4
-皓	TD4110	4
+皓	LD4110	4
 效	FUV	4
-效	TD2400	4
+效	LD2400	4
 哿	BIM	4
-哿	TD0776	4
+哿	LD0776	4
 號	OZD	4
-號	TD5714	4
+號	LD5714	4
 号	OZD	4
-号	TD5714	4
+号	LD5714	4
 馬	UNB	4
-馬	TD7456	4
+馬	LD7456	4
 马	UNB	4
-马	TD7456	4
+马	LD7456	4
 箇	MIO	4
-箇	TD4612	4
+箇	LD4612	4
 个	MIO	4
-个	TD4612	4
+个	LD4612	4
 養	YYA	4
-養	TD9502	4
+養	LD9502	4
 养	YYA	4
-养	TD9502	4
+养	LD9502	4
 禡	LOX	4
-禡	TD4401	4
+禡	LD4401	4
 祃	LOX	4
-祃	TD4401	4
+祃	LD4401	4
 梗	HAI	4
-梗	TD2739	4
+梗	LD2739	4
 漾	INT	4
-漾	TD3363	4
+漾	LD3363	4
 迥	SDY	4
-迥	TD6608	4
+迥	LD6608	4
 敬	FXA	4
-敬	TD2417	4
+敬	LD2417	4
 有	GMI	4
-有	TD2589	4
+有	LD2589	4
 徑	EKO	4
-徑	TD1777	4
+徑	LD1777	4
 径	EKO	4
-径	TD1777	4
+径	LD1777	4
 寢	DOU	4
-寢	TD1392	4
+寢	LD1392	4
 寝	DOU	4
-寝	TD1392	4
+寝	LD1392	4
 宥	DLY	4
-宥	TD1359	4
+宥	LD1359	4
 感	ERE	4
-感	TD1949	4
+感	LD1949	4
 沁	ICZ	4
-沁	TD3084	4
+沁	LD3084	4
 儉	AMB	4
-儉	TD0313	4
+儉	LD0313	4
 俭	AMB	4
-俭	TD0313	4
+俭	LD0313	4
 勘	AUC	4
-勘	TD0522	4
+勘	LD0522	4
 豏	QYL	4
-豏	TD6268	4
+豏	LD6268	4
 豔	QYK	4
-豔	TD6267	4
+豔	LD6267	4
 艳	QYK	4
-艳	TD6267	4
+艳	LD6267	4
 陷	UAC	4
-陷	TD7119	4
+陷	LD7119	4
 世	AAN	4
-世	TD0013	4
+世	LD0013	4
 
 # Date and Time
-㍘	TD9800	6
-㍙	TD9801	6
-㍚	TD9802	6
-㍛	TD9803	6
-㍜	TD9804	6
-㍝	TD9805	6
-㍞	TD9806	6
-㍟	TD9807	6
-㍠	TD9808	6
-㍡	TD9809	6
-㍢	TD9810	6
-㍣	TD9811	6
-㍤	TD9812	6
-㍥	TD9813	6
-㍦	TD9814	6
-㍧	TD9815	6
-㍨	TD9816	6
-㍩	TD9817	6
-㍪	TD9818	6
-㍫	TD9819	6
-㍬	TD9820	6
-㍭	TD9821	6
-㍮	TD9822	6
-㍯	TD9823	6
-㍰	TD9824	6
-㏠	TD9901	6
-東日	TD9901	6
-东日	TD9901	6
-先日	TD9901	6
-㏡	TD9902	6
-冬日	TD9902	6
-蕭日	TD9902	6
-萧日	TD9902	6
-㏢	TD9903	6
-江日	TD9903	6
-肴日	TD9903	6
-㏣	TD9904	6
-支日	TD9904	6
-豪日	TD9904	6
-㏤	TD9905	6
-微日	TD9905	6
-歌日	TD9905	6
-㏥	TD9906	6
-魚日	TD9906	6
-鱼日	TD9906	6
-麻日	TD9906	6
-㏦	TD9907	6
-虞日	TD9907	6
-陽日	TD9907	6
-阳日	TD9907	6
-㏧	TD9908	6
-齊日	TD9908	6
-齐日	TD9908	6
-庚日	TD9908	6
-㏨	TD9909	6
-佳日	TD9909	6
-青日	TD9909	6
-㏩	TD9910	6
-灰日	TD9910	6
-蒸日	TD9910	6
-㏪	TD9911	6
-眞日	TD9911	6
-真日	TD9911	6
-尤日	TD9911	6
-㏫	TD9912	6
-文日	TD9912	6
-侵日	TD9912	6
-㏬	TD9913	6
-元日	TD9913	6
-覃日	TD9913	6
-㏭	TD9914	6
-寒日	TD9914	6
-鹽日	TD9914	6
-盐日	TD9914	6
-㏮	TD9915	6
-刪日	TD9915	6
-删日	TD9915	6
-咸日	TD9915	6
-㏯	TD9916	6
-銑日	TD9916	6
-铣日	TD9916	6
-諫日	TD9916	6
-谏日	TD9916	6
-㏰	TD9917	6
-篠日	TD9917	6
-霰日	TD9917	6
-㏱	TD9918	6
-巧日	TD9918	6
-嘯日	TD9918	6
-啸日	TD9918	6
-㏲	TD9919	6
-皓日	TD9919	6
-效日	TD9919	6
-㏳	TD9920	6
-哿日	TD9920	6
-號日	TD9920	6
-号日	TD9920	6
-㏴	TD9921	6
-馬日	TD9921	6
-马日	TD9921	6
-箇日	TD9921	6
-个日	TD9921	6
-㏵	TD9922	6
-養日	TD9922	6
-养日	TD9922	6
-禡日	TD9922	6
-祃日	TD9922	6
-㏶	TD9923	6
-梗日	TD9923	6
-漾日	TD9923	6
-㏷	TD9924	6
-迥日	TD9924	6
-敬日	TD9924	6
-㏸	TD9925	6
-有日	TD9925	6
-徑日	TD9925	6
-径日	TD9925	6
-㏹	TD9926	6
-寢日	TD9926	6
-寝日	TD9926	6
-宥日	TD9926	6
-㏺	TD9927	6
-感日	TD9927	6
-沁日	TD9927	6
-㏻	TD9928	6
-儉日	TD9928	6
-俭日	TD9928	6
-勘日	TD9928	6
-㏼	TD9929	6
-豏日	TD9929	6
-豔日	TD9929	6
-艳日	TD9929	6
-㏽	TD9930	6
-陷日	TD9930	6
-㏾	TD9931	6
-世日	TD9931	6
-㍘	ZTO	2
-㍙	ZTU	2
-㍚	ZTY	2
-㍛	ZUA	2
-㍜	ZUB	2
-㍝	ZUC	2
-㍞	ZUD	2
-㍟	ZUE	2
-㍠	ZUF	2
-㍡	ZUG	2
-㍢	ZUH	2
-㍣	ZUI	2
-㍤	ZUJ	2
-㍥	ZUK	2
-㍦	ZUL	2
-㍧	ZUM	2
-㍨	ZUN	2
-㍩	ZUO	2
-㍪	ZUP	2
-㍫	ZUQ	2
-㍬	ZUR	2
-㍭	ZUS	2
-㍮	ZUT	2
-㍯	ZUU	2
-㍰	ZUV	2
-㏠	ZYB	2
-東日	ZYB	2
-东日	ZYB	2
-先日	ZYB	2
-㏡	ZYC	2
-冬日	ZYC	2
-蕭日	ZYC	2
-萧日	ZYC	2
-㏢	ZYD	2
-江日	ZYD	2
-肴日	ZYD	2
-㏣	ZYE	2
-支日	ZYE	2
-豪日	ZYE	2
-㏤	ZYF	2
-微日	ZYF	2
-歌日	ZYF	2
-㏥	ZYG	2
-魚日	ZYG	2
-鱼日	ZYG	2
-麻日	ZYG	2
-㏦	ZYH	2
-虞日	ZYH	2
-陽日	ZYH	2
-阳日	ZYH	2
-㏧	ZYI	2
-齊日	ZYI	2
-齐日	ZYI	2
-庚日	ZYI	2
-㏨	ZYJ	2
-佳日	ZYJ	2
-青日	ZYJ	2
-㏩	ZYK	2
-灰日	ZYK	2
-蒸日	ZYK	2
-㏪	ZYL	2
-眞日	ZYL	2
-真日	ZYL	2
-尤日	ZYL	2
-㏫	ZYM	2
-文日	ZYM	2
-侵日	ZYM	2
-㏬	ZYN	2
-元日	ZYN	2
-覃日	ZYN	2
-㏭	ZYO	2
-寒日	ZYO	2
-鹽日	ZYO	2
-盐日	ZYO	2
-㏮	ZYP	2
-刪日	ZYP	2
-删日	ZYP	2
-咸日	ZYP	2
-㏯	ZYQ	2
-銑日	ZYQ	2
-铣日	ZYQ	2
-諫日	ZYQ	2
-谏日	ZYQ	2
-㏰	ZYR	2
-篠日	ZYR	2
-霰日	ZYR	2
-㏱	ZYS	2
-巧日	ZYS	2
-嘯日	ZYS	2
-啸日	ZYS	2
-㏲	ZYT	2
-皓日	ZYT	2
-效日	ZYT	2
-㏳	ZYU	2
-哿日	ZYU	2
-號日	ZYU	2
-号日	ZYU	2
-㏴	ZYV	2
-馬日	ZYV	2
-马日	ZYV	2
-箇日	ZYV	2
-个日	ZYV	2
-㏵	ZYW	2
-養日	ZYW	2
-养日	ZYW	2
-禡日	ZYW	2
-祃日	ZYW	2
-㏶	ZYX	2
-梗日	ZYX	2
-漾日	ZYX	2
-㏷	ZYY	2
-迥日	ZYY	2
-敬日	ZYY	2
-㏸	ZYZ	2
-有日	ZYZ	2
-徑日	ZYZ	2
-径日	ZYZ	2
-㏹	ZZA	2
-寢日	ZZA	2
-寝日	ZZA	2
-宥日	ZZA	2
-㏺	ZZE	2
-感日	ZZE	2
-沁日	ZZE	2
-㏻	ZZI	2
-儉日	ZZI	2
-俭日	ZZI	2
-勘日	ZZI	2
-㏼	ZZO	2
-豏日	ZZO	2
-豔日	ZZO	2
-艳日	ZZO	2
-㏽	ZZU	2
-陷日	ZZU	2
-㏾	ZZY	2
-世日	ZZY	2
+㍘	LD9800	4
+㍙	LD9801	4
+㍚	LD9802	4
+㍛	LD9803	4
+㍜	LD9804	4
+㍝	LD9805	4
+㍞	LD9806	4
+㍟	LD9807	4
+㍠	LD9808	4
+㍡	LD9809	4
+㍢	LD9810	4
+㍣	LD9811	4
+㍤	LD9812	4
+㍥	LD9813	4
+㍦	LD9814	4
+㍧	LD9815	4
+㍨	LD9816	4
+㍩	LD9817	4
+㍪	LD9818	4
+㍫	LD9819	4
+㍬	LD9820	4
+㍭	LD9821	4
+㍮	LD9822	4
+㍯	LD9823	4
+㍰	LD9824	4
+㏠	LD9901	4
+東日	LD9901	6
+东日	LD9901	6
+先日	LD9901	6
+㏡	LD9902	4
+冬日	LD9902	6
+蕭日	LD9902	6
+萧日	LD9902	6
+㏢	LD9903	4
+江日	LD9903	6
+肴日	LD9903	6
+㏣	LD9904	4
+支日	LD9904	6
+豪日	LD9904	6
+㏤	LD9905	4
+微日	LD9905	6
+歌日	LD9905	6
+㏥	LD9906	4
+魚日	LD9906	6
+鱼日	LD9906	6
+麻日	LD9906	6
+㏦	LD9907	4
+虞日	LD9907	6
+陽日	LD9907	6
+阳日	LD9907	6
+㏧	LD9908	4
+齊日	LD9908	6
+齐日	LD9908	6
+庚日	LD9908	6
+㏨	LD9909	4
+佳日	LD9909	6
+青日	LD9909	6
+㏩	LD9910	4
+灰日	LD9910	6
+蒸日	LD9910	6
+㏪	LD9911	4
+眞日	LD9911	6
+真日	LD9911	6
+尤日	LD9911	6
+㏫	LD9912	4
+文日	LD9912	6
+侵日	LD9912	6
+㏬	LD9913	4
+元日	LD9913	6
+覃日	LD9913	6
+㏭	LD9914	4
+寒日	LD9914	6
+鹽日	LD9914	6
+盐日	LD9914	6
+㏮	LD9915	4
+刪日	LD9915	6
+删日	LD9915	6
+咸日	LD9915	6
+㏯	LD9916	4
+銑日	LD9916	6
+铣日	LD9916	6
+諫日	LD9916	6
+谏日	LD9916	6
+㏰	LD9917	4
+篠日	LD9917	6
+霰日	LD9917	6
+㏱	LD9918	4
+巧日	LD9918	6
+嘯日	LD9918	6
+啸日	LD9918	6
+㏲	LD9919	4
+皓日	LD9919	6
+效日	LD9919	6
+㏳	LD9920	4
+哿日	LD9920	6
+號日	LD9920	6
+号日	LD9920	6
+㏴	LD9921	4
+馬日	LD9921	6
+马日	LD9921	6
+箇日	LD9921	6
+个日	LD9921	6
+㏵	LD9922	4
+養日	LD9922	6
+养日	LD9922	6
+禡日	LD9922	6
+祃日	LD9922	6
+㏶	LD9923	4
+梗日	LD9923	6
+漾日	LD9923	6
+㏷	LD9924	4
+迥日	LD9924	6
+敬日	LD9924	6
+㏸	LD9925	4
+有日	LD9925	6
+徑日	LD9925	6
+径日	LD9925	6
+㏹	LD9926	4
+寢日	LD9926	6
+寝日	LD9926	6
+宥日	LD9926	6
+㏺	LD9927	4
+感日	LD9927	6
+沁日	LD9927	6
+㏻	LD9928	4
+儉日	LD9928	6
+俭日	LD9928	6
+勘日	LD9928	6
+㏼	LD9929	4
+豏日	LD9929	6
+豔日	LD9929	6
+艳日	LD9929	6
+㏽	LD9930	4
+陷日	LD9930	6
+㏾	LD9931	4
+世日	LD9931	6
+㍘	ZTO	3
+㍙	ZTU	3
+㍚	ZTY	3
+㍛	ZUA	3
+㍜	ZUB	3
+㍝	ZUC	3
+㍞	ZUD	3
+㍟	ZUE	3
+㍠	ZUF	3
+㍡	ZUG	3
+㍢	ZUH	3
+㍣	ZUI	3
+㍤	ZUJ	3
+㍥	ZUK	3
+㍦	ZUL	3
+㍧	ZUM	3
+㍨	ZUN	3
+㍩	ZUO	3
+㍪	ZUP	3
+㍫	ZUQ	3
+㍬	ZUR	3
+㍭	ZUS	3
+㍮	ZUT	3
+㍯	ZUU	3
+㍰	ZUV	3
+㏠	ZYB	3
+東日	ZYB	8
+东日	ZYB	8
+先日	ZYB	8
+㏡	ZYC	3
+冬日	ZYC	8
+蕭日	ZYC	8
+萧日	ZYC	8
+㏢	ZYD	3
+江日	ZYD	8
+肴日	ZYD	8
+㏣	ZYE	3
+支日	ZYE	8
+豪日	ZYE	8
+㏤	ZYF	3
+微日	ZYF	8
+歌日	ZYF	8
+㏥	ZYG	3
+魚日	ZYG	8
+鱼日	ZYG	8
+麻日	ZYG	8
+㏦	ZYH	3
+虞日	ZYH	8
+陽日	ZYH	8
+阳日	ZYH	8
+㏧	ZYI	3
+齊日	ZYI	8
+齐日	ZYI	8
+庚日	ZYI	8
+㏨	ZYJ	3
+佳日	ZYJ	8
+青日	ZYJ	8
+㏩	ZYK	3
+灰日	ZYK	8
+蒸日	ZYK	8
+㏪	ZYL	3
+眞日	ZYL	8
+真日	ZYL	8
+尤日	ZYL	8
+㏫	ZYM	3
+文日	ZYM	8
+侵日	ZYM	8
+㏬	ZYN	3
+元日	ZYN	8
+覃日	ZYN	8
+㏭	ZYO	3
+寒日	ZYO	8
+鹽日	ZYO	8
+盐日	ZYO	8
+㏮	ZYP	3
+刪日	ZYP	8
+删日	ZYP	8
+咸日	ZYP	8
+㏯	ZYQ	3
+銑日	ZYQ	8
+铣日	ZYQ	8
+諫日	ZYQ	8
+谏日	ZYQ	8
+㏰	ZYR	3
+篠日	ZYR	8
+霰日	ZYR	8
+㏱	ZYS	3
+巧日	ZYS	8
+嘯日	ZYS	8
+啸日	ZYS	8
+㏲	ZYT	3
+皓日	ZYT	8
+效日	ZYT	8
+㏳	ZYU	3
+哿日	ZYU	8
+號日	ZYU	8
+号日	ZYU	8
+㏴	ZYV	3
+馬日	ZYV	8
+马日	ZYV	8
+箇日	ZYV	8
+个日	ZYV	8
+㏵	ZYW	3
+養日	ZYW	8
+养日	ZYW	8
+禡日	ZYW	8
+祃日	ZYW	8
+㏶	ZYX	3
+梗日	ZYX	8
+漾日	ZYX	8
+㏷	ZYY	3
+迥日	ZYY	8
+敬日	ZYY	8
+㏸	ZYZ	3
+有日	ZYZ	8
+徑日	ZYZ	8
+径日	ZYZ	8
+㏹	ZZA	3
+寢日	ZZA	8
+寝日	ZZA	8
+宥日	ZZA	8
+㏺	ZZE	3
+感日	ZZE	8
+沁日	ZZE	8
+㏻	ZZI	3
+儉日	ZZI	8
+俭日	ZZI	8
+勘日	ZZI	8
+㏼	ZZO	3
+豏日	ZZO	8
+豔日	ZZO	8
+艳日	ZZO	8
+㏽	ZZU	3
+陷日	ZZU	8
+㏾	ZZY	3
+世日	ZZY	8
 
 # Big Chinese number
-零	Nt0	6
-壹	Nt1	6
-貳	Nt2	6
-參	Nt3	6
-肆	Nt4	6
-伍	Nt5	6
-陸	Nt6	6
-柒	Nt7	6
-捌	Nt8	6
-玖	Nt9	6
-拾	Nt10	6
-佰	Nt102	6
-仟	Nt103	6
-萬	Nt104	6
-億	Nt108	6
+零	Nt0	8
+壹	Nt1	8
+貳	Nt2	8
+參	Nt3	8
+肆	Nt4	8
+伍	Nt5	8
+陸	Nt6	8
+柒	Nt7	8
+捌	Nt8	8
+玖	Nt9	8
+拾	Nt10	8
+佰	Nt102	8
+仟	Nt103	8
+萬	Nt104	8
+億	Nt108	8
 兆	Nt112	6
 京	Nt116	6
 垓	Nt120	6
@@ -1034,25 +1034,25 @@ Zurich	Z	4
 澗	Nt136	6
 正	Nt140	6
 載	Nt144	6
-念	Nt20	6
-參拾	Nt30	6
-肆拾	Nt20	6
-貳佰	Nt200	6
-零	Ns0	6
-壹	Ns1	6
-贰	Ns2	6
-叁	Ns3	6
-肆	Ns4	6
-伍	Ns5	6
-陆	Ns6	6
-柒	Ns7	6
-捌	Ns8	6
-玖	Ns9	6
-拾	Ns10	6
-佰	Ns102	6
-仟	Ns103	6
-萬	Ns104	6
-億	Ns108	6
+念	Nt20	8
+參拾	Nt30	8
+肆拾	Nt20	8
+貳佰	Nt200	8
+零	Ns0	8
+壹	Ns1	8
+贰	Ns2	8
+叁	Ns3	8
+肆	Ns4	8
+伍	Ns5	8
+陆	Ns6	8
+柒	Ns7	8
+捌	Ns8	8
+玖	Ns9	8
+拾	Ns10	8
+佰	Ns102	8
+仟	Ns103	8
+萬	Ns104	8
+億	Ns108	8
 兆	Ns112	6
 京	Ns116	6
 垓	Ns120	6
@@ -1062,24 +1062,24 @@ Zurich	Z	4
 涧	Ns136	6
 正	Ns140	6
 载	Ns144	6
-念	Ns20	6
-叁拾	Ns30	6
-肆拾	Ns20	6
-贰佰	Ns200	6
+念	Ns20	8
+叁拾	Ns30	8
+肆拾	Ns20	8
+贰佰	Ns200	8
 
 # Communication Chinese number
-洞	Nc0	6
-么	Nc1	6
-幺	Nc1	6
-兩	Nc2	6
-两	Nc2	6
-三	Nc3	6
-四	Nc4	6
-五	Nc5	6
-六	Nc6	6
-拐	Nc7	6
-八	Nc8	6
-勾	Nc9	6
+洞	Nc0	8
+么	Nc1	8
+幺	Nc1	8
+兩	Nc2	8
+两	Nc2	8
+三	Nc3	8
+四	Nc4	8
+五	Nc5	8
+六	Nc6	8
+拐	Nc7	8
+八	Nc8	8
+勾	Nc9	8
 
 # Soutseu Number
 〡	Nf01	6
@@ -1129,13 +1129,13 @@ December	Dec	2
 金	Fri	6
 土	Sat	6
 日	Sun	6
-月曜日	Mon	8
-火曜日	Tue	8
-水曜日	Wed	8
-木曜日	Thu	8
-金曜日	Fri	8
-土曜日	Sat	8
-日曜日	Sun	8
+月曜日	Mon	6
+火曜日	Tue	6
+水曜日	Wed	6
+木曜日	Thu	6
+金曜日	Fri	6
+土曜日	Sat	6
+日曜日	Sun	6
 星期一	Mon	8
 星期二	Tue	8
 星期三	Wed	8
@@ -1183,92 +1183,92 @@ December	Dec	2
 10 月	M10	6
 11 月	M11	6
 12 月	M12	6
-Jan	M01	4
-Feb	M02	4
-Mar	M03	4
-Apr	M04	4
+Jan	M01	2
+Feb	M02	2
+Mar	M03	2
+Apr	M04	2
+May	M05	2
+Jun	M06	2
+Jul	M07	2
+Aug	M08	2
+Sep	M09	2
+Oct	M10	2
+Nov	M11	2
+Dec	M12	2
+January	M01	4
+February	M02	4
+March	M03	4
+April	M04	4
 May	M05	4
-Jun	M06	4
-Jul	M07	4
-Aug	M08	4
-Sep	M09	4
-Oct	M10	4
-Nov	M11	4
-Dec	M12	4
-January	M01	6
-February	M02	6
-March	M03	6
-April	M04	6
-May	M05	6
-June	M06	6
-July	M07	6
-August	M08	6
-September	M09	6
-October	M10	6
-November	M11	6
-December	M12	6
-1 日	D01	8
-2 日	D02	8
-3 日	D03	8
-4 日	D04	8
-5 日	D05	8
-6 日	D06	8
-7 日	D07	8
-8 日	D08	8
-9 日	D09	8
-10 日	D10	8
-11 日	D11	8
-12 日	D12	8
-13 日	D13	8
-14 日	D14	8
-15 日	D15	8
-16 日	D16	8
-17 日	D17	8
-18 日	D18	8
-19 日	D19	8
-20 日	D20	8
-21 日	D21	8
-22 日	D22	8
-23 日	D23	8
-24 日	D24	8
-25 日	D25	8
-26 日	D26	8
-27 日	D27	8
-28 日	D28	8
-29 日	D29	8
-30 日	D30	8
-31 日	D31	8
-一日	D01	6
-二日	D02	6
-三日	D03	6
-四日	D04	6
-五日	D05	6
-六日	D06	6
-七日	D07	6
-八日	D08	6
-九日	D09	6
-十日	D10	6
-十一日	D11	6
-十二日	D12	6
-十三日	D13	6
-十四日	D14	6
-十五日	D15	6
-十六日	D16	6
-十七日	D17	6
-十八日	D18	6
-十九日	D19	6
-二十日	D20	6
-二十一日	D21	6
-二十二日	D22	6
-二十三日	D23	6
-二十四日	D24	6
-二十五日	D25	6
-二十六日	D26	6
-二十七日	D27	6
-二十八日	D28	6
-二十九日	D29	6
-三十日	D30	6
-三十一日	D31	6
+June	M06	4
+July	M07	4
+August	M08	4
+September	M09	4
+October	M10	4
+November	M11	4
+December	M12	4
+1 日	D01	6
+2 日	D02	6
+3 日	D03	6
+4 日	D04	6
+5 日	D05	6
+6 日	D06	6
+7 日	D07	6
+8 日	D08	6
+9 日	D09	6
+10 日	D10	6
+11 日	D11	6
+12 日	D12	6
+13 日	D13	6
+14 日	D14	6
+15 日	D15	6
+16 日	D16	6
+17 日	D17	6
+18 日	D18	6
+19 日	D19	6
+20 日	D20	6
+21 日	D21	6
+22 日	D22	6
+23 日	D23	6
+24 日	D24	6
+25 日	D25	6
+26 日	D26	6
+27 日	D27	6
+28 日	D28	6
+29 日	D29	6
+30 日	D30	6
+31 日	D31	6
+一日	D01	8
+二日	D02	8
+三日	D03	8
+四日	D04	8
+五日	D05	8
+六日	D06	8
+七日	D07	8
+八日	D08	8
+九日	D09	8
+十日	D10	8
+十一日	D11	8
+十二日	D12	8
+十三日	D13	8
+十四日	D14	8
+十五日	D15	8
+十六日	D16	8
+十七日	D17	8
+十八日	D18	8
+十九日	D19	8
+二十日	D20	8
+二十一日	D21	8
+二十二日	D22	8
+二十三日	D23	8
+二十四日	D24	8
+二十五日	D25	8
+二十六日	D26	8
+二十七日	D27	8
+二十八日	D28	8
+二十九日	D29	8
+三十日	D30	8
+三十一日	D31	8
 月	W01	6
 火	W02	6
 水	W03	6
@@ -1276,27 +1276,27 @@ December	M12	6
 金	W05	6
 土	W06	6
 日	W07	6
-月曜日	W01	8
-火曜日	W02	8
-水曜日	W03	8
-木曜日	W04	8
-金曜日	W05	8
-土曜日	W06	8
-日曜日	W07	8
-Mon	W01	6
-Tue	W02	6
-Wed	W03	6
-Thu	W04	6
-Fri	W05	6
-Sat	W06	6
-Sun	W07	6
-Monday	W01	6
-Tuesday	W02	6
-Wednesday	W03	6
-Thursday	W04	6
-Friday	W05	6
-Saturday	W06	6
-Sunday	W07	6
+月曜日	W01	6
+火曜日	W02	6
+水曜日	W03	6
+木曜日	W04	6
+金曜日	W05	6
+土曜日	W06	6
+日曜日	W07	6
+Mon	W01	2
+Tue	W02	2
+Wed	W03	2
+Thu	W04	2
+Fri	W05	2
+Sat	W06	2
+Sun	W07	2
+Monday	W01	4
+Tuesday	W02	4
+Wednesday	W03	4
+Thursday	W04	4
+Friday	W05	4
+Saturday	W06	4
+Sunday	W07	4
 星期一	W01	8
 星期二	W02	8
 星期三	W03	8
@@ -1318,156 +1318,156 @@ Sunday	W07	6
 礼拜五	W05	8
 礼拜六	W06	8
 礼拜天	W07	8
-0 点	H00	8
-1 点	H01	8
-2 点	H02	8
-3 点	H03	8
-4 点	H04	8
-5 点	H05	8
-6 点	H06	8
-7 点	H07	8
-8 点	H08	8
-9 点	H09	8
-10 点	H10	8
-11 点	H11	8
-12 点	H12	8
-13 点	H13	8
-14 点	H14	8
-15 点	H15	8
-16 点	H16	8
-17 点	H17	8
-18 点	H18	8
-19 点	H19	8
-20 点	H20	8
-21 点	H21	8
-22 点	H22	8
-23 点	H23	8
-24 点	H24	8
-0 时	H00	8
-1 时	H01	8
-2 时	H02	8
-3 时	H03	8
-4 时	H04	8
-5 时	H05	8
-6 时	H06	8
-7 时	H07	8
-8 时	H08	8
-9 时	H09	8
-10 时	H10	8
-11 时	H11	8
-12 时	H12	8
-13 时	H13	8
-14 时	H14	8
-15 时	H15	8
-16 时	H16	8
-17 时	H17	8
-18 时	H18	8
-19 时	H19	8
-20 时	H20	8
-21 时	H21	8
-22 时	H22	8
-23 时	H23	8
-24 时	H24	8
-0 時	H00	8
-1 時	H01	8
-2 時	H02	8
-3 時	H03	8
-4 時	H04	8
-5 時	H05	8
-6 時	H06	8
-7 時	H07	8
-8 時	H08	8
-9 時	H09	8
-10 時	H10	8
-11 時	H11	8
-12 時	H12	8
-13 時	H13	8
-14 時	H14	8
-15 時	H15	8
-16 時	H16	8
-17 時	H17	8
-18 時	H18	8
-19 時	H19	8
-20 時	H20	8
-21 時	H21	8
-22 時	H22	8
-23 時	H23	8
-24 時	H24	8
-零点	H00	6
-一点	H01	6
-两点	H02	6
-三点	H03	6
-四点	H04	6
-五点	H05	6
-六点	H06	6
-七点	H07	6
-八点	H08	6
-九点	H09	6
-十点	H10	6
-十一点	H11	6
-十二点	H12	6
-十三点	H13	6
-十四点	H14	6
-十五点	H15	6
-十六点	H16	6
-十七点	H17	6
-十八点	H18	6
-十九点	H19	6
-二十点	H20	6
-二十一点	H21	6
-二十二点	H22	6
-二十三点	H23	6
-二十四点	H24	6
-零时	H00	6
-一时	H01	6
-二时	H02	6
-三时	H03	6
-四时	H04	6
-五时	H05	6
-六时	H06	6
-七时	H07	6
-八时	H08	6
-九时	H09	6
-十时	H10	6
-十一时	H11	6
-十二时	H12	6
-十三时	H13	6
-十四时	H14	6
-十五时	H15	6
-十六时	H16	6
-十七时	H17	6
-十八时	H18	6
-十九时	H19	6
-二十时	H20	6
-二十一时	H21	6
-二十二时	H22	6
-二十三时	H23	6
-二十四时	H24	6
-零時	H00	6
-一時	H01	6
-二時	H02	6
-三時	H03	6
-四時	H04	6
-五時	H05	6
-六時	H06	6
-七時	H07	6
-八時	H08	6
-九時	H09	6
-十時	H10	6
-十一時	H11	6
-十二時	H12	6
-十三時	H13	6
-十四時	H14	6
-十五時	H15	6
-十六時	H16	6
-十七時	H17	6
-十八時	H18	6
-十九時	H19	6
-二十時	H20	6
-二十一時	H21	6
-二十二時	H22	6
-二十三時	H23	6
-二十四時	H24	6
+0 点	H00	6
+1 点	H01	6
+2 点	H02	6
+3 点	H03	6
+4 点	H04	6
+5 点	H05	6
+6 点	H06	6
+7 点	H07	6
+8 点	H08	6
+9 点	H09	6
+10 点	H10	6
+11 点	H11	6
+12 点	H12	6
+13 点	H13	6
+14 点	H14	6
+15 点	H15	6
+16 点	H16	6
+17 点	H17	6
+18 点	H18	6
+19 点	H19	6
+20 点	H20	6
+21 点	H21	6
+22 点	H22	6
+23 点	H23	6
+24 点	H24	6
+0 时	H00	6
+1 时	H01	6
+2 时	H02	6
+3 时	H03	6
+4 时	H04	6
+5 时	H05	6
+6 时	H06	6
+7 时	H07	6
+8 时	H08	6
+9 时	H09	6
+10 时	H10	6
+11 时	H11	6
+12 时	H12	6
+13 时	H13	6
+14 时	H14	6
+15 时	H15	6
+16 时	H16	6
+17 时	H17	6
+18 时	H18	6
+19 时	H19	6
+20 时	H20	6
+21 时	H21	6
+22 时	H22	6
+23 时	H23	6
+24 时	H24	6
+0 時	H00	6
+1 時	H01	6
+2 時	H02	6
+3 時	H03	6
+4 時	H04	6
+5 時	H05	6
+6 時	H06	6
+7 時	H07	6
+8 時	H08	6
+9 時	H09	6
+10 時	H10	6
+11 時	H11	6
+12 時	H12	6
+13 時	H13	6
+14 時	H14	6
+15 時	H15	6
+16 時	H16	6
+17 時	H17	6
+18 時	H18	6
+19 時	H19	6
+20 時	H20	6
+21 時	H21	6
+22 時	H22	6
+23 時	H23	6
+24 時	H24	6
+零点	H00	8
+一点	H01	8
+两点	H02	8
+三点	H03	8
+四点	H04	8
+五点	H05	8
+六点	H06	8
+七点	H07	8
+八点	H08	8
+九点	H09	8
+十点	H10	8
+十一点	H11	8
+十二点	H12	8
+十三点	H13	8
+十四点	H14	8
+十五点	H15	8
+十六点	H16	8
+十七点	H17	8
+十八点	H18	8
+十九点	H19	8
+二十点	H20	8
+二十一点	H21	8
+二十二点	H22	8
+二十三点	H23	8
+二十四点	H24	8
+零时	H00	8
+一时	H01	8
+二时	H02	8
+三时	H03	8
+四时	H04	8
+五时	H05	8
+六时	H06	8
+七时	H07	8
+八时	H08	8
+九时	H09	8
+十时	H10	8
+十一时	H11	8
+十二时	H12	8
+十三时	H13	8
+十四时	H14	8
+十五时	H15	8
+十六时	H16	8
+十七时	H17	8
+十八时	H18	8
+十九时	H19	8
+二十时	H20	8
+二十一时	H21	8
+二十二时	H22	8
+二十三时	H23	8
+二十四时	H24	8
+零時	H00	8
+一時	H01	8
+二時	H02	8
+三時	H03	8
+四時	H04	8
+五時	H05	8
+六時	H06	8
+七時	H07	8
+八時	H08	8
+九時	H09	8
+十時	H10	8
+十一時	H11	8
+十二時	H12	8
+十三時	H13	8
+十四時	H14	8
+十五時	H15	8
+十六時	H16	8
+十七時	H17	8
+十八時	H18	8
+十九時	H19	8
+二十時	H20	8
+二十一時	H21	8
+二十二時	H22	8
+二十三時	H23	8
+二十四時	H24	8
 
 # Solar Term
 立春	SpringCommences	8
@@ -2171,7 +2171,7 @@ WAIT	AS	10
 I must pause for longer than a few seconds.	ASAR	10
 I must pause for more than a few minutes.	ASAR	10
 WAIT OUT	ASAR	10
-Transmitting station has additional traffic for the receiving station.	B	10
+Transmitting station has additional traffic for the receiving station.	B	8
 BREAK-IN	BK	10
 Break	BK	10
 All between	BN	10
@@ -2185,15 +2185,15 @@ Start new section of message.	BT	10
 Semiautomatic key	BUG	10
 半自动电键	BUG	10
 半自動電鍵	BUG	10
-AFFIRMATIVE	C	10
-An error has been made in this transmission. The correct version is	C	10
-CONFIRM	C	10
-CORRECT	C	10
-That which follows has been verified at your request and is repeated.	C	10
-That which follows is a corrected version in answer to your request for verification	C	10
-YES	C	10
-好	C	10
-是	C	10
+AFFIRMATIVE	C	8
+An error has been made in this transmission. The correct version is	C	8
+CONFIRM	C	8
+CORRECT	C	8
+That which follows has been verified at your request and is repeated.	C	8
+That which follows is a corrected version in answer to your request for verification	C	8
+YES	C	8
+好	C	8
+是	C	8
 Callbook address	CBA	10
 呼号手册	CBA	10
 呼號手冊	CBA	10
@@ -2242,7 +2242,7 @@ And	ES	10
 also	ES	10
 且	ES	10
 和	ES	10
-Stations called are not to answer this call, receipt for this message, or otherwise transmit in connection with this transmission.	F	10
+Stations called are not to answer this call, receipt for this message, or otherwise transmit in connection with this transmission.	F	8
 Fine business	FB	10
 Good	FB	10
 确定	FB	10
@@ -2255,7 +2255,7 @@ Frequency	FREQ	10
 頻率	FREQ	10
 频率	FREQ	10
 Forward 	FWD	10
-Repeat this entire transmission back to me exactly as received	G	10
+Repeat this entire transmission back to me exactly as received	G	8
 Go ahead	GA	10
 Good afternoon	GA	10
 午安	GA	10
@@ -2303,13 +2303,13 @@ INTERROGATIVE	INT	10
 The following is my response to your instructions to read back	IRB	10
 Action on the message or signal following is to be carried out on receipt of the EXECUTE.	IX	10
 Action on the message or signal that follows is to be carried out upon receipt of the proword EXECUTE.	IX	10
-Verify entire message with the originator and send correct version.	J	10
-I am ready to receive your message	K	10
-OVER	K	10
-This is the end of my transmission to you and a response is necessary. Go ahead, transmit	K	10
-report	K	10
-我已准备好，请开始发送消息	K	10
-我已準備好，請開始傳送訊息	K	10
+Verify entire message with the originator and send correct version.	J	8
+I am ready to receive your message	K	8
+OVER	K	8
+This is the end of my transmission to you and a response is necessary. Go ahead, transmit	K	8
+report	K	8
+我已准备好，请开始发送消息	K	8
+我已準備好，請開始傳送訊息	K	8
 ATTENTION	KA	10
 Over to you	KN	10
 Lid	LID	10
@@ -2333,8 +2333,8 @@ Get lost!	MN99	10
 走开	MN99	10
 走開	MN99	10
 Message	MSG	10
-NEGATIVE	N	10
-NO	N	10
+NEGATIVE	N	8
+NO	N	8
 I have nothing to send you 	NIL	10
 NOTHING HEARD	NIL	10
 Nothing	NIL	10
@@ -2347,7 +2347,7 @@ Number	NR	10
 第	NR	10
 編號	NR	10
 编号	NR	10
-Precedence IMMEDIATE	O	10
+Precedence IMMEDIATE	O	8
 Old boy	OB	10
 老大哥	OB	10
 Old chap	OC	10
@@ -2374,7 +2374,7 @@ Old timer	OT	10
 Old timers club	OTC	10
 老手俱乐部	OTC	10
 老手俱樂部	OTC	10
-Precedence PRIORITY	P	10
+Precedence PRIORITY	P	8
 Please	PLS	10
 Paper 	PPR	10
 Please	PSE	10
@@ -2728,12 +2728,12 @@ Can you speak in ____ – with interpreter if necessary – if so, on what frequ
 I can speak in ____ on ____ .	QUE	10
 Have you received the distress signal sent by ____ ?	QUF	10
 I have received the distress signal sent by ____ at ____ hours.	QUF	10
-Precedence ROUTINE.	R	10
-ROGER	R	10
-Received as transmitted	R	10
-This is a method of receipt. I have received your last transmission satisfactorily.	R	10
-消息已收到	R	10
-訊息已收到	R	10
+Precedence ROUTINE.	R	8
+ROGER	R	8
+Received as transmitted	R	8
+This is a method of receipt. I have received your last transmission satisfactorily.	R	8
+消息已收到	R	8
+訊息已收到	R	8
 Receiver	RCVR	10
 接收机	RCVR	10
 接收機	RCVR	10
@@ -2792,8 +2792,8 @@ Station	STN	10
 The message that follows is a SERVICE message	SVC	10
 Please	SVP	10
 Dollars	SX	10
-Transmit this message to all addressees	T	10
-字收到了	T	10
+Transmit this message to all addressees	T	8
+字收到了	T	8
 Temperature	TEMP	10
 温度	TEMP	10
 溫度	TEMP	10
@@ -2812,8 +2812,8 @@ Thank you	TU	10
 Transmit	TX	10
 发射	TX	10
 發射	TX	10
-You	U	10
-你	U	10
+You	U	8
+你	U	8
 You're	UR	10
 Your	UR	10
 你是	UR	10
@@ -2860,8 +2860,8 @@ Wife	XYL	10
 Young lady	YL	10
 女報務員	YL	10
 女报务员	YL	10
-Precedence FLASH	Z	10
-Zulu time	Z	10
+Precedence FLASH	Z	8
+Zulu time	Z	8
 貴臺未遵守網路紀律	ZAA	10
 贵台未遵守网络纪律	ZAA	10
 所收貴臺之通訊簡語不明瞭	ZAD1	10
