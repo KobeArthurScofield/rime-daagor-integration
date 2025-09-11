@@ -2,6 +2,7 @@
 # coding: utf-8
 #@db/db_name	daagornt.lib.asciiphrase
 #@db/db_type	tabledb
+# version: 1.25.253.0
 #
 # 西文短語
 # 該西文短語對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。

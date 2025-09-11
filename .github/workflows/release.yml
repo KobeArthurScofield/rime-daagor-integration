@@ -53,6 +53,7 @@ jobs:
           cd ${GITHUB_WORKSPACE}
           cp -rf ./core/experience ./${EXTN}/
           cp -rf ./supplimental ./${EXTN}/
+          cp -rf ./patch ./${EXTN}/
           ls -al ./${EXTN}/
       
       - name: Create ZIP package
