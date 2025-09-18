@@ -10,18 +10,6 @@
 #
 
 # 星座
-Aries	aries	1
-Taurus	taurus	1
-Gemini	gemini	1
-Cancer	cancer	1
-Leo	leo	1
-Virgo	virgo	1
-Libra	libra	1
-Scorpio	scorpio	1
-Sagittarius	sagittarius	1
-Capricorn	capricorn	1
-Aquarius	aquarius	1
-Pisces	pisces	1
 白羊座	aries	2
 白羊宮	aries	2
 白羊宫	aries	2
@@ -78,46 +66,8 @@ Pisces	pisces	1
 十月	oct	4
 十一月	nov	4
 十二月	dec	4
-Jan	jan	1
-Feb	feb	1
-Mar	mar	1
-Apr	apr	1
-May	may	1
-Jun	jun	1
-Jul	jul	1
-Aug	aug	1
-Sep	sep	1
-Oct	oct	1
-Nov	nov	1
-Dec	dec	1
-January	jan	2
-February	feb	2
-March	mar	2
-April	apr	2
-May	may	2
-June	jun	2
-July	jul	2
-August	aug	2
-September	sep	2
-October	oct	2
-November	nov	2
-December	dec	2
 
 # 星期
-Mon	mon	1
-Tue	tue	1
-Wed	wed	1
-Thu	thu	1
-Fri	fri	1
-Sat	sat	1
-Sun	sun	1
-Monday	mon	2
-Tuesday	tue	2
-Wednesday	wed	2
-Thursday	thu	2
-Friday	fri	2
-Saturday	sat	2
-Sunday	sun	2
 月	mon	3
 火	tue	3
 水	wed	3

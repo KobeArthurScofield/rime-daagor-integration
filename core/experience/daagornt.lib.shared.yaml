@@ -119,7 +119,7 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     punct: "^`([0-9]0?|[A-Za-z]+)$"
-    quick_phrase: "^([A-Z]+)([-0-9A-Za-z]*)$"
+    quick_phrase: "^(A|C[aiqz]|D[itz]|L[CD]|Mc|N[cfst]|Pa|T[CDHMW]|S[sEHS])([-_0-9A-Za-z]*)$"
 
 menu:
   page_size: 6

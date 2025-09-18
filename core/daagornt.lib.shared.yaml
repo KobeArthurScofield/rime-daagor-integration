@@ -113,7 +113,7 @@ punctuator:
 recognizer:
   import_preset: default
   patterns:
-    quick_phrase: "^([A-Z]+)([-0-9A-Za-z]*)$"
+    quick_phrase: "^(A|C[aiqz]|D[itz]|L[CD]|Mc|N[cfst]|Pa|T[CDHMW]|S[sEHS])([-0-9A-Za-z]*)$"
 
 menu:
   page_size: 6

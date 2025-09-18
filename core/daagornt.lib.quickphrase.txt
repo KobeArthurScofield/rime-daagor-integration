@@ -9,734 +9,734 @@
 # 在此處使用的編碼為何則實際使用時輸入相應編碼即可。
 #
 
-# NATO Alphabet
-Able	A	4
-Adam	A	4
-Alfa	A	12
-Alpha	A	12
-Amsterdam	A	4
-Ana	A	4
-Argentine	A	4
-Baker	B	4
-Baltimore	B	4
-Beta	B	4
-Bravo	B	12
-Brazil	B	4
-Brussels	B	4
-Canada	C	4
-Casablanca	C	4
-Charlie	C	12
-Coca	C	4
-Coco	C	4
-Dado	D	4
-Damascus	D	4
-Danemark	D	4
-David	D	4
-Delta	D	12
-Denmark	D	4
-Dog	D	4
-Easy	E	4
-Echo	E	12
-Ecuador	E	4
-Eddystone	E	4
-Edison	E	4
-Edward	E	4
-Elsa	E	4
-Fiesta	F	4
-Florida	F	4
-Fox	F	4
-Foxtrot	F	12
-France	F	4
-Francisco	F	4
-Freedie	F	4
-Gallipoli	G	4
-Gato	G	4
-George	G	4
-Gibraltar	G	4
-Gold	G	4
-Golf	G	12
-Greece	G	4
-Hanover	H	4
-Harry	H	4
-Havana	H	4
-Hombre	H	4
-Hotel	H	12
-How	H	4
-Ida	I	4
-India	I	12
-Italia	I	4
-Italy	I	4
-Item	I	4
-Japan	J	4
-Jerusalem	J	4
-Jig	J	4
-John	J	4
-Juliet	J	4
-Juliett	J	12
-Julietta	J	4
-Julio	J	4
-Khartoum	K	4
-Kilo	K	12
-Kilogramme	K	4
-Kimberley	K	4
-King	K	4
-Lewis	L	4
-Lima	L	12
-Liverpool	L	4
-Love	L	4
-Luis	L	4
-Madagascar	M	4
-Madrid	M	4
-Mama	M	4
-Mary	M	4
-Metro	M	4
-Mike	M	12
-Nan	N	4
-Nancy	N	4
-Nectar	N	4
-Neufchatel	N	4
-New York	N	4
-Nickel	N	4
-Norma	N	4
-November	N	12
-Oboe	O	4
-Ontario	O	4
-Opera	O	4
-Oscar	O	12
-Oslo	O	4
-Ostend	O	4
-Otto	O	4
-Papa	P	12
-Paris	P	4
-Peru	P	4
-Peter	P	4
-Polka	P	4
-Portugal	P	4
-Quebec	Q	12
-Queen	Q	4
-Rivoli	R	4
-Robert	R	4
-Roger	R	4
-Roma	R	4
-Rome	R	4
-Romeo	R	12
-Rosa	R	4
-Sail	S	4
-Santiago	S	4
-Sara	S	4
-Sardinia	S	4
-Sierra	S	12
-Sugar	S	4
-Susan	S	4
-Tango	T	12
-Tare	T	4
-Thomas	T	4
-Tokio	T	4
-Tomas	T	4
-Tripoli	T	4
-Uncle	U	4
-Uniform	U	12
-Union	U	4
-Upsala	U	4
-Uruguay	U	4
-Valencia	V	4
-Victor	V	12
-Victoria	V	4
-Washington	W	4
-Whiskey	W	4
-Whisky	W	12
-William	W	4
-X-ray	X	12
-Equis	X	4
-eXtra	X	4
-Xaintrie	X	4
-Xanthippe	X	4
-Xantippe	X	4
-Yankee	Y	12
-Yankey	Y	4
-Yoke	Y	4
-Yokohama	Y	4
-Yolanda	Y	4
-Young	Y	4
-Zanzibar	Z	4
-Zebra	Z	4
-Zeta	Z	4
-Zulu	Z	12
-Zululand	Z	4
-Zurich	Z	4
+# NATO Alphabet (Pa)
+Able	PaA	4
+Adam	PaA	4
+Alfa	PaA	12
+Alpha	PaA	12
+Amsterdam	PaA	4
+Ana	PaA	4
+Argentine	PaA	4
+Baker	PaB	4
+Baltimore	PaB	4
+Beta	PaB	4
+Bravo	PaB	12
+Brazil	PaB	4
+Brussels	PaB	4
+Canada	PaC	4
+Casablanca	PaC	4
+Charlie	PaC	12
+Coca	PaC	4
+Coco	PaC	4
+Dado	PaD	4
+Damascus	PaD	4
+Danemark	PaD	4
+David	PaD	4
+Delta	PaD	12
+Denmark	PaD	4
+Dog	PaD	4
+Easy	PaE	4
+Echo	PaE	12
+Ecuador	PaE	4
+Eddystone	PaE	4
+Edison	PaE	4
+Edward	PaE	4
+Elsa	PaE	4
+Fiesta	PaF	4
+Florida	PaF	4
+Fox	PaF	4
+Foxtrot	PaF	12
+France	PaF	4
+Francisco	PaF	4
+Freedie	PaF	4
+Gallipoli	PaG	4
+Gato	PaG	4
+George	PaG	4
+Gibraltar	PaG	4
+Gold	PaG	4
+Golf	PaG	12
+Greece	PaG	4
+Hanover	PaH	4
+Harry	PaH	4
+Havana	PaH	4
+Hombre	PaH	4
+Hotel	PaH	12
+How	PaH	4
+Ida	PaI	4
+India	PaI	12
+Italia	PaI	4
+Italy	PaI	4
+Item	PaI	4
+Japan	PaJ	4
+Jerusalem	PaJ	4
+Jig	PaJ	4
+John	PaJ	4
+Juliet	PaJ	4
+Juliett	PaJ	12
+Julietta	PaJ	4
+Julio	PaJ	4
+Khartoum	PaK	4
+Kilo	PaK	12
+Kilogramme	PaK	4
+Kimberley	PaK	4
+King	PaK	4
+Lewis	PaL	4
+Lima	PaL	12
+Liverpool	PaL	4
+Love	PaL	4
+Luis	PaL	4
+Madagascar	PaM	4
+Madrid	PaM	4
+Mama	PaM	4
+Mary	PaM	4
+Metro	PaM	4
+Mike	PaM	12
+Nan	PaN	4
+Nancy	PaN	4
+Nectar	PaN	4
+Neufchatel	PaN	4
+New York	PaN	4
+Nickel	PaN	4
+Norma	PaN	4
+November	PaN	12
+Oboe	PaO	4
+Ontario	PaO	4
+Opera	PaO	4
+Oscar	PaO	12
+Oslo	PaO	4
+Ostend	PaO	4
+Otto	PaO	4
+Papa	PaP	12
+Paris	PaP	4
+Peru	PaP	4
+Peter	PaP	4
+Polka	PaP	4
+Portugal	PaP	4
+Quebec	PaQ	12
+Queen	PaQ	4
+Rivoli	PaR	4
+Robert	PaR	4
+Roger	PaR	4
+Roma	PaR	4
+Rome	PaR	4
+Romeo	PaR	12
+Rosa	PaR	4
+Sail	PaS	4
+Santiago	PaS	4
+Sara	PaS	4
+Sardinia	PaS	4
+Sierra	PaS	12
+Sugar	PaS	4
+Susan	PaS	4
+Tango	PaT	12
+Tare	PaT	4
+Thomas	PaT	4
+Tokio	PaT	4
+Tomas	PaT	4
+Tripoli	PaT	4
+Uncle	PaU	4
+Uniform	PaU	12
+Union	PaU	4
+Upsala	PaU	4
+Uruguay	PaU	4
+Valencia	PaV	4
+Victor	PaV	12
+Victoria	PaV	4
+Washington	PaW	4
+Whiskey	PaW	4
+Whisky	PaW	12
+William	PaW	4
+X-ray	PaX	12
+Equis	PaX	4
+eXtra	PaX	4
+Xaintrie	PaX	4
+Xanthippe	PaX	4
+Xantippe	PaX	4
+Yankee	PaY	12
+Yankey	PaY	4
+Yoke	PaY	4
+Yokohama	PaY	4
+Yolanda	PaY	4
+Young	PaY	4
+Zanzibar	PaZ	4
+Zebra	PaZ	4
+Zeta	PaZ	4
+Zulu	PaZ	12
+Zululand	PaZ	4
+Zurich	PaZ	4
 
-# I-Ching/Bagua/Hexagram
-⚋	YYin	6
-陰	YYin	6
-阴	YYin	6
-⚊	YYang	6
-陽	YYang	6
-阳	YYang	6
-⚌	YTaiYang	6
-太陽	YTaiYang	6
-太阳	YTaiYang	6
-⚎	YShaoYang	6
-少陽	YShaoYang	6
-少阳	YShaoYang	6
-⚍	YShaoYin	6
-少陰	YShaoYin	6
-少阴	YShaoYin	6
-⚏	YTaiYin	6
-太陰	YTaiYin	6
-太阴	YTaiYin	6
-☰	YQian	6
-乾	YQian	6
-☱	YDui	6
-兌	YDui	6
-兑	YDui	6
-☲	YLi	6
-離	YLi	6
-离	YLi	6
-☳	YZhen	6
-震	YZhen	6
-☴	YXun	6
-巽	YXun	6
-☵	YKan	6
-坎	YKan	6
-☶	YGen	6
-艮	YGen	6
-☷	YKun	6
-坤	YKun	6
-䷀	YForce	6
-乾	YForce	6
-䷁	YField	6
-坤	YField	6
-䷂	YSprouting	6
-屯	YSprouting	6
-䷃	YEnveloping	6
-蒙	YEnveloping	6
-䷄	YAttending	6
-需	YAttending	6
-䷅	YArguing	6
-訟	YArguing	6
-讼	YArguing	6
-䷆	YLeading	6
-師	YLeading	6
-师	YLeading	6
-䷇	YGrouping	6
-比	YGrouping	6
-䷈	YSmallAccumulating	6
-小畜	YSmallAccumulating	6
-䷉	YTreading	6
-履	YTreading	6
-䷊	YPervading	6
-泰	YPervading	6
-䷋	YObstruction	6
-否	YObstruction	6
-䷌	YConcordingPeople	6
-同人	YConcordingPeople	6
-䷍	YGreatPossessing	6
-大有	YGreatPossessing	6
-䷎	YHumbling	6
-謙	YHumbling	6
-谦	YHumbling	6
-䷏	YProvidingFor	6
-豫	YProvidingFor	6
-䷐	YFollowing	6
-隨	YFollowing	6
-随	YFollowing	6
-䷑	YCorrecting	6
-蠱	YCorrecting	6
-蛊	YCorrecting	6
-䷒	YNearing	6
-臨	YNearing	6
-临	YNearing	6
-䷓	YViewing	6
-觀	YViewing	6
-观	YViewing	6
-䷔	YGnawingBite	6
-噬嗑	YGnawingBite	6
-䷕	YAdorning	6
-賁	YAdorning	6
-贲	YAdorning	6
-䷖	YStripping	6
-剝	YStripping	6
-剥	YStripping	6
-䷗	YReturning	6
-復	YReturning	6
-复	YReturning	6
-䷘	YWithoutEmbroiling	6
-无妄	YWithoutEmbroiling	6
-䷙	YGreatAccumulating	6
-大畜	YGreatAccumulating	6
-䷚	YSwallowing	6
-頤	YSwallowing	6
-颐	YSwallowing	6
-䷛	YGreatExceeding	6
-大過	YGreatExceeding	6
-大过	YGreatExceeding	6
-䷜	YGorge	6
-坎	YGorge	6
-䷝	YRadiance	6
-離	YRadiance	6
-离	YRadiance	6
-䷞	YConjoining	6
-咸	YConjoining	6
-䷟	YPersevering	6
-恆	YPersevering	6
-恒	YPersevering	6
-䷠	YRetiring	6
-遯	YRetiring	6
-䷡	YGreatInvigorating	6
-大壯	YGreatInvigorating	6
-大壮	YGreatInvigorating	6
-䷢	YProspering	6
-晉	YProspering	6
-晋	YProspering	6
-䷣	YDarkeningoftheLight	6
-明夷	YDarkeningoftheLight	6
-䷤	YDwellingPeople	6
-家人	YDwellingPeople	6
-䷥	YPolarising	6
-睽	YPolarising	6
-䷦	YLimping	6
-蹇	YLimping	6
-䷧	YTakingApart	6
-解	YTakingApart	6
-䷨	YDiminishing	6
-損	YDiminishing	6
-损	YDiminishing	6
-䷩	YAugmenting	6
-益	YAugmenting	6
-䷪	YDisplacement	6
-夬	YDisplacement	6
-䷫	YCoupling	6
-姤	YCoupling	6
-䷬	YClustering	6
-萃	YClustering	6
-䷭	YAscending	6
-升	YAscending	6
-䷮	YConfining	6
-困	YConfining	6
-䷯	YWelling	6
-井	YWelling	6
-䷰	YSkinning	6
-革	YSkinning	6
-䷱	YHolding	6
-鼎	YHolding	6
-䷲	YShake	6
-震	YShake	6
-䷳	YBound	6
-艮	YBound	6
-䷴	YInfiltrating	6
-漸	YInfiltrating	6
-渐	YInfiltrating	6
-䷵	YConvertingtheMaiden	6
-歸妹	YConvertingtheMaiden	6
-归妹	YConvertingtheMaiden	6
-䷶	YAbounding	6
-豐	YAbounding	6
-丰	YAbounding	6
-䷷	YSojourning	6
-旅	YSojourning	6
-䷸	YGround	6
-巽	YGround	6
-䷹	YOpen	6
-兌	YOpen	6
-兑	YOpen	6
-䷺	YDispersing	6
-渙	YDispersing	6
-涣	YDispersing	6
-䷻	YArticulating	6
-節	YArticulating	6
-节	YArticulating	6
-䷼	YCenterReturning	6
-中孚	YCenterReturning	6
-䷽	YSmallExceeding	6
-小過	YSmallExceeding	6
-小过	YSmallExceeding	6
-䷾	YAlreadyFording	6
-既濟	YAlreadyFording	6
-既济	YAlreadyFording	6
-䷿	YNotYetFording	6
-未濟	YNotYetFording	6
-未济	YNotYetFording	6
+# I-Ching/Bagua/Hexagram (Di)
+⚋	DiYin	6
+陰	DiYin	6
+阴	DiYin	6
+⚊	DiYang	6
+陽	DiYang	6
+阳	DiYang	6
+⚌	DiTaiYang	6
+太陽	DiTaiYang	6
+太阳	DiTaiYang	6
+⚎	DiShaoYang	6
+少陽	DiShaoYang	6
+少阳	DiShaoYang	6
+⚍	DiShaoYin	6
+少陰	DiShaoYin	6
+少阴	DiShaoYin	6
+⚏	DiTaiYin	6
+太陰	DiTaiYin	6
+太阴	DiTaiYin	6
+☰	DiQian	6
+乾	DiQian	6
+☱	DiDui	6
+兌	DiDui	6
+兑	DiDui	6
+☲	DiLi	6
+離	DiLi	6
+离	DiLi	6
+☳	DiZhen	6
+震	DiZhen	6
+☴	DiXun	6
+巽	DiXun	6
+☵	DiKan	6
+坎	DiKan	6
+☶	DiGen	6
+艮	DiGen	6
+☷	DiKun	6
+坤	DiKun	6
+䷀	DiForce	6
+乾	DiForce	6
+䷁	DiField	6
+坤	DiField	6
+䷂	DiSprouting	6
+屯	DiSprouting	6
+䷃	DiEnveloping	6
+蒙	DiEnveloping	6
+䷄	DiAttending	6
+需	DiAttending	6
+䷅	DiArguing	6
+訟	DiArguing	6
+讼	DiArguing	6
+䷆	DiLeading	6
+師	DiLeading	6
+师	DiLeading	6
+䷇	DiGrouping	6
+比	DiGrouping	6
+䷈	DiSmallAccumulating	6
+小畜	DiSmallAccumulating	6
+䷉	DiTreading	6
+履	DiTreading	6
+䷊	DiPervading	6
+泰	DiPervading	6
+䷋	DiObstruction	6
+否	DiObstruction	6
+䷌	DiConcordingPeople	6
+同人	DiConcordingPeople	6
+䷍	DiGreatPossessing	6
+大有	DiGreatPossessing	6
+䷎	DiHumbling	6
+謙	DiHumbling	6
+谦	DiHumbling	6
+䷏	DiProvidingFor	6
+豫	DiProvidingFor	6
+䷐	DiFollowing	6
+隨	DiFollowing	6
+随	DiFollowing	6
+䷑	DiCorrecting	6
+蠱	DiCorrecting	6
+蛊	DiCorrecting	6
+䷒	DiNearing	6
+臨	DiNearing	6
+临	DiNearing	6
+䷓	DiViewing	6
+觀	DiViewing	6
+观	DiViewing	6
+䷔	DiGnawingBite	6
+噬嗑	DiGnawingBite	6
+䷕	DiAdorning	6
+賁	DiAdorning	6
+贲	DiAdorning	6
+䷖	DiStripping	6
+剝	DiStripping	6
+剥	DiStripping	6
+䷗	DiReturning	6
+復	DiReturning	6
+复	DiReturning	6
+䷘	DiWithoutEmbroiling	6
+无妄	DiWithoutEmbroiling	6
+䷙	DiGreatAccumulating	6
+大畜	DiGreatAccumulating	6
+䷚	DiSwallowing	6
+頤	DiSwallowing	6
+颐	DiSwallowing	6
+䷛	DiGreatExceeding	6
+大過	DiGreatExceeding	6
+大过	DiGreatExceeding	6
+䷜	DiGorge	6
+坎	DiGorge	6
+䷝	DiRadiance	6
+離	DiRadiance	6
+离	DiRadiance	6
+䷞	DiConjoining	6
+咸	DiConjoining	6
+䷟	DiPersevering	6
+恆	DiPersevering	6
+恒	DiPersevering	6
+䷠	DiRetiring	6
+遯	DiRetiring	6
+䷡	DiGreatInvigorating	6
+大壯	DiGreatInvigorating	6
+大壮	DiGreatInvigorating	6
+䷢	DiProspering	6
+晉	DiProspering	6
+晋	DiProspering	6
+䷣	DiDarkeningoftheLight	6
+明夷	DiDarkeningoftheLight	6
+䷤	DiDwellingPeople	6
+家人	DiDwellingPeople	6
+䷥	DiPolarising	6
+睽	DiPolarising	6
+䷦	DiLimping	6
+蹇	DiLimping	6
+䷧	DiTakingApart	6
+解	DiTakingApart	6
+䷨	DiDiminishing	6
+損	DiDiminishing	6
+损	DiDiminishing	6
+䷩	DiAugmenting	6
+益	DiAugmenting	6
+䷪	DiDisplacement	6
+夬	DiDisplacement	6
+䷫	DiCoupling	6
+姤	DiCoupling	6
+䷬	DiClustering	6
+萃	DiClustering	6
+䷭	DiAscending	6
+升	DiAscending	6
+䷮	DiConfining	6
+困	DiConfining	6
+䷯	DiWelling	6
+井	DiWelling	6
+䷰	DiSkinning	6
+革	DiSkinning	6
+䷱	DiHolding	6
+鼎	DiHolding	6
+䷲	DiShake	6
+震	DiShake	6
+䷳	DiBound	6
+艮	DiBound	6
+䷴	DiInfiltrating	6
+漸	DiInfiltrating	6
+渐	DiInfiltrating	6
+䷵	DiConvertingtheMaiden	6
+歸妹	DiConvertingtheMaiden	6
+归妹	DiConvertingtheMaiden	6
+䷶	DiAbounding	6
+豐	DiAbounding	6
+丰	DiAbounding	6
+䷷	DiSojourning	6
+旅	DiSojourning	6
+䷸	DiGround	6
+巽	DiGround	6
+䷹	DiOpen	6
+兌	DiOpen	6
+兑	DiOpen	6
+䷺	DiDispersing	6
+渙	DiDispersing	6
+涣	DiDispersing	6
+䷻	DiArticulating	6
+節	DiArticulating	6
+节	DiArticulating	6
+䷼	DiCenterReturning	6
+中孚	DiCenterReturning	6
+䷽	DiSmallExceeding	6
+小過	DiSmallExceeding	6
+小过	DiSmallExceeding	6
+䷾	DiAlreadyFording	6
+既濟	DiAlreadyFording	6
+既济	DiAlreadyFording	6
+䷿	DiNotYetFording	6
+未濟	DiNotYetFording	6
+未济	DiNotYetFording	6
 
-# Taixuanjing
-⚊	THeaven	6
-天	THeaven	6
-⚋	TEarth	6
-地	TEarth	6
-𝌀	THuman	6
-人	THuman	6
-⚌	THeaven	6
-天天	THeaven	6
-⚍	THeavenlyEarth	6
-地天	THeavenlyEarth	6
-⚎	TEarthlyHeaven	6
-天地	TEarthlyHeaven	6
-⚏	TEarth	6
-地地	TEarth	6
-𝌁	THeavenlyHuman	6
-人天	THeavenlyHuman	6
-𝌂	THumanlyHeaven	6
-天人	THumanlyHeaven	6
-𝌃	THumanlyEarth	6
-地人	THumanlyEarth	6
-𝌄	TEarthlyHuman	6
-人地	TEarthlyHuman	6
-𝌅	THuman	6
-人人	T	6
-𝌆	TCentre	6
-中	TCentre	6
-𝌇	TFullCircle	6
-周	TFullCircle	6
-𝌈	TMired	6
-礥	TMired	6
-𝌉	TBarrier	6
-閑	TBarrier	6
-闲	TBarrier	6
-𝌊	TKeepingSmall	6
-少	TKeepingSmall	6
-𝌋	TContrariety	6
-戾	TContrariety	6
-𝌌	TAscent	6
-上	TAscent	6
-𝌍	TOpposition	6
-干	TOpposition	6
-𝌎	TBranchingOut	6
-𤕠	TBranchingOut	6
-𝌏	TDistortion	6
-羨	TDistortion	6
-羡	TDistortion	6
-𝌐	TDivergence	6
-差	TDivergence	6
-𝌑	TYouthfulness	6
-童	TYouthfulness	6
-𝌒	TIncrease	6
-增	TIncrease	6
-𝌓	TPenetration	6
-銳	TPenetration	6
-锐	TPenetration	6
-𝌔	TReach	6
-達	TReach	6
-达	TReach	6
-𝌕	TContact	6
-交	TContact	6
-𝌖	THoldingback	6
-䎡	THoldingback	6
-𝌗	TWaiting	6
-傒	TWaiting	6
-𝌘	TFollowing	6
-從	TFollowing	6
-从	TFollowing	6
-𝌙	TAdvance	6
-進	TAdvance	6
-进	TAdvance	6
-𝌚	TRelease	6
-釋	TRelease	6
-释	TRelease	6
-𝌛	TResistance	6
-格	TResistance	6
-𝌜	TEase	6
-夷	TEase	6
-𝌝	TJoy	6
-樂	TJoy	6
-乐	TJoy	6
-𝌞	TContention	6
-爭	TContention	6
-争	TContention	6
-𝌟	TEndeavour	6
-務	TEndeavour	6
-务	TEndeavour	6
-𝌠	TDuties	6
-事	TDuties	6
-𝌡	TChange	6
-更	TChange	6
-𝌢	TDecisiveness	6
-斷	TDecisiveness	6
-断	TDecisiveness	6
-𝌣	TBoldResolution	6
-毅	TBoldResolution	6
-𝌤	TPacking	6
-裝	TPacking	6
-装	TPacking	6
-𝌥	TLegion	6
-眾	TLegion	6
-众	TLegion	6
-𝌦	TCloseness	6
-密	TCloseness	6
-𝌧	TKinship	6
-親	TKinship	6
-亲	TKinship	6
-𝌨	TGathering	6
-斂	TGathering	6
-敛	TGathering	6
-𝌩	TStrength	6
-彊	TStrength	6
-𝌪	TPurity	6
-睟	TPurity	6
-𝌫	TFullness	6
-盛	TFullness	6
-𝌬	TResidence	6
-居	TResidence	6
-𝌭	TLaw	6
-法	TLaw	6
-𝌮	TResponse	6
-応	TResponse	6
-𝌯	TGoingToMeet	6
-迎	TGoingToMeet	6
-𝌰	TEncounters	6
-遇	TEncounters	6
-𝌱	TStove	6
-竈	TStove	6
-灶	TStove	6
-𝌲	TGreatness	6
-大	TGreatness	6
-𝌳	TEnlargement	6
-廓	TEnlargement	6
-𝌴	TPattern	6
-文	TPattern	6
-𝌵	TRitual	6
-禮	TRitual	6
-礼	TRitual	6
-𝌶	TFlight	6
-逃	TFlight	6
-𝌷	TVastness	6
-唐	TVastness	6
-𝌸	TConstancy	6
-常	TConstancy	6
-𝌹	TMeasure	6
-度	TMeasure	6
-𝌺	TEternity	6
-永	TEternity	6
-𝌻	TUnity	6
-昆	TUnity	6
-𝌼	TDeminishment	6
-減	TDeminishment	6
-减	TDeminishment	6
-𝌽	TClosedMouth	6
-唫	TClosedMouth	6
-𝌾	TGuardedness	6
-守	TGuardedness	6
-𝌿	TGatheringIn	6
-翕	TGatheringIn	6
-𝍀	TMassing	6
-聚	TMassing	6
-𝍁	TAccumulation	6
-積	TAccumulation	6
-积	TAccumulation	6
-𝍂	TEmbellishment	6
-飾	TEmbellishment	6
-饰	TEmbellishment	6
-𝍃	TDoubt	6
-疑	TDoubt	6
-𝍄	TWatch	6
-視	TWatch	6
-视	TWatch	6
-𝍅	TSinking	6
-沈	TSinking	6
-𝍆	TInner	6
-內	TInner	6
-内	TInner	6
-𝍇	TDeparture	6
-去	TDeparture	6
-𝍈	TDarkening	6
-晦	TDarkening	6
-𝍉	TDimming	6
-瞢	TDimming	6
-𝍊	TExhaustion	6
-窮	TExhaustion	6
-穷	TExhaustion	6
-𝍋	TSeverance	6
-割	TSeverance	6
-𝍌	TStoppage	6
-止	TStoppage	6
-𝍍	THardness	6
-堅	THardness	6
-坚	THardness	6
-𝍎	TCompletion	6
-成	TCompletion	6
-𝍏	TClosure	6
-䦯	TClosure	6
-𝍐	TFailure	6
-失	TFailure	6
-𝍑	TAggravation	6
-劇	TAggravation	6
-剧	TAggravation	6
-𝍒	TCompliance	6
-馴	TCompliance	6
-驯	TCompliance	6
-𝍓	TOnTheVerge	6
-將	TOnTheVerge	6
-将	TOnTheVerge	6
-𝍔	TDifficulties	6
-難	TDifficulties	6
-难	TDifficulties	6
-𝍕	TLabouring	6
-勤	TLabouring	6
-𝍖	TFostering	6
-養	TFostering	6
-养	TFostering	6
+# Taixuanjing (Dt)
+⚊	DtHeaven	6
+天	DtHeaven	6
+⚋	DtEarth	6
+地	DtEarth	6
+𝌀	DtHuman	6
+人	DtHuman	6
+⚌	DtHeaven	6
+天天	DtHeaven	6
+⚍	DtHeavenlyEarth	6
+地天	DtHeavenlyEarth	6
+⚎	DtEarthlyHeaven	6
+天地	DtEarthlyHeaven	6
+⚏	DtEarth	6
+地地	DtEarth	6
+𝌁	DtHeavenlyHuman	6
+人天	DtHeavenlyHuman	6
+𝌂	DtHumanlyHeaven	6
+天人	DtHumanlyHeaven	6
+𝌃	DtHumanlyEarth	6
+地人	DtHumanlyEarth	6
+𝌄	DtEarthlyHuman	6
+人地	DtEarthlyHuman	6
+𝌅	DtHuman	6
+人人	DtHuman	6
+𝌆	DtCentre	6
+中	DtCentre	6
+𝌇	DtFullCircle	6
+周	DtFullCircle	6
+𝌈	DtMired	6
+礥	DtMired	6
+𝌉	DtBarrier	6
+閑	DtBarrier	6
+闲	DtBarrier	6
+𝌊	DtKeepingSmall	6
+少	DtKeepingSmall	6
+𝌋	DtContrariety	6
+戾	DtContrariety	6
+𝌌	DtAscent	6
+上	DtAscent	6
+𝌍	DtOpposition	6
+干	DtOpposition	6
+𝌎	DtBranchingOut	6
+𤕠	DtBranchingOut	6
+𝌏	DtDistortion	6
+羨	DtDistortion	6
+羡	DtDistortion	6
+𝌐	DtDivergence	6
+差	DtDivergence	6
+𝌑	DtYouthfulness	6
+童	DtYouthfulness	6
+𝌒	DtIncrease	6
+增	DtIncrease	6
+𝌓	DtPenetration	6
+銳	DtPenetration	6
+锐	DtPenetration	6
+𝌔	DtReach	6
+達	DtReach	6
+达	DtReach	6
+𝌕	DtContact	6
+交	DtContact	6
+𝌖	DtHoldingback	6
+䎡	DtHoldingback	6
+𝌗	DtWaiting	6
+傒	DtWaiting	6
+𝌘	DtFollowing	6
+從	DtFollowing	6
+从	DtFollowing	6
+𝌙	DtAdvance	6
+進	DtAdvance	6
+进	DtAdvance	6
+𝌚	DtRelease	6
+釋	DtRelease	6
+释	DtRelease	6
+𝌛	DtResistance	6
+格	DtResistance	6
+𝌜	DtEase	6
+夷	DtEase	6
+𝌝	DtJoy	6
+樂	DtJoy	6
+乐	DtJoy	6
+𝌞	DtContention	6
+爭	DtContention	6
+争	DtContention	6
+𝌟	DtEndeavour	6
+務	DtEndeavour	6
+务	DtEndeavour	6
+𝌠	DtDuties	6
+事	DtDuties	6
+𝌡	DtChange	6
+更	DtChange	6
+𝌢	DtDecisiveness	6
+斷	DtDecisiveness	6
+断	DtDecisiveness	6
+𝌣	DtBoldResolution	6
+毅	DtBoldResolution	6
+𝌤	DtPacking	6
+裝	DtPacking	6
+装	DtPacking	6
+𝌥	DtLegion	6
+眾	DtLegion	6
+众	DtLegion	6
+𝌦	DtCloseness	6
+密	DtCloseness	6
+𝌧	DtKinship	6
+親	DtKinship	6
+亲	DtKinship	6
+𝌨	DtGathering	6
+斂	DtGathering	6
+敛	DtGathering	6
+𝌩	DtStrength	6
+彊	DtStrength	6
+𝌪	DtPurity	6
+睟	DtPurity	6
+𝌫	DtFullness	6
+盛	DtFullness	6
+𝌬	DtResidence	6
+居	DtResidence	6
+𝌭	DtLaw	6
+法	DtLaw	6
+𝌮	DtResponse	6
+応	DtResponse	6
+𝌯	DtGoingToMeet	6
+迎	DtGoingToMeet	6
+𝌰	DtEncounters	6
+遇	DtEncounters	6
+𝌱	DtStove	6
+竈	DtStove	6
+灶	DtStove	6
+𝌲	DtGreatness	6
+大	DtGreatness	6
+𝌳	DtEnlargement	6
+廓	DtEnlargement	6
+𝌴	DtPattern	6
+文	DtPattern	6
+𝌵	DtRitual	6
+禮	DtRitual	6
+礼	DtRitual	6
+𝌶	DtFlight	6
+逃	DtFlight	6
+𝌷	DtVastness	6
+唐	DtVastness	6
+𝌸	DtConstancy	6
+常	DtConstancy	6
+𝌹	DtMeasure	6
+度	DtMeasure	6
+𝌺	DtEternity	6
+永	DtEternity	6
+𝌻	DtUnity	6
+昆	DtUnity	6
+𝌼	DtDeminishment	6
+減	DtDeminishment	6
+减	DtDeminishment	6
+𝌽	DtClosedMouth	6
+唫	DtClosedMouth	6
+𝌾	DtGuardedness	6
+守	DtGuardedness	6
+𝌿	DtGatheringIn	6
+翕	DtGatheringIn	6
+𝍀	DtMassing	6
+聚	DtMassing	6
+𝍁	DtAccumulation	6
+積	DtAccumulation	6
+积	DtAccumulation	6
+𝍂	DtEmbellishment	6
+飾	DtEmbellishment	6
+饰	DtEmbellishment	6
+𝍃	DtDoubt	6
+疑	DtDoubt	6
+𝍄	DtWatch	6
+視	DtWatch	6
+视	DtWatch	6
+𝍅	DtSinking	6
+沈	DtSinking	6
+𝍆	DtInner	6
+內	DtInner	6
+内	DtInner	6
+𝍇	DtDeparture	6
+去	DtDeparture	6
+𝍈	DtDarkening	6
+晦	DtDarkening	6
+𝍉	DtDimming	6
+瞢	DtDimming	6
+𝍊	DtExhaustion	6
+窮	DtExhaustion	6
+穷	DtExhaustion	6
+𝍋	DtSeverance	6
+割	DtSeverance	6
+𝍌	DtStoppage	6
+止	DtStoppage	6
+𝍍	DtHardness	6
+堅	DtHardness	6
+坚	DtHardness	6
+𝍎	DtCompletion	6
+成	DtCompletion	6
+𝍏	DtClosure	6
+䦯	DtClosure	6
+𝍐	DtFailure	6
+失	DtFailure	6
+𝍑	DtAggravation	6
+劇	DtAggravation	6
+剧	DtAggravation	6
+𝍒	DtCompliance	6
+馴	DtCompliance	6
+驯	DtCompliance	6
+𝍓	DtOnTheVerge	6
+將	DtOnTheVerge	6
+将	DtOnTheVerge	6
+𝍔	DtDifficulties	6
+難	DtDifficulties	6
+难	DtDifficulties	6
+𝍕	DtLabouring	6
+勤	DtLabouring	6
+𝍖	DtFostering	6
+養	DtFostering	6
+养	DtFostering	6
 
-# Rhyme Day
-東	GRI	4
+# Rhyme Day (LC/LD)
+東	LCGRI	4
 東	LD2639	4
-东	GRI	4
+东	LCGRI	4
 东	LD2639	4
-先	AND	4
+先	LCAND	4
 先	LD0341	4
-冬	APC	4
+冬	LCAPC	4
 冬	LD0392	4
-蕭	OVL	4
+蕭	LCOVL	4
 蕭	LD5618	4
-萧	OVL	4
+萧	LCOVL	4
 萧	LD5618	4
-江	ICJ	4
+江	LCICJ	4
 江	LD3068	4
-肴	ODJ	4
+肴	LCODJ	4
 肴	LD5149	4
-支	FUJ	4
+支	LCFUJ	4
 支	LD2388	4
-豪	QYS	4
+豪	LCQYS	4
 豪	LD6275	4
-微	ELD	4
+微	LCELD	4
 微	LD1792	4
-歌	HVO	4
+歌	LCHVO	4
 歌	LD2960	4
-魚	UTO	4
+魚	LCUTO	4
 魚	LD7625	4
-鱼	UTO	4
+鱼	LCUTO	4
 鱼	LD7625	4
-麻	VAK	4
+麻	LCVAK	4
 麻	LD7802	4
-虞	OZC	4
+虞	LCOZC	4
 虞	LD5713	4
-陽	UAF	4
+陽	LCUAF	4
 陽	LD7122	4
-阳	UAF	4
+阳	LCUAF	4
 阳	LD7122	4
-齊	VGO	4
+齊	LCVGO	4
 齊	LD7871	4
-齐	VGO	4
+齐	LCVGO	4
 齐	LD7871	4
-庚	EFQ	4
+庚	LCEFQ	4
 庚	LD1649	4
-佳	AGH	4
+佳	LCAGH	4
 佳	LD0163	4
-青	UEJ	4
+青	LCUEJ	4
 青	LD7230	4
-灰	ITA	4
+灰	LCITA	4
 灰	LD3500	4
-蒸	OSP	4
+蒸	LCOSP	4
 蒸	LD5544	4
-眞	KUS	4
+眞	LCKUS	4
 眞	LD4176	4
-真	KUS	4
+真	LCKUS	4
 真	LD4176	4
-尤	DUB	4
+尤	LCDUB	4
 尤	LD1429	4
-文	FYG	4
+文	LCFYG	4
 文	LD2429	4
-侵	AHF	4
+侵	LCAHF	4
 侵	LD0187	4
-元	AMZ	4
+元	LCAMZ	4
 元	LD0337	4
-覃	PZI	4
+覃	LCPZI	4
 覃	LD6009	4
-寒	DOL	4
+寒	LCDOL	4
 寒	LD1383	4
-鹽	UZE	4
+鹽	LCUZE	4
 鹽	LD7770	4
-盐	UZE	4
+盐	LCUZE	4
 盐	LD7770	4
-刪	ARC	4
+刪	LCARC	4
 刪	LD0444	4
-删	ARC	4
+删	LCARC	4
 删	LD0444	4
-咸	BGA	4
+咸	LCBGA	4
 咸	LD0752	4
-銑	TEM	4
+銑	LCTEM	4
 銑	LD6897	4
-铣	TEM	4
+铣	LCTEM	4
 铣	LD6897	4
-諫	QOM	4
+諫	LCQOM	4
 諫	LD6169	4
-谏	QOM	4
+谏	LCQOM	4
 谏	LD6169	4
-篠	MMU	4
+篠	LCMMU	4
 篠	LD4646	4
-霰	UDS	4
+霰	LCUDS	4
 霰	LD7213	4
-巧	ECI	4
+巧	LCECI	4
 巧	LD1564	4
-嘯	BUA	4
+嘯	LCBUA	4
 嘯	LD0876	4
-啸	BUA	4
+啸	LCBUA	4
 啸	LD0876	4
-皓	KOI	4
+皓	LCKOI	4
 皓	LD4110	4
-效	FUV	4
+效	LCFUV	4
 效	LD2400	4
-哿	BIM	4
+哿	LCBIM	4
 哿	LD0776	4
-號	OZD	4
+號	LCOZD	4
 號	LD5714	4
-号	OZD	4
+号	LCOZD	4
 号	LD5714	4
-馬	UNB	4
+馬	LCUNB	4
 馬	LD7456	4
-马	UNB	4
+马	LCUNB	4
 马	LD7456	4
-箇	MIO	4
+箇	LCMIO	4
 箇	LD4612	4
-个	MIO	4
+个	LCMIO	4
 个	LD4612	4
-養	YYA	4
+養	LCYYA	4
 養	LD9502	4
-养	YYA	4
+养	LCYYA	4
 养	LD9502	4
-禡	LOX	4
+禡	LCLOX	4
 禡	LD4401	4
-祃	LOX	4
+祃	LCLOX	4
 祃	LD4401	4
-梗	HAI	4
+梗	LCHAI	4
 梗	LD2739	4
-漾	INT	4
+漾	LCINT	4
 漾	LD3363	4
-迥	SDY	4
+迥	LCSDY	4
 迥	LD6608	4
-敬	FXA	4
+敬	LCFXA	4
 敬	LD2417	4
-有	GMI	4
+有	LCGMI	4
 有	LD2589	4
-徑	EKO	4
+徑	LCEKO	4
 徑	LD1777	4
-径	EKO	4
+径	LCEKO	4
 径	LD1777	4
-寢	DOU	4
+寢	LCDOU	4
 寢	LD1392	4
-寝	DOU	4
+寝	LCDOU	4
 寝	LD1392	4
-宥	DLY	4
+宥	LCDLY	4
 宥	LD1359	4
-感	ERE	4
+感	LCERE	4
 感	LD1949	4
-沁	ICZ	4
+沁	LCICZ	4
 沁	LD3084	4
-儉	AMB	4
+儉	LCAMB	4
 儉	LD0313	4
-俭	AMB	4
+俭	LCAMB	4
 俭	LD0313	4
-勘	AUC	4
+勘	LCAUC	4
 勘	LD0522	4
-豏	QYL	4
+豏	LCQYL	4
 豏	LD6268	4
-豔	QYK	4
+豔	LCQYK	4
 豔	LD6267	4
-艳	QYK	4
+艳	LCQYK	4
 艳	LD6267	4
-陷	UAC	4
+陷	LCUAC	4
 陷	LD7119	4
-世	AAN	4
+世	LCAAN	4
 世	LD0013	4
 
-# Date and Time
+# Date and Time (LC/LD)
 ㍘	LD9800	4
 ㍙	LD9801	4
 ㍚	LD9802	4
@@ -873,144 +873,144 @@ Zurich	Z	4
 陷日	LD9930	6
 ㏾	LD9931	4
 世日	LD9931	6
-㍘	ZTO	3
-㍙	ZTU	3
-㍚	ZTY	3
-㍛	ZUA	3
-㍜	ZUB	3
-㍝	ZUC	3
-㍞	ZUD	3
-㍟	ZUE	3
-㍠	ZUF	3
-㍡	ZUG	3
-㍢	ZUH	3
-㍣	ZUI	3
-㍤	ZUJ	3
-㍥	ZUK	3
-㍦	ZUL	3
-㍧	ZUM	3
-㍨	ZUN	3
-㍩	ZUO	3
-㍪	ZUP	3
-㍫	ZUQ	3
-㍬	ZUR	3
-㍭	ZUS	3
-㍮	ZUT	3
-㍯	ZUU	3
-㍰	ZUV	3
-㏠	ZYB	3
-東日	ZYB	8
-东日	ZYB	8
-先日	ZYB	8
-㏡	ZYC	3
-冬日	ZYC	8
-蕭日	ZYC	8
-萧日	ZYC	8
-㏢	ZYD	3
-江日	ZYD	8
-肴日	ZYD	8
-㏣	ZYE	3
-支日	ZYE	8
-豪日	ZYE	8
-㏤	ZYF	3
-微日	ZYF	8
-歌日	ZYF	8
-㏥	ZYG	3
-魚日	ZYG	8
-鱼日	ZYG	8
-麻日	ZYG	8
-㏦	ZYH	3
-虞日	ZYH	8
-陽日	ZYH	8
-阳日	ZYH	8
-㏧	ZYI	3
-齊日	ZYI	8
-齐日	ZYI	8
-庚日	ZYI	8
-㏨	ZYJ	3
-佳日	ZYJ	8
-青日	ZYJ	8
-㏩	ZYK	3
-灰日	ZYK	8
-蒸日	ZYK	8
-㏪	ZYL	3
-眞日	ZYL	8
-真日	ZYL	8
-尤日	ZYL	8
-㏫	ZYM	3
-文日	ZYM	8
-侵日	ZYM	8
-㏬	ZYN	3
-元日	ZYN	8
-覃日	ZYN	8
-㏭	ZYO	3
-寒日	ZYO	8
-鹽日	ZYO	8
-盐日	ZYO	8
-㏮	ZYP	3
-刪日	ZYP	8
-删日	ZYP	8
-咸日	ZYP	8
-㏯	ZYQ	3
-銑日	ZYQ	8
-铣日	ZYQ	8
-諫日	ZYQ	8
-谏日	ZYQ	8
-㏰	ZYR	3
-篠日	ZYR	8
-霰日	ZYR	8
-㏱	ZYS	3
-巧日	ZYS	8
-嘯日	ZYS	8
-啸日	ZYS	8
-㏲	ZYT	3
-皓日	ZYT	8
-效日	ZYT	8
-㏳	ZYU	3
-哿日	ZYU	8
-號日	ZYU	8
-号日	ZYU	8
-㏴	ZYV	3
-馬日	ZYV	8
-马日	ZYV	8
-箇日	ZYV	8
-个日	ZYV	8
-㏵	ZYW	3
-養日	ZYW	8
-养日	ZYW	8
-禡日	ZYW	8
-祃日	ZYW	8
-㏶	ZYX	3
-梗日	ZYX	8
-漾日	ZYX	8
-㏷	ZYY	3
-迥日	ZYY	8
-敬日	ZYY	8
-㏸	ZYZ	3
-有日	ZYZ	8
-徑日	ZYZ	8
-径日	ZYZ	8
-㏹	ZZA	3
-寢日	ZZA	8
-寝日	ZZA	8
-宥日	ZZA	8
-㏺	ZZE	3
-感日	ZZE	8
-沁日	ZZE	8
-㏻	ZZI	3
-儉日	ZZI	8
-俭日	ZZI	8
-勘日	ZZI	8
-㏼	ZZO	3
-豏日	ZZO	8
-豔日	ZZO	8
-艳日	ZZO	8
-㏽	ZZU	3
-陷日	ZZU	8
-㏾	ZZY	3
-世日	ZZY	8
+㍘	LCZTO	3
+㍙	LCZTU	3
+㍚	LCZTY	3
+㍛	LCZUA	3
+㍜	LCZUB	3
+㍝	LCZUC	3
+㍞	LCZUD	3
+㍟	LCZUE	3
+㍠	LCZUF	3
+㍡	LCZUG	3
+㍢	LCZUH	3
+㍣	LCZUI	3
+㍤	LCZUJ	3
+㍥	LCZUK	3
+㍦	LCZUL	3
+㍧	LCZUM	3
+㍨	LCZUN	3
+㍩	LCZUO	3
+㍪	LCZUP	3
+㍫	LCZUQ	3
+㍬	LCZUR	3
+㍭	LCZUS	3
+㍮	LCZUT	3
+㍯	LCZUU	3
+㍰	LCZUV	3
+㏠	LCZYB	3
+東日	LCZYB	8
+东日	LCZYB	8
+先日	LCZYB	8
+㏡	LCZYC	3
+冬日	LCZYC	8
+蕭日	LCZYC	8
+萧日	LCZYC	8
+㏢	LCZYD	3
+江日	LCZYD	8
+肴日	LCZYD	8
+㏣	LCZYE	3
+支日	LCZYE	8
+豪日	LCZYE	8
+㏤	LCZYF	3
+微日	LCZYF	8
+歌日	LCZYF	8
+㏥	LCZYG	3
+魚日	LCZYG	8
+鱼日	LCZYG	8
+麻日	LCZYG	8
+㏦	LCZYH	3
+虞日	LCZYH	8
+陽日	LCZYH	8
+阳日	LCZYH	8
+㏧	LCZYI	3
+齊日	LCZYI	8
+齐日	LCZYI	8
+庚日	LCZYI	8
+㏨	LCZYJ	3
+佳日	LCZYJ	8
+青日	LCZYJ	8
+㏩	LCZYK	3
+灰日	LCZYK	8
+蒸日	LCZYK	8
+㏪	LCZYL	3
+眞日	LCZYL	8
+真日	LCZYL	8
+尤日	LCZYL	8
+㏫	LCZYM	3
+文日	LCZYM	8
+侵日	LCZYM	8
+㏬	LCZYN	3
+元日	LCZYN	8
+覃日	LCZYN	8
+㏭	LCZYO	3
+寒日	LCZYO	8
+鹽日	LCZYO	8
+盐日	LCZYO	8
+㏮	LCZYP	3
+刪日	LCZYP	8
+删日	LCZYP	8
+咸日	LCZYP	8
+㏯	LCZYQ	3
+銑日	LCZYQ	8
+铣日	LCZYQ	8
+諫日	LCZYQ	8
+谏日	LCZYQ	8
+㏰	LCZYR	3
+篠日	LCZYR	8
+霰日	LCZYR	8
+㏱	LCZYS	3
+巧日	LCZYS	8
+嘯日	LCZYS	8
+啸日	LCZYS	8
+㏲	LCZYT	3
+皓日	LCZYT	8
+效日	LCZYT	8
+㏳	LCZYU	3
+哿日	LCZYU	8
+號日	LCZYU	8
+号日	LCZYU	8
+㏴	LCZYV	3
+馬日	LCZYV	8
+马日	LCZYV	8
+箇日	LCZYV	8
+个日	LCZYV	8
+㏵	LCZYW	3
+養日	LCZYW	8
+养日	LCZYW	8
+禡日	LCZYW	8
+祃日	LCZYW	8
+㏶	LCZYX	3
+梗日	LCZYX	8
+漾日	LCZYX	8
+㏷	LCZYY	3
+迥日	LCZYY	8
+敬日	LCZYY	8
+㏸	LCZYZ	3
+有日	LCZYZ	8
+徑日	LCZYZ	8
+径日	LCZYZ	8
+㏹	LCZZA	3
+寢日	LCZZA	8
+寝日	LCZZA	8
+宥日	LCZZA	8
+㏺	LCZZE	3
+感日	LCZZE	8
+沁日	LCZZE	8
+㏻	LCZZI	3
+儉日	LCZZI	8
+俭日	LCZZI	8
+勘日	LCZZI	8
+㏼	LCZZO	3
+豏日	LCZZO	8
+豔日	LCZZO	8
+艳日	LCZZO	8
+㏽	LCZZU	3
+陷日	LCZZU	8
+㏾	LCZZY	3
+世日	LCZZY	8
 
-# Big Chinese number
+# Big Chinese number (Nt/Ns)
 零	Nt0	8
 壹	Nt1	8
 貳	Nt2	8
@@ -1068,7 +1068,7 @@ Zurich	Z	4
 肆拾	Ns20	8
 贰佰	Ns200	8
 
-# Communication Chinese number
+# Communication Chinese number (Nc)
 洞	Nc0	8
 么	Nc1	8
 幺	Nc1	8
@@ -1082,7 +1082,7 @@ Zurich	Z	4
 八	Nc8	8
 勾	Nc9	8
 
-# Soutseu Number
+# Soutseu Number (Nf)
 〡	Nf01	6
 〢	Nf02	6
 〣	Nf03	6
@@ -1096,1952 +1096,2003 @@ Zurich	Z	4
 〹	Nf20	6
 〺	Nf30	6
 
-# Month
-January	Jan	2
-February	Feb	2
-March	Mar	2
-April	Apr	2
-May	May	2
-June	Jun	2
-July	Jul	2
-August	Aug	2
-September	Sep	2
-October	Oct	2
-November	Nov	2
-December	Dec	2
-一月	Jan	3
-二月	Feb	3
-三月	Mar	3
-四月	Apr	3
-五月	May	3
-六月	Jun	3
-七月	Jul	3
-八月	Aug	3
-九月	Sep	3
-十月	Oct	3
-十一月	Nov	3
-十二月	Dec	3
+# Month (A)
+一月	AJan	3
+二月	AFeb	3
+三月	AMar	3
+四月	AApr	3
+五月	AMay	3
+六月	AJun	3
+七月	AJul	3
+八月	AAug	3
+九月	ASep	3
+十月	AOct	3
+十一月	ANov	3
+十二月	ADec	3
 
-# Weekday
-月	Mon	6
-火	Tue	6
-水	Wed	6
-木	Thu	6
-金	Fri	6
-土	Sat	6
-日	Sun	6
-月曜日	Mon	6
-火曜日	Tue	6
-水曜日	Wed	6
-木曜日	Thu	6
-金曜日	Fri	6
-土曜日	Sat	6
-日曜日	Sun	6
-星期一	Mon	8
-星期二	Tue	8
-星期三	Wed	8
-星期四	Thu	8
-星期五	Fri	8
-星期六	Sat	8
-星期日	Sun	8
-周一	Mon	8
-周二	Tue	8
-周三	Wed	8
-周四	Thu	8
-周五	Fri	8
-周六	Sat	8
-周日	Sun	8
-礼拜一	Mon	8
-礼拜二	Tue	8
-礼拜三	Wed	8
-礼拜四	Thu	8
-礼拜五	Fri	8
-礼拜六	Sat	8
-礼拜天	Sun	8
+# Weekday (A)
+月	AMon	6
+火	ATue	6
+水	AWed	6
+木	AThu	6
+金	AFri	6
+土	ASat	6
+日	ASun	6
+月曜日	AMon	6
+火曜日	ATue	6
+水曜日	AWed	6
+木曜日	AThu	6
+金曜日	AFri	6
+土曜日	ASat	6
+日曜日	ASun	6
+星期一	AMon	8
+星期二	ATue	8
+星期三	AWed	8
+星期四	AThu	8
+星期五	AFri	8
+星期六	ASat	8
+星期日	ASun	8
+周一	AMon	8
+周二	ATue	8
+周三	AWed	8
+周四	AThu	8
+周五	AFri	8
+周六	ASat	8
+周日	ASun	8
+礼拜一	AMon	8
+礼拜二	ATue	8
+礼拜三	AWed	8
+礼拜四	AThu	8
+礼拜五	AFri	8
+礼拜六	ASat	8
+礼拜天	ASun	8
 
-# SPEMark
-一月	M01	8
-二月	M02	8
-三月	M03	8
-四月	M04	8
-五月	M05	8
-六月	M06	8
-七月	M07	8
-八月	M08	8
-九月	M09	8
-十月	M10	8
-十一月	M11	8
-十二月	M12	8
-1 月	M01	6
-2 月	M02	6
-3 月	M03	6
-4 月	M04	6
-5 月	M05	6
-6 月	M06	6
-7 月	M07	6
-8 月	M08	6
-9 月	M09	6
-10 月	M10	6
-11 月	M11	6
-12 月	M12	6
-Jan	M01	2
-Feb	M02	2
-Mar	M03	2
-Apr	M04	2
-May	M05	2
-Jun	M06	2
-Jul	M07	2
-Aug	M08	2
-Sep	M09	2
-Oct	M10	2
-Nov	M11	2
-Dec	M12	2
-January	M01	4
-February	M02	4
-March	M03	4
-April	M04	4
-May	M05	4
-June	M06	4
-July	M07	4
-August	M08	4
-September	M09	4
-October	M10	4
-November	M11	4
-December	M12	4
-1 日	D01	6
-2 日	D02	6
-3 日	D03	6
-4 日	D04	6
-5 日	D05	6
-6 日	D06	6
-7 日	D07	6
-8 日	D08	6
-9 日	D09	6
-10 日	D10	6
-11 日	D11	6
-12 日	D12	6
-13 日	D13	6
-14 日	D14	6
-15 日	D15	6
-16 日	D16	6
-17 日	D17	6
-18 日	D18	6
-19 日	D19	6
-20 日	D20	6
-21 日	D21	6
-22 日	D22	6
-23 日	D23	6
-24 日	D24	6
-25 日	D25	6
-26 日	D26	6
-27 日	D27	6
-28 日	D28	6
-29 日	D29	6
-30 日	D30	6
-31 日	D31	6
-一日	D01	8
-二日	D02	8
-三日	D03	8
-四日	D04	8
-五日	D05	8
-六日	D06	8
-七日	D07	8
-八日	D08	8
-九日	D09	8
-十日	D10	8
-十一日	D11	8
-十二日	D12	8
-十三日	D13	8
-十四日	D14	8
-十五日	D15	8
-十六日	D16	8
-十七日	D17	8
-十八日	D18	8
-十九日	D19	8
-二十日	D20	8
-二十一日	D21	8
-二十二日	D22	8
-二十三日	D23	8
-二十四日	D24	8
-二十五日	D25	8
-二十六日	D26	8
-二十七日	D27	8
-二十八日	D28	8
-二十九日	D29	8
-三十日	D30	8
-三十一日	D31	8
-月	W01	6
-火	W02	6
-水	W03	6
-木	W04	6
-金	W05	6
-土	W06	6
-日	W07	6
-月曜日	W01	6
-火曜日	W02	6
-水曜日	W03	6
-木曜日	W04	6
-金曜日	W05	6
-土曜日	W06	6
-日曜日	W07	6
-Mon	W01	2
-Tue	W02	2
-Wed	W03	2
-Thu	W04	2
-Fri	W05	2
-Sat	W06	2
-Sun	W07	2
-Monday	W01	4
-Tuesday	W02	4
-Wednesday	W03	4
-Thursday	W04	4
-Friday	W05	4
-Saturday	W06	4
-Sunday	W07	4
-星期一	W01	8
-星期二	W02	8
-星期三	W03	8
-星期四	W04	8
-星期五	W05	8
-星期六	W06	8
-星期日	W07	8
-周一	W01	8
-周二	W02	8
-周三	W03	8
-周四	W04	8
-周五	W05	8
-周六	W06	8
-周日	W07	8
-礼拜一	W01	8
-礼拜二	W02	8
-礼拜三	W03	8
-礼拜四	W04	8
-礼拜五	W05	8
-礼拜六	W06	8
-礼拜天	W07	8
-0 点	H00	6
-1 点	H01	6
-2 点	H02	6
-3 点	H03	6
-4 点	H04	6
-5 点	H05	6
-6 点	H06	6
-7 点	H07	6
-8 点	H08	6
-9 点	H09	6
-10 点	H10	6
-11 点	H11	6
-12 点	H12	6
-13 点	H13	6
-14 点	H14	6
-15 点	H15	6
-16 点	H16	6
-17 点	H17	6
-18 点	H18	6
-19 点	H19	6
-20 点	H20	6
-21 点	H21	6
-22 点	H22	6
-23 点	H23	6
-24 点	H24	6
-0 时	H00	6
-1 时	H01	6
-2 时	H02	6
-3 时	H03	6
-4 时	H04	6
-5 时	H05	6
-6 时	H06	6
-7 时	H07	6
-8 时	H08	6
-9 时	H09	6
-10 时	H10	6
-11 时	H11	6
-12 时	H12	6
-13 时	H13	6
-14 时	H14	6
-15 时	H15	6
-16 时	H16	6
-17 时	H17	6
-18 时	H18	6
-19 时	H19	6
-20 时	H20	6
-21 时	H21	6
-22 时	H22	6
-23 时	H23	6
-24 时	H24	6
-0 時	H00	6
-1 時	H01	6
-2 時	H02	6
-3 時	H03	6
-4 時	H04	6
-5 時	H05	6
-6 時	H06	6
-7 時	H07	6
-8 時	H08	6
-9 時	H09	6
-10 時	H10	6
-11 時	H11	6
-12 時	H12	6
-13 時	H13	6
-14 時	H14	6
-15 時	H15	6
-16 時	H16	6
-17 時	H17	6
-18 時	H18	6
-19 時	H19	6
-20 時	H20	6
-21 時	H21	6
-22 時	H22	6
-23 時	H23	6
-24 時	H24	6
-零点	H00	8
-一点	H01	8
-两点	H02	8
-三点	H03	8
-四点	H04	8
-五点	H05	8
-六点	H06	8
-七点	H07	8
-八点	H08	8
-九点	H09	8
-十点	H10	8
-十一点	H11	8
-十二点	H12	8
-十三点	H13	8
-十四点	H14	8
-十五点	H15	8
-十六点	H16	8
-十七点	H17	8
-十八点	H18	8
-十九点	H19	8
-二十点	H20	8
-二十一点	H21	8
-二十二点	H22	8
-二十三点	H23	8
-二十四点	H24	8
-零时	H00	8
-一时	H01	8
-二时	H02	8
-三时	H03	8
-四时	H04	8
-五时	H05	8
-六时	H06	8
-七时	H07	8
-八时	H08	8
-九时	H09	8
-十时	H10	8
-十一时	H11	8
-十二时	H12	8
-十三时	H13	8
-十四时	H14	8
-十五时	H15	8
-十六时	H16	8
-十七时	H17	8
-十八时	H18	8
-十九时	H19	8
-二十时	H20	8
-二十一时	H21	8
-二十二时	H22	8
-二十三时	H23	8
-二十四时	H24	8
-零時	H00	8
-一時	H01	8
-二時	H02	8
-三時	H03	8
-四時	H04	8
-五時	H05	8
-六時	H06	8
-七時	H07	8
-八時	H08	8
-九時	H09	8
-十時	H10	8
-十一時	H11	8
-十二時	H12	8
-十三時	H13	8
-十四時	H14	8
-十五時	H15	8
-十六時	H16	8
-十七時	H17	8
-十八時	H18	8
-十九時	H19	8
-二十時	H20	8
-二十一時	H21	8
-二十二時	H22	8
-二十三時	H23	8
-二十四時	H24	8
+# SPEMark (TM/TD/TW/TH)
+一月	TM01	8
+二月	TM02	8
+三月	TM03	8
+四月	TM04	8
+五月	TM05	8
+六月	TM06	8
+七月	TM07	8
+八月	TM08	8
+九月	TM09	8
+十月	TM10	8
+十一月	TM11	8
+十二月	TM12	8
+1 月	TM01	6
+2 月	TM02	6
+3 月	TM03	6
+4 月	TM04	6
+5 月	TM05	6
+6 月	TM06	6
+7 月	TM07	6
+8 月	TM08	6
+9 月	TM09	6
+10 月	TM10	6
+11 月	TM11	6
+12 月	TM12	6
+1 日	TD01	6
+2 日	TD02	6
+3 日	TD03	6
+4 日	TD04	6
+5 日	TD05	6
+6 日	TD06	6
+7 日	TD07	6
+8 日	TD08	6
+9 日	TD09	6
+10 日	TD10	6
+11 日	TD11	6
+12 日	TD12	6
+13 日	TD13	6
+14 日	TD14	6
+15 日	TD15	6
+16 日	TD16	6
+17 日	TD17	6
+18 日	TD18	6
+19 日	TD19	6
+20 日	TD20	6
+21 日	TD21	6
+22 日	TD22	6
+23 日	TD23	6
+24 日	TD24	6
+25 日	TD25	6
+26 日	TD26	6
+27 日	TD27	6
+28 日	TD28	6
+29 日	TD29	6
+30 日	TD30	6
+31 日	TD31	6
+一日	TD01	8
+二日	TD02	8
+三日	TD03	8
+四日	TD04	8
+五日	TD05	8
+六日	TD06	8
+七日	TD07	8
+八日	TD08	8
+九日	TD09	8
+十日	TD10	8
+十一日	TD11	8
+十二日	TD12	8
+十三日	TD13	8
+十四日	TD14	8
+十五日	TD15	8
+十六日	TD16	8
+十七日	TD17	8
+十八日	TD18	8
+十九日	TD19	8
+二十日	TD20	8
+二十一日	TD21	8
+二十二日	TD22	8
+二十三日	TD23	8
+二十四日	TD24	8
+二十五日	TD25	8
+二十六日	TD26	8
+二十七日	TD27	8
+二十八日	TD28	8
+二十九日	TD29	8
+三十日	TD30	8
+三十一日	TD31	8
+月	TW01	6
+火	TW02	6
+水	TW03	6
+木	TW04	6
+金	TW05	6
+土	TW06	6
+日	TW07	6
+月曜日	TW01	6
+火曜日	TW02	6
+水曜日	TW03	6
+木曜日	TW04	6
+金曜日	TW05	6
+土曜日	TW06	6
+日曜日	TW07	6
+星期一	TW01	8
+星期二	TW02	8
+星期三	TW03	8
+星期四	TW04	8
+星期五	TW05	8
+星期六	TW06	8
+星期日	TW07	8
+周一	TW01	8
+周二	TW02	8
+周三	TW03	8
+周四	TW04	8
+周五	TW05	8
+周六	TW06	8
+周日	TW07	8
+礼拜一	TW01	8
+礼拜二	TW02	8
+礼拜三	TW03	8
+礼拜四	TW04	8
+礼拜五	TW05	8
+礼拜六	TW06	8
+礼拜天	TW07	8
+0 点	TH00	6
+1 点	TH01	6
+2 点	TH02	6
+3 点	TH03	6
+4 点	TH04	6
+5 点	TH05	6
+6 点	TH06	6
+7 点	TH07	6
+8 点	TH08	6
+9 点	TH09	6
+10 点	TH10	6
+11 点	TH11	6
+12 点	TH12	6
+13 点	TH13	6
+14 点	TH14	6
+15 点	TH15	6
+16 点	TH16	6
+17 点	TH17	6
+18 点	TH18	6
+19 点	TH19	6
+20 点	TH20	6
+21 点	TH21	6
+22 点	TH22	6
+23 点	TH23	6
+24 点	TH24	6
+0 时	TH00	6
+1 时	TH01	6
+2 时	TH02	6
+3 时	TH03	6
+4 时	TH04	6
+5 时	TH05	6
+6 时	TH06	6
+7 时	TH07	6
+8 时	TH08	6
+9 时	TH09	6
+10 时	TH10	6
+11 时	TH11	6
+12 时	TH12	6
+13 时	TH13	6
+14 时	TH14	6
+15 时	TH15	6
+16 时	TH16	6
+17 时	TH17	6
+18 时	TH18	6
+19 时	TH19	6
+20 时	TH20	6
+21 时	TH21	6
+22 时	TH22	6
+23 时	TH23	6
+24 时	TH24	6
+0 時	TH00	6
+1 時	TH01	6
+2 時	TH02	6
+3 時	TH03	6
+4 時	TH04	6
+5 時	TH05	6
+6 時	TH06	6
+7 時	TH07	6
+8 時	TH08	6
+9 時	TH09	6
+10 時	TH10	6
+11 時	TH11	6
+12 時	TH12	6
+13 時	TH13	6
+14 時	TH14	6
+15 時	TH15	6
+16 時	TH16	6
+17 時	TH17	6
+18 時	TH18	6
+19 時	TH19	6
+20 時	TH20	6
+21 時	TH21	6
+22 時	TH22	6
+23 時	TH23	6
+24 時	TH24	6
+零点	TH00	8
+一点	TH01	8
+两点	TH02	8
+三点	TH03	8
+四点	TH04	8
+五点	TH05	8
+六点	TH06	8
+七点	TH07	8
+八点	TH08	8
+九点	TH09	8
+十点	TH10	8
+十一点	TH11	8
+十二点	TH12	8
+十三点	TH13	8
+十四点	TH14	8
+十五点	TH15	8
+十六点	TH16	8
+十七点	TH17	8
+十八点	TH18	8
+十九点	TH19	8
+二十点	TH20	8
+二十一点	TH21	8
+二十二点	TH22	8
+二十三点	TH23	8
+二十四点	TH24	8
+零时	TH00	8
+一时	TH01	8
+二时	TH02	8
+三时	TH03	8
+四时	TH04	8
+五时	TH05	8
+六时	TH06	8
+七时	TH07	8
+八时	TH08	8
+九时	TH09	8
+十时	TH10	8
+十一时	TH11	8
+十二时	TH12	8
+十三时	TH13	8
+十四时	TH14	8
+十五时	TH15	8
+十六时	TH16	8
+十七时	TH17	8
+十八时	TH18	8
+十九时	TH19	8
+二十时	TH20	8
+二十一时	TH21	8
+二十二时	TH22	8
+二十三时	TH23	8
+二十四时	TH24	8
+零時	TH00	8
+一時	TH01	8
+二時	TH02	8
+三時	TH03	8
+四時	TH04	8
+五時	TH05	8
+六時	TH06	8
+七時	TH07	8
+八時	TH08	8
+九時	TH09	8
+十時	TH10	8
+十一時	TH11	8
+十二時	TH12	8
+十三時	TH13	8
+十四時	TH14	8
+十五時	TH15	8
+十六時	TH16	8
+十七時	TH17	8
+十八時	TH18	8
+十九時	TH19	8
+二十時	TH20	8
+二十一時	TH21	8
+二十二時	TH22	8
+二十三時	TH23	8
+二十四時	TH24	8
 
-# Solar Term
-立春	SpringCommences	8
-雨水	RainWater	8
-驚蟄	InsectsWaken	8
-惊蛰	InsectsWaken	8
-春分	VernalEquinox	8
-清明	BrightAndClear	8
-穀雨	CornRain	8
-谷雨	CornRain	8
-立夏	SummerCommences	8
-小滿	CornForms	8
-小满	CornForms	8
-芒種	CornOnEar	8
-芒种	CornOnEar	8
-夏至	SummerSolstice	8
-小暑	ModerateHeat	8
-大暑	GreatHeat	8
-立秋	AutumnCommences	8
-處暑	EndOfHeat	8
-处暑	EndOfHeat	8
-白露	WhiteDew	8
-秋分	AutumnalEquinox	8
-寒露	ColdDew	8
-霜降	Frost	8
-立冬	WinterCommences	8
-小雪	LightSnow	8
-大雪	HeavySnow	8
-冬至	WinterSolstice	8
-小寒	ModerateCold	8
-大寒	SevereCold	8
+# Solar Term (Ss)
+立春	SsSpringCommences	8
+雨水	SsRainWater	8
+驚蟄	SsInsectsWaken	8
+惊蛰	SsInsectsWaken	8
+春分	SsVernalEquinox	8
+清明	SsBrightAndClear	8
+穀雨	SsCornRain	8
+谷雨	SsCornRain	8
+立夏	SsSummerCommences	8
+小滿	SsCornForms	8
+小满	SsCornForms	8
+芒種	SsCornOnEar	8
+芒种	SsCornOnEar	8
+夏至	SsSummerSolstice	8
+小暑	SsModerateHeat	8
+大暑	SsGreatHeat	8
+立秋	SsAutumnCommences	8
+處暑	SsEndOfHeat	8
+处暑	SsEndOfHeat	8
+白露	SsWhiteDew	8
+秋分	SsAutumnalEquinox	8
+寒露	SsColdDew	8
+霜降	SsFrost	8
+立冬	SsWinterCommences	8
+小雪	SsLightSnow	8
+大雪	SsHeavySnow	8
+冬至	SsWinterSolstice	8
+小寒	SsModerateCold	8
+大寒	SsSevereCold	8
 
-# Heavenly Stems, Earthly Branches, and Sexagenary cycles
-甲	HE1	8
-乙	HE2	8
-丙	HE3	8
-丁	HE4	8
-戊	HE5	8
-己	HE6	8
-庚	HE7	8
-辛	HE8	8
-壬	HE9	8
-癸	HE0	8
-子	EA01	8
-丑	EA02	8
-寅	EA03	8
-卯	EA04	8
-辰	EA05	8
-巳	EA06	8
-午	EA07	8
-未	EA08	8
-申	EA09	8
-酉	EA10	8
-戌	EA11	8
-亥	EA12	8
-甲子	SEG01	8
-乙丑	SEG02	8
-丙寅	SEG03	8
-丁卯	SEG04	8
-戊辰	SEG05	8
-己巳	SEG06	8
-庚午	SEG07	8
-辛未	SEG08	8
-壬申	SEG09	8
-癸酉	SEG10	8
-甲戌	SEG11	8
-乙亥	SEG12	8
-丙子	SEG13	8
-丁丑	SEG14	8
-戊寅	SEG15	8
-己卯	SEG16	8
-庚辰	SEG17	8
-辛巳	SEG18	8
-壬午	SEG19	8
-癸未	SEG20	8
-甲申	SEG21	8
-乙酉	SEG22	8
-丙戌	SEG23	8
-丁亥	SEG24	8
-戊子	SEG25	8
-己丑	SEG26	8
-庚寅	SEG27	8
-辛卯	SEG28	8
-壬辰	SEG29	8
-癸巳	SEG30	8
-甲午	SEG31	8
-乙未	SEG32	8
-丙申	SEG33	8
-丁酉	SEG34	8
-戊戌	SEG35	8
-己亥	SEG36	8
-庚子	SEG37	8
-辛丑	SEG38	8
-壬寅	SEG39	8
-癸卯	SEG40	8
-甲辰	SEG41	8
-乙巳	SEG42	8
-丙午	SEG43	8
-丁未	SEG44	8
-戊申	SEG45	8
-己酉	SEG46	8
-庚戌	SEG47	8
-辛亥	SEG48	8
-壬子	SEG49	8
-癸丑	SEG50	8
-甲寅	SEG51	8
-乙卯	SEG52	8
-丙辰	SEG53	8
-丁巳	SEG54	8
-戊午	SEG55	8
-己未	SEG56	8
-庚申	SEG57	8
-辛酉	SEG58	8
-壬戌	SEG59	8
-癸亥	SEG60	8
+# Heavenly Stems, Earthly Branches, and Sexagenary cycles (SHE/SEA/SSEG)
+甲	SHE1	8
+乙	SHE2	8
+丙	SHE3	8
+丁	SHE4	8
+戊	SHE5	8
+己	SHE6	8
+庚	SHE7	8
+辛	SHE8	8
+壬	SHE9	8
+癸	SHE0	8
+子	SEA01	8
+丑	SEA02	8
+寅	SEA03	8
+卯	SEA04	8
+辰	SEA05	8
+巳	SEA06	8
+午	SEA07	8
+未	SEA08	8
+申	SEA09	8
+酉	SEA10	8
+戌	SEA11	8
+亥	SEA12	8
+甲子	SSEG01	8
+乙丑	SSEG02	8
+丙寅	SSEG03	8
+丁卯	SSEG04	8
+戊辰	SSEG05	8
+己巳	SSEG06	8
+庚午	SSEG07	8
+辛未	SSEG08	8
+壬申	SSEG09	8
+癸酉	SSEG10	8
+甲戌	SSEG11	8
+乙亥	SSEG12	8
+丙子	SSEG13	8
+丁丑	SSEG14	8
+戊寅	SSEG15	8
+己卯	SSEG16	8
+庚辰	SSEG17	8
+辛巳	SSEG18	8
+壬午	SSEG19	8
+癸未	SSEG20	8
+甲申	SSEG21	8
+乙酉	SSEG22	8
+丙戌	SSEG23	8
+丁亥	SSEG24	8
+戊子	SSEG25	8
+己丑	SSEG26	8
+庚寅	SSEG27	8
+辛卯	SSEG28	8
+壬辰	SSEG29	8
+癸巳	SSEG30	8
+甲午	SSEG31	8
+乙未	SSEG32	8
+丙申	SSEG33	8
+丁酉	SSEG34	8
+戊戌	SSEG35	8
+己亥	SSEG36	8
+庚子	SSEG37	8
+辛丑	SSEG38	8
+壬寅	SSEG39	8
+癸卯	SSEG40	8
+甲辰	SSEG41	8
+乙巳	SSEG42	8
+丙午	SSEG43	8
+丁未	SSEG44	8
+戊申	SSEG45	8
+己酉	SSEG46	8
+庚戌	SSEG47	8
+辛亥	SSEG48	8
+壬子	SSEG49	8
+癸丑	SSEG50	8
+甲寅	SSEG51	8
+乙卯	SSEG52	8
+丙辰	SSEG53	8
+丁巳	SSEG54	8
+戊午	SSEG55	8
+己未	SSEG56	8
+庚申	SSEG57	8
+辛酉	SSEG58	8
+壬戌	SSEG59	8
+癸亥	SSEG60	8
 
-# Chinese Lunar Calendar
-正月	CLM01	8
-二月	CLM02	8
-三月	CLM03	8
-四月	CLM04	8
-五月	CLM05	8
-六月	CLM06	8
-七月	CLM07	8
-八月	CLM08	8
-九月	CLM09	8
-十月	CLM10	8
-冬月	CLM11	8
-腊月	CLM12	8
-闰正月	CLML01	8
-闰二月	CLML02	8
-闰三月	CLML03	8
-闰四月	CLML04	8
-闰五月	CLML05	8
-闰六月	CLML06	8
-闰七月	CLML07	8
-闰八月	CLML08	8
-闰九月	CLML09	8
-闰十月	CLML10	8
-闰冬月	CLML11	8
-闰腊月	CLML12	8
-臘月	CLM12	8
-閏正月	CLML01	8
-閏二月	CLML02	8
-閏三月	CLML03	8
-閏四月	CLML04	8
-閏五月	CLML05	8
-閏六月	CLML06	8
-閏七月	CLML07	8
-閏八月	CLML08	8
-閏九月	CLML09	8
-閏十月	CLML10	8
-閏冬月	CLML11	8
-閏臘月	CLML12	8
-初一	CLD01	8
-初二	CLD02	8
-初三	CLD03	8
-初四	CLD04	8
-初五	CLD05	8
-初六	CLD06	8
-初七	CLD07	8
-初八	CLD08	8
-初九	CLD09	8
-初十	CLD10	8
-十一	CLD11	8
-十二	CLD12	8
-十三	CLD13	8
-十四	CLD14	8
-十五	CLD15	8
-十六	CLD16	8
-十七	CLD17	8
-十八	CLD18	8
-十九	CLD19	8
-二十	CLD20	8
-廿一	CLD21	8
-廿二	CLD22	8
-廿三	CLD23	8
-廿四	CLD24	8
-廿五	CLD25	8
-廿六	CLD26	8
-廿七	CLD27	8
-廿八	CLD28	8
-廿九	CLD29	8
-三十	CLD30	8
+# Chinese Lunar Calendar (TCLM/TCLD)
+正月	TCLM01	8
+二月	TCLM02	8
+三月	TCLM03	8
+四月	TCLM04	8
+五月	TCLM05	8
+六月	TCLM06	8
+七月	TCLM07	8
+八月	TCLM08	8
+九月	TCLM09	8
+十月	TCLM10	8
+冬月	TCLM11	8
+腊月	TCLM12	8
+闰正月	TCLML01	8
+闰二月	TCLML02	8
+闰三月	TCLML03	8
+闰四月	TCLML04	8
+闰五月	TCLML05	8
+闰六月	TCLML06	8
+闰七月	TCLML07	8
+闰八月	TCLML08	8
+闰九月	TCLML09	8
+闰十月	TCLML10	8
+闰冬月	TCLML11	8
+闰腊月	TCLML12	8
+臘月	TCLM12	8
+閏正月	TCLML01	8
+閏二月	TCLML02	8
+閏三月	TCLML03	8
+閏四月	TCLML04	8
+閏五月	TCLML05	8
+閏六月	TCLML06	8
+閏七月	TCLML07	8
+閏八月	TCLML08	8
+閏九月	TCLML09	8
+閏十月	TCLML10	8
+閏冬月	TCLML11	8
+閏臘月	TCLML12	8
+初一	TCLD01	8
+初二	TCLD02	8
+初三	TCLD03	8
+初四	TCLD04	8
+初五	TCLD05	8
+初六	TCLD06	8
+初七	TCLD07	8
+初八	TCLD08	8
+初九	TCLD09	8
+初十	TCLD10	8
+十一	TCLD11	8
+十二	TCLD12	8
+十三	TCLD13	8
+十四	TCLD14	8
+十五	TCLD15	8
+十六	TCLD16	8
+十七	TCLD17	8
+十八	TCLD18	8
+十九	TCLD19	8
+二十	TCLD20	8
+廿一	TCLD21	8
+廿二	TCLD22	8
+廿三	TCLD23	8
+廿四	TCLD24	8
+廿五	TCLD25	8
+廿六	TCLD26	8
+廿七	TCLD27	8
+廿八	TCLD28	8
+廿九	TCLD29	8
+三十	TCLD30	8
 
-# Chinese zodiacs
-鼠	Rat	8
-牛	Ox	8
-虎	Tiger	8
-兔	Rabbit	8
-龙	Dragon	8
-蛇	Snake	8
-马	Horse	8
-羊	Goat	8
-猴	Monkey	8
-鸡	Rooster	8
-狗	Dog	8
-猪	Pig	8
+# Chinese zodiacs (Dz)
+鼠	DzRat	8
+牛	DzOx	8
+虎	DzTiger	8
+兔	DzRabbit	8
+龙	DzDragon	8
+蛇	DzSnake	8
+马	DzHorse	8
+羊	DzGoat	8
+猴	DzMonkey	8
+鸡	DzRooster	8
+狗	DzDog	8
+猪	DzPig	8
 
-# Mysterious contents (Sexagenary cycle Year/Month/Day)
-甲子年	SEY01	8
-乙丑年	SEY02	8
-丙寅年	SEY03	8
-丁卯年	SEY04	8
-戊辰年	SEY05	8
-己巳年	SEY06	8
-庚午年	SEY07	8
-辛未年	SEY08	8
-壬申年	SEY09	8
-癸酉年	SEY10	8
-甲戌年	SEY11	8
-乙亥年	SEY12	8
-丙子年	SEY13	8
-丁丑年	SEY14	8
-戊寅年	SEY15	8
-己卯年	SEY16	8
-庚辰年	SEY17	8
-辛巳年	SEY18	8
-壬午年	SEY19	8
-癸未年	SEY20	8
-甲申年	SEY21	8
-乙酉年	SEY22	8
-丙戌年	SEY23	8
-丁亥年	SEY24	8
-戊子年	SEY25	8
-己丑年	SEY26	8
-庚寅年	SEY27	8
-辛卯年	SEY28	8
-壬辰年	SEY29	8
-癸巳年	SEY30	8
-甲午年	SEY31	8
-乙未年	SEY32	8
-丙申年	SEY33	8
-丁酉年	SEY34	8
-戊戌年	SEY35	8
-己亥年	SEY36	8
-庚子年	SEY37	8
-辛丑年	SEY38	8
-壬寅年	SEY39	8
-癸卯年	SEY40	8
-甲辰年	SEY41	8
-乙巳年	SEY42	8
-丙午年	SEY43	8
-丁未年	SEY44	8
-戊申年	SEY45	8
-己酉年	SEY46	8
-庚戌年	SEY47	8
-辛亥年	SEY48	8
-壬子年	SEY49	8
-癸丑年	SEY50	8
-甲寅年	SEY51	8
-乙卯年	SEY52	8
-丙辰年	SEY53	8
-丁巳年	SEY54	8
-戊午年	SEY55	8
-己未年	SEY56	8
-庚申年	SEY57	8
-辛酉年	SEY58	8
-壬戌年	SEY59	8
-癸亥年	SEY60	8
-寅月	SEM01	8
-卯月	SEM02	8
-辰月	SEM03	8
-巳月	SEM04	8
-午月	SEM05	8
-未月	SEM06	8
-申月	SEM07	8
-酉月	SEM08	8
-戌月	SEM09	8
-亥月	SEM10	8
-子月	SEM11	8
-丑月	SEM12	8
-丙寅月	SEM01	6
-丁卯月	SEM02	6
-戊辰月	SEM03	6
-己巳月	SEM04	6
-庚午月	SEM05	6
-辛未月	SEM06	6
-壬申月	SEM07	6
-癸酉月	SEM08	6
-甲戌月	SEM09	6
-乙亥月	SEM10	6
-丙子月	SEM11	6
-丁丑月	SEM12	6
-戊寅月	SEM01	6
-己卯月	SEM02	6
-庚辰月	SEM03	6
-辛巳月	SEM04	6
-壬午月	SEM05	6
-癸未月	SEM06	6
-甲申月	SEM07	6
-乙酉月	SEM08	6
-丙戌月	SEM09	6
-丁亥月	SEM10	6
-戊子月	SEM11	6
-己丑月	SEM12	6
-庚寅月	SEM01	6
-辛卯月	SEM02	6
-壬辰月	SEM03	6
-癸巳月	SEM04	6
-甲午月	SEM05	6
-乙未月	SEM06	6
-丙申月	SEM07	6
-丁酉月	SEM08	6
-戊戌月	SEM09	6
-己亥月	SEM10	6
-庚子月	SEM11	6
-辛丑月	SEM12	6
-壬寅月	SEM01	6
-癸卯月	SEM02	6
-甲辰月	SEM03	6
-乙巳月	SEM04	6
-丙午月	SEM05	6
-丁未月	SEM06	6
-戊申月	SEM07	6
-己酉月	SEM08	6
-庚戌月	SEM09	6
-辛亥月	SEM10	6
-壬子月	SEM11	6
-癸丑月	SEM12	6
-甲寅月	SEM01	6
-乙卯月	SEM02	6
-丙辰月	SEM03	6
-丁巳月	SEM04	6
-戊午月	SEM05	6
-己未月	SEM06	6
-庚申月	SEM07	6
-辛酉月	SEM08	6
-壬戌月	SEM09	6
-癸亥月	SEM10	6
-甲子月	SEM11	6
-乙丑月	SEM12	6
-建寅	SEM01	4
-建卯	SEM02	4
-建辰	SEM03	4
-建巳	SEM04	4
-建午	SEM05	4
-建未	SEM06	4
-建申	SEM07	4
-建酉	SEM08	4
-建戌	SEM09	4
-建亥	SEM10	4
-建子	SEM11	4
-建丑	SEM12	4
-甲子日	SED01	8
-乙丑日	SED02	8
-丙寅日	SED03	8
-丁卯日	SED04	8
-戊辰日	SED05	8
-己巳日	SED06	8
-庚午日	SED07	8
-辛未日	SED08	8
-壬申日	SED09	8
-癸酉日	SED10	8
-甲戌日	SED11	8
-乙亥日	SED12	8
-丙子日	SED13	8
-丁丑日	SED14	8
-戊寅日	SED15	8
-己卯日	SED16	8
-庚辰日	SED17	8
-辛巳日	SED18	8
-壬午日	SED19	8
-癸未日	SED20	8
-甲申日	SED21	8
-乙酉日	SED22	8
-丙戌日	SED23	8
-丁亥日	SED24	8
-戊子日	SED25	8
-己丑日	SED26	8
-庚寅日	SED27	8
-辛卯日	SED28	8
-壬辰日	SED29	8
-癸巳日	SED30	8
-甲午日	SED31	8
-乙未日	SED32	8
-丙申日	SED33	8
-丁酉日	SED34	8
-戊戌日	SED35	8
-己亥日	SED36	8
-庚子日	SED37	8
-辛丑日	SED38	8
-壬寅日	SED39	8
-癸卯日	SED40	8
-甲辰日	SED41	8
-乙巳日	SED42	8
-丙午日	SED43	8
-丁未日	SED44	8
-戊申日	SED45	8
-己酉日	SED46	8
-庚戌日	SED47	8
-辛亥日	SED48	8
-壬子日	SED49	8
-癸丑日	SED50	8
-甲寅日	SED51	8
-乙卯日	SED52	8
-丙辰日	SED53	8
-丁巳日	SED54	8
-戊午日	SED55	8
-己未日	SED56	8
-庚申日	SED57	8
-辛酉日	SED58	8
-壬戌日	SED59	8
-癸亥日	SED60	8
-甲子年	EAY01	8
-乙丑年	EAY02	8
-丙寅年	EAY03	8
-丁卯年	EAY04	8
-戊辰年	EAY05	8
-己巳年	EAY06	8
-庚午年	EAY07	8
-辛未年	EAY08	8
-壬申年	EAY09	8
-癸酉年	EAY10	8
-甲戌年	EAY11	8
-乙亥年	EAY12	8
-丙子年	EAY01	8
-丁丑年	EAY02	8
-戊寅年	EAY03	8
-己卯年	EAY04	8
-庚辰年	EAY05	8
-辛巳年	EAY06	8
-壬午年	EAY07	8
-癸未年	EAY08	8
-甲申年	EAY09	8
-乙酉年	EAY10	8
-丙戌年	EAY11	8
-丁亥年	EAY12	8
-戊子年	EAY01	8
-己丑年	EAY02	8
-庚寅年	EAY03	8
-辛卯年	EAY04	8
-壬辰年	EAY05	8
-癸巳年	EAY06	8
-甲午年	EAY07	8
-乙未年	EAY08	8
-丙申年	EAY09	8
-丁酉年	EAY10	8
-戊戌年	EAY11	8
-己亥年	EAY12	8
-庚子年	EAY01	8
-辛丑年	EAY02	8
-壬寅年	EAY03	8
-癸卯年	EAY04	8
-甲辰年	EAY05	8
-乙巳年	EAY06	8
-丙午年	EAY07	8
-丁未年	EAY08	8
-戊申年	EAY09	8
-己酉年	EAY10	8
-庚戌年	EAY11	8
-辛亥年	EAY12	8
-壬子年	EAY01	8
-癸丑年	EAY02	8
-甲寅年	EAY03	8
-乙卯年	EAY04	8
-丙辰年	EAY05	8
-丁巳年	EAY06	8
-戊午年	EAY07	8
-己未年	EAY08	8
-庚申年	EAY09	8
-辛酉年	EAY10	8
-壬戌年	EAY11	8
-癸亥年	EAY12	8
-鼠年	EAY01	6
-牛年	EAY02	6
-虎年	EAY03	6
-兔年	EAY04	6
-龙年	EAY05	6
-蛇年	EAY06	6
-马年	EAY07	6
-羊年	EAY08	6
-猴年	EAY09	6
-鸡年	EAY10	6
-狗年	EAY11	6
-猪年	EAY12	6
-子時	SEH01	8
-丑時	SEH02	8
-寅時	SEH03	8
-卯時	SEH04	8
-辰時	SEH05	8
-巳時	SEH06	8
-午時	SEH07	8
-未時	SEH08	8
-申時	SEH09	8
-酉時	SEH10	8
-戌時	SEH11	8
-亥時	SEH12	8
-甲子時	SEH01	6
-乙丑時	SEH02	6
-丙寅時	SEH03	6
-丁卯時	SEH04	6
-戊辰時	SEH05	6
-己巳時	SEH06	6
-庚午時	SEH07	6
-辛未時	SEH08	6
-壬申時	SEH09	6
-癸酉時	SEH10	6
-甲戌時	SEH11	6
-乙亥時	SEH12	6
-丙子時	SEH01	6
-丁丑時	SEH02	6
-戊寅時	SEH03	6
-己卯時	SEH04	6
-庚辰時	SEH05	6
-辛巳時	SEH06	6
-壬午時	SEH07	6
-癸未時	SEH08	6
-甲申時	SEH09	6
-乙酉時	SEH10	6
-丙戌時	SEH11	6
-丁亥時	SEH12	6
-戊子時	SEH01	6
-己丑時	SEH02	6
-庚寅時	SEH03	6
-辛卯時	SEH04	6
-壬辰時	SEH05	6
-癸巳時	SEH06	6
-甲午時	SEH07	6
-乙未時	SEH08	6
-丙申時	SEH09	6
-丁酉時	SEH10	6
-戊戌時	SEH11	6
-己亥時	SEH12	6
-庚子時	SEH01	6
-辛丑時	SEH02	6
-壬寅時	SEH03	6
-癸卯時	SEH04	6
-甲辰時	SEH05	6
-乙巳時	SEH06	6
-丙午時	SEH07	6
-丁未時	SEH08	6
-戊申時	SEH09	6
-己酉時	SEH10	6
-庚戌時	SEH11	6
-辛亥時	SEH12	6
-壬子時	SEH01	6
-癸丑時	SEH02	6
-甲寅時	SEH03	6
-乙卯時	SEH04	6
-丙辰時	SEH05	6
-丁巳時	SEH06	6
-戊午時	SEH07	6
-己未時	SEH08	6
-庚申時	SEH09	6
-辛酉時	SEH10	6
-壬戌時	SEH11	6
-癸亥時	SEH12	6
-子时	SEH01	8
-丑时	SEH02	8
-寅时	SEH03	8
-卯时	SEH04	8
-辰时	SEH05	8
-巳时	SEH06	8
-午时	SEH07	8
-未时	SEH08	8
-申时	SEH09	8
-酉时	SEH10	8
-戌时	SEH11	8
-亥时	SEH12	8
-甲子时	SEH01	6
-乙丑时	SEH02	6
-丙寅时	SEH03	6
-丁卯时	SEH04	6
-戊辰时	SEH05	6
-己巳时	SEH06	6
-庚午时	SEH07	6
-辛未时	SEH08	6
-壬申时	SEH09	6
-癸酉时	SEH10	6
-甲戌时	SEH11	6
-乙亥时	SEH12	6
-丙子时	SEH01	6
-丁丑时	SEH02	6
-戊寅时	SEH03	6
-己卯时	SEH04	6
-庚辰时	SEH05	6
-辛巳时	SEH06	6
-壬午时	SEH07	6
-癸未时	SEH08	6
-甲申时	SEH09	6
-乙酉时	SEH10	6
-丙戌时	SEH11	6
-丁亥时	SEH12	6
-戊子时	SEH01	6
-己丑时	SEH02	6
-庚寅时	SEH03	6
-辛卯时	SEH04	6
-壬辰时	SEH05	6
-癸巳时	SEH06	6
-甲午时	SEH07	6
-乙未时	SEH08	6
-丙申时	SEH09	6
-丁酉时	SEH10	6
-戊戌时	SEH11	6
-己亥时	SEH12	6
-庚子时	SEH01	6
-辛丑时	SEH02	6
-壬寅时	SEH03	6
-癸卯时	SEH04	6
-甲辰时	SEH05	6
-乙巳时	SEH06	6
-丙午时	SEH07	6
-丁未时	SEH08	6
-戊申时	SEH09	6
-己酉时	SEH10	6
-庚戌时	SEH11	6
-辛亥时	SEH12	6
-壬子时	SEH01	6
-癸丑时	SEH02	6
-甲寅时	SEH03	6
-乙卯时	SEH04	6
-丙辰时	SEH05	6
-丁巳时	SEH06	6
-戊午时	SEH07	6
-己未时	SEH08	6
-庚申时	SEH09	6
-辛酉时	SEH10	6
-壬戌时	SEH11	6
-癸亥时	SEH12	6
-子初	SEHB01	8
-丑初	SEHB02	8
-寅初	SEHB03	8
-卯初	SEHB04	8
-辰初	SEHB05	8
-巳初	SEHB06	8
-午初	SEHB07	8
-未初	SEHB08	8
-申初	SEHB09	8
-酉初	SEHB10	8
-戌初	SEHB11	8
-亥初	SEHB12	8
-子正	SEHM01	8
-丑正	SEHM02	8
-寅正	SEHM03	8
-卯正	SEHM04	8
-辰正	SEHM05	8
-巳正	SEHM06	8
-午正	SEHM07	8
-未正	SEHM08	8
-申正	SEHM09	8
-酉正	SEHM10	8
-戌正	SEHM11	8
-亥正	SEHM12	8
-初初刻	SEQF1	8
-初一刻	SEQF2	8
-初二刻	SEQF3	8
-初三刻	SEQF4	8
-正初刻	SEQF5	8
-正一刻	SEQF6	8
-正二刻	SEQF7	8
-正三刻	SEQF8	8
-初初刻	SEQ01	8
-初一刻	SEQ02	8
-初二刻	SEQ03	8
-初三刻	SEQ04	8
-正初刻	SEQ11	8
-正一刻	SEQ12	8
-正二刻	SEQ13	8
-正三刻	SEQ14	8
+# Mysterious contents (Sexagenary cycle Year/Month/Day) (SSEY/SSEM/SSED/SEAY/SSEH/SSEQ)
+甲子年	SSEY01	8
+乙丑年	SSEY02	8
+丙寅年	SSEY03	8
+丁卯年	SSEY04	8
+戊辰年	SSEY05	8
+己巳年	SSEY06	8
+庚午年	SSEY07	8
+辛未年	SSEY08	8
+壬申年	SSEY09	8
+癸酉年	SSEY10	8
+甲戌年	SSEY11	8
+乙亥年	SSEY12	8
+丙子年	SSEY13	8
+丁丑年	SSEY14	8
+戊寅年	SSEY15	8
+己卯年	SSEY16	8
+庚辰年	SSEY17	8
+辛巳年	SSEY18	8
+壬午年	SSEY19	8
+癸未年	SSEY20	8
+甲申年	SSEY21	8
+乙酉年	SSEY22	8
+丙戌年	SSEY23	8
+丁亥年	SSEY24	8
+戊子年	SSEY25	8
+己丑年	SSEY26	8
+庚寅年	SSEY27	8
+辛卯年	SSEY28	8
+壬辰年	SSEY29	8
+癸巳年	SSEY30	8
+甲午年	SSEY31	8
+乙未年	SSEY32	8
+丙申年	SSEY33	8
+丁酉年	SSEY34	8
+戊戌年	SSEY35	8
+己亥年	SSEY36	8
+庚子年	SSEY37	8
+辛丑年	SSEY38	8
+壬寅年	SSEY39	8
+癸卯年	SSEY40	8
+甲辰年	SSEY41	8
+乙巳年	SSEY42	8
+丙午年	SSEY43	8
+丁未年	SSEY44	8
+戊申年	SSEY45	8
+己酉年	SSEY46	8
+庚戌年	SSEY47	8
+辛亥年	SSEY48	8
+壬子年	SSEY49	8
+癸丑年	SSEY50	8
+甲寅年	SSEY51	8
+乙卯年	SSEY52	8
+丙辰年	SSEY53	8
+丁巳年	SSEY54	8
+戊午年	SSEY55	8
+己未年	SSEY56	8
+庚申年	SSEY57	8
+辛酉年	SSEY58	8
+壬戌年	SSEY59	8
+癸亥年	SSEY60	8
+寅月	SSEM01	8
+卯月	SSEM02	8
+辰月	SSEM03	8
+巳月	SSEM04	8
+午月	SSEM05	8
+未月	SSEM06	8
+申月	SSEM07	8
+酉月	SSEM08	8
+戌月	SSEM09	8
+亥月	SSEM10	8
+子月	SSEM11	8
+丑月	SSEM12	8
+丙寅月	SSEM01	6
+丁卯月	SSEM02	6
+戊辰月	SSEM03	6
+己巳月	SSEM04	6
+庚午月	SSEM05	6
+辛未月	SSEM06	6
+壬申月	SSEM07	6
+癸酉月	SSEM08	6
+甲戌月	SSEM09	6
+乙亥月	SSEM10	6
+丙子月	SSEM11	6
+丁丑月	SSEM12	6
+戊寅月	SSEM01	6
+己卯月	SSEM02	6
+庚辰月	SSEM03	6
+辛巳月	SSEM04	6
+壬午月	SSEM05	6
+癸未月	SSEM06	6
+甲申月	SSEM07	6
+乙酉月	SSEM08	6
+丙戌月	SSEM09	6
+丁亥月	SSEM10	6
+戊子月	SSEM11	6
+己丑月	SSEM12	6
+庚寅月	SSEM01	6
+辛卯月	SSEM02	6
+壬辰月	SSEM03	6
+癸巳月	SSEM04	6
+甲午月	SSEM05	6
+乙未月	SSEM06	6
+丙申月	SSEM07	6
+丁酉月	SSEM08	6
+戊戌月	SSEM09	6
+己亥月	SSEM10	6
+庚子月	SSEM11	6
+辛丑月	SSEM12	6
+壬寅月	SSEM01	6
+癸卯月	SSEM02	6
+甲辰月	SSEM03	6
+乙巳月	SSEM04	6
+丙午月	SSEM05	6
+丁未月	SSEM06	6
+戊申月	SSEM07	6
+己酉月	SSEM08	6
+庚戌月	SSEM09	6
+辛亥月	SSEM10	6
+壬子月	SSEM11	6
+癸丑月	SSEM12	6
+甲寅月	SSEM01	6
+乙卯月	SSEM02	6
+丙辰月	SSEM03	6
+丁巳月	SSEM04	6
+戊午月	SSEM05	6
+己未月	SSEM06	6
+庚申月	SSEM07	6
+辛酉月	SSEM08	6
+壬戌月	SSEM09	6
+癸亥月	SSEM10	6
+甲子月	SSEM11	6
+乙丑月	SSEM12	6
+建寅	SSEM01	4
+建卯	SSEM02	4
+建辰	SSEM03	4
+建巳	SSEM04	4
+建午	SSEM05	4
+建未	SSEM06	4
+建申	SSEM07	4
+建酉	SSEM08	4
+建戌	SSEM09	4
+建亥	SSEM10	4
+建子	SSEM11	4
+建丑	SSEM12	4
+甲子日	SSED01	8
+乙丑日	SSED02	8
+丙寅日	SSED03	8
+丁卯日	SSED04	8
+戊辰日	SSED05	8
+己巳日	SSED06	8
+庚午日	SSED07	8
+辛未日	SSED08	8
+壬申日	SSED09	8
+癸酉日	SSED10	8
+甲戌日	SSED11	8
+乙亥日	SSED12	8
+丙子日	SSED13	8
+丁丑日	SSED14	8
+戊寅日	SSED15	8
+己卯日	SSED16	8
+庚辰日	SSED17	8
+辛巳日	SSED18	8
+壬午日	SSED19	8
+癸未日	SSED20	8
+甲申日	SSED21	8
+乙酉日	SSED22	8
+丙戌日	SSED23	8
+丁亥日	SSED24	8
+戊子日	SSED25	8
+己丑日	SSED26	8
+庚寅日	SSED27	8
+辛卯日	SSED28	8
+壬辰日	SSED29	8
+癸巳日	SSED30	8
+甲午日	SSED31	8
+乙未日	SSED32	8
+丙申日	SSED33	8
+丁酉日	SSED34	8
+戊戌日	SSED35	8
+己亥日	SSED36	8
+庚子日	SSED37	8
+辛丑日	SSED38	8
+壬寅日	SSED39	8
+癸卯日	SSED40	8
+甲辰日	SSED41	8
+乙巳日	SSED42	8
+丙午日	SSED43	8
+丁未日	SSED44	8
+戊申日	SSED45	8
+己酉日	SSED46	8
+庚戌日	SSED47	8
+辛亥日	SSED48	8
+壬子日	SSED49	8
+癸丑日	SSED50	8
+甲寅日	SSED51	8
+乙卯日	SSED52	8
+丙辰日	SSED53	8
+丁巳日	SSED54	8
+戊午日	SSED55	8
+己未日	SSED56	8
+庚申日	SSED57	8
+辛酉日	SSED58	8
+壬戌日	SSED59	8
+癸亥日	SSED60	8
+甲子年	SEAY01	8
+乙丑年	SEAY02	8
+丙寅年	SEAY03	8
+丁卯年	SEAY04	8
+戊辰年	SEAY05	8
+己巳年	SEAY06	8
+庚午年	SEAY07	8
+辛未年	SEAY08	8
+壬申年	SEAY09	8
+癸酉年	SEAY10	8
+甲戌年	SEAY11	8
+乙亥年	SEAY12	8
+丙子年	SEAY01	8
+丁丑年	SEAY02	8
+戊寅年	SEAY03	8
+己卯年	SEAY04	8
+庚辰年	SEAY05	8
+辛巳年	SEAY06	8
+壬午年	SEAY07	8
+癸未年	SEAY08	8
+甲申年	SEAY09	8
+乙酉年	SEAY10	8
+丙戌年	SEAY11	8
+丁亥年	SEAY12	8
+戊子年	SEAY01	8
+己丑年	SEAY02	8
+庚寅年	SEAY03	8
+辛卯年	SEAY04	8
+壬辰年	SEAY05	8
+癸巳年	SEAY06	8
+甲午年	SEAY07	8
+乙未年	SEAY08	8
+丙申年	SEAY09	8
+丁酉年	SEAY10	8
+戊戌年	SEAY11	8
+己亥年	SEAY12	8
+庚子年	SEAY01	8
+辛丑年	SEAY02	8
+壬寅年	SEAY03	8
+癸卯年	SEAY04	8
+甲辰年	SEAY05	8
+乙巳年	SEAY06	8
+丙午年	SEAY07	8
+丁未年	SEAY08	8
+戊申年	SEAY09	8
+己酉年	SEAY10	8
+庚戌年	SEAY11	8
+辛亥年	SEAY12	8
+壬子年	SEAY01	8
+癸丑年	SEAY02	8
+甲寅年	SEAY03	8
+乙卯年	SEAY04	8
+丙辰年	SEAY05	8
+丁巳年	SEAY06	8
+戊午年	SEAY07	8
+己未年	SEAY08	8
+庚申年	SEAY09	8
+辛酉年	SEAY10	8
+壬戌年	SEAY11	8
+癸亥年	SEAY12	8
+鼠年	SEAY01	6
+牛年	SEAY02	6
+虎年	SEAY03	6
+兔年	SEAY04	6
+龙年	SEAY05	6
+蛇年	SEAY06	6
+马年	SEAY07	6
+羊年	SEAY08	6
+猴年	SEAY09	6
+鸡年	SEAY10	6
+狗年	SEAY11	6
+猪年	SEAY12	6
+子時	SSEH01	8
+丑時	SSEH02	8
+寅時	SSEH03	8
+卯時	SSEH04	8
+辰時	SSEH05	8
+巳時	SSEH06	8
+午時	SSEH07	8
+未時	SSEH08	8
+申時	SSEH09	8
+酉時	SSEH10	8
+戌時	SSEH11	8
+亥時	SSEH12	8
+甲子時	SSEH01	6
+乙丑時	SSEH02	6
+丙寅時	SSEH03	6
+丁卯時	SSEH04	6
+戊辰時	SSEH05	6
+己巳時	SSEH06	6
+庚午時	SSEH07	6
+辛未時	SSEH08	6
+壬申時	SSEH09	6
+癸酉時	SSEH10	6
+甲戌時	SSEH11	6
+乙亥時	SSEH12	6
+丙子時	SSEH01	6
+丁丑時	SSEH02	6
+戊寅時	SSEH03	6
+己卯時	SSEH04	6
+庚辰時	SSEH05	6
+辛巳時	SSEH06	6
+壬午時	SSEH07	6
+癸未時	SSEH08	6
+甲申時	SSEH09	6
+乙酉時	SSEH10	6
+丙戌時	SSEH11	6
+丁亥時	SSEH12	6
+戊子時	SSEH01	6
+己丑時	SSEH02	6
+庚寅時	SSEH03	6
+辛卯時	SSEH04	6
+壬辰時	SSEH05	6
+癸巳時	SSEH06	6
+甲午時	SSEH07	6
+乙未時	SSEH08	6
+丙申時	SSEH09	6
+丁酉時	SSEH10	6
+戊戌時	SSEH11	6
+己亥時	SSEH12	6
+庚子時	SSEH01	6
+辛丑時	SSEH02	6
+壬寅時	SSEH03	6
+癸卯時	SSEH04	6
+甲辰時	SSEH05	6
+乙巳時	SSEH06	6
+丙午時	SSEH07	6
+丁未時	SSEH08	6
+戊申時	SSEH09	6
+己酉時	SSEH10	6
+庚戌時	SSEH11	6
+辛亥時	SSEH12	6
+壬子時	SSEH01	6
+癸丑時	SSEH02	6
+甲寅時	SSEH03	6
+乙卯時	SSEH04	6
+丙辰時	SSEH05	6
+丁巳時	SSEH06	6
+戊午時	SSEH07	6
+己未時	SSEH08	6
+庚申時	SSEH09	6
+辛酉時	SSEH10	6
+壬戌時	SSEH11	6
+癸亥時	SSEH12	6
+子时	SSEH01	8
+丑时	SSEH02	8
+寅时	SSEH03	8
+卯时	SSEH04	8
+辰时	SSEH05	8
+巳时	SSEH06	8
+午时	SSEH07	8
+未时	SSEH08	8
+申时	SSEH09	8
+酉时	SSEH10	8
+戌时	SSEH11	8
+亥时	SSEH12	8
+甲子时	SSEH01	6
+乙丑时	SSEH02	6
+丙寅时	SSEH03	6
+丁卯时	SSEH04	6
+戊辰时	SSEH05	6
+己巳时	SSEH06	6
+庚午时	SSEH07	6
+辛未时	SSEH08	6
+壬申时	SSEH09	6
+癸酉时	SSEH10	6
+甲戌时	SSEH11	6
+乙亥时	SSEH12	6
+丙子时	SSEH01	6
+丁丑时	SSEH02	6
+戊寅时	SSEH03	6
+己卯时	SSEH04	6
+庚辰时	SSEH05	6
+辛巳时	SSEH06	6
+壬午时	SSEH07	6
+癸未时	SSEH08	6
+甲申时	SSEH09	6
+乙酉时	SSEH10	6
+丙戌时	SSEH11	6
+丁亥时	SSEH12	6
+戊子时	SSEH01	6
+己丑时	SSEH02	6
+庚寅时	SSEH03	6
+辛卯时	SSEH04	6
+壬辰时	SSEH05	6
+癸巳时	SSEH06	6
+甲午时	SSEH07	6
+乙未时	SSEH08	6
+丙申时	SSEH09	6
+丁酉时	SSEH10	6
+戊戌时	SSEH11	6
+己亥时	SSEH12	6
+庚子时	SSEH01	6
+辛丑时	SSEH02	6
+壬寅时	SSEH03	6
+癸卯时	SSEH04	6
+甲辰时	SSEH05	6
+乙巳时	SSEH06	6
+丙午时	SSEH07	6
+丁未时	SSEH08	6
+戊申时	SSEH09	6
+己酉时	SSEH10	6
+庚戌时	SSEH11	6
+辛亥时	SSEH12	6
+壬子时	SSEH01	6
+癸丑时	SSEH02	6
+甲寅时	SSEH03	6
+乙卯时	SSEH04	6
+丙辰时	SSEH05	6
+丁巳时	SSEH06	6
+戊午时	SSEH07	6
+己未时	SSEH08	6
+庚申时	SSEH09	6
+辛酉时	SSEH10	6
+壬戌时	SSEH11	6
+癸亥时	SSEH12	6
+子初	SSEHB01	8
+丑初	SSEHB02	8
+寅初	SSEHB03	8
+卯初	SSEHB04	8
+辰初	SSEHB05	8
+巳初	SSEHB06	8
+午初	SSEHB07	8
+未初	SSEHB08	8
+申初	SSEHB09	8
+酉初	SSEHB10	8
+戌初	SSEHB11	8
+亥初	SSEHB12	8
+子正	SSEHM01	8
+丑正	SSEHM02	8
+寅正	SSEHM03	8
+卯正	SSEHM04	8
+辰正	SSEHM05	8
+巳正	SSEHM06	8
+午正	SSEHM07	8
+未正	SSEHM08	8
+申正	SSEHM09	8
+酉正	SSEHM10	8
+戌正	SSEHM11	8
+亥正	SSEHM12	8
+初初刻	SSEQF1	8
+初一刻	SSEQF2	8
+初二刻	SSEQF3	8
+初三刻	SSEQF4	8
+正初刻	SSEQF5	8
+正一刻	SSEQF6	8
+正二刻	SSEQF7	8
+正三刻	SSEQF8	8
+初初刻	SSEQ01	8
+初一刻	SSEQ02	8
+初二刻	SSEQ03	8
+初三刻	SSEQ04	8
+正初刻	SSEQ11	8
+正一刻	SSEQ12	8
+正二刻	SSEQ13	8
+正三刻	SSEQ14	8
 
-# Telegram communication
-All after	AA	10
-Call signs are to be abbreviated until further notice.	AA	10
-The identity of the station with whom I am attempting to establish communication is unknown.	AA	10
-The portion of the message to which I have reference is all that follows	AA	10
-UNKNOWN STATION	AA	10
-以后	AA	10
-以後	AA	10
-本句完，接下一句	AAA	10
-我有消息发送	AAAAA	10
-我有訊息傳送	AAAAA	10
-All before	AB	10
-The portion of the message to which I have reference is all that precedes	AB	10
-之前	AB	10
-About	ABT	10
-大約	ABT	10
-大约	ABT	10
-Address	ADS	10
-位址	ADS	10
-地址	ADS	10
-Again	AGN	10
-再一次	AGN	10
-Antenna	ANT	10
-天線	ANT	10
-天线	ANT	10
-End of message.	AR	10
-End of transmission.	AR	10
-OUT	AR	10
-This is the end of my transmission to you and no answer is required or expected.	AR	10
-消息结束	AR	10
-訊息結束	AR	10
-American Radio Relay League	ARRL	10
-美国无线电中继联盟	ARRL	10
-美國無線電中繼聯盟	ARRL	10
-I am engaged in a contact with another station; please wait quietly.	AS	10
-I must pause for a few minutes.	AS	10
-I must pause for a few seconds	AS	10
-WAIT	AS	10
-等待	AS	10
-I must pause for longer than a few seconds.	ASAR	10
-I must pause for more than a few minutes.	ASAR	10
-WAIT OUT	ASAR	10
-Transmitting station has additional traffic for the receiving station.	B	8
-BREAK-IN	BK	10
-Break	BK	10
-All between	BN	10
-The portion of the message to which I refer is all that falls between	BN	10
-之間	BN	10
-之间	BN	10
-BREAK	BT	10
-I hereby indicate the separation of the text from other portions of the message	BT	10
-Start new section of message.	BT	10
-分隔符	BT	10
-Semiautomatic key	BUG	10
-半自动电键	BUG	10
-半自動電鍵	BUG	10
-AFFIRMATIVE	C	8
-An error has been made in this transmission. The correct version is	C	8
-CONFIRM	C	8
-CORRECT	C	8
-That which follows has been verified at your request and is repeated.	C	8
-That which follows is a corrected version in answer to your request for verification	C	8
-YES	C	8
-好	C	8
-是	C	8
-Callbook address	CBA	10
-呼号手册	CBA	10
-呼號手冊	CBA	10
-CONFIRM	CFM	10
-I ACKNOWLEDGE	CFM	10
-确认	CFM	10
-確認	CFM	10
-Check	CK	10
-CLOSING	CL	10
-Calling	CLG	10
-呼叫	CLG	10
-CALLING FOR	CP	10
-Calling several stations	CP	10
-General call to any station	CQ	10
-呼叫任意台站	CQ	10
-All stations: Distress	CQD	10
-所有电台：紧急情况	CQD	10
-所有電台：緊急情況	CQD	10
-Calling station	CS	10
-See you Later	CUL	10
-再見	CUL	10
-再见	CUL	10
-Because	CUZ	10
-因为	CUZ	10
-因為	CUZ	10
-Continuous wave	CW	10
-连续波	CW	10
-連續波	CW	10
-Conditions	CX	10
-状况	CX	10
-狀況	CX	10
-Copy	CY	10
-抄收	CY	10
-From	DE	10
-This transmission is from the station whose designator immediately follows.	DE	10
-來自	DE	10
-来自	DE	10
-Distance	DX	10
-Long distance	DX	10
-距离	DX	10
-距離	DX	10
-Receipt sign	EEEEE	10
-An error has been made in this transmission. Transmission will continue with the last word correctly transmitted.	EEEEEEEE	10
-This transmission is in error, disregard it.	EEEEEEEEAR	10
-And	ES	10
-also	ES	10
-且	ES	10
-和	ES	10
-Stations called are not to answer this call, receipt for this message, or otherwise transmit in connection with this transmission.	F	8
-Fine business	FB	10
-Good	FB	10
-确定	FB	10
-確定	FB	10
-For	FER	10
-为了	FER	10
-為了	FER	10
-From	FM	10
-Frequency	FREQ	10
-頻率	FREQ	10
-频率	FREQ	10
-Forward 	FWD	10
-Repeat this entire transmission back to me exactly as received	G	8
-Go ahead	GA	10
-Good afternoon	GA	10
-午安	GA	10
-請發報	GA	10
-请发报	GA	10
-Good evening	GE	10
-晚安	GE	10
-Good morning	GM	10
-早安	GM	10
-Ground	GND	10
-ground potential	GND	10
-地电位	GND	10
-地電位	GND	10
-地面	GND	10
-This message contains the number of groups indicated by the numeral following.	GR	10
-The groups in this message have not been counted.	GRNC	10
-Good	GUD	10
-好	GUD	10
-CORRECTION	HH	10
-Preceding text was in error. The following is the corrected text.	HH	10
-有錯，從上一字重新開始	HH	10
-有错，从上一字重新开始	HH	10
-DISREGARD THIS TRANSMISSION OUT	HHAR	10
-The entire message just sent is in error, disregard it.	HHAR	10
-Laughter	HI	10
-笑	HI	10
-Cease transmissions on this net immediately. Silence will be maintained until lifted.	HMHMHM	10
-Here	HR	10
-这里	HR	10
-這裡	HR	10
-Have	HV	10
-有	HV	10
-Error	II	10
-I repeat	II	10
-I say again	II	10
-Separative sign break	II	10
-同样	II	10
-同樣	II	10
-I am repeating transmission or portion indicated.	IMI	10
-Repeat all of your last transmission.	IMI	10
-請重覆你的電碼，我不是很明白	IMI	10
-请重复你的电码，我不是很明白	IMI	10
-information	INFO	10
-INTERROGATIVE	INT	10
-The following is my response to your instructions to read back	IRB	10
-Action on the message or signal following is to be carried out on receipt of the EXECUTE.	IX	10
-Action on the message or signal that follows is to be carried out upon receipt of the proword EXECUTE.	IX	10
-Verify entire message with the originator and send correct version.	J	8
-I am ready to receive your message	K	8
-OVER	K	8
-This is the end of my transmission to you and a response is necessary. Go ahead, transmit	K	8
-report	K	8
-我已准备好，请开始发送消息	K	8
-我已準備好，請開始傳送訊息	K	8
-ATTENTION	KA	10
-Over to you	KN	10
-Lid	LID	10
-Poor operator	LID	10
-覆盖	LID	10
-覆蓋	LID	10
-Milliamperes	MILS	10
-毫安培	MILS	10
-Best regards + Love and kisses	MN161	10
-Finished	MN30	10
-No more	MN30	10
-This is the end	MN30	10
-Best regards	MN72	10
-Best regards	MN73	10
-致敬	MN73	10
-Derogatory term for a disliked operator	MN75	10
-Long Live CW, wishing you many happy CW contacts	MN77	10
-Love and kisses	MN88	10
-吻別	MN88	10
-Get lost!	MN99	10
-走开	MN99	10
-走開	MN99	10
-Message	MSG	10
-NEGATIVE	N	8
-NO	N	8
-I have nothing to send you 	NIL	10
-NOTHING HEARD	NIL	10
-Nothing	NIL	10
-无收信	NIL	10
-無收信	NIL	10
-空白	NIL	10
-Answering sign	NNNNN	10
-Dropped.	NNNNN	10
-Number	NR	10
-第	NR	10
-編號	NR	10
-编号	NR	10
-Precedence IMMEDIATE	O	8
-Old boy	OB	10
-老大哥	OB	10
-Old chap	OC	10
-老伙計	OC	10
-Okay 	OK	10
-Old man	OM	10
-前輩	OM	10
-前辈	OM	10
-Official Observer	OO	10
-官方觀察員	OO	10
-官方观察员	OO	10
-Out Of Order	OOO	10
-錯誤	OOO	10
-错误	OOO	10
-Old old timers club	OOTC	10
-資深老手俱樂部	OOTC	10
-资深老手俱乐部	OOTC	10
-Operator	OP	10
-操作员	OP	10
-操作員	OP	10
-Old timer	OT	10
-老前輩	OT	10
-老前辈	OT	10
-Old timers club	OTC	10
-老手俱乐部	OTC	10
-老手俱樂部	OTC	10
-Precedence PRIORITY	P	8
-Please	PLS	10
-Paper 	PPR	10
-Please	PSE	10
-請	PSE	10
-请	PSE	10
-Power	PWR	10
-功率	PWR	10
-Prefix	PX	10
-The call sign of my station is	QRA	10
-The name of my station is	QRA	10
-What is the call sign of your station	QRA	10
-What is the name of your station?	QRA	10
-你的电台名称是？	QRA	10
-你的電台名稱是？	QRA	10
-我的电台名称是	QRA	10
-我的電台名稱是	QRA	10
-你台离我台多远？	QRB	10
-你台離我台多遠？	QRB	10
-我们相距约为	QRB	10
-我們相距約為	QRB	10
-你到哪裡去，從哪裡來？	QRD	10
-你到哪里去，从哪里来？	QRD	10
-我到...去，从...来	QRD	10
-我到...去，從...來	QRD	10
-你預計何時到達...？	QRE	10
-你預計何時經過...？	QRE	10
-你预计何时到达...？	QRE	10
-你预计何时经过...？	QRE	10
-我預計到達...的時候是...	QRE	10
-我預計經過...的時候是...	QRE	10
-我预计到达...的时候是...	QRE	10
-我预计经过...的时候是...	QRE	10
-你是否正在返回...？	QRF	10
-我正在返回...	QRF	10
-Will you tell me my exact frequency?	QRG	10
-Your exact frequency is ____	QRG	10
-你的准确频率是...	QRG	10
-你的準確頻率是...	QRG	10
-我的准确频率是多少？	QRG	10
-我的準確頻率是多少？	QRG	10
-Does my frequency vary?	QRH	10
-Your frequency varies.	QRH	10
-你的頻率不穩定	QRH	10
-你的频率不稳定	QRH	10
-我的頻率穩定嗎？	QRH	10
-我的频率稳定吗？	QRH	10
-How is the tone of my transmission?	QRI	10
-我的音調如何？	QRI	10
-我的音调如何？	QRI	10
-The tone of your transmission is Good	QRI1	10
-你的音調是 T1	QRI1	10
-你的音调是 T1	QRI1	10
-The tone of your transmission is Variable	QRI2	10
-你的音調是 T2	QRI2	10
-你的音调是 T2	QRI2	10
-The tone of your transmission is Bad	QRI3	10
-你的音調是 T3	QRI3	10
-你的音调是 T3	QRI3	10
-你的音調是 T4	QRI4	10
-你的音调是 T4	QRI4	10
-你的音調是 T5	QRI5	10
-你的音调是 T5	QRI5	10
-你的音調是 T6	QRI6	10
-你的音调是 T6	QRI6	10
-你的音調是 T7	QRI7	10
-你的音调是 T7	QRI7	10
-你的音調是 T8	QRI8	10
-你的音调是 T8	QRI8	10
-你的音調是 T9	QRI9	10
-你的音调是 T9	QRI9	10
-How many voice contacts do you want to make?	QRJ	10
-I want to make ____ voice contacts.	QRJ	10
-你的信号小	QRJ	10
-你的信號小	QRJ	10
-我的信号小吗？	QRJ	10
-我的信號小嗎？	QRJ	10
-What is the readability of my signals?	QRK	10
-我的信号可辨度是多少？	QRK	10
-我的信號可辨度是多少？	QRK	10
-The readability of your signals is 1.	QRK1	10
-你的信号可辨度是 R1	QRK1	10
-你的信號可辨度是 R1	QRK1	10
-The readability of your signals is 2.	QRK2	10
-你的信号可辨度是 R2	QRK2	10
-你的信號可辨度是 R2	QRK2	10
-The readability of your signals is 3.	QRK3	10
-你的信号可辨度是 R3	QRK3	10
-你的信號可辨度是 R3	QRK3	10
-The readability of your signals is 4.	QRK4	10
-你的信号可辨度是 R4	QRK4	10
-你的信號可辨度是 R4	QRK4	10
-The readability of your signals is 5.	QRK5	10
-你的信号可辨度是 R5	QRK5	10
-你的信號可辨度是 R5	QRK5	10
-Are you busy?	QRL	10
-I am busy. Please do not interfere.	QRL	10
-你忙吗？	QRL	10
-你忙嗎？	QRL	10
-我正忙	QRL	10
-Do you have interference?	QRM	10
-I have interference.	QRM	10
-你受到他台干扰吗？	QRM	10
-你受到他台干擾嗎？	QRM	10
-我正受到他台无干扰	QRM1	10
-我正受到他台無干擾	QRM1	10
-我正受到他台稍有干扰	QRM2	10
-我正受到他台稍有干擾	QRM2	10
-我正受到他台中等干扰	QRM3	10
-我正受到他台中等干擾	QRM3	10
-我正受到他台严重干扰	QRM4	10
-我正受到他台嚴重干擾	QRM4	10
-我正受到他台极端干扰	QRM5	10
-我正受到他台極端干擾	QRM5	10
-Are you troubled by static?	QRN	10
-I am troubled by static.	QRN	10
-你受到天电干扰吗？	QRN	10
-你受到天電干擾嗎？	QRN	10
-我正受到天电无干扰	QRN1	10
-我正受到天電無干擾	QRN1	10
-我正受到天电干稍有扰	QRN2	10
-我正受到天電稍有干擾	QRN2	10
-我正受到天电中等干扰	QRN3	10
-我正受到天電中等干擾	QRN3	10
-我正受到天电严重干扰	QRN4	10
-我正受到天電嚴重干擾	QRN4	10
-我正受到天电极端干扰	QRN5	10
-我正受到天電極端干擾	QRN5	10
-Increase power.	QRO	10
-Shall I increase power?	QRO	10
-要我增加发信功率吗？	QRO	10
-要我增加發信功率嗎？	QRO	10
-請增加發信功率	QRO	10
-请增加发信功率	QRO	10
-Decrease power.	QRP	10
-Shall I decrease power?	QRP	10
-要我减低发信功率吗？	QRP	10
-要我減低發信功率嗎？	QRP	10
-請減低發信功率	QRP	10
-请减低发信功率	QRP	10
-Send faster.	QRQ	10
-Shall I send faster?	QRQ	10
-要我发得快些吗？	QRQ	10
-要我發得快些嗎？	QRQ	10
-請發快些	QRQ	10
-请发快些	QRQ	10
-你已經準備好使用自動操作了嗎？	QRR	10
-你已经准备好使用自动操作了吗？	QRR	10
-我已准备好使用自动操作	QRR	10
-我已準備好使用自動操作	QRR	10
-Send more slowly.	QRS	10
-Shall I send more slowly?	QRS	10
-Your transmission is too fast. Reduce speed of transmission.	QRS	10
-要我发得慢些吗？	QRS	10
-要我發得慢些嗎？	QRS	10
-請發慢些	QRS	10
-请发慢些	QRS	10
-Shall I stop sending?	QRT	10
-Stop sending.	QRT	10
-要我停止拍发吗？	QRT	10
-要我停止拍發嗎？	QRT	10
-請停止拍發	QRT	10
-请停止拍发	QRT	10
-Have you anything for me?	QRU	10
-I have messages for you.	QRU	10
-你有事吗？	QRU	10
-你有事嗎？	QRU	10
-无事	QRU	10
-無事	QRU	10
-Are you ready?	QRV	10
-I am ready.	QRV	10
-你准备好了吗？	QRV	10
-你準備好了嗎？	QRV	10
-我已准备好了	QRV	10
-我已準備好了	QRV	10
-Please inform ____ that I am calling on ____ .	QRW	10
-Shall I inform ____ that you are calling on ____ ?	QRW	10
-請轉告	QRW	10
-请转告	QRW	10
-需要我轉告嗎？	QRW	10
-需要我转告吗？	QRW	10
-I will call you again at ____ on ____	QRX	10
-Please standby	QRX	10
-Shall I standby?	QRX	10
-When will you call me again?	QRX	10
-要我等多長時間？	QRX	10
-要我等多长时间？	QRX	10
-請等待... ...分鐘	QRX	10
-请等待... ...分钟	QRX	10
-...正在...KHz/MHz上呼叫你	QRZ	10
-Who is calling me?	QRZ	10
-You are being called by ____ on ____	QRZ	10
-誰在呼叫我？	QRZ	10
-谁在呼叫我？	QRZ	10
-What is the strength of my signals?	QSA	10
-你的信号强度是	QSA	10
-你的信號強度是	QSA	10
-我的信号强度是多少？	QSA	10
-我的信號強度是多少？	QSA	10
-The strength of your signals is 1.	QSA1	10
-The strength of your signals is 2.	QSA2	10
-The strength of your signals is 3.	QSA3	10
-The strength of your signals is 4.	QSA4	10
-The strength of your signals is 5.	QSA5	10
-Are my signals fading?	QSB	10
-Your signals are fading.	QSB	10
-我的信号有衰落吗？	QSB	10
-我的信號有衰落嗎？	QSB	10
-你的信号强度是几乎不能抄收	QSB1	10
-你的信號強度是幾乎不能抄收	QSB1	10
-你的信号强度是弱	QSB2	10
-你的信號強度是弱	QSB2	10
-你的信号强度是还好	QSB3	10
-你的信號強度是還好	QSB3	10
-你的信号强度是好	QSB4	10
-你的信號強度是好	QSB4	10
-你的信号强度是很好	QSB5	10
-你的信號強度是很好	QSB5	10
-Is my keying defective?	QSD	10
-Your keying is defective.	QSD	10
-你的信号不完整	QSD	10
-你的信號不完整	QSD	10
-我的信号不完整吗?	QSD	10
-我的信號不完整嗎?	QSD	10
-Send ____ telegrams (messages) at a time.	QSG	10
-Shall I send ____ telegrams (messages) at a time?	QSG	10
-要我每次连发...份电报吗？	QSG	10
-要我每次連發...份電報嗎？	QSG	10
-請每次連發...份電報	QSG	10
-请每次连发...份电报	QSG	10
-在你发报时我未能插入	QSI	10
-在你發報時我未能插入	QSI	10
-Can you hear me between your signals?	QSK	10
-I can hear you between my signals.	QSK	10
-在你所发的信号中间能否收听到我？如果能，我能插入你的发送吗？	QSK	10
-在你所發的信號中間能否收聽到我？如果能，我能插入你的發送嗎？	QSK	10
-在我所发的信号中间能收听到你；你可以插入我的发送	QSK	10
-在我所發的信號中間能收聽到你；你可以插入我的發送	QSK	10
-An instruction to the addressee that the message must be acknowledged	QSL	10
-Can you acknowledge receipt?	QSL	10
-I will acknowledge receipt.	QSL	10
-你确认收妥？	QSL	10
-你確認收妥？	QSL	10
-我确认收妥	QSL	10
-我確認收妥	QSL	10
-Repeat the last message which you sent me (or message(s) numbers(s) ____ ).	QSM	10
-Shall I repeat the last message which I sent you, or some previous message?	QSM	10
-将你发给我的最末一份电报重发	QSM	10
-将你发给我的电报号数重发	QSM	10
-將你發給我的最末一份電報重發	QSM	10
-將你發給我的電報號數重發	QSM	10
-要我将发给你的以前的几份电报重发吗？	QSM	10
-要我将发给你的最末一份电报重发吗？	QSM	10
-要我將發給你的以前的幾份電報重發嗎？	QSM	10
-要我將發給你的最末一份電報重發嗎？	QSM	10
-Did you hear me on ____ ?	QSN	10
-I did hear you on ____ .	QSN	10
-你在...上听到我台吗？	QSN	10
-你在...上聽到我台嗎？	QSN	10
-我已在...上听到你台	QSN	10
-我已在...上聽到你台	QSN	10
-Can you communicate with ____ direct or by relay?	QSO	10
-I can communicate with ____ by relay through ____ .	QSO	10
-I can communicate with ____ direct.	QSO	10
-你能否和...直接通信？	QSO	10
-你能否和...轉接通信？	QSO	10
-你能和...直接通信？	QSO	10
-你能和...转接通信？	QSO	10
-I will relay a message to ____ .	QSP	10
-Will you relay a message to ____ ?	QSP	10
-你能中轉到...嗎？	QSP	10
-你能中转到...吗？	QSP	10
-我能中轉到...	QSP	10
-我能中转到...	QSP	10
-Do you want me to repeat my call?	QSR	10
-Please repeat your call; I did not hear you.	QSR	10
-I will use the working frequency ____ .	QSS	10
-What working frequency will you use?	QSS	10
-Here follows a broadcast message to all amateurs.	QST	10
-Should I repeat the prior message to all amateurs I contact?	QST	10
-Send or reply on this frequency.	QSU	10
-Shall I send or reply on this frequency?	QSU	10
-我将在此频率回复	QSU	10
-我將在此頻率回復	QSU	10
-能在这个频率回复吗？	QSU	10
-能在這個頻率回復嗎？	QSU	10
-有天电干扰要我在此频率发一串 V 字吗？	QSV	10
-有天電干擾要我在此頻率發一串 V 字嗎？	QSV	10
-請在此頻率發一串 V 字	QSV	10
-请在此频率发一串 V 字	QSV	10
-I am going to send on this frequency.	QSW	10
-Will you send on this frequency?	QSW	10
-你将在此频率发吗？	QSW	10
-你將在此頻率發嗎？	QSW	10
-我将在此频率发	QSW	10
-我將在此頻率發	QSW	10
-I am listening to ____ on ____ 	QSX	10
-Will you listen to ____ on ____ ?	QSX	10
-你将在某频率收听吗？	QSX	10
-你將在某頻率收聽嗎？	QSX	10
-我将在某频率收听	QSX	10
-我將在某頻率收聽	QSX	10
-Change to transmission on another frequency.	QSY	10
-Shall I change to transmission on another frequency?	QSY	10
-要我改用其他頻率拍發嗎？	QSY	10
-要我改用其他频率拍发吗？	QSY	10
-請改用...拍發	QSY	10
-请改用...拍发	QSY	10
-Communication is difficult. Transmit each phrase twice.	QSZ	10
-Send each word or group twice.	QSZ	10
-Shall I send each word or group more than once?	QSZ	10
-要我每組發兩遍嗎？	QSZ	10
-要我每组发两遍吗？	QSZ	10
-請每組發兩遍	QSZ	10
-请每组发两遍	QSZ	10
-Cancel message number ____ as if it had not been sent.	QTA	10
-Shall I cancel message number ____ as if it had not been sent?	QTA	10
-要我查对组数吗？	QTB	10
-要我查對組數嗎？	QTB	10
-請查對組數	QTB	10
-请查对组数	QTB	10
-How many messages have you to send?	QTC	10
-I have ____ messages for you.	QTC	10
-你有几份报要发？	QTC	10
-你有幾份報要發？	QTC	10
-我有...份報要發	QTC	10
-我有...份报要发	QTC	10
-My position is ____ latitude ____ longitude.	QTH	10
-What is your position in latitude and longitude?	QTH	10
-你的地理位置是？	QTH	10
-我的地理位置是...	QTH	10
-REQUEST TIME CHECK	QTR	10
-TIME IS	QTR	10
-The correct time is ____ hours UTC.	QTR	10
-Time-check request.	QTR	10
-What is the correct time?	QTR	10
-你的标准时间是？	QTR	10
-你的標準時間是？	QTR	10
-我的标准时间是...	QTR	10
-我的標準時間是...	QTR	10
-At what times are you operating?	QTU	10
-I am operating from ____ to ____ hours.	QTU	10
-I will keep my station open for further communication with you until further notice.	QTX	10
-Will you keep your station open for further communication with me until further notice?	QTX	10
-Have you news of ____ ?	QUA	10
-Here is news of ____ .	QUA	10
-The number (or other indication) of the last message I received from you is ____.	QUC	10
-What is the number of the last message you received from me ?	QUC	10
-Have you received the urgency signal sent by ____ ?	QUD	10
-I have received the urgency signal sent by ____ at ____ hours.	QUD	10
-Can you speak in ____ – with interpreter if necessary – if so, on what frequencies?	QUE	10
-I can speak in ____ on ____ .	QUE	10
-Have you received the distress signal sent by ____ ?	QUF	10
-I have received the distress signal sent by ____ at ____ hours.	QUF	10
-Precedence ROUTINE.	R	8
-ROGER	R	8
-Received as transmitted	R	8
-This is a method of receipt. I have received your last transmission satisfactorily.	R	8
-消息已收到	R	8
-訊息已收到	R	8
-Receiver	RCVR	10
-接收机	RCVR	10
-接收機	RCVR	10
-I repeat as follows	RPT	10
-Repeat please	RPT	10
-Report	RPT	10
-報告	RPT	10
-报告	RPT	10
-重复	RPT	10
-重複	RPT	10
-Further message sign	RRRRR	10
-Readability (1-5) / Strength (1-9) / Noise (1-9)	RSN	10
-Signal report format	RST	10
-信号报告格式	RST	10
-訊號報告格式	RST	10
-Radioteletype	RTTY	10
-无线电传	RTTY	10
-無線電傳	RTTY	10
-Receive 	RX	10
-接收	RX	10
-Said	SED	10
-說	SED	10
-说	SED	10
-Says	SEZ	10
-說	SEZ	10
-说	SEZ	10
-So far	SFR	10
-Signal	SIG	10
-Signature	SIG	10
-信号	SIG	10
-訊號	SIG	10
-Signals	SIGS	10
-信号	SIGS	10
-訊號	SIGS	10
-End of work	SK	10
-Frequency no longer in use	SK	10
-Line is now free	SK	10
-Out	SK	10
-Silent Key	SK	10
-联系结束	SK	10
-聯絡結束	SK	10
-Schedule	SKED	10
-行程表	SKED	10
-Soon	SN	10
-很快	SN	10
-我将重新发送最后一个单词	SN	10
-我將重新傳送最後一個單詞	SN	10
-Save Our Souls	SOS	10
-求救	SOS	10
-求救信号	SOS	10
-求救訊號	SOS	10
-Sorry	SRI	10
-抱歉	SRI	10
-Station	STN	10
-台站	STN	10
-The message that follows is a SERVICE message	SVC	10
-Please	SVP	10
-Dollars	SX	10
-Transmit this message to all addressees	T	8
-字收到了	T	8
-Temperature	TEMP	10
-温度	TEMP	10
-溫度	TEMP	10
-Thank You 	THX	10
-Tomorrow	TMW	10
-明天	TMW	10
-Thanks	TNX	10
-謝謝	TNX	10
-谢谢	TNX	10
-The addressees immediately following are addressed for action	TO	10
-我正在接收你的消息	TTTTT	10
-我正在接收你的訊息	TTTTT	10
-Thank you	TU	10
-謝謝你	TU	10
-谢谢你	TU	10
-Transmit	TX	10
-发射	TX	10
-發射	TX	10
-You	U	8
-你	U	8
-You're	UR	10
-Your	UR	10
-你是	UR	10
-你的	UR	10
-Yours	URS	10
-你的	URS	10
-General call	VE	10
-Message is verified.	VE	10
-VERIFIED	VE	10
-Very	VY	10
-很	VY	10
-非常	VY	10
-The word of the message to which I have reference is that which follows	WA	10
-Word after 	WA	10
-The word of the message to which I have reference is that which precedes	WB	10
-Word before 	WB	10
-Will comply	WC	10
-Word	WD	10
-Words	WDS	10
-詞	WDS	10
-词	WDS	10
-Worked	WKD	10
-工作	WKD	10
-Well	WL	10
-Will	WL	10
-好	WL	10
-将会	WL	10
-將會	WL	10
-Would	WUD	10
-将会	WUD	10
-將會	WUD	10
-Weather	WX	10
-Weather report follows	WX	10
-天气	WX	10
-天氣	WX	10
-Transceiver	XCVR	10
-The station(s) immediately following is (are) exempted from the collective call or from collective address	XMT	10
-Transmitter	XMTR	10
-发射机	XMTR	10
-發射機	XMTR	10
-Former Young Lady	XYL	10
-Wife	XYL	10
-妻子	XYL	10
-Young lady	YL	10
-女報務員	YL	10
-女报务员	YL	10
-Precedence FLASH	Z	8
-Zulu time	Z	8
-貴臺未遵守網路紀律	ZAA	10
-贵台未遵守网络纪律	ZAA	10
-所收貴臺之通訊簡語不明瞭	ZAD1	10
-所收贵台之通讯简语不明了	ZAD1	10
-所收貴臺之通訊簡語未持有	ZAD2	10
-所收贵台之通讯简语未持有	ZAD2	10
-I am closing down due to	ZAL	10
-Work Simplex	ZAP1	10
-Work Duplex	ZAP2	10
-Work Diplex	ZAP3	10
-Work Multiplex	ZAP4	10
-Work Single sideband	ZAP5	10
-Work With automatic error correction system	ZAP6	10
-Work Without automatic error correction system	ZAP7	10
-Work With time and frequency diversity modem	ZAP8	10
-請於發報前做初次呼叫	ZBH	10
-请于发报前做初次呼叫	ZBH	10
-Are you receiving my traffic clear?	ZBK	10
-I am receiving your traffic clear	ZBK1	10
-I am receiving your traffic garbled	ZBK2	10
-Place a competent operator on this circuit	ZBM2	10
-A message that requires recording is about to follow.	ZBO	10
-优先等级	ZBO	10
-優先等級	ZBO	10
-Change to backup frequency ...	ZBW	10
-Measure of printability Garbled / unreadable	ZBZ1	10
-Measure of printability Poor	ZBZ2	10
-Measure of printability Moderate	ZBZ3	10
-Measure of printability Good	ZBZ4	10
-Measure of printability Perfect	ZBZ5	10
-遗漏	ZEP	10
-遺漏	ZEP	10
-練習電報	ZEU	10
-练习电报	ZEU	10
-An instruction to the addressee that the message must be acknowledged	ZEV	10
-抄电	ZEZ	10
-抄電	ZEZ	10
-按照字母順序發送	ZGB1	10
-按照字母顺序发送	ZGB1	10
-按照下列呼号之顺序发送	ZGB2	10
-按照下列呼號之順序發送	ZGB2	10
-To be used when no reply is received from a call station.	ZGN	10
-The station called is to answer after call sign........when answering transmissions.	ZGO	10
-本台将频率稍减以避免干扰	ZHA	10
-本台將頻率稍減以避免干擾	ZHA	10
-本台将频率稍增以避免干扰	ZHB	10
-本台將頻率稍增以避免干擾	ZHB	10
-本日(本次)最后一份电报	ZIC	10
-本日(本次)最後一份電報	ZIC	10
-日时组	ZII	10
-日時組	ZII	10
-I am assuming control of this net until further notice	ZKA	10
-本台为管制台	ZKA	10
-本台為管制台	ZKA	10
-From now until further notice this net is directed.	ZKB	10
-各台发报前须经管制台同意	ZKB	10
-各台發報前須經管制台同意	ZKB	10
-You will assume control of this net until further notice	ZKD	10
-本台接替管制台	ZKD	10
-報到入網	ZKE	10
-报到入网	ZKE	10
-報備離網	ZKF	10
-报备离网	ZKF	10
-Stations are to close down when indicated. Acknowledgments are required	ZKJ	10
-I cannot transmit pictures	ZLD2	10
-貴臺解譯之通報簡語有誤	ZNA1	10
-贵台解译之通报简语有误	ZNA1	10
-貴臺解譯之無線電呼號有誤	ZNA2	10
-贵台解译之无线电呼号有误	ZNA2	10
-貴臺解譯之地址組有誤	ZNA3	10
-贵台解译之地址组有误	ZNA3	10
-The group that follows is the reply to your challenge to authenticate	ZNB	10
-辨證因子	ZNB	10
-辨证因子	ZNB	10
-Relay your message through me	ZOE	10
-Transmit this message to all addressees	ZOF	10
-Relay your message through call sign	ZOK	10
-本台现在以最大功率发射	ZPE	10
-本台現在以最大功率發射	ZPE	10
-請將發射機調整至規定頻率	ZRC1	10
-请将发射机调整至规定频率	ZRC1	10
-All stations are to net their radios on the unmodulated carrier wave that I am about to transmit.	ZRC2	10
-請將發射機調整至與本台產生零差	ZRC2	10
-请将发射机调整至与本台产生零差	ZRC2	10
-Switch off IFF	ZSF1	10
-Switch off IFF sets for 10 minutes in area denoted except for ships with the following call signs	ZSF2	10
-正确	ZUE	10
-正確	ZUE	10
-No. Cancel message(s) sent by the Delayed Executive Method.	ZUG	10
-否定	ZUG	10
-Silence is lifted.	ZUGHMHMHM	10
-From now until further notice this net is free.	ZUGZKB	10
-注意	ZUI	10
-Stand by.	ZUJ	10
-WRONG	ZWF	10
-Your last transmission was incorrect. The correct version is	ZWF	10
-本简语后呼号不必抄收	ZWL	10
-本簡語後呼號不必抄收	ZWL	10
-請改用主頻連絡	ZYA1	10
-请改用主频连络	ZYA1	10
-請改用複頻連絡	ZYA2	10
-请改用复频连络	ZYA2	10
-請改用備用頻連絡	ZYA3	10
-请改用备用频连络	ZYA3	10
-請改用日[夜]頻連絡	ZYA4	10
-请改用日[夜]频连络	ZYA4	10
-本台接收机故障	ZYB1	10
-本台接收機故障	ZYB1	10
-本台发射机故障	ZYB2	10
-本台發射機故障	ZYB2	10
-本台电源故障	ZYB3	10
-本台電源故障	ZYB3	10
-本台雷达故障	ZYB4	10
-本台雷達故障	ZYB4	10
-本台天線故障	ZYB5	10
-本台天线故障	ZYB5	10
-本台无此密本请重新译发	ZYE1	10
-本台無此密本請重新譯發	ZYE1	10
-本台譯不成文請重新譯發	ZYE2	10
-本台译不成文请重新译发	ZYE2	10
-本台指标错误请重新译发	ZYE3	10
-本台指標錯誤請重新譯發	ZYE3	10
-請勿任意出呼	ZYF	10
-请勿任意出呼	ZYF	10
-现有不明电台冒充与他人连络	ZYL	10
-現有不明電台冒充與他人連絡	ZYL	10
-现有不明电台连络	ZZB	10
-現有不明電台連絡	ZZB	10
-請對準我頻率校正	ZZX	10
-请对准我频率校正	ZZX	10
-請即刻開啟某網路	ZZY	10
-请即刻开启某网络	ZZY	10
+# Morse Code (Mc)
+ ▄ ▄▄▄	Mca	4
+ ▄▄▄ ▄ ▄ ▄	Mcb	4
+ ▄▄▄ ▄ ▄▄▄ ▄	Mcc	4
+ ▄▄▄ ▄ ▄	Mcd	4
+ ▄	Mce	4
+ ▄ ▄ ▄▄▄ ▄	Mcf	4
+ ▄▄▄ ▄▄▄ ▄	Mcg	4
+ ▄ ▄ ▄ ▄	Mch	4
+ ▄ ▄	Mci	4
+ ▄ ▄▄▄ ▄▄▄ ▄▄▄	Mcj	4
+ ▄▄▄ ▄ ▄▄▄	Mck	4
+ ▄ ▄▄▄ ▄ ▄	Mcl	4
+ ▄▄▄ ▄▄▄	Mcm	4
+ ▄▄▄ ▄	Mcn	4
+ ▄▄▄ ▄▄▄ ▄▄▄	Mco	4
+ ▄ ▄▄▄ ▄▄▄ ▄	Mcp	4
+ ▄▄▄ ▄▄▄ ▄ ▄▄▄	Mcq	4
+ ▄ ▄▄▄ ▄	Mcr	4
+ ▄ ▄ ▄	Mcs	4
+ ▄▄▄	Mct	4
+ ▄ ▄ ▄▄▄	Mcu	4
+ ▄ ▄ ▄ ▄▄▄	Mcv	4
+ ▄ ▄▄▄ ▄▄▄	Mcw	4
+ ▄▄▄ ▄ ▄ ▄▄▄	Mcx	4
+ ▄▄▄ ▄ ▄▄▄ ▄▄▄	Mcy	4
+ ▄▄▄ ▄▄▄ ▄ ▄	Mcz	4
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄	Mc0	4
+ ▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄	Mc1	4
+ ▄ ▄ ▄▄▄ ▄▄▄ ▄▄▄	Mc2	4
+ ▄ ▄ ▄ ▄▄▄ ▄▄▄	Mc3	4
+ ▄ ▄ ▄ ▄ ▄▄▄	Mc4	4
+ ▄ ▄ ▄ ▄ ▄	Mc5	4
+ ▄▄▄ ▄ ▄ ▄ ▄	Mc6	4
+ ▄▄▄ ▄▄▄ ▄ ▄ ▄	Mc7	4
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄ ▄	Mc8	4
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄	Mc9	4
+ ▄ ▄▄▄ ▄ ▄▄▄ ▄ ▄▄▄	McPer	4
+ ▄▄▄ ▄▄▄ ▄ ▄ ▄▄▄ ▄▄▄	McCom	4
+ ▄ ▄ ▄▄▄ ▄▄▄ ▄ ▄	McQue	4
+ ▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄	McApo	4
+ ▄▄▄ ▄ ▄▄▄ ▄ ▄▄▄ ▄▄▄	McExc	4
+ ▄▄▄ ▄ ▄▄▄ ▄ ▄▄▄ ▄▄▄	McKW	4
+ ▄▄▄ ▄ ▄ ▄▄▄ ▄	McSla	4
+ ▄▄▄ ▄ ▄ ▄▄▄ ▄	McDN	4
+ ▄▄▄ ▄ ▄▄▄ ▄▄▄ ▄	McOpp	4
+ ▄▄▄ ▄ ▄▄▄ ▄▄▄ ▄	McKN	4
+ ▄▄▄ ▄ ▄▄▄ ▄▄▄ ▄ ▄▄▄	McClp	4
+ ▄▄▄ ▄ ▄▄▄ ▄▄▄ ▄ ▄▄▄	McKK	4
+ ▄ ▄▄▄ ▄ ▄ ▄	McAmp	4
+ ▄ ▄▄▄ ▄ ▄ ▄	McAS	4
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄ ▄ ▄	McCol	4
+ ▄▄▄ ▄ ▄▄▄ ▄ ▄▄▄ ▄	McSem	4
+ ▄▄▄ ▄ ▄ ▄ ▄▄▄	McDda	4
+ ▄▄▄ ▄ ▄ ▄ ▄▄▄	McBT	4
+ ▄ ▄▄▄ ▄ ▄▄▄ ▄	McPlu	4
+ ▄ ▄▄▄ ▄ ▄▄▄ ▄	McRN	4
+ ▄▄▄ ▄ ▄ ▄ ▄ ▄▄▄	McMin	4
+ ▄▄▄ ▄ ▄ ▄ ▄ ▄▄▄	McHyp	4
+ ▄ ▄ ▄▄▄ ▄▄▄ ▄ ▄▄▄	McUnd	4
+ ▄ ▄▄▄ ▄ ▄ ▄▄▄ ▄	McQuo	4
+ ▄ ▄ ▄ ▄▄▄ ▄ ▄ ▄▄▄	McDol	4
+ ▄ ▄ ▄ ▄▄▄ ▄ ▄ ▄▄▄	McSX	4
+ ▄ ▄▄▄ ▄▄▄ ▄ ▄▄▄ ▄	McAtt	4
+ ▄ ▄▄▄ ▄▄▄ ▄ ▄▄▄ ▄	McAC	4
+ ▄ ▄ ▄ ▄▄▄ ▄ ▄▄▄	McSK	4
+ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄	McHH	4
+ ▄▄▄ ▄ ▄▄▄ ▄ ▄▄▄	McCT	4
+ ▄ ▄▄▄ ▄ ▄▄▄ ▄	McRN	4
+ ▄ ▄▄▄ ▄▄▄ ▄ ▄▄▄	McAg	2
+ ▄ ▄▄▄ ▄ ▄▄▄	McAu	2
+ ▄ ▄▄▄ ▄▄▄ ▄ ▄▄▄	McAr	2
+ ▄ ▄▄▄ ▄ ▄▄▄	McAo	2
+ ▄ ▄▄▄ ▄ ▄▄▄	McAE	2
+ ▄▄▄ ▄ ▄▄▄ ▄ ▄	McCa	2
+ ▄▄▄ ▄ ▄▄▄ ▄ ▄	McCf	2
+ ▄▄▄ ▄ ▄▄▄ ▄ ▄	McCc	2
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄	McCH	2
+ ▄ ▄ ▄▄▄ ▄ ▄	McDy	2
+ ▄ ▄ ▄▄▄ ▄▄▄ ▄	McDt	2
+ ▄ ▄ ▄▄▄ ▄ ▄	McEa	2
+ ▄ ▄▄▄ ▄ ▄ ▄▄▄	McEg	2
+ ▄ ▄ ▄▄▄ ▄ ▄	McEo	2
+ ▄▄▄ ▄▄▄ ▄ ▄▄▄ ▄	McGf	2
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄	McHf	2
+ ▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄	McJf	2
+ ▄ ▄▄▄ ▄ ▄ ▄▄▄	McLs	2
+ ▄▄▄ ▄▄▄ ▄ ▄▄▄ ▄▄▄	McNa	2
+ ▄▄▄ ▄▄▄ ▄ ▄▄▄ ▄▄▄	McNt	2
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄	McOa	2
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄	McOu	2
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄	McOs	2
+ ▄ ▄ ▄ ▄▄▄ ▄ ▄ ▄	McSa	2
+ ▄ ▄ ▄ ▄▄▄ ▄	McSf	2
+ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄	McSr	2
+ ▄ ▄▄▄ ▄▄▄ ▄ ▄	McTh	2
+ ▄ ▄ ▄▄▄ ▄▄▄	McUu	2
+ ▄ ▄ ▄▄▄ ▄▄▄	McUb	2
+ ▄▄▄ ▄▄▄ ▄ ▄ ▄▄▄ ▄	McZa	2
+ ▄▄▄ ▄▄▄ ▄ ▄ ▄▄▄	McZd	2
 
-# ARRL Numbered Radiogram
-Everyone safe here. Please don't worry.	ONE	10
-Coming home as soon as possible.	TWO	10
-Am in _____ hospital. Receiving excellent care and recovering fine.	THREE	10
-Only slight property damage here. Do not be concerned about disaster reports.	FOUR	10
-Am moving to new location. Send no further mail or communication. Will inform you of new address when relocated.	FIVE	10
-Will contact you as soon as possible.	SIX	10
-Please reply by Amateur Radio through the amateur delivering this message. This is a free public service.	SEVEN	10
-Need additional _____ mobile or portable equipment for immediate emergency use.	EIGHT	10
-Additional _____ radio operators needed to assist with emergency at this location.	NINE	10
-Please contact _____. Advise to standby and provide further emergency information, instructions or assistance.	TEN	10
-Establish Amateur Radio emergency communications with _____ on _____ MHz.	ELEVEN	10
-Anxious to hear from you. No word in some time. Please contact me as soon as possible.	TWELVE	10
-Medical emergency situation exists here.	THIRTEEN	10
-Situation here becoming critical. Losses and damage from _____ increasing.	FOURTEEN	10
-Please advise your condition and what help is needed.	FIFTEEN	10
-Property damage very severe in this area.	SIXTEEN	10
-REACT communications services also available. Establish REACT communication with _____ on channel _____.	SEVENTEEN	10
-Please contact me as soon as possible at _______.	EIGHTEEN	10
-Request health and welfare report on _____. (State name, address and telephone number.)	NINETEEN	10
-Temporarily stranded. Will need some assistance. Please contact me at _____.	TWENTY	10
-Search and Rescue assistance is needed by local authorities here. Advise availability.	TWENTYONE	10
-Need accurate information on the extent and type of conditions now existing at your location. Please furnish this information and reply without delay.	TWENTYTWO	10
-Report at once the accessibility and best way to reach your location.	TWENTYTHREE	10
-Evacuation of residents from this area urgently needed. Advise plans for help.	TWENTYFOUR	10
-Furnish as soon as possible the weather conditions at your location.	TWENTYFIVE	10
-Help and care for evacuation of sick and injured from this location needed at once.	TWENTYSIX	10
-Greetings on your birthday and best wishes for many more to come.	FORTYSIX	10
-Reference your message number _____ to _____ delivered on _____ at _____ UTC.	FORTYSEVEN	10
-Greetings by Amateur Radio.	FIFTY	10
-Greetings by Amateur Radio. This message is sent as a free public service by ham radio operators at _______. Am having a wonderful time.	FIFTYONE	10
-Really enjoyed being with you. Looking forward to getting together again.	FIFTYTWO	10
-Received your _______. It's appreciated; many thanks.	FIFTYTHREE	10
-Many thanks for your good wishes.	FIFTYFOUR	10
-Good news is always welcome. Very delighted to hear about yours.	FIFTYFIVE	10
-Congratulations on your _______, a most worthy and deserved achievement.	FIFTYSIX	10
-Wish we could be together	FIFTYSEVEN	10
-Have a wonderful time. Let us know when you return.	FIFTYEIGHT	10
-Congratulations on the new arrival. Hope mother and child are well.	FIFTYNINE	10
-Wishing you the best of everything on _______.	SIXTY	10
-Wishing you a very Merry Christmas and a Happy New Year.	SIXTYONE	10
-Greetings and best wishes to you for a pleasant _______ holiday season.	SIXTYTWO	10
-Victory or defeat, our best wishes are with you. Hope you win.	SIXTYTHREE	10
-Arrived safely at _______.	SIXTYFOUR	10
-Arriving _______ on _______. Please arrange to meet me there.	SIXTYFIVE	10
-DX QSLs are on hand for you at the _______ QSL Bureau. Send _______ self addressed envelopes.	SIXTYSIX	10
-Your message number _______ undeliverable because of _______. Please advise.	SIXTYSEVEN	10
-Sorry to hear you are ill. Best wishes for a speedy recovery.	SIXTYEIGHT	10
-Welcome to the _______. We are glad to have you with us and hope you will enjoy the fun and fellowship of the organization.	SIXTYNINE	10
+# Telegram communication (Ci/Cq/Cz)
+All after	CiAA	10
+Call signs are to be abbreviated until further notice.	CiAA	10
+The identity of the station with whom I am attempting to establish communication is unknown.	CiAA	10
+The portion of the message to which I have reference is all that follows	CiAA	10
+UNKNOWN STATION	CiAA	10
+以后	CiAA	10
+以後	CiAA	10
+本句完，接下一句	CiAAA	10
+我有消息发送	CiAAAAA	10
+我有訊息傳送	CiAAAAA	10
+All before	CiAB	10
+The portion of the message to which I have reference is all that precedes	CiAB	10
+之前	CiAB	10
+About	CiABT	10
+大約	CiABT	10
+大约	CiABT	10
+Address	CiADS	10
+位址	CiADS	10
+地址	CiADS	10
+Again	CiAGN	10
+再一次	CiAGN	10
+Antenna	CiANT	10
+天線	CiANT	10
+天线	CiANT	10
+End of message.	CiAR	10
+End of transmission.	CiAR	10
+OUT	CiAR	10
+This is the end of my transmission to you and no answer is required or expected.	CiAR	10
+消息结束	CiAR	10
+訊息結束	CiAR	10
+American Radio Relay League	CiARRL	10
+美国无线电中继联盟	CiARRL	10
+美國無線電中繼聯盟	CiARRL	10
+I am engaged in a contact with another station; please wait quietly.	CiAS	10
+I must pause for a few minutes.	CiAS	10
+I must pause for a few seconds	CiAS	10
+WAIT	CiAS	10
+等待	CiAS	10
+I must pause for longer than a few seconds.	CiASAR	10
+I must pause for more than a few minutes.	CiASAR	10
+WAIT OUT	CiASAR	10
+Transmitting station has additional traffic for the receiving station.	CiB	8
+BREAK-IN	CiBK	10
+Break	CiBK	10
+All between	CiBN	10
+The portion of the message to which I refer is all that falls between	CiBN	10
+之間	CiBN	10
+之间	CiBN	10
+BREAK	CiBT	10
+I hereby indicate the separation of the text from other portions of the message	CiBT	10
+Start new section of message.	CiBT	10
+分隔符	CiBT	10
+Semiautomatic key	CiBUG	10
+半自动电键	CiBUG	10
+半自動電鍵	CiBUG	10
+AFFIRMATIVE	CiC	8
+An error has been made in this transmission. The correct version is	CiC	8
+CONFIRM	CiC	8
+CORRECT	CiC	8
+That which follows has been verified at your request and is repeated.	CiC	8
+That which follows is a corrected version in answer to your request for verification	CiC	8
+YES	CiC	8
+好	CiC	8
+是	CiC	8
+Callbook address	CiCBA	10
+呼号手册	CiCBA	10
+呼號手冊	CiCBA	10
+CONFIRM	CiCFM	10
+I ACKNOWLEDGE	CiCFM	10
+确认	CiCFM	10
+確認	CiCFM	10
+Check	CiCK	10
+CLOSING	CiCL	10
+Calling	CiCLG	10
+呼叫	CiCLG	10
+CALLING FOR	CiCP	10
+Calling several stations	CiCP	10
+General call to any station	CiCQ	10
+呼叫任意台站	CiCQ	10
+All stations: Distress	CiCQD	10
+所有电台：紧急情况	CiCQD	10
+所有電台：緊急情況	CiCQD	10
+Calling station	CiCS	10
+See you Later	CiCUL	10
+再見	CiCUL	10
+再见	CiCUL	10
+Because	CiCUZ	10
+因为	CiCUZ	10
+因為	CiCUZ	10
+Continuous wave	CiCW	10
+连续波	CiCW	10
+連續波	CiCW	10
+Conditions	CiCX	10
+状况	CiCX	10
+狀況	CiCX	10
+Copy	CiCY	10
+抄收	CiCY	10
+From	CiDE	10
+This transmission is from the station whose designator immediately follows.	CiDE	10
+來自	CiDE	10
+来自	CiDE	10
+Distance	CiDX	10
+Long distance	CiDX	10
+距离	CiDX	10
+距離	CiDX	10
+Receipt sign	CiEEEEE	10
+An error has been made in this transmission. Transmission will continue with the last word correctly transmitted.	CiEEEEEEEE	10
+This transmission is in error, disregard it.	CiEEEEEEEEAR	10
+And	CiES	10
+also	CiES	10
+且	CiES	10
+和	CiES	10
+Stations called are not to answer this call, receipt for this message, or otherwise transmit in connection with this transmission.	CiF	8
+Fine business	CiFB	10
+Good	CiFB	10
+确定	CiFB	10
+確定	CiFB	10
+For	CiFER	10
+为了	CiFER	10
+為了	CiFER	10
+From	CiFM	10
+Frequency	CiFREQ	10
+頻率	CiFREQ	10
+频率	CiFREQ	10
+Forward 	CiFWD	10
+Repeat this entire transmission back to me exactly as received	CiG	8
+Go ahead	CiGA	10
+Good afternoon	CiGA	10
+午安	CiGA	10
+請發報	CiGA	10
+请发报	CiGA	10
+Good evening	CiGE	10
+晚安	CiGE	10
+Good morning	CiGM	10
+早安	CiGM	10
+Ground	CiGND	10
+ground potential	CiGND	10
+地电位	CiGND	10
+地電位	CiGND	10
+地面	CiGND	10
+This message contains the number of groups indicated by the numeral following.	CiGR	10
+The groups in this message have not been counted.	CiGRNC	10
+Good	CiGUD	10
+好	CiGUD	10
+CORRECTION	CiHH	10
+Preceding text was in error. The following is the corrected text.	CiHH	10
+有錯，從上一字重新開始	CiHH	10
+有错，从上一字重新开始	CiHH	10
+DISREGARD THIS TRANSMISSION OUT	CiHHAR	10
+The entire message just sent is in error, disregard it.	CiHHAR	10
+Laughter	CiHI	10
+笑	CiHI	10
+Cease transmissions on this net immediately. Silence will be maintained until lifted.	CiHMHMHM	10
+Here	CiHR	10
+这里	CiHR	10
+這裡	CiHR	10
+Have	CiHV	10
+有	CiHV	10
+Error	CiII	10
+I repeat	CiII	10
+I say again	CiII	10
+Separative sign break	CiII	10
+同样	CiII	10
+同樣	CiII	10
+I am repeating transmission or portion indicated.	CiIMI	10
+Repeat all of your last transmission.	CiIMI	10
+請重覆你的電碼，我不是很明白	CiIMI	10
+请重复你的电码，我不是很明白	CiIMI	10
+information	CiINFO	10
+INTERROGATIVE	CiINT	10
+The following is my response to your instructions to read back	CiIRB	10
+Action on the message or signal following is to be carried out on receipt of the EXECUTE.	CiIX	10
+Action on the message or signal that follows is to be carried out upon receipt of the proword EXECUTE.	CiIX	10
+Verify entire message with the originator and send correct version.	CiJ	8
+I am ready to receive your message	CiK	8
+OVER	CiK	8
+This is the end of my transmission to you and a response is necessary. Go ahead, transmit	CiK	8
+report	CiK	8
+我已准备好，请开始发送消息	CiK	8
+我已準備好，請開始傳送訊息	CiK	8
+ATTENTION	CiKA	10
+Over to you	CiKN	10
+Lid	CiLID	10
+Poor operator	CiLID	10
+覆盖	CiLID	10
+覆蓋	CiLID	10
+Milliamperes	CiMILS	10
+毫安培	CiMILS	10
+Best regards + Love and kisses	CiMN161	10
+Finished	CiMN30	10
+No more	CiMN30	10
+This is the end	CiMN30	10
+Best regards	CiMN72	10
+Best regards	CiMN73	10
+致敬	CiMN73	10
+Derogatory term for a disliked operator	CiMN75	10
+Long Live CW, wishing you many happy CW contacts	CiMN77	10
+Love and kisses	CiMN88	10
+吻別	CiMN88	10
+Get lost!	CiMN99	10
+走开	CiMN99	10
+走開	CiMN99	10
+Message	CiMSG	10
+NEGATIVE	CiN	8
+NO	CiN	8
+I have nothing to send you 	CiNIL	10
+NOTHING HEARD	CiNIL	10
+Nothing	CiNIL	10
+无收信	CiNIL	10
+無收信	CiNIL	10
+空白	CiNIL	10
+Answering sign	CiNNNNN	10
+Dropped.	CiNNNNN	10
+Number	CiNR	10
+第	CiNR	10
+編號	CiNR	10
+编号	CiNR	10
+Precedence IMMEDIATE	CiO	8
+Old boy	CiOB	10
+老大哥	CiOB	10
+Old chap	CiOC	10
+老伙計	CiOC	10
+Okay 	CiOK	10
+Old man	CiOM	10
+前輩	CiOM	10
+前辈	CiOM	10
+Official Observer	CiOO	10
+官方觀察員	CiOO	10
+官方观察员	CiOO	10
+Out Of Order	CiOOO	10
+錯誤	CiOOO	10
+错误	CiOOO	10
+Old old timers club	CiOOTC	10
+資深老手俱樂部	CiOOTC	10
+资深老手俱乐部	CiOOTC	10
+Operator	CiOP	10
+操作员	CiOP	10
+操作員	CiOP	10
+Old timer	CiOT	10
+老前輩	CiOT	10
+老前辈	CiOT	10
+Old timers club	CiOTC	10
+老手俱乐部	CiOTC	10
+老手俱樂部	CiOTC	10
+Precedence PRIORITY	CiP	8
+Please	CiPLS	10
+Paper 	CiPPR	10
+Please	CiPSE	10
+請	CiPSE	10
+请	CiPSE	10
+Power	CiPWR	10
+功率	CiPWR	10
+Prefix	CiPX	10
+The call sign of my station is	CqQRA	10
+The name of my station is	CqQRA	10
+What is the call sign of your station	CqQRA	10
+What is the name of your station?	CqQRA	10
+你的电台名称是？	CqQRA	10
+你的電台名稱是？	CqQRA	10
+我的电台名称是	CqQRA	10
+我的電台名稱是	CqQRA	10
+你台离我台多远？	CqQRB	10
+你台離我台多遠？	CqQRB	10
+我们相距约为	CqQRB	10
+我們相距約為	CqQRB	10
+你到哪裡去，從哪裡來？	CqQRD	10
+你到哪里去，从哪里来？	CqQRD	10
+我到...去，从...来	CqQRD	10
+我到...去，從...來	CqQRD	10
+你預計何時到達...？	CqQRE	10
+你預計何時經過...？	CqQRE	10
+你预计何时到达...？	CqQRE	10
+你预计何时经过...？	CqQRE	10
+我預計到達...的時候是...	CqQRE	10
+我預計經過...的時候是...	CqQRE	10
+我预计到达...的时候是...	CqQRE	10
+我预计经过...的时候是...	CqQRE	10
+你是否正在返回...？	CqQRF	10
+我正在返回...	CqQRF	10
+Will you tell me my exact frequency?	CqQRG	10
+Your exact frequency is ____	CqQRG	10
+你的准确频率是...	CqQRG	10
+你的準確頻率是...	CqQRG	10
+我的准确频率是多少？	CqQRG	10
+我的準確頻率是多少？	CqQRG	10
+Does my frequency vary?	CqQRH	10
+Your frequency varies.	CqQRH	10
+你的頻率不穩定	CqQRH	10
+你的频率不稳定	CqQRH	10
+我的頻率穩定嗎？	CqQRH	10
+我的频率稳定吗？	CqQRH	10
+How is the tone of my transmission?	CqQRI	10
+我的音調如何？	CqQRI	10
+我的音调如何？	CqQRI	10
+The tone of your transmission is Good	CqQRI1	10
+你的音調是 T1	CqQRI1	10
+你的音调是 T1	CqQRI1	10
+The tone of your transmission is Variable	CqQRI2	10
+你的音調是 T2	CqQRI2	10
+你的音调是 T2	CqQRI2	10
+The tone of your transmission is Bad	CqQRI3	10
+你的音調是 T3	CqQRI3	10
+你的音调是 T3	CqQRI3	10
+你的音調是 T4	CqQRI4	10
+你的音调是 T4	CqQRI4	10
+你的音調是 T5	CqQRI5	10
+你的音调是 T5	CqQRI5	10
+你的音調是 T6	CqQRI6	10
+你的音调是 T6	CqQRI6	10
+你的音調是 T7	CqQRI7	10
+你的音调是 T7	CqQRI7	10
+你的音調是 T8	CqQRI8	10
+你的音调是 T8	CqQRI8	10
+你的音調是 T9	CqQRI9	10
+你的音调是 T9	CqQRI9	10
+How many voice contacts do you want to make?	CqQRJ	10
+I want to make ____ voice contacts.	CqQRJ	10
+你的信号小	CqQRJ	10
+你的信號小	CqQRJ	10
+我的信号小吗？	CqQRJ	10
+我的信號小嗎？	CqQRJ	10
+What is the readability of my signals?	CqQRK	10
+我的信号可辨度是多少？	CqQRK	10
+我的信號可辨度是多少？	CqQRK	10
+The readability of your signals is 1.	CqQRK1	10
+你的信号可辨度是 R1	CqQRK1	10
+你的信號可辨度是 R1	CqQRK1	10
+The readability of your signals is 2.	CqQRK2	10
+你的信号可辨度是 R2	CqQRK2	10
+你的信號可辨度是 R2	CqQRK2	10
+The readability of your signals is 3.	CqQRK3	10
+你的信号可辨度是 R3	CqQRK3	10
+你的信號可辨度是 R3	CqQRK3	10
+The readability of your signals is 4.	CqQRK4	10
+你的信号可辨度是 R4	CqQRK4	10
+你的信號可辨度是 R4	CqQRK4	10
+The readability of your signals is 5.	CqQRK5	10
+你的信号可辨度是 R5	CqQRK5	10
+你的信號可辨度是 R5	CqQRK5	10
+Are you busy?	CqQRL	10
+I am busy. Please do not interfere.	CqQRL	10
+你忙吗？	CqQRL	10
+你忙嗎？	CqQRL	10
+我正忙	CqQRL	10
+Do you have interference?	CqQRM	10
+I have interference.	CqQRM	10
+你受到他台干扰吗？	CqQRM	10
+你受到他台干擾嗎？	CqQRM	10
+我正受到他台无干扰	CqQRM1	10
+我正受到他台無干擾	CqQRM1	10
+我正受到他台稍有干扰	CqQRM2	10
+我正受到他台稍有干擾	CqQRM2	10
+我正受到他台中等干扰	CqQRM3	10
+我正受到他台中等干擾	CqQRM3	10
+我正受到他台严重干扰	CqQRM4	10
+我正受到他台嚴重干擾	CqQRM4	10
+我正受到他台极端干扰	CqQRM5	10
+我正受到他台極端干擾	CqQRM5	10
+Are you troubled by static?	CqQRN	10
+I am troubled by static.	CqQRN	10
+你受到天电干扰吗？	CqQRN	10
+你受到天電干擾嗎？	CqQRN	10
+我正受到天电无干扰	CqQRN1	10
+我正受到天電無干擾	CqQRN1	10
+我正受到天电干稍有扰	CqQRN2	10
+我正受到天電稍有干擾	CqQRN2	10
+我正受到天电中等干扰	CqQRN3	10
+我正受到天電中等干擾	CqQRN3	10
+我正受到天电严重干扰	CqQRN4	10
+我正受到天電嚴重干擾	CqQRN4	10
+我正受到天电极端干扰	CqQRN5	10
+我正受到天電極端干擾	CqQRN5	10
+Increase power.	CqQRO	10
+Shall I increase power?	CqQRO	10
+要我增加发信功率吗？	CqQRO	10
+要我增加發信功率嗎？	CqQRO	10
+請增加發信功率	CqQRO	10
+请增加发信功率	CqQRO	10
+Decrease power.	CqQRP	10
+Shall I decrease power?	CqQRP	10
+要我减低发信功率吗？	CqQRP	10
+要我減低發信功率嗎？	CqQRP	10
+請減低發信功率	CqQRP	10
+请减低发信功率	CqQRP	10
+Send faster.	CqQRQ	10
+Shall I send faster?	CqQRQ	10
+要我发得快些吗？	CqQRQ	10
+要我發得快些嗎？	CqQRQ	10
+請發快些	CqQRQ	10
+请发快些	CqQRQ	10
+你已經準備好使用自動操作了嗎？	CqQRR	10
+你已经准备好使用自动操作了吗？	CqQRR	10
+我已准备好使用自动操作	CqQRR	10
+我已準備好使用自動操作	CqQRR	10
+Send more slowly.	CqQRS	10
+Shall I send more slowly?	CqQRS	10
+Your transmission is too fast. Reduce speed of transmission.	CqQRS	10
+要我发得慢些吗？	CqQRS	10
+要我發得慢些嗎？	CqQRS	10
+請發慢些	CqQRS	10
+请发慢些	CqQRS	10
+Shall I stop sending?	CqQRT	10
+Stop sending.	CqQRT	10
+要我停止拍发吗？	CqQRT	10
+要我停止拍發嗎？	CqQRT	10
+請停止拍發	CqQRT	10
+请停止拍发	CqQRT	10
+Have you anything for me?	CqQRU	10
+I have messages for you.	CqQRU	10
+你有事吗？	CqQRU	10
+你有事嗎？	CqQRU	10
+无事	CqQRU	10
+無事	CqQRU	10
+Are you ready?	CqQRV	10
+I am ready.	CqQRV	10
+你准备好了吗？	CqQRV	10
+你準備好了嗎？	CqQRV	10
+我已准备好了	CqQRV	10
+我已準備好了	CqQRV	10
+Please inform ____ that I am calling on ____ .	CqQRW	10
+Shall I inform ____ that you are calling on ____ ?	CqQRW	10
+請轉告	CqQRW	10
+请转告	CqQRW	10
+需要我轉告嗎？	CqQRW	10
+需要我转告吗？	CqQRW	10
+I will call you again at ____ on ____	CqQRX	10
+Please standby	CqQRX	10
+Shall I standby?	CqQRX	10
+When will you call me again?	CqQRX	10
+要我等多長時間？	CqQRX	10
+要我等多长时间？	CqQRX	10
+請等待... ...分鐘	CqQRX	10
+请等待... ...分钟	CqQRX	10
+...正在...KHz/MHz上呼叫你	CqQRZ	10
+Who is calling me?	CqQRZ	10
+You are being called by ____ on ____	CqQRZ	10
+誰在呼叫我？	CqQRZ	10
+谁在呼叫我？	CqQRZ	10
+What is the strength of my signals?	CqQSA	10
+你的信号强度是	CqQSA	10
+你的信號強度是	CqQSA	10
+我的信号强度是多少？	CqQSA	10
+我的信號強度是多少？	CqQSA	10
+The strength of your signals is 1.	CqQSA1	10
+The strength of your signals is 2.	CqQSA2	10
+The strength of your signals is 3.	CqQSA3	10
+The strength of your signals is 4.	CqQSA4	10
+The strength of your signals is 5.	CqQSA5	10
+Are my signals fading?	CqQSB	10
+Your signals are fading.	CqQSB	10
+我的信号有衰落吗？	CqQSB	10
+我的信號有衰落嗎？	CqQSB	10
+你的信号强度是几乎不能抄收	CqQSB1	10
+你的信號強度是幾乎不能抄收	CqQSB1	10
+你的信号强度是弱	CqQSB2	10
+你的信號強度是弱	CqQSB2	10
+你的信号强度是还好	CqQSB3	10
+你的信號強度是還好	CqQSB3	10
+你的信号强度是好	CqQSB4	10
+你的信號強度是好	CqQSB4	10
+你的信号强度是很好	CqQSB5	10
+你的信號強度是很好	CqQSB5	10
+Is my keying defective?	CqQSD	10
+Your keying is defective.	CqQSD	10
+你的信号不完整	CqQSD	10
+你的信號不完整	CqQSD	10
+我的信号不完整吗?	CqQSD	10
+我的信號不完整嗎?	CqQSD	10
+Send ____ telegrams (messages) at a time.	CqQSG	10
+Shall I send ____ telegrams (messages) at a time?	CqQSG	10
+要我每次连发...份电报吗？	CqQSG	10
+要我每次連發...份電報嗎？	CqQSG	10
+請每次連發...份電報	CqQSG	10
+请每次连发...份电报	CqQSG	10
+在你发报时我未能插入	CqQSI	10
+在你發報時我未能插入	CqQSI	10
+Can you hear me between your signals?	CqQSK	10
+I can hear you between my signals.	CqQSK	10
+在你所发的信号中间能否收听到我？如果能，我能插入你的发送吗？	CqQSK	10
+在你所發的信號中間能否收聽到我？如果能，我能插入你的發送嗎？	CqQSK	10
+在我所发的信号中间能收听到你；你可以插入我的发送	CqQSK	10
+在我所發的信號中間能收聽到你；你可以插入我的發送	CqQSK	10
+An instruction to the addressee that the message must be acknowledged	CqQSL	10
+Can you acknowledge receipt?	CqQSL	10
+I will acknowledge receipt.	CqQSL	10
+你确认收妥？	CqQSL	10
+你確認收妥？	CqQSL	10
+我确认收妥	CqQSL	10
+我確認收妥	CqQSL	10
+Repeat the last message which you sent me (or message(s) numbers(s) ____ ).	CqQSM	10
+Shall I repeat the last message which I sent you, or some previous message?	CqQSM	10
+将你发给我的最末一份电报重发	CqQSM	10
+将你发给我的电报号数重发	CqQSM	10
+將你發給我的最末一份電報重發	CqQSM	10
+將你發給我的電報號數重發	CqQSM	10
+要我将发给你的以前的几份电报重发吗？	CqQSM	10
+要我将发给你的最末一份电报重发吗？	CqQSM	10
+要我將發給你的以前的幾份電報重發嗎？	CqQSM	10
+要我將發給你的最末一份電報重發嗎？	CqQSM	10
+Did you hear me on ____ ?	CqQSN	10
+I did hear you on ____ .	CqQSN	10
+你在...上听到我台吗？	CqQSN	10
+你在...上聽到我台嗎？	CqQSN	10
+我已在...上听到你台	CqQSN	10
+我已在...上聽到你台	CqQSN	10
+Can you communicate with ____ direct or by relay?	CqQSO	10
+I can communicate with ____ by relay through ____ .	CqQSO	10
+I can communicate with ____ direct.	CqQSO	10
+你能否和...直接通信？	CqQSO	10
+你能否和...轉接通信？	CqQSO	10
+你能和...直接通信？	CqQSO	10
+你能和...转接通信？	CqQSO	10
+I will relay a message to ____ .	CqQSP	10
+Will you relay a message to ____ ?	CqQSP	10
+你能中轉到...嗎？	CqQSP	10
+你能中转到...吗？	CqQSP	10
+我能中轉到...	CqQSP	10
+我能中转到...	CqQSP	10
+Do you want me to repeat my call?	CqQSR	10
+Please repeat your call; I did not hear you.	CqQSR	10
+I will use the working frequency ____ .	CqQSS	10
+What working frequency will you use?	CqQSS	10
+Here follows a broadcast message to all amateurs.	CqQST	10
+Should I repeat the prior message to all amateurs I contact?	CqQST	10
+Send or reply on this frequency.	CqQSU	10
+Shall I send or reply on this frequency?	CqQSU	10
+我将在此频率回复	CqQSU	10
+我將在此頻率回復	CqQSU	10
+能在这个频率回复吗？	CqQSU	10
+能在這個頻率回復嗎？	CqQSU	10
+有天电干扰要我在此频率发一串 V 字吗？	CqQSV	10
+有天電干擾要我在此頻率發一串 V 字嗎？	CqQSV	10
+請在此頻率發一串 V 字	CqQSV	10
+请在此频率发一串 V 字	CqQSV	10
+I am going to send on this frequency.	CqQSW	10
+Will you send on this frequency?	CqQSW	10
+你将在此频率发吗？	CqQSW	10
+你將在此頻率發嗎？	CqQSW	10
+我将在此频率发	CqQSW	10
+我將在此頻率發	CqQSW	10
+I am listening to ____ on ____ 	CqQSX	10
+Will you listen to ____ on ____ ?	CqQSX	10
+你将在某频率收听吗？	CqQSX	10
+你將在某頻率收聽嗎？	CqQSX	10
+我将在某频率收听	CqQSX	10
+我將在某頻率收聽	CqQSX	10
+Change to transmission on another frequency.	CqQSY	10
+Shall I change to transmission on another frequency?	CqQSY	10
+要我改用其他頻率拍發嗎？	CqQSY	10
+要我改用其他频率拍发吗？	CqQSY	10
+請改用...拍發	CqQSY	10
+请改用...拍发	CqQSY	10
+Communication is difficult. Transmit each phrase twice.	CqQSZ	10
+Send each word or group twice.	CqQSZ	10
+Shall I send each word or group more than once?	CqQSZ	10
+要我每組發兩遍嗎？	CqQSZ	10
+要我每组发两遍吗？	CqQSZ	10
+請每組發兩遍	CqQSZ	10
+请每组发两遍	CqQSZ	10
+Cancel message number ____ as if it had not been sent.	CqQTA	10
+Shall I cancel message number ____ as if it had not been sent?	CqQTA	10
+要我查对组数吗？	CqQTB	10
+要我查對組數嗎？	CqQTB	10
+請查對組數	CqQTB	10
+请查对组数	CqQTB	10
+How many messages have you to send?	CqQTC	10
+I have ____ messages for you.	CqQTC	10
+你有几份报要发？	CqQTC	10
+你有幾份報要發？	CqQTC	10
+我有...份報要發	CqQTC	10
+我有...份报要发	CqQTC	10
+My position is ____ latitude ____ longitude.	CqQTH	10
+What is your position in latitude and longitude?	CqQTH	10
+你的地理位置是？	CqQTH	10
+我的地理位置是...	CqQTH	10
+REQUEST TIME CHECK	CqQTR	10
+TIME IS	CqQTR	10
+The correct time is ____ hours UTC.	CqQTR	10
+Time-check request.	CqQTR	10
+What is the correct time?	CqQTR	10
+你的标准时间是？	CqQTR	10
+你的標準時間是？	CqQTR	10
+我的标准时间是...	CqQTR	10
+我的標準時間是...	CqQTR	10
+At what times are you operating?	CqQTU	10
+I am operating from ____ to ____ hours.	CqQTU	10
+I will keep my station open for further communication with you until further notice.	CqQTX	10
+Will you keep your station open for further communication with me until further notice?	CqQTX	10
+Have you news of ____ ?	CqQUA	10
+Here is news of ____ .	CqQUA	10
+The number (or other indication) of the last message I received from you is ____.	CqQUC	10
+What is the number of the last message you received from me ?	CqQUC	10
+Have you received the urgency signal sent by ____ ?	CqQUD	10
+I have received the urgency signal sent by ____ at ____ hours.	CqQUD	10
+Can you speak in ____ – with interpreter if necessary – if so, on what frequencies?	CqQUE	10
+I can speak in ____ on ____ .	CqQUE	10
+Have you received the distress signal sent by ____ ?	CqQUF	10
+I have received the distress signal sent by ____ at ____ hours.	CqQUF	10
+Precedence ROUTINE.	CiR	8
+ROGER	CiR	8
+Received as transmitted	CiR	8
+This is a method of receipt. I have received your last transmission satisfactorily.	CiR	8
+消息已收到	CiR	8
+訊息已收到	CiR	8
+Receiver	CiRCVR	10
+接收机	CiRCVR	10
+接收機	CiRCVR	10
+I repeat as follows	CiRPT	10
+Repeat please	CiRPT	10
+Report	CiRPT	10
+報告	CiRPT	10
+报告	CiRPT	10
+重复	CiRPT	10
+重複	CiRPT	10
+Further message sign	CiRRRRR	10
+Readability (1-5) / Strength (1-9) / Noise (1-9)	CiRSN	10
+Signal report format	CiRST	10
+信号报告格式	CiRST	10
+訊號報告格式	CiRST	10
+Radioteletype	CiRTTY	10
+无线电传	CiRTTY	10
+無線電傳	CiRTTY	10
+Receive 	CiRX	10
+接收	CiRX	10
+Said	CiSED	10
+說	CiSED	10
+说	CiSED	10
+Says	CiSEZ	10
+說	CiSEZ	10
+说	CiSEZ	10
+So far	CiSFR	10
+Signal	CiSIG	10
+Signature	CiSIG	10
+信号	CiSIG	10
+訊號	CiSIG	10
+Signals	CiSIGS	10
+信号	CiSIGS	10
+訊號	CiSIGS	10
+End of work	CiSK	10
+Frequency no longer in use	CiSK	10
+Line is now free	CiSK	10
+Out	CiSK	10
+Silent Key	CiSK	10
+联系结束	CiSK	10
+聯絡結束	CiSK	10
+Schedule	CiSKED	10
+行程表	CiSKED	10
+Soon	CiSN	10
+很快	CiSN	10
+我将重新发送最后一个单词	CiSN	10
+我將重新傳送最後一個單詞	CiSN	10
+Save Our Souls	CiSOS	10
+求救	CiSOS	10
+求救信号	CiSOS	10
+求救訊號	CiSOS	10
+Sorry	CiSRI	10
+抱歉	CiSRI	10
+Station	CiSTN	10
+台站	CiSTN	10
+The message that follows is a SERVICE message	CiSVC	10
+Please	CiSVP	10
+Dollars	CiSX	10
+Transmit this message to all addressees	CiT	8
+字收到了	CiT	8
+Temperature	CiTEMP	10
+温度	CiTEMP	10
+溫度	CiTEMP	10
+Thank You 	CiTHX	10
+Tomorrow	CiTMW	10
+明天	CiTMW	10
+Thanks	CiTNX	10
+謝謝	CiTNX	10
+谢谢	CiTNX	10
+The addressees immediately following are addressed for action	CiTO	10
+我正在接收你的消息	CiTTTTT	10
+我正在接收你的訊息	CiTTTTT	10
+Thank you	CiTU	10
+謝謝你	CiTU	10
+谢谢你	CiTU	10
+Transmit	CiTX	10
+发射	CiTX	10
+發射	CiTX	10
+You	CiU	8
+你	CiU	8
+You're	CiUR	10
+Your	CiUR	10
+你是	CiUR	10
+你的	CiUR	10
+Yours	CiURS	10
+你的	CiURS	10
+General call	CiVE	10
+Message is verified.	CiVE	10
+VERIFIED	CiVE	10
+Very	CiVY	10
+很	CiVY	10
+非常	CiVY	10
+The word of the message to which I have reference is that which follows	CiWA	10
+Word after 	CiWA	10
+The word of the message to which I have reference is that which precedes	CiWB	10
+Word before 	CiWB	10
+Will comply	CiWC	10
+Word	CiWD	10
+Words	CiWDS	10
+詞	CiWDS	10
+词	CiWDS	10
+Worked	CiWKD	10
+工作	CiWKD	10
+Well	CiWL	10
+Will	CiWL	10
+好	CiWL	10
+将会	CiWL	10
+將會	CiWL	10
+Would	CiWUD	10
+将会	CiWUD	10
+將會	CiWUD	10
+Weather	CiWX	10
+Weather report follows	CiWX	10
+天气	CiWX	10
+天氣	CiWX	10
+Transceiver	CiXCVR	10
+The station(s) immediately following is (are) exempted from the collective call or from collective address	CiXMT	10
+Transmitter	CiXMTR	10
+发射机	CiXMTR	10
+發射機	CiXMTR	10
+Former Young Lady	CiXYL	10
+Wife	CiXYL	10
+妻子	CiXYL	10
+Young lady	CiYL	10
+女報務員	CiYL	10
+女报务员	CiYL	10
+Precedence FLASH	CiZ	8
+Zulu time	CiZ	8
+貴臺未遵守網路紀律	CzZAA	10
+贵台未遵守网络纪律	CzZAA	10
+所收貴臺之通訊簡語不明瞭	CzZAD1	10
+所收贵台之通讯简语不明了	CzZAD1	10
+所收貴臺之通訊簡語未持有	CzZAD2	10
+所收贵台之通讯简语未持有	CzZAD2	10
+I am closing down due to	CzZAL	10
+Work Simplex	CzZAP1	10
+Work Duplex	CzZAP2	10
+Work Diplex	CzZAP3	10
+Work Multiplex	CzZAP4	10
+Work Single sideband	CzZAP5	10
+Work With automatic error correction system	CzZAP6	10
+Work Without automatic error correction system	CzZAP7	10
+Work With time and frequency diversity modem	CzZAP8	10
+請於發報前做初次呼叫	CzZBH	10
+请于发报前做初次呼叫	CzZBH	10
+Are you receiving my traffic clear?	CzZBK	10
+I am receiving your traffic clear	CzZBK1	10
+I am receiving your traffic garbled	CzZBK2	10
+Place a competent operator on this circuit	CzZBM2	10
+A message that requires recording is about to follow.	CzZBO	10
+优先等级	CzZBO	10
+優先等級	CzZBO	10
+Change to backup frequency ...	CzZBW	10
+Measure of printability Garbled / unreadable	CzZBZ1	10
+Measure of printability Poor	CzZBZ2	10
+Measure of printability Moderate	CzZBZ3	10
+Measure of printability Good	CzZBZ4	10
+Measure of printability Perfect	CzZBZ5	10
+遗漏	CzZEP	10
+遺漏	CzZEP	10
+練習電報	CzZEU	10
+练习电报	CzZEU	10
+An instruction to the addressee that the message must be acknowledged	CiZEV	10
+抄电	CzZEZ	10
+抄電	CzZEZ	10
+按照字母順序發送	CzZGB1	10
+按照字母顺序发送	CzZGB1	10
+按照下列呼号之顺序发送	CzZGB2	10
+按照下列呼號之順序發送	CzZGB2	10
+To be used when no reply is received from a call station.	CiZGN	10
+The station called is to answer after call sign........when answering transmissions.	CiZGO	10
+本台将频率稍减以避免干扰	CzZHA	10
+本台將頻率稍減以避免干擾	CzZHA	10
+本台将频率稍增以避免干扰	CzZHB	10
+本台將頻率稍增以避免干擾	CzZHB	10
+本日(本次)最后一份电报	CzZIC	10
+本日(本次)最後一份電報	CzZIC	10
+日时组	CzZII	10
+日時組	CzZII	10
+I am assuming control of this net until further notice	CzZKA	10
+本台为管制台	CzZKA	10
+本台為管制台	CzZKA	10
+From now until further notice this net is directed.	CzZKB	10
+各台发报前须经管制台同意	CzZKB	10
+各台發報前須經管制台同意	CzZKB	10
+You will assume control of this net until further notice	CzZKD	10
+本台接替管制台	CzZKD	10
+報到入網	CzZKE	10
+报到入网	CzZKE	10
+報備離網	CzZKF	10
+报备离网	CzZKF	10
+Stations are to close down when indicated. Acknowledgments are required	CiZKJ	10
+I cannot transmit pictures	CzZLD2	10
+貴臺解譯之通報簡語有誤	CzZNA1	10
+贵台解译之通报简语有误	CzZNA1	10
+貴臺解譯之無線電呼號有誤	CzZNA2	10
+贵台解译之无线电呼号有误	CzZNA2	10
+貴臺解譯之地址組有誤	CzZNA3	10
+贵台解译之地址组有误	CzZNA3	10
+The group that follows is the reply to your challenge to authenticate	CzZNB	10
+辨證因子	CzZNB	10
+辨证因子	CzZNB	10
+Relay your message through me	CiZOE	10
+Transmit this message to all addressees	CiZOF	10
+Relay your message through call sign	CiZOK	10
+本台现在以最大功率发射	CzZPE	10
+本台現在以最大功率發射	CzZPE	10
+請將發射機調整至規定頻率	CzZRC1	10
+请将发射机调整至规定频率	CzZRC1	10
+All stations are to net their radios on the unmodulated carrier wave that I am about to transmit.	CzZRC2	10
+請將發射機調整至與本台產生零差	CzZRC2	10
+请将发射机调整至与本台产生零差	CzZRC2	10
+Switch off IFF	CzZSF1	10
+Switch off IFF sets for 10 minutes in area denoted except for ships with the following call signs	CzZSF2	10
+正确	CzZUE	10
+正確	CzZUE	10
+No. Cancel message(s) sent by the Delayed Executive Method.	CzZUG	10
+否定	CzZUG	10
+Silence is lifted.	CiZUGHMHMHM	10
+From now until further notice this net is free.	CiZUGZKB	10
+注意	CzZUI	10
+Stand by.	CzZUJ	10
+WRONG	CzZWF	10
+Your last transmission was incorrect. The correct version is	CiZWF	10
+本简语后呼号不必抄收	CzZWL	10
+本簡語後呼號不必抄收	CzZWL	10
+請改用主頻連絡	CzZYA1	10
+请改用主频连络	CzZYA1	10
+請改用複頻連絡	CzZYA2	10
+请改用复频连络	CzZYA2	10
+請改用備用頻連絡	CzZYA3	10
+请改用备用频连络	CzZYA3	10
+請改用日[夜]頻連絡	CzZYA4	10
+请改用日[夜]频连络	CzZYA4	10
+本台接收机故障	CzZYB1	10
+本台接收機故障	CzZYB1	10
+本台发射机故障	CzZYB2	10
+本台發射機故障	CzZYB2	10
+本台电源故障	CzZYB3	10
+本台電源故障	CzZYB3	10
+本台雷达故障	CzZYB4	10
+本台雷達故障	CzZYB4	10
+本台天線故障	CzZYB5	10
+本台天线故障	CzZYB5	10
+本台无此密本请重新译发	CzZYE1	10
+本台無此密本請重新譯發	CzZYE1	10
+本台譯不成文請重新譯發	CzZYE2	10
+本台译不成文请重新译发	CzZYE2	10
+本台指标错误请重新译发	CzZYE3	10
+本台指標錯誤請重新譯發	CzZYE3	10
+請勿任意出呼	CzZYF	10
+请勿任意出呼	CzZYF	10
+现有不明电台冒充与他人连络	CzZYL	10
+現有不明電台冒充與他人連絡	CzZYL	10
+现有不明电台连络	CzZZB	10
+現有不明電台連絡	CzZZB	10
+請對準我頻率校正	CzZZX	10
+请对准我频率校正	CzZZX	10
+請即刻開啟某網路	CzZZY	10
+请即刻开启某网络	CzZZY	10
+
+# ARRL Numbered Radiogram (Ca)
+Everyone safe here. Please don't worry.	CaONE	10
+Coming home as soon as possible.	CaTWO	10
+Am in _____ hospital. Receiving excellent care and recovering fine.	CaTHREE	10
+Only slight property damage here. Do not be concerned about disaster reports.	CaFOUR	10
+Am moving to new location. Send no further mail or communication. Will inform you of new address when relocated.	CaFIVE	10
+Will contact you as soon as possible.	CaSIX	10
+Please reply by Amateur Radio through the amateur delivering this message. This is a free public service.	CaSEVEN	10
+Need additional _____ mobile or portable equipment for immediate emergency use.	CaEIGHT	10
+Additional _____ radio operators needed to assist with emergency at this location.	CaNINE	10
+Please contact _____. Advise to standby and provide further emergency information, instructions or assistance.	CaTEN	10
+Establish Amateur Radio emergency communications with _____ on _____ MHz.	CaELEVEN	10
+Anxious to hear from you. No word in some time. Please contact me as soon as possible.	CaTWELVE	10
+Medical emergency situation exists here.	CaTHIRTEEN	10
+Situation here becoming critical. Losses and damage from _____ increasing.	CaFOURTEEN	10
+Please advise your condition and what help is needed.	CaFIFTEEN	10
+Property damage very severe in this area.	CaSIXTEEN	10
+REACT communications services also available. Establish REACT communication with _____ on channel _____.	CaSEVENTEEN	10
+Please contact me as soon as possible at _______.	CaEIGHTEEN	10
+Request health and welfare report on _____. (State name, address and telephone number.)	CaNINETEEN	10
+Temporarily stranded. Will need some assistance. Please contact me at _____.	CaTWENTY	10
+Search and Rescue assistance is needed by local authorities here. Advise availability.	CaTWENTYONE	10
+Need accurate information on the extent and type of conditions now existing at your location. Please furnish this information and reply without delay.	CaTWENTYTWO	10
+Report at once the accessibility and best way to reach your location.	CaTWENTYTHREE	10
+Evacuation of residents from this area urgently needed. Advise plans for help.	CaTWENTYFOUR	10
+Furnish as soon as possible the weather conditions at your location.	CaTWENTYFIVE	10
+Help and care for evacuation of sick and injured from this location needed at once.	CaTWENTYSIX	10
+Greetings on your birthday and best wishes for many more to come.	CaFORTYSIX	10
+Reference your message number _____ to _____ delivered on _____ at _____ UTC.	CaFORTYSEVEN	10
+Greetings by Amateur Radio.	CaFIFTY	10
+Greetings by Amateur Radio. This message is sent as a free public service by ham radio operators at _______. Am having a wonderful time.	CaFIFTYONE	10
+Really enjoyed being with you. Looking forward to getting together again.	CaFIFTYTWO	10
+Received your _______. It's appreciated; many thanks.	CaFIFTYTHREE	10
+Many thanks for your good wishes.	CaFIFTYFOUR	10
+Good news is always welcome. Very delighted to hear about yours.	CaFIFTYFIVE	10
+Congratulations on your _______, a most worthy and deserved achievement.	CaFIFTYSIX	10
+Wish we could be together	CaFIFTYSEVEN	10
+Have a wonderful time. Let us know when you return.	CaFIFTYEIGHT	10
+Congratulations on the new arrival. Hope mother and child are well.	CaFIFTYNINE	10
+Wishing you the best of everything on _______.	CaSIXTY	10
+Wishing you a very Merry Christmas and a Happy New Year.	CaSIXTYONE	10
+Greetings and best wishes to you for a pleasant _______ holiday season.	CaSIXTYTWO	10
+Victory or defeat, our best wishes are with you. Hope you win.	CaSIXTYTHREE	10
+Arrived safely at _______.	CaSIXTYFOUR	10
+Arriving _______ on _______. Please arrange to meet me there.	CaSIXTYFIVE	10
+DX QSLs are on hand for you at the _______ QSL Bureau. Send _______ self addressed envelopes.	CaSIXTYSIX	10
+Your message number _______ undeliverable because of _______. Please advise.	CaSIXTYSEVEN	10
+Sorry to hear you are ill. Best wishes for a speedy recovery.	CaSIXTYEIGHT	10
+Welcome to the _______. We are glad to have you with us and hope you will enjoy the fun and fellowship of the organization.	CaSIXTYNINE	10
