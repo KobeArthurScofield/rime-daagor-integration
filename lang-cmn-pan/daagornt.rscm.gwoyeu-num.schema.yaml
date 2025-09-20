@@ -40,8 +40,6 @@ translator:
   prism: daagornt.gwoyeu-num
   preedit_format:
     __include: daagorxp.lib.preedit-cmn-pan.yaml:/gwoyeu_romatzyh?
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/gwoyeu_romatzyh?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

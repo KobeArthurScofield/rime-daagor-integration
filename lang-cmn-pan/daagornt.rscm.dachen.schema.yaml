@@ -40,8 +40,6 @@ translator:
   prism: daagornt.dachen
   preedit_format:
     __include: daagorxp.lib.preedit-cmn-pan.yaml:/dachen?
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/phonetic_symbols?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

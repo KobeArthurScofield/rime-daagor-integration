@@ -39,8 +39,6 @@ translator:
   prism: daagornt.xiaolang
   preedit_format:
     __include: daagorxp.lib.preedit-cmn-pan.yaml:/xiaolang?
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/hanyu_pinyin?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

@@ -38,7 +38,7 @@ translator:
 
 Key binding condition: {when: predicting}
 
-- x 
+- failed 
 
 ``` yaml
 reverse_lookup_filter:

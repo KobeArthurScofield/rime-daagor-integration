@@ -35,8 +35,6 @@ translator:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn-pan.yaml:/translator
   prism: daagornt.hanxinlong
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/hanyu_pinyin?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

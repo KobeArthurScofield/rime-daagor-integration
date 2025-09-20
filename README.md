@@ -47,7 +47,6 @@ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/bad
     * 复制自己所需的词库调用文件，与以上文件置于同一个文件夹
   * `experience`
     * 如果希望使用非 RIME 默认自带的输入体验，可以按需复制其中文件与以上文件置于同一个文件夹：
-      * `lib.comment-<ISO 639-3>` 与 `lib.preedit-<ISO 639-3>` 可以单独复制
       * `lib.shared` 必须与 `lib.keybinder` 与 `lib.punctuation` 一并复制
   * `supplimental`
     * 如果有需要，复制自己所需的库文件及方案文件，与以上文件置于同一个文件夹
@@ -79,7 +78,6 @@ patch:
     - `daagorxp.lib.keybinder`：非默认按键组合体验
     - `daagorxp.lib.punctuation`：非默认标点输入体验
     - `daagorxp.lib.recognizer`：非默认识别功能体验
-  - `daagorxp.lib.comment-<ISO 639-3>`：提供拼音提示转换功能，使拼音提示显示为输入方案相同而非词库方案；启用后全局生效
   - `daagorxp.lib.preedit-<ISO 639-3>`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
 - `rscm.*`：基于以上文件组成的输入方案

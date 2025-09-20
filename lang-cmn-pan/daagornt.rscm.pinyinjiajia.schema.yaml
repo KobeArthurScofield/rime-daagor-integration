@@ -39,8 +39,6 @@ translator:
   prism: daagornt.pinyinjiajia
   preedit_format:
     __include: daagorxp.lib.preedit-cmn-pan.yaml:/pinyinjiajia?
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/hanyu_pinyin?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

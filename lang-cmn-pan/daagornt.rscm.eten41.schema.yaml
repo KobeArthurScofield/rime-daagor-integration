@@ -41,8 +41,6 @@ translator:
   prism: daagornt.eten41
   preedit_format:
     __include: daagorxp.lib.preedit-cmn-pan.yaml:/eten41?
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/phonetic_symbols?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

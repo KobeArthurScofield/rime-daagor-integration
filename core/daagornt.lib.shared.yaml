@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.252.0
+# Ver: 1.25.262.0
 #
 
 engines:
@@ -113,7 +113,7 @@ punctuator:
 recognizer:
   import_preset: default
   patterns:
-    quick_phrase: "^(A|C[aiqz]|D[itz]|L[CD]|Mc|N[cfst]|Pa|T[CDHMW]|S[sEHS])([-0-9A-Za-z]*)$"
+    quick_phrase: "^(A|C[aiqz]|D[itz]|L[CD]|Mc|N[cfst]|Pa|T[CDHMW]|S[sEHS])[-0-9A-Za-z]*$"
 
 menu:
   page_size: 6

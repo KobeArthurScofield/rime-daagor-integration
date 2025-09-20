@@ -41,8 +41,6 @@ translator:
   prism: daagornt.chingyeh
   preedit_format:
     __include: daagorxp.lib.preedit-cmn-pan.yaml:/chingyeh?
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/phonetic_symbols?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

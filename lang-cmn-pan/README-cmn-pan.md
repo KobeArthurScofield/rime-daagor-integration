@@ -39,7 +39,6 @@
   - `icon.imecn`： 输入法模式中国大陆方案图标
   - `icon.imetw`： 输入法模式台湾方案图标
 - `experience`：Daagor Integration Experience，用于取代输入方案默认体验
-  - `daagorxp.lib.comment-cmn-pan`：提供拼音提示转换功能，使拼音提示显示为输入方案相同而非词库方案；启用后全局生效
   - `daagorxp.lib.preedit-cmn-pan`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
   - `cmn-pan-rime-terra`：调用 RIME 发行版附带的地球拼音词库
@@ -49,6 +48,8 @@
 - `rscm.*`：基于以上文件组成的输入方案
     - `bpmfhsu` 注音（許氏）布局
     - `bpmfibm` 注音（IBM）布局
+    - `bpmfliu` 注音（劉氏）布局
+    - `chewing` 注音（酷音大千二十六鍵）布局
     - `chingyeh` 注音（精業）布局
     - `dachen` 注音（大千）布局
     - `eten26` 注音（倚天忘形 26 鍵）布局
@@ -63,6 +64,7 @@
     - `mpsii` 国音二式布局
     - `pinyinjiajia` 拼音加加双拼布局
     - `snowsipin` 冰雪四拼布局
+    - `starlight` 注音（星光排布）布局
     - `tongying-pinyin` 通用拼音布局
     - `xiaolang` 小浪双拼布局
     - `ziranlong` 自然龙双拼布局
@@ -156,7 +158,7 @@
 
 ### 简龙/龙三键盘布局
 
-见 (https://hanxinma.gitlab.io/longma/longsan/)
+![键盘布局](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/jianlong-2025-09.jpg)
 
 新增按键见下：
 
@@ -234,5 +236,8 @@
 - 精業鍵盤 原作者：精業資訊
 - 倚天 41 鍵、倚天忘形 26 鍵 原作者：倚天資訊
 - 神通鍵盤 原作者：神通電腦
+- 劉氏鍵盤 原作者：劉又銘
+- 星光鍵盤 原作者：聽雨客
+- 酷音大千二十六鍵鍵盤 原作者：新酷音
 - [冰雪拼音](https://github.com/rimeinn/rime-snow-pinyin)
 - [万象拼音](https://github.com/amzxyz/RIME-LMDG)

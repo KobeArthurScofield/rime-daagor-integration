@@ -2,7 +2,7 @@
 # coding: utf-8
 #@db/db_name	daagornt.lib.asciiphrase
 #@db/db_type	tabledb
-# version: 1.25.253.0
+# version: 1.25.262.0
 #
 # 西文短語
 # 該西文短語對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
@@ -107,615 +107,615 @@
 # 现代汉语词典第七版
 # 该区段只允许更改词频、纠错及跟进新版词典修订
 # 如有补充必须加至其它区段
-ABC	abc	1
-ABS	abs	1
-anti-lock braking system	abs	1
-防抱死制动系统	abs	2
-ADSL	adsl	1
-asymmetric digital subscriber line	adsl	1
-不对称数字用户线	adsl	2
-AI	ai	1
-artificial intelligence	ai	1
-人工智能	ai	2
-AIDS	aids	1
-Acquired Immune Deficiency Syndrome	aids	1
-获得性免疫缺陷综合征	aids	2
-艾滋病	aids	2
-AM	am	1
-amplitude modulation	am	1
-调幅	am	2
-APC	apc	1
-复方阿司匹林	apc	2
-APEC	apec	1
-Asia Pacific Economic Cooperation	apec	1
-亚太经济合作组织	apec	2
-API	api	1
-air pollution index	api	1
-空气污染指数	api	2
-AQ	aq	1
-adversity quotient	aq	1
-逆境商数	aq	2
-ATM	atm	1
-automated teller machine	atm	1
-AV	av	1
-audio visual	av	1
-音频和视频	av	2
-B2B	b2b	1
-B to B	b2b	1
-business-to-business	b2b	1
-B2C	b2c	1
-B to C	b2c	1
-business-to-customer	b2c	1
-BBC	bbc	1
-British Broadcasting Corporation	bbc	1
-英国广播公司	bbc	2
-BBS	bbs	1
-bulletin board system	bbs	1
-bulletin board service	bbs	1
-公告板系统	bbs	2
-公告板服务	bbs	2
-BD	bd	1
-Blu-ray Disc	bd	1
-蓝光光盘	bd	2
-BEC	bec	1
-Business English Certificate	bec	1
-商务英语证书	bec	2
-BP	bp	1
-beeper	bp	1
-BRT	brt	1
-bus rapid transit	brt	1
-快速公交系统	brt	2
-C2C	c2c	1
-consumer-to-consumer	c2c	1
-C⁴ISR	c4isr	1
-军事指挥信息系统	c4isr	2
-军队指挥自动化系统	c4isr	2
-CAD	cad	1
-computer-aided design	cad	1
-计算机辅助设计	cad	2
-CAI	cai	1
-computer-aided instruction	cai	1
-计算机辅助教学	cai	2
-CATV	catv	1
-cable television	catv	1
-有线电视	catv	2
-CBA	cba	1
-Chinese Basketball Association	cba	1
-中国篮球协会	cba	2
-CBD	cbd	1
-central business district	cbd	1
-中央商务区	cbd	2
-CCC	ccc	1
-China Compulsory Certification	ccc	1
-中国强制性产品认证	ccc	2
-3C认证	ccc	2
-CCD	ccd	1
-charge-coupled device	ccd	1
-电荷耦合器件	ccd	2
-CCTV	cctv	1
-China Central Television	cctv	1
-中国中央电视台	cctv	2
-CD	cd	1
-compact disc	cd	1
-激光唱盘	cd	2
-CDC	cdc	1
-Centerfor Disease Control and Prevention	cdc	1
-疾病预防控制中心	cdc	2
-疾控中心	cdc	2
-CDMA	cdma	1
-code division multiple aceess	cdma	1
-码分多址	cdma	2
-CD-R	cdr	1
-compact disc-recordable	cdr	1
-可录光盘	cdr	2
-CD-ROM	cdrom	1
-compact disc read-only memory	cdrom	1
-只读光盘	cdrom	2
-CD-RW	cdrw	1
-compact disc-rewritable	cdrw	1
-可擦写光盘	cdrw	2
-CEO	ceo	1
-chief executive officer	ceo	1
-首席执行官	ceo	2
-CEPA	cepa	1
-Closer Economic Partnership Arrangerment	cepa	1
-关于建立更紧密经贸关系的安排	cepa	2
-CET	cet	1
-College English Test	cet	1
-大学英语考试	cet	2
-CFO	cfo	1
-chief financial officer	cfo	1
-首席财务官	cfo	2
-CI	ci	1
-corporate identity	ci	1
-corporate image	ci	1
-企业标志	ci	2
-企业形象	ci	2
-CIA	cia	1
-Central Intelligence Agency	cia	1
-美国中央情报局	cia	2
-美国中情局	cia	2
-CIMS	cims	1
-computer integrated manufacturing system	cims	1
-计算机集成制造系统	cims	2
-CIP	cip	1
-cataloguing in publication	cip	1
-在版编目	cip	2
-预编目录	cip	2
-CMOS	cmos	1
-complementary metal oxide semiconductor	cmos	1
-互补性氧化金属半导体	cmos	2
-CNN	cnn	1
-Cable News Network	cnn	1
-美国有线电视新闻网	cnn	2
-CPA	cpa	1
-certified publicac countant	cpa	1
-注册会计师	cpa	2
-CPI	cpi	1
-consumer price index	cpi	1
-消费者价格指数	cpi	2
-居民消费价格指数	cpi	2
-CPU	cpu	1
-central processing unit	cpu	1
-中央处理器	cpu	2
-CRT	crt	1
-cathode ray tube	crt	1
-阴极射线管	crt	2
-CT	ct	1
-computerized tomography	ct	1
-计算机层析成像	ct	2
-计算机层析成像仪	ct	2
-DC	dc	1
-digital camcra	dc	1
-数字相机	dc	2
-DIY	diy	1
-do it yourself	diy	1
-自己动手做	diy	2
-DJ	dj	1
-disc jockey	dj	1
-音响师	dj	2
-电台音乐节目主持人	dj	2
-DNA	dna	1
-deoxyribo nucleic acid	dna	1
-脱氧核糖核酸	dna	2
-DOS	dos	1
-disk operating system	dos	1
-磁盘操作系统	dos	2
-DSL	dsl	1
-digital subseriber line	dsl	1
-数字用户线	dsl	2
-DV	dv	1
-digital video	dv	1
-数字视频	dv	2
-数字摄像机	dv	2
-DVD	dvd	1
-digital video disc	dvd	1
-数字激光视盘	dvd	2
-EBD	ebd	1
-electronic brakeforce distribution	ebd	1
-电子制动力分配系统	ebd	2
-ECFA	ecfa	1
-Economic Cooperation Framework Agreement	ecfa	1
-海峡两岸经济合作框架协议	ecfa	2
-ED	ed	1
-erectile dysfunction	ed	1
-男性勃起功能障碍	ed	2
-EDI	edi	1
-electronic data interchange	edi	1
-电子数据交换	edi	2
-E-mail	email	1
-电子邮件	email	2
-EMBA	emba	1
-Executive Master of Business Administration	emba	1
-高级管理人员工商管理硕士	emba	2
-EMS	ems	1
-express mail service	ems	1
-邮政特快专递	ems	2
-EQ	eq	1
-emotional quotient	eq	1
-情商	eq	2
-ETC	etc	1
-electronic toll collection	etc	1
-电子不停车收费系统	etc	2
-EV	ev	1
-electric vehicle	ev	1
-电动汽车	ev	2
-F1	f1	1
-formula 1	f1	1
-一级方程式锦标赛	f1	2
-FAX	fax	1
-facsimile	fax	1
-传真件	fax	2
-传真	fax	2
-传真系统	fax	2
-FBI	fbi	1
-Federal Bureau of Investigation	fbi	1
-美国联邦调查局	fbi	2
-FM	fm	1
-frequency modulation	fm	1
-调频	fm	2
-FTA	fta	1
-free trade agreement	fta	1
-free trade area	fta	1
-自由贸易协定	fta	2
-自由贸易区	fta	2
-GB	gb	1
-国家标准	gb	2
-中国国家标准	gb	2
-国标	gb	2
-GDP	gdp	1
-gross domestic product	gdp	1
-国内生产总值	gdp	2
-GIS	gis	1
-geographic information system	gis	1
-地理信息系统	gis	2
-GMAT	gmat	1
-Graduate Management Admission Test	gmat	1
-管理专业研究生入学资格考试	gmat	2
-GMP	gmp	1
-Good Manufacturing Practices	gmp	1
-药品生产质量管埋规范	gmp	2
-GNP	gnp	1
-gross national product	gnp	1
-国民生产总值	gnp	2
-GPS	gps	1
-Global Positioning System	gps	1
-全球定位系统	gps	2
-GRE	gre	1
-Graduate Record Examination	gre	1
-研究生入学资格考试	gre	2
-GSM	gsm	1
-Global System for Mobile Communications	gsm	1
-全球移动通信系统	gsm	2
-HDMI	hdmi	1
-high definition multimed iainterface	hdmi	1
-高清晰度多媒体接口	hdmi	2
-HDTV	hdtv	1
-high definition television	hdtv	1
-高清晰度电视	hdtv	2
-Hi-Fi	hifi	1
-high fidelity	hifi	1
-高保真度	hifi	2
-HIV	hiv	1
-human immunodeficiency virus	hiv	1
-人类免疫缺陷病毒	hiv	2
-艾滋病病毒	hiv	2
-HR	hr	1
-human resources	hr	1
-人力资源	hr	2
-HSK	hsk	1
-汉语水平考试	hsk	2
-IC	ic	1
-integrated circuit	ic	1
-集成电路	ic	2
-ICP	icp	1
-Internet content provider	icp	1
-因特网内容提供者	icp	2
-ICU	icu	1
-intensive care unit	icu	1
-重症监护治疗病房	icu	2
-重症监护室	icu	2
-IDC	idc	1
-internet data center	idc	1
-互联网数据中心	idc	2
-IMAX	imax	1
-image maximum	imax	1
-巨幕电影放映系统	imax	2
-IMF	imf	1
-International Monetary Fund	imf	1
-国际货币基金组织	imf	2
-IOC	ioc	1
-International Olympic Committee	ioc	1
-国际奥林匹克委员会	ioc	2
-IP	ip	1
-Internet protocol	ip	1
-网际协议	ip	2
-IPO	ipo	1
-initial public offering	ipo	1
-首次公开募股	ipo	2
-IPTV	iptv	1
-Internet protocol television	iptv	1
-网络电视	iptv	2
-IQ	iq	1
-intelligence quotient	iq	1
-智商	iq	2
-ISBN	isbn	1
-International Standard Book Number	isbn	1
-国际标准书号	isbn	2
-ISO	iso	1
-International Organization for Standardization	iso	1
-国际标准化组织	iso	2
-ISP	isp	1
-Internet service provider	isp	1
-因特网服务提供者	isp	2
-ISSN	issn	1
-International Standard Serial Number	issn	1
-国际标准期刊号	issn	2
-IT	it	1
-information technology	it	1
-信息技术	it	2
-ITS	its	1
-intelligent transportation system	its	1
-智能交通系统	its	2
-KTV	ktv	1
-LCD	lcd	1
-liquid crystal display	lcd	1
-液晶显示	lcd	2
-液晶显示器	lcd	2
-LD	ld	1
-laser disc	ld	1
-激光视盘	ld	2
-LED	led	1
-light emitting diode	led	1
-发光二极管	led	2
-LPG	lpg	1
-liquefied petroleum gas	lpg	1
-液化石油气	lpg	2
-M0	m0	1
-流通中现金	m0	2
-M1	m1	1
-狭义货币供应量	m1	2
-M2	m2	1
-广义货币供应量	m2	2
-MBA	mba	1
-Master of Business Administration	mba	1
-工商管理硕士	mba	2
-MP3	mp3	1
-MPEG 1 audio layer 3	mp3	1
-MP4	mp4	1
-MPA	mpa	1
-Master of Public Administration	mpa	1
-公共管理硕士	mpa	2
-MPEG	mpeg	1
-Motion Pictures Experts Group	mpeg	1
-运动图像压缩标准	mpeg	2
-MRI	mri	1
-magnetic resonance imaging	mri	1
-磁共振	mri	2
-MTV	mtv	1
-music television	mtv	1
-音乐电视	mtv	2
-MV	mv	1
-music video	mv	1
-NBA	nba	1
-National Basketball Association	nba	1
-全国篮球协会	nba	2
-美国全国篮球协会	nba	2
-NCAP	ncap	1
-new car assessment program	ncap	1
-新车安全评价规程	ncap	2
-NG	ng	1
-no good	ng	1
-不合格	ng	2
-不好	ng	2
-NGO	ngo	1
-non governmental organization	ngo	1
-非政府组织	ngo	2
-NHK	nhk	1
-Nippon Hoso Kyokai	nhk	1
-日本放送协会	nhk	2
-日本广播协会	nhk	2
-NMD	nmd	1
-national missile defense	nmd	1
-美国国家导弹防御系统	nmd	2
-O2O	o2o	1
-O to O	o2o	1
-online-to-offline	o2o	1
-OA	oa	1
-office automation	oa	1
-办公自动化	oa	2
-OCR	ocr	1
-optical character recognition	ocr	1
-光学字符识别	ocr	2
-OEM	oem	1
-original equipment manufacturer	oem	1
-原始设备制造商	oem	2
-OL	ol	1
-office lady	ol	1
-办公室职业女性	ol	2
-OLED	oled	1
-organic light emitting diode	oled	1
-有机发光二极管	oled	2
-OPEC	opec	1
-Organization of the Petroleum Exporting Countries	opec	1
-石油输出国组织	opec	2
-欧佩克	opec	2
-OTC	otc	1
-over the counter	otc	1
-非处方药	otc	2
-PC	pc	1
-personal computer	pc	1
-个人计算机	pc	2
-PDA	pda	1
-personal digital assistant	pda	1
-个人数字助理	pda	2
-PDP	pdp	1
-plasma display panel	pdp	1
-等离子显示板	pdp	2
-等离子体显示板	pdp	2
-PE	pe	1
-price earningsratio	pe	1
-poly ethylene	pe	1
-市盈率	pe	2
-聚乙烯	pe	2
-PET	pet	1
-positron emission tomography	pet	1
-正电子发射断层扫描装置	pet	2
-PETS	pets	1
-Public English Test System	pets	1
-全国英语等级考试	pets	2
-pH	ph	1
-potentield hydrogene	ph	1
-PK	pk	1
-player killing	pk	1
-对决	pk	2
-PM	pm	1
-particulate matter	pm	1
-颗粒物	pm	2
-PM2.5	pm25	1
-细颗粒物	pm25	2
-PM10	pm10	1
-可吸入颗粒物	pm10	2
-PMI	pmi	1
-purchasing manager's index	pmi	1
-制造业采购经理指数	pmi	2
-POS	pos	1
-point of sale	pos	1
-销售点	pos	2
-PPA	ppa	1
-phenyl propanol amine	ppa	1
-苯丙醇胺	ppa	2
-N-去甲麻黄碱	ppa	2
-PPI	ppi	1
-producer price index	ppi	1
-工业品出厂价格指数	ppi	2
-PS	ps	1
-Photoshop	ps	1
-PSC	psc	1
-普通话水平测试	psc	2
-PT	pt	1
-particular transfer	pt	1
-特别转让	pt	2
-PVC	pvc	1
-poly vinyl chloride	pvc	1
-聚氯乙烯	pvc	2
-QC	qc	1
-quality control	qc	1
-质量管理	qc	2
-QDII	qdii	1
-qualified domestic institutional investor	qdii	1
-合格境内机构投资者	qdii	2
-QFII	qfii	1
-qualified foreign institutional investor	qfii	1
-合格境外机构投资者	qfii	2
-QQ	qq	1
-QS	qs	1
-quality safety	qs	1
-质量安全	qs	2
-食品质量安全市场准入	qs	2
-RAM	ram	1
-random access memory	ram	1
-随机存取存储器	ram	2
-RFID	rfid	1
-radio frequency identification	rfid	1
-射频识别	rfid	2
-RMB	rmb	1
-人民币	rmb	2
-RNA	rna	1
-ribo nucleic acid	rna	1
-核糖核酸	rna	2
-ROM	rom	1
-read only memory	rom	1
-只读存储器	rom	2
-RS	rs	1
-remote sensing	rs	1
-遥感技术	rs	2
-SARS	sars	1
-Severe Acute Respiratory Syndrome	sars	1
-严重急性呼吸综合征	sars	2
-非典型肺炎	sars	2
-SCI	sci	1
-science citation index	sci	1
-科学引文索引	sci	2
-SDR	sdr	1
-special drawing rights	sdr	1
-特别提款权	sdr	2
-SIM	sim	1
-Subscriber Identification Module	sim	1
-用户身份识别模块	sim	2
-SNG	sng	1
-satellite news gathering	sng	1
-卫星新闻采集	sng	2
-卫星新闻采访车	sng	2
-SNS	sns	1
-social networking service	sns	1
-social networking site	sns	1
-社交网络服务	sns	2
-社交网站	sns	2
-SOHO	soho	1
-small office home office	soho	1
-小型家居办公室	soho	2
-SOS	sos	1
-save our souls	sos	1
-紧急呼救	sos	2
-救命	sos	2
-求救	sos	2
-求助	sos	2
-SSD	ssd	1
-solid state disk	ssd	1
-固态硬盘	ssd	2
-ST	st	1
-special treatment	st	1
-特别处理	st	2
-STD	std	1
-sexually transmitted disease	std	1
-性传播疾病	std	2
-SUV	suv	1
-sport utility vehicle	suv	1
-运动型多功能车	suv	2
-Tel	tel	1
-telephone	tel	1
-电话	tel	2
-电话号码	tel	2
-TMD	tmd	1
-theater missile defense	tmd	1
-美国战区导弹防御系统	tmd	2
-TNT	tnt	1
-trinitrotoluene	tnt	1
-梯恩梯	tnt	2
-TV	tv	1
-television	tv	1
-电视	tv	2
-UFO	ufo	1
-unidentified flying object	ufo	1
-不明飞行物	ufo	2
-UHD	uhd	1
-ultra high definition	uhd	1
-超高清	uhd	2
-USB	usb	1
-Universal Serial Bus	usb	1
-通用串行总线	usb	2
-UV	uv	1
-ultra violet	uv	1
-紫外线	uv	2
-VCD	vcd	1
-video compact disc	vcd	1
-激光压缩视盘	vcd	2
-VCR	vcr	1
-video cassette recorder	vcr	1
-盒式磁带录像机	vcr	2
-录像	vcr	2
-短片	vcr	2
-VIP	vip	1
-very important person	vip	1
-要人	vip	2
-贵宾	vip	2
-VOD	vod	1
-video on demand	vod	1
-视频点播	vod	2
-VR	vr	1
-virtual reality	vr	1
-虚拟现实	vr	2
-vs	vs	1
-versus	vs	1
-对比	vs	2
-WAP	wap	1
-wireless application protocol	wap	1
-无线应用协议	wap	2
-WC	wc	1
-water closet	wc	1
-盥洗室	wc	2
-厕所	wc	2
-WHO	who	1
-World Health Organization	who	1
-世界卫生组织	who	2
-Wi-Fi	wifi	1
-WSK	wsk	1
-全国外语水平考试	wsk	2
-WTO	wto	1
-World Trade Organization	wto	1
-世界贸易组织	wto	2
-WWW	www	1
-world wide web	www	1
-万维网	www	2
+ABC	abc	0
+ABS	abs	0
+anti-lock braking system	abs	0
+防抱死制动系统	abs	1
+ADSL	adsl	0
+asymmetric digital subscriber line	adsl	0
+不对称数字用户线	adsl	1
+AI	ai	0
+artificial intelligence	ai	0
+人工智能	ai	1
+AIDS	aids	0
+Acquired Immune Deficiency Syndrome	aids	0
+获得性免疫缺陷综合征	aids	1
+艾滋病	aids	1
+AM	am	0
+amplitude modulation	am	0
+调幅	am	1
+APC	apc	0
+复方阿司匹林	apc	1
+APEC	apec	0
+Asia Pacific Economic Cooperation	apec	0
+亚太经济合作组织	apec	1
+API	api	0
+air pollution index	api	0
+空气污染指数	api	1
+AQ	aq	0
+adversity quotient	aq	0
+逆境商数	aq	1
+ATM	atm	0
+automated teller machine	atm	0
+AV	av	0
+audio visual	av	0
+音频和视频	av	1
+B2B	b2b	0
+B to B	b2b	0
+business-to-business	b2b	0
+B2C	b2c	0
+B to C	b2c	0
+business-to-customer	b2c	0
+BBC	bbc	0
+British Broadcasting Corporation	bbc	0
+英国广播公司	bbc	1
+BBS	bbs	0
+bulletin board system	bbs	0
+bulletin board service	bbs	0
+公告板系统	bbs	1
+公告板服务	bbs	1
+BD	bd	0
+Blu-ray Disc	bd	0
+蓝光光盘	bd	1
+BEC	bec	0
+Business English Certificate	bec	0
+商务英语证书	bec	1
+BP	bp	0
+beeper	bp	0
+BRT	brt	0
+bus rapid transit	brt	0
+快速公交系统	brt	1
+C2C	c2c	0
+consumer-to-consumer	c2c	0
+C⁴ISR	c4isr	0
+军事指挥信息系统	c4isr	1
+军队指挥自动化系统	c4isr	1
+CAD	cad	0
+computer-aided design	cad	0
+计算机辅助设计	cad	1
+CAI	cai	0
+computer-aided instruction	cai	0
+计算机辅助教学	cai	1
+CATV	catv	0
+cable television	catv	0
+有线电视	catv	1
+CBA	cba	0
+Chinese Basketball Association	cba	0
+中国篮球协会	cba	1
+CBD	cbd	0
+central business district	cbd	0
+中央商务区	cbd	1
+CCC	ccc	0
+China Compulsory Certification	ccc	0
+中国强制性产品认证	ccc	1
+3C认证	ccc	1
+CCD	ccd	0
+charge-coupled device	ccd	0
+电荷耦合器件	ccd	1
+CCTV	cctv	0
+China Central Television	cctv	0
+中国中央电视台	cctv	1
+CD	cd	0
+compact disc	cd	0
+激光唱盘	cd	1
+CDC	cdc	0
+Centerfor Disease Control and Prevention	cdc	0
+疾病预防控制中心	cdc	1
+疾控中心	cdc	1
+CDMA	cdma	0
+code division multiple aceess	cdma	0
+码分多址	cdma	1
+CD-R	cdr	0
+compact disc-recordable	cdr	0
+可录光盘	cdr	1
+CD-ROM	cdrom	0
+compact disc read-only memory	cdrom	0
+只读光盘	cdrom	1
+CD-RW	cdrw	0
+compact disc-rewritable	cdrw	0
+可擦写光盘	cdrw	1
+CEO	ceo	0
+chief executive officer	ceo	0
+首席执行官	ceo	1
+CEPA	cepa	0
+Closer Economic Partnership Arrangerment	cepa	0
+关于建立更紧密经贸关系的安排	cepa	1
+CET	cet	0
+College English Test	cet	0
+大学英语考试	cet	1
+CFO	cfo	0
+chief financial officer	cfo	0
+首席财务官	cfo	1
+CI	ci	0
+corporate identity	ci	0
+corporate image	ci	0
+企业标志	ci	1
+企业形象	ci	1
+CIA	cia	0
+Central Intelligence Agency	cia	0
+美国中央情报局	cia	1
+美国中情局	cia	1
+CIMS	cims	0
+computer integrated manufacturing system	cims	0
+计算机集成制造系统	cims	1
+CIP	cip	0
+cataloguing in publication	cip	0
+在版编目	cip	1
+预编目录	cip	1
+CMOS	cmos	0
+complementary metal oxide semiconductor	cmos	0
+互补性氧化金属半导体	cmos	1
+CNN	cnn	0
+Cable News Network	cnn	0
+美国有线电视新闻网	cnn	1
+CPA	cpa	0
+certified publicac countant	cpa	0
+注册会计师	cpa	1
+CPI	cpi	0
+consumer price index	cpi	0
+消费者价格指数	cpi	1
+居民消费价格指数	cpi	1
+CPU	cpu	0
+central processing unit	cpu	0
+中央处理器	cpu	1
+CRT	crt	0
+cathode ray tube	crt	0
+阴极射线管	crt	1
+CT	ct	0
+computerized tomography	ct	0
+计算机层析成像	ct	1
+计算机层析成像仪	ct	1
+DC	dc	0
+digital camcra	dc	0
+数字相机	dc	1
+DIY	diy	0
+do it yourself	diy	0
+自己动手做	diy	1
+DJ	dj	0
+disc jockey	dj	0
+音响师	dj	1
+电台音乐节目主持人	dj	1
+DNA	dna	0
+deoxyribo nucleic acid	dna	0
+脱氧核糖核酸	dna	1
+DOS	dos	0
+disk operating system	dos	0
+磁盘操作系统	dos	1
+DSL	dsl	0
+digital subseriber line	dsl	0
+数字用户线	dsl	1
+DV	dv	0
+digital video	dv	0
+数字视频	dv	1
+数字摄像机	dv	1
+DVD	dvd	0
+digital video disc	dvd	0
+数字激光视盘	dvd	1
+EBD	ebd	0
+electronic brakeforce distribution	ebd	0
+电子制动力分配系统	ebd	1
+ECFA	ecfa	0
+Economic Cooperation Framework Agreement	ecfa	0
+海峡两岸经济合作框架协议	ecfa	1
+ED	ed	0
+erectile dysfunction	ed	0
+男性勃起功能障碍	ed	1
+EDI	edi	0
+electronic data interchange	edi	0
+电子数据交换	edi	1
+E-mail	email	0
+电子邮件	email	1
+EMBA	emba	0
+Executive Master of Business Administration	emba	0
+高级管理人员工商管理硕士	emba	1
+EMS	ems	0
+express mail service	ems	0
+邮政特快专递	ems	1
+EQ	eq	0
+emotional quotient	eq	0
+情商	eq	1
+ETC	etc	0
+electronic toll collection	etc	0
+电子不停车收费系统	etc	1
+EV	ev	0
+electric vehicle	ev	0
+电动汽车	ev	1
+F1	f1	0
+formula 1	f1	0
+一级方程式锦标赛	f1	1
+FAX	fax	0
+facsimile	fax	0
+传真件	fax	1
+传真	fax	1
+传真系统	fax	1
+FBI	fbi	0
+Federal Bureau of Investigation	fbi	0
+美国联邦调查局	fbi	1
+FM	fm	0
+frequency modulation	fm	0
+调频	fm	1
+FTA	fta	0
+free trade agreement	fta	0
+free trade area	fta	0
+自由贸易协定	fta	1
+自由贸易区	fta	1
+GB	gb	0
+国家标准	gb	1
+中国国家标准	gb	1
+国标	gb	1
+GDP	gdp	0
+gross domestic product	gdp	0
+国内生产总值	gdp	1
+GIS	gis	0
+geographic information system	gis	0
+地理信息系统	gis	1
+GMAT	gmat	0
+Graduate Management Admission Test	gmat	0
+管理专业研究生入学资格考试	gmat	1
+GMP	gmp	0
+Good Manufacturing Practices	gmp	0
+药品生产质量管埋规范	gmp	1
+GNP	gnp	0
+gross national product	gnp	0
+国民生产总值	gnp	1
+GPS	gps	0
+Global Positioning System	gps	0
+全球定位系统	gps	1
+GRE	gre	0
+Graduate Record Examination	gre	0
+研究生入学资格考试	gre	1
+GSM	gsm	0
+Global System for Mobile Communications	gsm	0
+全球移动通信系统	gsm	1
+HDMI	hdmi	0
+high definition multimed iainterface	hdmi	0
+高清晰度多媒体接口	hdmi	1
+HDTV	hdtv	0
+high definition television	hdtv	0
+高清晰度电视	hdtv	1
+Hi-Fi	hifi	0
+high fidelity	hifi	0
+高保真度	hifi	1
+HIV	hiv	0
+human immunodeficiency virus	hiv	0
+人类免疫缺陷病毒	hiv	1
+艾滋病病毒	hiv	1
+HR	hr	0
+human resources	hr	0
+人力资源	hr	1
+HSK	hsk	0
+汉语水平考试	hsk	1
+IC	ic	0
+integrated circuit	ic	0
+集成电路	ic	1
+ICP	icp	0
+Internet content provider	icp	0
+因特网内容提供者	icp	1
+ICU	icu	0
+intensive care unit	icu	0
+重症监护治疗病房	icu	1
+重症监护室	icu	1
+IDC	idc	0
+internet data center	idc	0
+互联网数据中心	idc	1
+IMAX	imax	0
+image maximum	imax	0
+巨幕电影放映系统	imax	1
+IMF	imf	0
+International Monetary Fund	imf	0
+国际货币基金组织	imf	1
+IOC	ioc	0
+International Olympic Committee	ioc	0
+国际奥林匹克委员会	ioc	1
+IP	ip	0
+Internet protocol	ip	0
+网际协议	ip	1
+IPO	ipo	0
+initial public offering	ipo	0
+首次公开募股	ipo	1
+IPTV	iptv	0
+Internet protocol television	iptv	0
+网络电视	iptv	1
+IQ	iq	0
+intelligence quotient	iq	0
+智商	iq	1
+ISBN	isbn	0
+International Standard Book Number	isbn	0
+国际标准书号	isbn	1
+ISO	iso	0
+International Organization for Standardization	iso	0
+国际标准化组织	iso	1
+ISP	isp	0
+Internet service provider	isp	0
+因特网服务提供者	isp	1
+ISSN	issn	0
+International Standard Serial Number	issn	0
+国际标准期刊号	issn	1
+IT	it	0
+information technology	it	0
+信息技术	it	1
+ITS	its	0
+intelligent transportation system	its	0
+智能交通系统	its	1
+KTV	ktv	0
+LCD	lcd	0
+liquid crystal display	lcd	0
+液晶显示	lcd	1
+液晶显示器	lcd	1
+LD	ld	0
+laser disc	ld	0
+激光视盘	ld	1
+LED	led	0
+light emitting diode	led	0
+发光二极管	led	1
+LPG	lpg	0
+liquefied petroleum gas	lpg	0
+液化石油气	lpg	1
+M0	m0	0
+流通中现金	m0	1
+M1	m1	0
+狭义货币供应量	m1	1
+M2	m2	0
+广义货币供应量	m2	1
+MBA	mba	0
+Master of Business Administration	mba	0
+工商管理硕士	mba	1
+MP3	mp3	0
+MPEG 1 audio layer 3	mp3	0
+MP4	mp4	0
+MPA	mpa	0
+Master of Public Administration	mpa	0
+公共管理硕士	mpa	1
+MPEG	mpeg	0
+Motion Pictures Experts Group	mpeg	0
+运动图像压缩标准	mpeg	1
+MRI	mri	0
+magnetic resonance imaging	mri	0
+磁共振	mri	1
+MTV	mtv	0
+music television	mtv	0
+音乐电视	mtv	1
+MV	mv	0
+music video	mv	0
+NBA	nba	0
+National Basketball Association	nba	0
+全国篮球协会	nba	1
+美国全国篮球协会	nba	1
+NCAP	ncap	0
+new car assessment program	ncap	0
+新车安全评价规程	ncap	1
+NG	ng	0
+no good	ng	0
+不合格	ng	1
+不好	ng	1
+NGO	ngo	0
+non governmental organization	ngo	0
+非政府组织	ngo	1
+NHK	nhk	0
+Nippon Hoso Kyokai	nhk	0
+日本放送协会	nhk	1
+日本广播协会	nhk	1
+NMD	nmd	0
+national missile defense	nmd	0
+美国国家导弹防御系统	nmd	1
+O2O	o2o	0
+O to O	o2o	0
+online-to-offline	o2o	0
+OA	oa	0
+office automation	oa	0
+办公自动化	oa	1
+OCR	ocr	0
+optical character recognition	ocr	0
+光学字符识别	ocr	1
+OEM	oem	0
+original equipment manufacturer	oem	0
+原始设备制造商	oem	1
+OL	ol	0
+office lady	ol	0
+办公室职业女性	ol	1
+OLED	oled	0
+organic light emitting diode	oled	0
+有机发光二极管	oled	1
+OPEC	opec	0
+Organization of the Petroleum Exporting Countries	opec	0
+石油输出国组织	opec	1
+欧佩克	opec	1
+OTC	otc	0
+over the counter	otc	0
+非处方药	otc	1
+PC	pc	0
+personal computer	pc	0
+个人计算机	pc	1
+PDA	pda	0
+personal digital assistant	pda	0
+个人数字助理	pda	1
+PDP	pdp	0
+plasma display panel	pdp	0
+等离子显示板	pdp	1
+等离子体显示板	pdp	1
+PE	pe	0
+price earningsratio	pe	0
+poly ethylene	pe	0
+市盈率	pe	1
+聚乙烯	pe	1
+PET	pet	0
+positron emission tomography	pet	0
+正电子发射断层扫描装置	pet	1
+PETS	pets	0
+Public English Test System	pets	0
+全国英语等级考试	pets	1
+pH	ph	0
+potentield hydrogene	ph	0
+PK	pk	0
+player killing	pk	0
+对决	pk	1
+PM	pm	0
+particulate matter	pm	0
+颗粒物	pm	1
+PM2.5	pm25	0
+细颗粒物	pm25	1
+PM10	pm10	0
+可吸入颗粒物	pm10	1
+PMI	pmi	0
+purchasing manager's index	pmi	0
+制造业采购经理指数	pmi	1
+POS	pos	0
+point of sale	pos	0
+销售点	pos	1
+PPA	ppa	0
+phenyl propanol amine	ppa	0
+苯丙醇胺	ppa	1
+N-去甲麻黄碱	ppa	1
+PPI	ppi	0
+producer price index	ppi	0
+工业品出厂价格指数	ppi	1
+PS	ps	0
+Photoshop	ps	0
+PSC	psc	0
+普通话水平测试	psc	1
+PT	pt	0
+particular transfer	pt	0
+特别转让	pt	1
+PVC	pvc	0
+poly vinyl chloride	pvc	0
+聚氯乙烯	pvc	1
+QC	qc	0
+quality control	qc	0
+质量管理	qc	1
+QDII	qdii	0
+qualified domestic institutional investor	qdii	0
+合格境内机构投资者	qdii	1
+QFII	qfii	0
+qualified foreign institutional investor	qfii	0
+合格境外机构投资者	qfii	1
+QQ	qq	0
+QS	qs	0
+quality safety	qs	0
+质量安全	qs	1
+食品质量安全市场准入	qs	1
+RAM	ram	0
+random access memory	ram	0
+随机存取存储器	ram	1
+RFID	rfid	0
+radio frequency identification	rfid	0
+射频识别	rfid	1
+RMB	rmb	0
+人民币	rmb	1
+RNA	rna	0
+ribo nucleic acid	rna	0
+核糖核酸	rna	1
+ROM	rom	0
+read only memory	rom	0
+只读存储器	rom	1
+RS	rs	0
+remote sensing	rs	0
+遥感技术	rs	1
+SARS	sars	0
+Severe Acute Respiratory Syndrome	sars	0
+严重急性呼吸综合征	sars	1
+非典型肺炎	sars	1
+SCI	sci	0
+science citation index	sci	0
+科学引文索引	sci	1
+SDR	sdr	0
+special drawing rights	sdr	0
+特别提款权	sdr	1
+SIM	sim	0
+Subscriber Identification Module	sim	0
+用户身份识别模块	sim	1
+SNG	sng	0
+satellite news gathering	sng	0
+卫星新闻采集	sng	1
+卫星新闻采访车	sng	1
+SNS	sns	0
+social networking service	sns	0
+social networking site	sns	0
+社交网络服务	sns	1
+社交网站	sns	1
+SOHO	soho	0
+small office home office	soho	0
+小型家居办公室	soho	1
+SOS	sos	0
+save our souls	sos	0
+紧急呼救	sos	1
+救命	sos	1
+求救	sos	1
+求助	sos	1
+SSD	ssd	0
+solid state disk	ssd	0
+固态硬盘	ssd	1
+ST	st	0
+special treatment	st	0
+特别处理	st	1
+STD	std	0
+sexually transmitted disease	std	0
+性传播疾病	std	1
+SUV	suv	0
+sport utility vehicle	suv	0
+运动型多功能车	suv	1
+Tel	tel	0
+telephone	tel	0
+电话	tel	1
+电话号码	tel	1
+TMD	tmd	0
+theater missile defense	tmd	0
+美国战区导弹防御系统	tmd	1
+TNT	tnt	0
+trinitrotoluene	tnt	0
+梯恩梯	tnt	1
+TV	tv	0
+television	tv	0
+电视	tv	1
+UFO	ufo	0
+unidentified flying object	ufo	0
+不明飞行物	ufo	1
+UHD	uhd	0
+ultra high definition	uhd	0
+超高清	uhd	1
+USB	usb	0
+Universal Serial Bus	usb	0
+通用串行总线	usb	1
+UV	uv	0
+ultra violet	uv	0
+紫外线	uv	1
+VCD	vcd	0
+video compact disc	vcd	0
+激光压缩视盘	vcd	1
+VCR	vcr	0
+video cassette recorder	vcr	0
+盒式磁带录像机	vcr	1
+录像	vcr	1
+短片	vcr	1
+VIP	vip	0
+very important person	vip	0
+要人	vip	1
+贵宾	vip	1
+VOD	vod	0
+video on demand	vod	0
+视频点播	vod	1
+VR	vr	0
+virtual reality	vr	0
+虚拟现实	vr	1
+vs	vs	0
+versus	vs	0
+对比	vs	1
+WAP	wap	0
+wireless application protocol	wap	0
+无线应用协议	wap	1
+WC	wc	0
+water closet	wc	0
+盥洗室	wc	1
+厕所	wc	1
+WHO	who	0
+World Health Organization	who	0
+世界卫生组织	who	1
+Wi-Fi	wifi	0
+WSK	wsk	0
+全国外语水平考试	wsk	1
+WTO	wto	0
+World Trade Organization	wto	0
+世界贸易组织	wto	1
+WWW	www	0
+world wide web	www	0
+万维网	www	1
 # 现代汉语词典区段结束

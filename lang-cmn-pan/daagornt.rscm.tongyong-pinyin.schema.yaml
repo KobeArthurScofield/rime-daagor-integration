@@ -39,8 +39,6 @@ translator:
   prism: daagornt.tongyong-pinyin
   preedit_format:
     __include: daagorxp.lib.preedit-cmn-pan.yaml:/tongyong_pinyin?
-  comment_format:
-    __include: daagorxp.lib.comment-cmn-pan.yaml:/tongyong_pinyin?
 
 history:
   __include: daagornt.lib.shared.yaml:/history

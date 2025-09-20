@@ -3,6 +3,7 @@
 
 # IDE/editor specific files
 .idea/
+.vs/
 .vscode/
 *.swp
 *.swo
