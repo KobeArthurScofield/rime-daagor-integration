@@ -1,0 +1,16 @@
+# Rime Patch
+# encoding: utf-8
+# Patch for 60% size (XXXS) keyboard mapping
+# version: 1.25.268
+
+__patch:
+  key_binder/bindings+:
+    # Using brackets for paging
+    - { when: has_menu, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
+    # Using semicolon and apostrophe for navigating between candidates
+    - { when: has_menu, accept: semicolon, send: Up }
+    - { when: has_menu, accept: apostrophe, send: Down }
+    # Using slashes to navigate between code
+    - { when: composing, accept: slash, send: Left }
+    - { when: composing, accept: backslash, send: Right }

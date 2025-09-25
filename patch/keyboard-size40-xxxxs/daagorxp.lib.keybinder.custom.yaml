@@ -1,0 +1,69 @@
+# Rime Patch
+# encoding: utf-8
+# Patch for 40% size (XXXXS) keyboard mapping
+# version: 1.25.268
+
+__patch:
+  key_binder/bindings+:
+    # Using less and equal for paging
+    - { when: has_menu, accept: less, send: Page_Up }
+    - { when: has_menu, accept: greater, send: Page_Up }
+    # Using comma and period for navigating between candidates
+    - { when: has_menu, accept: comma, send: Up }
+    - { when: has_menu, accept: period, send: Down }
+    # Using colons to navigate between code
+    - { when: composing, accept: colon, send: Left }
+    - { when: composing, accept: semicolon, send: Right }
+    - { when: always, accept: semicolon+q, send: '1' }
+    - { when: always, accept: semicolon+w, send: '2' }
+    - { when: always, accept: semicolon+e, send: '3' }
+    - { when: always, accept: semicolon+r, send: '4' }
+    - { when: always, accept: semicolon+t, send: '5' }
+    - { when: always, accept: semicolon+y, send: '6' }
+    - { when: always, accept: semicolon+u, send: '7' }
+    - { when: always, accept: semicolon+i, send: '8' }
+    - { when: always, accept: semicolon+o, send: '9' }
+    - { when: always, accept: semicolon+p, send: '0' }
+    - { when: always, accept: semicolon+k, send: minus }
+    - { when: always, accept: semicolon+l, send: equal }
+    - { when: always, accept: semicolon+comma, send: grave }
+    - { when: always, accept: semicolon+period, send: asciitilde }
+    - { when: always, accept: semicolon+Q, send: exclam }
+    - { when: always, accept: semicolon+W, send: at }
+    - { when: always, accept: semicolon+E, send: numbersign }
+    - { when: always, accept: semicolon+R, send: dollar }
+    - { when: always, accept: semicolon+T, send: percent }
+    - { when: always, accept: semicolon+Y, send: asciicircum }
+    - { when: always, accept: semicolon+U, send: ampersand }
+    - { when: always, accept: semicolon+I, send: asterisk }
+    - { when: always, accept: semicolon+O, send: parenleft }
+    - { when: always, accept: semicolon+P, send: parenright }
+    - { when: always, accept: semicolon+K, send: underscore }
+    - { when: always, accept: semicolon+L, send: plus }
+    - { when: always, accept: colon+q, send: exclam }
+    - { when: always, accept: colon+w, send: at }
+    - { when: always, accept: colon+e, send: numbersign }
+    - { when: always, accept: colon+r, send: dollar }
+    - { when: always, accept: colon+t, send: percent }
+    - { when: always, accept: colon+y, send: asciicircum }
+    - { when: always, accept: colon+u, send: ampersand }
+    - { when: always, accept: colon+i, send: asterisk }
+    - { when: always, accept: colon+o, send: parenleft }
+    - { when: always, accept: colon+p, send: parenright }
+    - { when: always, accept: colon+k, send: underscore }
+    - { when: always, accept: colon+l, send: plus }
+    - { when: always, accept: semicolon+a, send: bracketleft }
+    - { when: always, accept: semicolon+s, send: bracketright }
+    - { when: always, accept: semicolon+d, send: backslash }
+    - { when: always, accept: semicolon+f, send: apostrophe }
+    - { when: always, accept: semicolon+g, send: slash }
+    - { when: always, accept: semicolon+A, send: braceleft }
+    - { when: always, accept: semicolon+S, send: braceright }
+    - { when: always, accept: semicolon+D, send: bar }
+    - { when: always, accept: semicolon+F, send: quotedbl }
+    - { when: always, accept: semicolon+G, send: question }
+    - { when: always, accept: colon+a, send: braceleft }
+    - { when: always, accept: colon+s, send: braceright }
+    - { when: always, accept: colon+d, send: bar }
+    - { when: always, accept: colon+f, send: quotedbl }
+    - { when: always, accept: colon+g, send: question }
