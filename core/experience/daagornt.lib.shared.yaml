@@ -20,6 +20,7 @@ engines:
     - abc_segmentor
     - punct_segmentor
     - affix_segmentor@quick_phrase
+    - affix_segmentor@extchar
     - fallback_segmentor
   translators:
     - echo_translator
@@ -29,6 +30,7 @@ engines:
     - table_translator@ascii_phrase
     - table_translator@ascii_char
     - table_translator@quick_phrase
+    - table_translator@extchar
     - history_translator@history
   filters:
     - simplifier@zh_cn_simp
@@ -105,6 +107,20 @@ quick_phrase:
   initial_quality: 13
   tag: quick_phrase
 
+extchar:
+  enable_charset_filter: false
+  enable_encoder: true
+  encode_commit_history: true
+  enable_completion: true
+  sentence_over_completion: true
+  enable_sentence: true
+  enable_user_dict: true
+  dictionary: ""
+  user_dict: daagorxp.lib.extchar
+  db_class: stabledb
+  initial_quality: 1
+  tag: extchar
+
 key_binder:
   import_preset: daagorxp.lib.keybinder
 
@@ -120,6 +136,7 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     punct: "^`([0-9]0?|[A-Za-z]+)$"
     quick_phrase: "^(A|C[aiqz]|D[itz]|L[CD]|Mc|N[cfst]|Pa|T[CDHMW]|S[sEHS])[-_0-9A-Za-z]*$"
+    extchar: "^(B5|C[56HMT]|G0|HC|ST|ZM)[0-9a-z]+$"
 
 menu:
   page_size: 6

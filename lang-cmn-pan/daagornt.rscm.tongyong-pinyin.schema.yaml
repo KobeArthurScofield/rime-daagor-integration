@@ -55,6 +55,9 @@ ascii_phrase:
 quick_phrase:
   __include: daagornt.lib.shared.yaml:/quick_phrase
 
+extchar:
+  __include: daagornt.lib.shared.yaml:/extchar?
+
 grammar:
   __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
 
