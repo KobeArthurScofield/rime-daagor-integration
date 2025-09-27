@@ -4,6 +4,7 @@
 
 目前支持：
 - 基于北方官话的[拼音注音方案输入](lang-cmn-pan/README-cmn-pan.md) (ISO 639-3 cmn)
+- 基于标准粤语的[粤语拼音方案输入](lang-cmn-pan/README-yue-yyef.md) (ISO 639-3 cmn)
 
 警告：所有方案及词库无法跨 ISO 639-3 语言代码使用！
 

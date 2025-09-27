@@ -3,3 +3,53 @@
 
 # ISO 639-3: yue
 # Extension tag: yyef (Cantonese standard 标准粤语/广州话)
+
+# Convert list:
+#   Main Support:
+#     Yale 耶魯拼音 [tone compacted]
+#     Guangdong Romanization 廣州話拼音方案 [partial expansion]
+#     ILE Romanization 教育學院拼音方案 [vowel compacted]
+#     Jyutping 香港語言學學會粵語拼音方案
+#   Supplimental:
+#     Standard Romanization 粵語標準羅馬字 [near modern differ]
+#     Meyer–Wempe [sibilant differ][lack -ptk]
+#     Barnett-Chao Romanization 粵語羅馬字 [sibilant differ]
+#     Cantonese Bopomofo (ROC) 粵語注音符號
+#     Cantonese Bopomofo (PRC) 粵語注音符號
+#     S. L. Wong Romanization 黃錫凌羅馬拼音
+#     Sidney Lau Romanization 劉錫祥拼音 [may mess up with tone]
+
+# Chart over the base of IPA
+
+# Tones
+# 陰平(55/53 ˥˥?/˥˧) <1> 陰上(35 ˧˥) <2> 陰去(33 ˧˧?) <3>
+# 陽平(11/21 ˩˩?/˨˩) <4> 陽上(23 ˨˧) <5> 陽去(22 ˨˨?) <6>
+# Tones below just use in special meaning
+# 高陰入(5 ˥) <7> 低陰入(3 ˧) <8> 陽入(2 ˨) <9>
+# 高陰入(5 ˥) <1> 低陰入(3 ˧) <3> 陽入(2 ˨) <6>
+# (13) <5>
+
+# [p] <p> [pʰ] <ph> [m] <m> [f] <f>
+# [t] <t> [tʰ] <th> [n] <n> [l] <l>
+# [k] <k> [kʰ] <kh> [ŋ] <ng> [h] <h>
+# [kʷ] <kw> [kʷʰ] <kwh> [w] <w>
+# [ts] <ts> [tsʰ] <tsh> [s] <s> [j] <j>
+#
+# [aː] <a-> [ɐ] <a> [ɛː] <e-> [e] <e> [iː] <i-> [ɪ] <i>
+# [ɔː] <o-> [o] <o> [uː] <u-> [ʊ] <u> [œː] <oe-> [ɵ] <eo> [yː] <y->
+# [m̩] <mm> [ŋ̩][ŋ̍] <nng>
+#
+# [-i] <-i> [-y] <-y> [-u] <-u>
+# [-m] <-m> [-n] <-n> [-ŋ] <-ng>
+# [-p̚] <-p> [-t̚] <-t> [-k̚] <-k>
+#
+# Exists in Guangdong Romanization
+# [ku] <ku> [kʰu] <khu>
+#
+# Exists in Barnett-Chao Romanization
+# [tɕ] <tsc> [tɕʰ] <tsch> [ɕ] <sc>
+#
+# Exists in Standard Romanization
+# [ʔ] <->
+# [ʧ] <tss> [ʧʰ] <tssh> [ʃ] <ss>
+# [ɨː] <i-->
