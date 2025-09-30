@@ -2,7 +2,7 @@
 # coding: utf-8
 #@db/db_name	daagornt.lib.asciichar
 #@db/db_type	tabledb
-# version: 1.25.261.0
+# version: 1.25.273.0
 #
 # 西文字符
 # 該西文字符對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
@@ -154,29 +154,29 @@
 Я	ja	1
 
 # 星座
-♈︎	aries	1
+♈︎	aries	2
 ♈	aries	1
-♉︎	taurus	1
+♉︎	taurus	2
 ♉	taurus	1
-♊︎	gemini	1
+♊︎	gemini	2
 ♊	gemini	1
-♋︎	cancer	1
+♋︎	cancer	2
 ♋	cancer	1
-♌︎	leo	1
+♌︎	leo	2
 ♌	leo	1
-♍︎	virgo	1
+♍︎	virgo	2
 ♍	virgo	1
-♎︎	libra	1
+♎︎	libra	2
 ♎	libra	1
-♏︎	scorpio	1
+♏︎	scorpio	2
 ♏	scorpio	1
-♐︎	sagittarius	1
+♐︎	sagittarius	2
 ♐	sagittarius	1
-♑︎	capricorn	1
+♑︎	capricorn	2
 ♑	capricorn	1
-♒︎	aquarius	1
+♒︎	aquarius	2
 ♒	aquarius	1
-♓︎	pisces	1
+♓︎	pisces	2
 ♓	pisces	1
 
 # 月份
