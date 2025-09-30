@@ -1,0 +1,30 @@
+# RIME: Dictionary (rime-terra-pinyin) process for Daagor Integration
+# encoding: utf-8#
+# Ver: 2.25.273.0
+#
+
+translator:
+  dictionary: jyut6ping3
+  max_homophones: 7
+  max_homographs: 7
+
+algebra:
+  normalizer:
+    __include: daagornt.lib.scribe-yue-yyef.yaml:/jyutping/input?
+  encoder:
+    __include: daagornt.lib.babel-yue-yyef.yaml:/jyutping/input
+
+zh_cn_simp:
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/zh_hk
+
+grammar:
+  language: zh-hans-t-essay-bgw

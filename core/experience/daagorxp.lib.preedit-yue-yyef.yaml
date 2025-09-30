@@ -1,0 +1,13 @@
+# RIME: Preedit convert library of Daagopr Integration
+# encoding: utf-8#
+# Ver: 1.25.241.0
+#
+
+jyutping:
+  __patch:
+    - daagornt.rscm.jyutping.schema.yaml:/rule_convert/preedit
+
+ile:
+  __patch:
+    - daagornt.rscm.ile.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.scribe-yue-yyef.yaml:/ile/output
