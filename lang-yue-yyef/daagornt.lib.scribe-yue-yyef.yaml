@@ -1,4 +1,43 @@
 # Rime: Rewrite engine for Daagor Integration
 # encoding: utf-8#
-# Ver 0.0.0.0
+# Ver 1.25.273.0
 #
+
+# ILE Romanizasion [Not enough tone]
+ile:
+  input:
+    __append:
+      - 'xform ¹ 1'
+      - 'xform ² 2'
+      - 'xform ³ 3'
+      - 'xform ⁴ 4'
+      - 'xform ⁵ 5'
+      - 'xform ⁶ 6'
+      - 'xform ⁷ 7'
+      - 'xform ⁸ 8'
+      - 'xform ⁹ 9'
+  output:
+    __append:
+      - 'xform 1 ¹'
+      - 'xform 2 ²'
+      - 'xform 3 ³'
+      - 'xform 4 ⁴'
+      - 'xform 5 ⁵'
+      - 'xform 6 ⁶'
+      - 'xform 7 ⁷'
+      - 'xform 8 ⁸'
+      - 'xform 9 ⁹'
+
+# Guangdong Romanization [Partial expansion]
+gdr:
+  input:
+    __append:
+  output:
+    __append:
+
+# Historical tone compacted
+yale:
+  input:
+    __append:
+  output:
+    __append:
