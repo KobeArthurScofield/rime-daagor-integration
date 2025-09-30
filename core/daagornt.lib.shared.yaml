@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.262.0
+# Ver: 1.25.273.0
 #
 
 engines:
@@ -75,7 +75,7 @@ ascii_phrase:
   dictionary: ""
   user_dict: daagornt.lib.asciiphrase
   db_class: stabledb
-  initial_quality: 12
+  initial_quality: 3
 
 ascii_char:
   enable_charset_filter: false
@@ -88,7 +88,7 @@ ascii_char:
   dictionary: ""
   user_dict: daagornt.lib.asciichar
   db_class: stabledb
-  initial_quality: 11
+  initial_quality: 2
 
 quick_phrase:
   enable_charset_filter: false
@@ -101,7 +101,7 @@ quick_phrase:
   dictionary: ""
   user_dict: daagornt.lib.quickphrase
   db_class: stabledb
-  initial_quality: 13
+  initial_quality: 3
   tag: quick_phrase
 
 key_binder:
