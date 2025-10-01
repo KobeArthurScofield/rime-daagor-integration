@@ -8,7 +8,7 @@ schema:
     - '專案匯集 丢狼'
   description: |
     國語羅馬字數碼聲調輸入專案
-    陰平 6  陽平 7  上聲 8  去聲 9  輕聲 0  入聲 -
+    陰平 7  陽平 8  上聲 9  去聲 0  輕聲 -  入聲 =
   version: '2.25.270.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico

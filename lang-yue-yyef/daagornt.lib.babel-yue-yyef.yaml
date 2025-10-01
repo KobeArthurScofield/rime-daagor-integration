@@ -1,6 +1,6 @@
 # Rime: Tone convert engine for Daagor Integration
 # encoding: utf-8#
-# Ver 1.25.273.0
+# Ver 1.25.274.0
 #
 
 # Jyutping [Modern standard]
@@ -65,7 +65,7 @@ jyutping:
       - 'xform et <e-><-t>'
       - 'xform ek <e-><-k>'
       - 'xform e([1-6]) <e-><$1>'
-      - 'xform ong <e-><-ng>'
+      - 'xform ong <o-><-ng>'
       - 'xform oi <o-><-y>'
       - 'xform ou <o><-u>'
       - 'xform on <o-><-n>'
@@ -89,6 +89,17 @@ jyutping:
       - 'xform ([1-6])$ <$1>'
   output:
     __append:
+      # Compatibility with other standards
+      - 'xform <ku> <kw>'
+      - 'xform <khu> <kwh>'
+      - 'xform <tsc> <ts>'
+      - 'xform <tsch> <tsh>'
+      - 'xform <sc> <s>'
+      - xform/<->//
+      - 'xform <tss> <ts>'
+      - 'xform <tssh> <tsh>'
+      - 'xform <ss> <s>'
+      - 'xform <i--> <i->'
       - 'xform <p> b'
       - 'xform <ph> p'
       - 'xform <-?m?m> m'
@@ -121,9 +132,9 @@ jyutping:
       - 'xform <-p> p'
       - 'xform <-t> t'
       - 'xform <-k> k'
-      - 'xform <[1-6]> $1'
+      - 'xform <([1-6])> $1'
 
-# ILE Romanizasion [Not enough tone]
+# ILE Romanizasion
 ile:
   input:
     __append:
@@ -184,7 +195,7 @@ ile:
       - 'xform et <e-><-t>'
       - 'xform ek <e-><-k>'
       - 'xform e([1-6]) <e-><$1>'
-      - 'xform ong <e-><-ng>'
+      - 'xform ong <o-><-ng>'
       - 'xform oi <o-><-y>'
       - 'xform ou <o><-u>'
       - 'xform on <o-><-n>'
@@ -211,6 +222,17 @@ ile:
       - 'xform (1-6)$ <$1>'
   output:
     __append:
+      # Compatibility with other standards
+      - 'xform <ku> <kw>'
+      - 'xform <khu> <kwh>'
+      - 'xform <tsc> <ts>'
+      - 'xform <tsch> <tsh>'
+      - 'xform <sc> <s>'
+      - xform/<->//
+      - 'xform <tss> <ts>'
+      - 'xform <tssh> <tsh>'
+      - 'xform <ss> <s>'
+      - 'xform <i--> <i->'
       - 'xform <p> b'
       - 'xform <ph> p'
       - 'xform <-?m?m> m'
@@ -245,7 +267,7 @@ ile:
       - 'xform <-p> p'
       - 'xform <-t> t'
       - 'xform <-k> k'
-      - 'xform <[1-9]> $1'
+      - 'xform <([1-9])> $1'
 
 # Guangdong Romanization [Partial expansion]
 gdr:

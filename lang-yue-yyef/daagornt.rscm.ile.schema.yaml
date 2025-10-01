@@ -8,7 +8,10 @@ schema:
     - '專案匯集 丢狼'
   description: |
     教育學院拼音輸入方案
-  version: '2.25.273.1904'
+    陰平 7  陰上 8  陰去 9
+    陽平 0  陽上 -  陽去 =
+    高陰入 7 低陰入 9 陽入 =
+  version: '2.25.274.1904'
   icon: daagornt.icon.imehk.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -19,7 +22,8 @@ engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wetyuiopasdfghjklzcbnm
+  alphabet: wetyuiopasdfghjklzbnm7890-=
+  finals: 7890-=
   delimiter: " ';"
   auto_select: false
   use_space: false
@@ -95,9 +99,10 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'xlit 123456789 7890-=79='
       - 'abbrev ^([a-z]).+$ $1'
       - 'abbrev ^([gk]w|ng|dz|ts).+$ $1'
+      - 'abbrev ^(.+)[1-9] $1'
+      - 'xlit 123456789 7890-=79='
   preedit:
     __append:
       - 'xlit 7890-= 123456'
