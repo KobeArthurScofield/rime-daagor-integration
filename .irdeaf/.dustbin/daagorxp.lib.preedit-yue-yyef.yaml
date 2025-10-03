@@ -11,3 +11,8 @@ ile:
   __patch:
     - daagornt.rscm.ile.schema.yaml:/rule_convert/preedit
     - daagornt.lib.scribe-yue-yyef.yaml:/ile/output
+
+gdr:
+  __patch:
+    - daagornt.rscm.gdr.schema.yaml:/rule_convert/preedit
+    - daagornt.lib.scribe-yue-yyef.yaml:/gdr/output

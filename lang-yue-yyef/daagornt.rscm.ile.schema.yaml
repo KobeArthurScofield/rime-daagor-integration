@@ -11,7 +11,7 @@ schema:
     陰平 7  陰上 8  陰去 9
     陽平 0  陽上 -  陽去 =
     高陰入 7 低陰入 9 陽入 =
-  version: '2.25.274.1904'
+  version: '2.25.276.1904'
   icon: daagornt.icon.imehk.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -40,7 +40,9 @@ translator:
     - daagornt.lib.dict-yue-yyef.yaml:/translator
   prism: daagornt.ile
   preedit_format:
-    __include: daagorxp.lib.preedit-yue-yyef.yaml:/ile?
+    __patch:
+      - /rule_convert/preedit
+      - daagornt.lib.scribe-yue-yyef.yaml:/ile/output
 
 history:
   __include: daagornt.lib.shared.yaml:/history

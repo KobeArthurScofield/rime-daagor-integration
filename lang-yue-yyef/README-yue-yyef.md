@@ -3,6 +3,9 @@
 目前包含：
 - 香港語言學學會粵語拼音方案 (Jyutping, jyutping)
 - 教育學院拼音方案 (ILE Romanization, ile)
+- 劉錫祥拼音方案 (Sidney Lau Romanization, slr)
+- 广州话拼音方案 (Guangdong Romanization, gdr)
+- 耶魯拼音方案 (Yale, yale-yue)
 
 同时允许使用词库：
 - [粵語拼音方案](https://github.com/rime/rime-cantonese)
@@ -22,8 +25,11 @@
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
   - `yue-yyef-rime-terra`：调用粵語拼音方案词库
 - `rscm.*`：基于以上文件组成的输入方案
-    - `ile` 教育學院拼音方案
-    - `jyutping` 香港語言學學會粵語拼音方案
+  - `gdr` 广州话拼音方案
+  - `ile` 教育學院拼音方案
+  - `jyutping` 香港語言學學會粵語拼音方案
+  - `slr` 劉錫祥拼音方案
+  - `yale-yue` 粵語耶魯拼音方案
 - `supplimental`：用于提供额外方案。这些方案包含：
 
 ## 方案所需的词典文件及语法模型文件；

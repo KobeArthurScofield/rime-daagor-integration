@@ -1,0 +1,18 @@
+# Rime Patch
+# encoding: utf-8
+# version: 1.25.255
+#
+
+__patch:
+  zh_cn_simp/style/font_face: 'LXGW WenKai GB'
+  zh_cn_simp/style/label_font_face: 'LXGW WenKai GB:medium'
+  zh_cn_simp/style/comment_font_face: 'LXGW WenKai GB:light'
+  zh_cn_trad/style/font_face: 'LXGW WenKai GB'
+  zh_cn_trad/style/label_font_face: 'LXGW WenKai GB:medium'
+  zh_cn_trad/style/comment_font_face: 'LXGW WenKai GB:light'
+  zh_tw/style/font_face: 'LXGW WenKai TC'
+  zh_tw/style/label_font_face: 'LXGW WenKai TC:medium'
+  zh_tw/style/comment_font_face: 'LXGW WenKai TC:light'
+  zh_hk/style/font_face: 'LXGW WenKai TC'
+  zh_hk/style/label_font_face: 'LXGW WenKai TC:medium'
+  zh_hk/style/comment_font_face: 'LXGW WenKai TC:light'

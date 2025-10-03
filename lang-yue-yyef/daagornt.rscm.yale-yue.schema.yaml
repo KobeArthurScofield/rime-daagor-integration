@@ -2,15 +2,14 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗粵拼'
-  schema_id: daagornt.rscm.jyutping
+  name: '大狗粵語耶魯拼音'
+  schema_id: daagornt.rscm.yale-yue
   author:
     - '專案匯集 丢狼'
   description: |
-    香港語言學學會粵語拼音輸入方案
-    陰平 7  陰上 8  陰去 9
-    陽平 0  陽上 -  陽去 =
-    高陰入 7 低陰入 9 陽入 =
+    粵語耶魯拼音输入方案
+    阴平 7  阴上 8  阴去 9
+    阳平 0  阳上 -  阳去 =
   version: '2.25.276.1904'
   icon: daagornt.icon.imehk.ico
   ascii_icon: daagornt.icon.ascii.ico
@@ -31,17 +30,17 @@ speller:
     __patch:
       - daagornt.lib.dict-yue-yyef.yaml:/algebra/normalizer
       - daagornt.lib.dict-yue-yyef.yaml:/algebra/encoder
-      - daagornt.lib.babel-yue-yyef.yaml:/jyutping/output
+      - daagornt.lib.babel-yue-yyef.yaml:/yale/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-yue-yyef.yaml:/translator
-  prism: daagornt.jyutping
+  prism: daagornt.yale-yue
   preedit_format:
     __patch:
-      - /rule_convert/layout
+      - /rule_convert/preedit
 
 history:
   __include: daagornt.lib.shared.yaml:/history
@@ -100,9 +99,8 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'derive yu y'
       - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^([gk]w|ng).+$ $1'
+      - 'abbrev ^([gk]w|ng|ch).+$ $1'
       - 'abbrev ^(.+)[1-6] $1'
       - 'xlit 123456 7890-='
   preedit:

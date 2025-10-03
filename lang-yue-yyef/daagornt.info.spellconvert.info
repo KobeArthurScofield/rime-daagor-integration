@@ -1,5 +1,5 @@
 # Rime: Spelling converter Information
-# Ver 1.0.0.0
+# Ver 1.0.0.1
 
 # ISO 639-3: yue
 # Extension tag: yyef (Cantonese standard 标准粤语/广州话)
@@ -7,17 +7,18 @@
 # Convert list:
 #   Main Support:
 #     Yale 耶魯拼音 [tone compacted]
+#     Sidney Lau Romanization 劉錫祥拼音
 #     Guangdong Romanization 廣州話拼音方案 [partial expansion]
 #     ILE Romanization 教育學院拼音方案 [vowel compacted]
 #     Jyutping 香港語言學學會粵語拼音方案
 #   Supplimental:
+#     Latinfa 拉丁化新文字
 #     Standard Romanization 粵語標準羅馬字 [near modern differ]
 #     Meyer–Wempe [sibilant differ][lack -ptk]
 #     Barnett-Chao Romanization 粵語羅馬字 [sibilant differ]
 #     Cantonese Bopomofo (ROC) 粵語注音符號
 #     Cantonese Bopomofo (PRC) 粵語注音符號
 #     S. L. Wong Romanization 黃錫凌羅馬拼音
-#     Sidney Lau Romanization 劉錫祥拼音 [may mess up with tone]
 
 # Chart over the base of IPA
 

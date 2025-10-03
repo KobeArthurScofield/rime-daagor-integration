@@ -1,6 +1,6 @@
 # Rime: Rewrite engine for Daagor Integration
 # encoding: utf-8#
-# Ver 1.25.273.0
+# Ver 1.25.276.0
 #
 
 # ILE Romanizasion [Not enough tone]
@@ -32,12 +32,29 @@ ile:
 gdr:
   input:
     __append:
+      - 'xform ^(un?g) w$1'
+      - 'xform ([jqxy])[uv] $1ü'
   output:
     __append:
+      - 'xform ^w(un?g) $1'
+      - 'xform ([jqxy])ü $1u'
 
-# Historical tone compacted
-yale:
+slr:
   input:
     __append:
+      - xform/\*//
+      - xform/°//
+      - 'xform ¹ 1'
+      - 'xform ² 2'
+      - 'xform ³ 3'
+      - 'xform ⁴ 4'
+      - 'xform ⁵ 5'
+      - 'xform ⁶ 6'
   output:
     __append:
+      - 'xform 1 ¹'
+      - 'xform 2 ²'
+      - 'xform 3 ³'
+      - 'xform 4 ⁴'
+      - 'xform 5 ⁵'
+      - 'xform 6 ⁶'
