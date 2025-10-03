@@ -38,7 +38,7 @@ translator:
     - daagornt.lib.dict-cmn-pan.yaml:/translator
   prism: daagornt.ziranma
   preedit_format:
-    __include:
+    __patch:
       - /rule_convert/preedit
 
 history:
