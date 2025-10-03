@@ -9,7 +9,7 @@ schema:
     - '方案集成 丢狼'
   description: |
     小浪双拼输入方案
-  version: '2.25.270.1904'
+  version: '2.25.276.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -38,7 +38,8 @@ translator:
     - daagornt.lib.dict-cmn-pan.yaml:/translator
   prism: daagornt.xiaolang
   preedit_format:
-    __include: daagorxp.lib.preedit-cmn-pan.yaml:/xiaolang?
+    __patch:
+      - /rule_convert/preedit
 
 history:
   __include: daagornt.lib.shared.yaml:/history

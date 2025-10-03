@@ -9,7 +9,7 @@ schema:
     - '方案集成 丢狼'
   description: |
     拼音加加双拼输入方案
-  version: '2.25.270.1904'
+  version: '2.25.276.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -38,7 +38,8 @@ translator:
     - daagornt.lib.dict-cmn-pan.yaml:/translator
   prism: daagornt.pinyinjiajia
   preedit_format:
-    __include: daagorxp.lib.preedit-cmn-pan.yaml:/pinyinjiajia?
+    __patch:
+      - /rule_convert/preedit
 
 history:
   __include: daagornt.lib.shared.yaml:/history
@@ -199,35 +200,4 @@ rule_convert:
       - 'xlit 12345 7890-'
   preedit:
     __append:
-      - xform/([bpmnljqxy])l/$1in/
-      - xform/(\w)t/$1eng/
-      - xform/(\w)n/$1iu/
-      - xform/([gkhvuirzcs])b/$1ua/
-      - xform/(\w)b/$1ia/
-      - xform/([dtnlgkhjqxyvuirzcs])c/$1uan/
-      - xform/er/er/
-      - xform/([dtgkhvuirzcs])v/$1ui/
-      - xform/(\w)v/$1ü/
-      - xform/([gkhvuirzcs])x/$1uai/
-      - xform/(\w)x/$1üe/
-      - xform/([dtnlgkhvuirzcs])o/$1uo/
-      - xform/(\w)z/$1un/
-      - xform/([jqx])y/$1iong/
-      - xform/(\w)y/$1ong/
-      - xform/([jqxnlb])h/$1iang/
-      - xform/(\w)h/$1uang/
-      - xform/(\w)r/$1en/
-      - xform/(\w)g/$1ang/
-      - xform/(\w)f/$1an/
-      - xform/(\w)d/$1ao/
-      - xform/(\w)s/$1ai/
-      - xform/(\w)w/$1ei/
-      - xform/(\w)m/$1ie/
-      - xform/(\w)k/$1iao/
-      - xform/(\w)p/$1ou/
-      - xform/(\w)j/$1ian/
-      - xform/(\w)q/$1ing/
-      - "xform/(^|[ '])v/$1zh/"
-      - "xform/(^|[ ‘])u/$1ch/"
-      - "xform/(^|[ ‘])i/$1sh/"
       - 'xlit 7890- 12345'

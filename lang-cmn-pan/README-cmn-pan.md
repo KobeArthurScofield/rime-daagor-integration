@@ -38,8 +38,6 @@
   - `icon.ascii`： 输入法键盘直接输入模式图标
   - `icon.imecn`： 输入法模式中国大陆方案图标
   - `icon.imetw`： 输入法模式台湾方案图标
-- `experience`：Daagor Integration Experience，用于取代输入方案默认体验
-  - `daagorxp.lib.preedit-cmn-pan`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
   - `cmn-pan-rime-terra`：调用 RIME 发行版附带的地球拼音词库
   - `cmn-pan-rime-snow`：调用冰雪拼音词库

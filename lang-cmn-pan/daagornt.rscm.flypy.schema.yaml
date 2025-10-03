@@ -9,7 +9,7 @@ schema:
     - '方案集成 丢狼'
   description: |
     小鹤双拼输入方案
-  version: '2.25.270.1904'
+  version: '2.25.276.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -38,7 +38,8 @@ translator:
     - daagornt.lib.dict-cmn-pan.yaml:/translator
   prism: daagornt.flypy
   preedit_format:
-    __include: daagorxp.lib.preedit-cmn-pan.yaml:/flypy?
+    __patch:
+      - /rule_convert/preedit
 
 history:
   __include: daagornt.lib.shared.yaml:/history
@@ -198,36 +199,4 @@ rule_convert:
       - 'xlit 12345 7890-'
   preedit:
     __append:
-      - 'xform eh ê'
-      - xform/([bpmfdtnljqx])n/$1iao/
-      - xform/(\w)g/$1eng/
-      - xform/(\w)q/$1iu/
-      - xform/(\w)w/$1ei/
-      - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
-      - xform/(\w)t/$1üe/
-      - xform/(\w)y/$1un/
-      - xform/([dtnlgkhvuirzcs])o/$1uo/
-      - xform/(\w)p/$1ie/
-      - xform/([jqx])s/$1iong/
-      - xform/(\w)s/$1ong/
-      - xform/(\w)d/$1ai/
-      - xform/(\w)f/$1en/
-      - xform/(\w)h/$1ang/
-      - xform/(\w)j/$1an/
-      - xform/([gkhvuirzcs])k/$1uai/
-      - xform/(\w)k/$1ing/
-      - xform/([jqxnlb])l/$1iang/
-      - xform/(\w)l/$1uang/
-      - xform/(\w)z/$1ou/
-      - xform/([gkhvuirzcs])x/$1ua/
-      - xform/(\w)x/$1ia/
-      - xform/(\w)c/$1ao/
-      - xform/([dtgkhvuirzcs])v/$1ui/
-      - xform/([nljqxy])v/$1ü/
-      - xform/(\w)b/$1in/
-      - xform/(\w)m/$1ian/
-      - xform/([aoe])\1(\w)/$1$2/
-      - "xform/(^|[ '])v/$1zh/"
-      - "xform/(^|[ '])i/$1ch/"
-      - "xform/(^|[ '])u/$1sh/"
       - 'xlit 7890- 12345'

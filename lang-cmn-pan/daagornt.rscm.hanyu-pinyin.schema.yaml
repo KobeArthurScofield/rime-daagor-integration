@@ -8,7 +8,7 @@ schema:
     - '方案集成 丢狼'
   description: |
     汉语拼音方案输入方案
-  version: '2.25.270.1904'
+  version: '2.25.276.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -38,7 +38,9 @@ translator:
     - daagornt.lib.dict-cmn-pan.yaml:/translator
   prism: daagornt.hanyu-pinyin
   preedit_format:
-    __include: daagorxp.lib.preedit-cmn-pan.yaml:/hanyu_pinyin?
+    __patch:
+      - /rule_convert/preedit
+      - daagornt.lib.scribe-cmn-pan.yaml:/hanyu_pinyin/output
 
 history:
   __include: daagornt.lib.shared.yaml:/history

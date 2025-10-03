@@ -20,8 +20,6 @@
   - `icon.ascii`： 输入法键盘直接输入模式图标
   - `icon.imecn`： 输入法模式中国大陆方案图标
   - `icon.imehk`： 输入法模式香港方案图标
-- `experience`：Daagor Integration Experience，用于取代输入方案默认体验
-  - `daagorxp.lib.preedit-yue-yyef`：提供上屏字符转换功能，上屏显示为对应拼音而非输入字符；启用后全局生效
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
   - `yue-yyef-rime-terra`：调用粵語拼音方案词库
 - `rscm.*`：基于以上文件组成的输入方案
