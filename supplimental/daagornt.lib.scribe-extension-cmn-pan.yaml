@@ -1,11 +1,7 @@
 # Rime: Extensive rewrite engine for Daagor NT
 # encoding: utf-8#
-# Ver 1.25.237.0
+# Ver 1.25.277.0
 #
-
-cesky:
-  output:
-    __append:
 
 yale:
   output:
@@ -19,25 +15,10 @@ latinxua:
       - 'derive iou iu'
       - 'derive ji i'
 
-lessing-othmer:
-  output:
-    __append:
-
-efeo:
-  input:
-    __append:
-      # - Place holder for a rarely used scenario. Will add in the future.
-  output:
-    __append:
-
 wade-giles-simp:
   input:
     __append:
       # - Place holder for a rarely used scenario. Will add in the future.
-  output:
-    __append:
-
-postcal:
   output:
     __append:
 
