@@ -8,7 +8,7 @@
 
 警告：所有方案及词库无法跨 ISO 639-3 语言代码使用！
 
-AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/badge.svg)](https://deepwiki.com/KobeArthurScofield/rime-daagor-integration)
+~~已经沉浸在自己的艺术中无法自拔的~~ AI 辅助解析： [![Deepwiki Generated Documentation](https://deepwiki.com/badge.svg)](https://deepwiki.com/KobeArthurScofield/rime-daagor-integration)
 
 ## 下载及部署
 

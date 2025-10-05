@@ -2,28 +2,24 @@
 # encoding: utf-8
 
 schema:
-  name: '大狗粵拼'
-  schema_id: daagornt.rscm.jyutping
+  name: '大狗廣州話拉丁化新文字輸入'
+  schema_id: daagornt.rscm.latinfa
   author:
-    - '專案匯集 丢狼'
+    - '方案汇总 丢狼'
   description: |
-    香港語言學學會粵語拼音輸入方案
-    陰平 7  陰上 8  陰去 9
-    陽平 0  陽上 -  陽去 =
-    高陰入 7 低陰入 9 陽入 =
+    廣州話拉丁化新文字輸入方案
   version: '2.25.277.1904'
-  icon: daagornt.icon.imehk.ico
+  icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
 switches:
-  __include: daagornt.lib.shared.yaml:/zh_hk/switches
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/switches
 
 engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: wetyuiopasdfghjklzcbnm7890-=
-  finals: 7890-=
+  alphabet: qwetyuiopasdfghjklzxcbnm
   delimiter: " ';"
   auto_select: false
   use_space: false
@@ -31,17 +27,16 @@ speller:
     __patch:
       - daagornt.lib.dict-yue-yyef.yaml:/algebra/normalizer
       - daagornt.lib.dict-yue-yyef.yaml:/algebra/encoder
-      - daagornt.lib.babel-yue-yyef.yaml:/jyutping/output
+      - daagornt.lib.babel-extension-yue-yyef.yaml:/latinfa/output
+      - daagornt.lib.scribe-extension-yue-yyef.yaml:/latinfa/output
       - /rule_convert/layout
 
 translator:
   __patch:
     - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-yue-yyef.yaml:/translator
-  prism: daagornt.jyutping
-  preedit_format:
-    __patch:
-      - /rule_convert/preedit
+    - /dpatch
+  prism: daagornt.latinfa
 
 history:
   __include: daagornt.lib.shared.yaml:/history
@@ -77,7 +72,7 @@ menu:
   __include: daagornt.lib.shared.yaml:/menu
 
 style:
-  __include: daagornt.lib.shared.yaml:/zh_hk/style?
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/style?
 
 editor:
   __include: daagornt.lib.shared.yaml:/editor
@@ -100,11 +95,9 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'derive yu y'
       - 'abbrev ^([a-z]).+$ $1'
       - 'abbrev ^([gk]w|ng).+$ $1'
-      - 'abbrev ^(.+)[1-6] $1'
-      - 'xlit 123456 7890-='
-  preedit:
-    __append:
-      - 'xlit 7890-= 123456'
+
+dpatch:
+  spelling_hints: 0
+  always_show_comments: false

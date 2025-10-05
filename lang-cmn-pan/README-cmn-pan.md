@@ -68,7 +68,7 @@
     - `ziranlong` 自然龙双拼布局
     - `ziranma` 自然码双拼布局
 - `supplimental`：用于提供额外方案。这些方案包含：
-  - 威妥玛拼音 (wade-giles)（及邮政拼音 (postcal) 和简化威妥玛拼音 (wand-giles-simp)）
+  - 威妥玛拼音 (wade-giles)（及简化威妥玛拼音 (wand-giles-simp)）
   - 法国远东学院拼音 (efeo)
   - 德国式拼音 (lessing-othmer)
   - 拉丁化新文字 (latinxua)
@@ -116,7 +116,7 @@
 | 空韵母 m | ULNIU |
 | 空韵母 n | CLTKC |
 | 空韵母 ng | CIGUC |
-| 韵母 iai | AJRBA |
+| 韵母 iai | ODAYO |
 | 韵母 io | TQJFT |
 | 韵母 üo | SSPXS |
 
@@ -150,7 +150,7 @@
 | 空韵母 m | AYBTA |
 | 空韵母 n | QYZBQ |
 | 空韵母 ng | QTJAQ |
-| 韵母 iai | BDUOB |
+| 韵母 iai | DCNXD |
 | 韵母 io | PEIGP |
 | 韵母 üo | SLLPS |
 
@@ -173,7 +173,7 @@
 | 空韵母 m | OAAGO |
 | 空韵母 n | TPPHT |
 | 空韵母 ng | LBBEL |
-| 韵母 iai | FCCHF |
+| 韵母 iai | WFFCW |
 | 韵母 io | VWWXV |
 | 韵母 üo | KOOJK |
 

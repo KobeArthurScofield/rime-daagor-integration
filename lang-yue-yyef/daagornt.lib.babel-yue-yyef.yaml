@@ -1,6 +1,6 @@
 # Rime: Tone convert engine for Daagor Integration
 # encoding: utf-8#
-# Ver 1.25.276.0
+# Ver 1.25.277.0
 #
 
 # Jyutping [Modern standard]
@@ -362,17 +362,17 @@ gdr:
       - 'xform <tssh> <tsh>'
       - 'xform <ss> <s>'
       - 'xform <i--> <i->'
-      - 'xform <p> b'
+      - 'xform <-?p> b'
       - 'xform <ph> p'
-      - 'xform <m> m'
+      - 'xform <-?m?m> m'
       - 'xform <f> f'
-      - 'xform <t> d'
+      - 'xform <-?t> d'
       - 'xform <th> t'
-      - 'xform <n> n'
+      - 'xform <-?n> n'
       - 'xform <l> l'
-      - 'xform <k> g'
+      - 'xform <-?k> g'
       - 'xform <kh> k'
-      - 'xform <ng> ng'
+      - 'xform <-?n?ng> ng'
       - 'xform <h> h'
       - 'xform <ku> gu'
       - 'xform <khu> ku'
@@ -394,15 +394,7 @@ gdr:
       - 'xform <oe-> ê'
       - 'xform <eo> ê'
       - 'xform <y-> ü'
-      - 'xform <mm> m'
-      - 'xform <nng> ng'
       - 'xform <-y> u'
-      - 'xform <-m> m'
-      - 'xform <-n> n'
-      - 'xform <-ng> ng'
-      - 'xform <-p> b'
-      - 'xform <-t> d'
-      - 'xform <-k> g'
       - 'xform <([1-6])> $1'
 
 # Sidney Lau Romanization

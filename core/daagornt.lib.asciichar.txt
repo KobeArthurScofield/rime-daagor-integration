@@ -2,7 +2,7 @@
 # coding: utf-8
 #@db/db_name	daagornt.lib.asciichar
 #@db/db_type	tabledb
-# version: 1.25.276.0
+# version: 1.25.277.0
 #
 # 西文字符
 # 該西文字符對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
@@ -135,7 +135,7 @@
 э	cree	1
 ю	crju	1
 я	crja	1
-А	craa	1
+А	cra	1
 Б	crbe	1
 В	crve	1
 Г	crge	1

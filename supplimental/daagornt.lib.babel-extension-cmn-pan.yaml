@@ -1,6 +1,6 @@
 # Rime: Supplemental convert engine for Daagor NT
 # encoding: utf-8#
-# Ver 1.25.277.0
+# Ver 1.25.278.0
 #
 
 # Yale Romanization
@@ -43,20 +43,20 @@ yale:
       - xform <s> s
       - xform <j> y
       - xform <w> w
-      - xform <4y>< yw<
+      - xform <jy>< yw<
       - xform <i><en> yin
-      - xform <i><reng> ying
+      - xform <i><eng> ying
       - xform <y><en> yun
-      - xform <4y> yu
+      - xform <jy> yu
       - xform <i> yi
       - xform <u> u
       - xform <y>< yw<
       - xform <y> yu
       - xform <a> a
       - xform <o> wo
-      - xform <re> e
-      - xform <e3> e
-      - xform <ar> er
+      - xform <e> e
+      - xform <eh> e
+      - xform <er> er
       - xform <ai> ai
       - xform <ei> ei
       - xform <au> au
@@ -64,7 +64,7 @@ yale:
       - xform <an> an
       - xform <en> en
       - xform <ang> ang
-      - xform <reng> eng
+      - xform <eng> eng
       - xform <ong> ung
       - xform i([aoe]) $1
       - xform yu([aoe]) yw$1
@@ -81,10 +81,10 @@ latinxua:
       - 'xform/<[0-5]>//'
       - 'xform <[ji]><ong> yng'
       - 'xform <i><en> in'
-      - 'xform <i><reng> ing'
+      - 'xform <i><eng> ing'
       - 'xform <u><ei> ui'
       - 'xform <u><en> un'
-      - 'xform <4?y><en> yn'
+      - 'xform <j?y><en> yn'
       - 'xform <p> b'
       - 'xform <ph> p'
       - 'xform <_?m> m'
@@ -109,15 +109,15 @@ latinxua:
       - 'xform <j><i> ji'
       - 'xform <j> j'
       - 'xform <w> w'
-      - 'xform <4y> y'
+      - 'xform <jy> y'
       - xform/<_[iw]>//
       - 'xform <a> a'
       - 'xform <o> o'
-      - 'xform (<re>|<e3>) e'
+      - 'xform <eh?> e'
       - 'xform <i> i'
       - 'xform <u> u'
       - 'xform <y> y'
-      - 'xform <ar> r'
+      - 'xform <er> r'
       - 'xform <ai> ai'
       - 'xform <ei> ei'
       - 'xform <au> ao'
@@ -125,7 +125,7 @@ latinxua:
       - 'xform <an> an'
       - 'xform <en> en'
       - 'xform <ang> ang'
-      - 'xform <reng> eng'
+      - 'xform <eng> eng'
       - 'xform <ong> ung'
       - 'xform <_ng> ng'
       - 'xform ii i'
@@ -134,12 +134,9 @@ latinxua:
 # Wade-Giles simplified
 # A variant of Wade-Giles. No sibilant differ.
 wade-giles-simp:
-  input:
-    __append:
-      # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
-      - xform (<k>|<kh>|<x>|<h>)<re> $1o
+      - xform (<k>|<kh>|<x>|<h>)<e> $1o
       - xform (<k>|<kh>|<x>|<h>)<u><o> $1uo
       - xform <ts><_w> tz<_w>
       - xform/<tsh><_w>/tz'<_w>/
@@ -174,21 +171,21 @@ wade-giles-simp:
       - xform <i><an> yien
       - xform <j><an> yen
       - xform <i><en> yin
-      - xform <i><reng> ying
+      - xform <i><eng> ying
       - xform <u><o> o
       - xform <u><en> un
-      - xform <4?y><en> yun
+      - xform <j?y><en> yun
       - xform <j> y
       - xform <w> w
-      - xform <4y> yu
+      - xform <jy> yu
       - xform <i> yi
       - xform <u> u
       - xform <y> yu
       - xform <a> a
       - xform <o> o
-      - xform <re> e
-      - xform <e3> e
-      - xform <ar> er
+      - xform <e> e
+      - xform <eh> e
+      - xform <er> er
       - xform <ai> ai
       - xform <ei> ei
       - xform <au> ao
@@ -196,7 +193,7 @@ wade-giles-simp:
       - xform <an> an
       - xform <en> en
       - xform <ang> ang
-      - xform <reng> eng
+      - xform <eng> eng
       - xform <ong> ung
       - xform yy y
       - /xform/<1>//
@@ -208,12 +205,9 @@ wade-giles-simp:
 # Wade-Giles
 # Have sibilant differ, new mandarin pronuncitaion
 wade-giles:
-  input:
-    __append:
-      # - Place holder of a rarely used scenario. Will add in the future.
   output:
     __append:
-      - xform (<k>|<kh>|<x>|<h>)<re> $1o
+      - xform (<k>|<kh>|<x>|<h>)<e> $1o
       - xform (<k>|<kh>|<x>|<h>)<u><o> $1uo
       - xform <ts><_w> tz<_w>
       - xform/<tsh><_w>/tz'<_w>/
@@ -249,23 +243,23 @@ wade-giles:
       - xform <i><an> ien
       - xform <j><an> yen
       - xform <i><en> in
-      - xform <i><reng> ing
+      - xform <i><eng> ing
       - xform <u><o> o
       - xform <u><ei> uei
       - xform <u><en> un
       - xform <y><en> ün
-      - xform <4y><en> yün
+      - xform <jy><en> yün
       - xform <j> y
       - xform <w> w
-      - xform <4y> yü
+      - xform <jy> yü
       - xform <i> i
       - xform <u> u
       - xform <y> ü
       - xform <a> a
       - xform <o> o
-      - xform <re> ê
-      - xform <e3> eh
-      - xform <ar> êrh
+      - xform <e> ê
+      - xform <eh> eh
+      - xform <er> êrh
       - xform <ai> ai
       - xform <ei> ei
       - xform <au> ao
@@ -273,7 +267,7 @@ wade-giles:
       - xform <an> an
       - xform <en> ên
       - xform <ang> ang
-      - xform <reng> êng
+      - xform <eng> êng
       - xform <ong> ung
       - xform ii i
       - xform <([1-4])> $1

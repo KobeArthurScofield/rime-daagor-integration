@@ -1,4 +1,9 @@
 # Rime: Extensive rewrite engine for Daagor NT
 # encoding: utf-8#
-# Ver 0.0.0.0
+# Ver 1.25.277.0
 #
+
+latinfa:
+  output:
+    __append:
+      - xform/<[1-6]>//

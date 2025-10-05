@@ -9,7 +9,7 @@ schema:
     - '方案集成 丢狼'
   description: |
     冰雪四拼（无顶字）输入方案
-  version: '2.25.270.1904'
+  version: '2.25.278.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -95,7 +95,7 @@ rule_convert:
   layout:
     __append:
       # Partial Hanyu Pinyin Flattening
-      - 'xform <_h> <re>'
+      - 'xform <_h> <e>'
       - 'xform <ng> <n>'
       - 'xform <gn> <g>'
       - 'xform <v> <w>'
@@ -109,11 +109,10 @@ rule_convert:
       - 'derive <[xh]><([iy])> <s6><$1>'
       # Schemata key convert
       - 'xform ^(<[aoe]) r$1'
-      - 'xform ^(<re) r$1'
       - 'xform ^(<_) r$1'
       - 'xform <j> f<i>'
       - 'xform <w> s<u>'
-      - 'xform <4y> k<y>'
+      - 'xform <jy> k<y>'
       - 'xform <i><i> <i>'
       - 'xform <u><u> <u>'
       - 'xform <y><y> <y>'
@@ -144,22 +143,22 @@ rule_convert:
       - 'xform ^(.)(<i><ei>|<u><ai>)(<\d>)$ $1ii$3'
       - 'xform ^(.)(<i><an>|<u><en>)(<\d>)$ $1uo$3'
       - 'xform ^(.)(<i><en>|<u><an>)(<\d>)$ $1io$3'
-      - 'xform ^(.)(<i><ang>|<u><reng>)(<\d>)$ $1ue$3'
-      - 'xform ^(.)(<i><reng>|<u><ang>)(<\d>)$ $1ie$3'
+      - 'xform ^(.)(<i><ang>|<u><eng>)(<\d>)$ $1ue$3'
+      - 'xform ^(.)(<i><eng>|<u><ang>)(<\d>)$ $1ie$3'
       - 'xform ^(.)(<i><ong>|<ong>)(<\d>)$ $1oe$3'
       - 'xform ^(.)(<y><an>)(<\d>)$ $1oo$3'
       - 'xform ^(.)(<y><en>|<an>)(<\d>)$ $1ao$3'
       - 'xform ^(.)(<y><o>|<au>)(<\d>)$ $1au$3'
-      - 'xform ^(.)(<i><e3>|<re>|<e3>)(<\d>)$ $1e$3'
-      - 'xform ^(.)(<i><o>|<u><o>|<y><e3>|<o>)(<\d>)$ $1o$3'
+      - 'xform ^(.)(<i><eh>|<eh?>)(<\d>)$ $1e$3'
+      - 'xform ^(.)(<i><o>|<u><o>|<y><eh>|<o>)(<\d>)$ $1o$3'
       - 'xform ^(.)(<i><a>|<u>)(<\d>)$ $1u$3'
-      - 'xform ^(.)(<u><a>|<_[iw]>|<i>|<ar>)(<\d>)$ $1i$3'
+      - 'xform ^(.)(<u><a>|<_[iw]>|<i>|<er>)(<\d>)$ $1i$3'
       - 'xform ^(.)(<y>|<a>)(<\d>)$ $1a$3'
       - 'xform ^(.)(<ai>)(<\d>)$ $1ai$3'
       - 'xform ^(.)(<ei>)(<\d>)$ $1ei$3'
       - 'xform ^(.)(<en>|<_n>)(<\d>)$ $1eo$3'
       - 'xform ^(.)(<ang>)(<\d>)$ $1ae$3'
-      - 'xform ^(.)(<reng>|<_ng>)(<\d>)$ $1ee$3'
+      - 'xform ^(.)(<eng>|<_ng>)(<\d>)$ $1ee$3'
       - 'xform ^(.)(<_m>)(<\d>)$ $1ea$3'
       - 'xform <0> o'
       - 'xform <1> i'

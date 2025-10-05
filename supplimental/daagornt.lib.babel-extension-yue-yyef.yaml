@@ -1,4 +1,53 @@
 # Rime: Supplemental convert engine for Daagor NT
 # encoding: utf-8#
-# Ver 0.0.0.0
+# Ver 1.25.277.0
 #
+
+latinfa:
+  output:
+    __append:
+      # Compatibility with other standards
+      - 'xform <ku> <kw>'
+      - 'xform <khu> <kwh>'
+      - 'xform <tsc> <ts>'
+      - 'xform <tsch> <tsh>'
+      - 'xform <sc> <s>'
+      - xform/<->//
+      - 'xform <tss> <ts>'
+      - 'xform <tssh> <tsh>'
+      - 'xform <ss> <s>'
+      - 'xform <i--> <i->'
+      - 'xform <-?p> b'
+      - 'xform <ph> p'
+      - 'xform <-?m?m> m'
+      - 'xform <f> f'
+      - 'xform <-?t> d'
+      - 'xform <th> t'
+      - 'xform <-?n> n'
+      - 'xform <l> l'
+      - 'xform <-?k> g'
+      - 'xform <kh> k'
+      - 'xform <n?ng> ng'
+      - 'xform <h> x'
+      - 'xform <ts> z'
+      - 'xform <tsh> c'
+      - 'xform <s> s'
+      - 'xform <j> j'
+      - 'xform <w> w'
+      - 'xform <kw> gw'
+      - 'xform <kwh> kw'
+      - 'xform <a-> a'
+      - 'xform <a><-i> ae'
+      - 'xform <a><-u> ao'
+      - 'xform <a> e'
+      - 'xform <e->(<[1-6]>) e$1'
+      - 'xform <e><-i> ei'
+      - 'xform <e-?> ei'
+      - 'xform <o-?> o'
+      - 'xform <eo><-y> ey'
+      - 'xform <eo> oe'
+      - 'xform <oe-> oe'
+      - 'xform <-?i-?> i'
+      - 'xform <-?u-?> u'
+      - 'xform <-?y-?> y'
+      - 'xform <-ng> nq'

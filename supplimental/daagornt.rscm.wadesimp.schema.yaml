@@ -19,7 +19,7 @@ engine:
   __include: daagornt.lib.shared.yaml:/engines
 
 speller:
-  alphabet: qwertyuiopasdfghjklzxcvbnm
+  alphabet: "qwertyuiopasdfghjklzxcvbnm\'"
   delimiter: " -;"
   auto_select: false
   use_space: false
