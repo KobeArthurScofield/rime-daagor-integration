@@ -1,0 +1,174 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: '大狗龙三双拼'
+  schema_id: daagornt.rscm.longsan
+  author:
+    - '键盘布局 青蛙'
+    - '方案集成 丢狼'
+  description: |
+    龙码龙三输入方案
+  version: '2.25.279.1904'
+  icon: daagornt.icon.imecn.ico
+  ascii_icon: daagornt.icon.ascii.ico
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
+
+engine:
+  __include: daagornt.lib.shared.yaml:/engines
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+  algebra:
+    __patch:
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.shared.yaml:/translator
+    - daagornt.lib.dict-cmn-pan.yaml:/translator
+  prism: daagornt.longsan
+
+history:
+  __include: daagornt.lib.shared.yaml:/history
+
+custom_phrase:
+  __include: daagornt.lib.shared.yaml:/custom_phrase
+
+ascii_char:
+  __include: daagornt.lib.shared.yaml:/ascii_char
+
+ascii_phrase:
+  __include: daagornt.lib.shared.yaml:/ascii_phrase
+
+quick_phrase:
+  __include: daagornt.lib.shared.yaml:/quick_phrase
+
+extchar:
+  __include: daagornt.lib.shared.yaml:/extchar?
+
+grammar:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
+
+punctuator:
+  __include: daagornt.lib.shared.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.shared.yaml:/key_binder
+
+recognizer:
+  __include: daagornt.lib.shared.yaml:/recognizer
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu
+
+style:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/style?
+
+editor:
+  __include: daagornt.lib.shared.yaml:/editor
+
+ascii_composer:
+  __include: daagornt.lib.shared.yaml:/ascii_composer
+
+zh_cn_simp:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      - 'xform <5> <0>'
+      # Sibilant Compatibility
+      - 'derive <ts><([iy])> <ts6><$1>'
+      - 'derive <tsh><([iy])> <ts6h><$1>'
+      - 'derive <s><([iy])> <s6><$1>'
+      - 'derive <k><([iy])> <ts6><$1>'
+      - 'derive <kh><([iy])> <ts6h><$1>'
+      - 'derive <[xh]><([iy])> <s6><$1>'
+      # Hanyu Pinyin key convert
+      - 'xform <jy> <j><y>'
+      # Pre-process for zero-consonant
+      - xform/^(<a><[0-5]>)$/<a>$1/
+      - xform/^(<o><[0-5]>)$/<o>$1/
+      - xform/^(<e><[0-5]>)$/<e>$1/
+      - xform/^(<a[iun]><[0-5]>)$/<a>$1/
+      - xform/^(<o[u]><[0-5]>)$/<o>$1/
+      - xform/^(<e[inrh]><[0-5]>)$/<e>$1/
+      - xform/^(<ang><[0-5]>)$/<a>$1/
+      - xform/^(<eng><[0-5]>)$/<e>$1/
+      # Pre-process for consonant-only
+      - xform/^<_([mnh])>/<$1><_$1>/
+      - xform/^<_ng>/<n><_ng>/
+      # Part 1 for initials
+      - 'xform ^<v> w'
+      - 'xform ^<gn> g'
+      - 'xform ^<ng> n'
+      - 'xform ^<p> b'
+      - 'xform ^<ph> y'
+      - 'xform ^<m> m'
+      - 'xform ^<f> f'
+      - 'xform ^<t> d'
+      - 'xform ^<th> t'
+      - 'xform ^<n> n'
+      - 'xform ^<l> l'
+      - 'xform ^<k> g'
+      - 'xform ^<kh> k'
+      - 'xform ^(<x>|<h>) h'
+      - 'xform ^<ts6> j'
+      - 'xform ^<ts6h> q'
+      - 'xform ^<s6> x'
+      - 'xform ^<tis> v'
+      - 'xform ^<tish> i'
+      - 'xform ^<is> u'
+      - 'xform ^<zi> r'
+      - 'xform ^<ts> z'
+      - 'xform ^<tsh> c'
+      - 'xform ^<s> s'
+      - 'xform ^<j> e'
+      - 'xform ^<w> w'
+      - 'xform ^<a> a'
+      - 'xform ^<o> o'
+      - 'xform ^<e> p'
+      # Part 2 for finals
+      - xform/^(.)(<ang><4>|<au><[01]>|<i><ong><[23]>|<i><ou><[234]>|<u><a><[23]>)$/$1q/
+      - xform/^(.)(<i><ai?><[01]>|<i><o><[23]>|<o><[23]>|<ou><4>|<u><ang><4>|<[uy]><en><[23]>)$/$1w/
+      - xform/^(.)(<e><[23]>|<eh><[01]>|<i><an><[01]>|<_ng><4>)$/$1e/
+      - xform/^(.)(<an><[23]>|<eh><[23]>|<i><au><4>|<_h><[01]>)$/$1r/
+      - xform/^(.)(<ang><[23]>|<i><an><[23]>|<u><ai><4>|<_n><[01]>)$/$1t/
+      - xform/^(.)(<eh><4>|<i><eng><4>|<u><[23]>|<_h><[23]>)$/$1y/
+      - xform/^(.)(<e><4>|<ei><[01]>|<i><eh><[01]>|<i><ou><[01]>)$/$1u/
+      - xform/^(.)(<[ay]><[01]>|<au><4>|<i><ang><4>|<u><ei><[01]>)$/$1i/
+      - xform/^(.)(<i><[23]>|<_[iw]><[23]>|<[uy]><o><[23]>|<_m><[01]>|<_h><4>)$/$1o/
+      - xform/^(.)(<er><[01]>|<i><ang><[01]>|<u><4>|<y><[23]>|<_n><[23]>)$/$1p/
+      - xform/^(.)(<i><4>|<_[iw]><4>|<u><a><4>|<_m><[23]>)$/$1a/
+      - xform/^(.)(<an><4>|<i><ang><[23]>|<i><ong><4>|<u><ei><[23]>|<[uy]><en><[01]>)$/$1s/
+      - xform/^(.)(<eng><[23]>|<i><eng><[01]>|<u><a><[01]>|<[uy]><en><4>)$/$1d/
+      - xform/^(.)(<ai><[01]>|<eng><[01]>|<er><[23]>|<i><ai?><[23]>|<i><en><[23]>|<i><ong><[01]>|<[uy]><an><4>)$/$1f/
+      - xform/^(.)(<i><eng><[23]>|<u><[01]>|<_m><4>)$/$1g/
+      - xform/^(.)(<ai><4>|<i><au><[01]>|<[uy]><an><[23]>|<_n><4>)$/$1h/
+      - xform/^(.)(<en><[23]>|<ong><4>|<[uy]><o><4>|<y><eh><[23]>)$/$1j/
+      - xform/^(.)(<ei><4>|<i><en><4>|<ong><[01]>|<[uy]><o><[01]>|<y><eh><4>)$/$1k/
+      - xform/^(.)(<ei><[23]>|<i><[01]>|<_[iw]><[01]>|<u><ang><[23]>|<_ng><[01]>)$/$1l/
+      - xform/^(.)(<au><[23]>|<i><eh><[23]>|<u><ang><[01]>|<y><eh><[01]>)$/$1z/
+      - xform/^(.)(<ang><[01]>|<i><au><[23]>|<i><o><4>|<o><4>|<u><ai><[23]>)$/$1x/
+      - xform/^(.)(<ai?><[23]>|<er><4>|<i><ai?><4>|<ou><[01]>|<u><ai><[01]>)$/$1c/
+      - xform/^(.)(<o><[01]>|<eng><4>|<i><o><[01]>|<u><ei><4>|<y><4>)$/$1v/
+      - xform/^(.)(<an><[01]>|<e><[01]>|<i><eh><4>|<_ng><[23]>)$/$1b/
+      - xform/^(.)(<en><4>|<i><an><4>|<ou><[23]>|<[uy]><an><[01]>)$/$1n/
+      - xform/^(.)(<a><4>|<en><[01]>|<i><en><[01]>|<ong><[23]>)$/$1m/

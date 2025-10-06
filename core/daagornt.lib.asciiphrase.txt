@@ -2,7 +2,7 @@
 # coding: utf-8
 #@db/db_name	daagornt.lib.asciiphrase
 #@db/db_type	tabledb
-# version: 1.25.262.0
+# version: 1.25.279.0
 #
 # 西文短語
 # 該西文短語對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
@@ -140,12 +140,6 @@ automated teller machine	atm	0
 AV	av	0
 audio visual	av	0
 音频和视频	av	1
-B2B	b2b	0
-B to B	b2b	0
-business-to-business	b2b	0
-B2C	b2c	0
-B to C	b2c	0
-business-to-customer	b2c	0
 BBC	bbc	0
 British Broadcasting Corporation	bbc	0
 英国广播公司	bbc	1
@@ -165,11 +159,6 @@ beeper	bp	0
 BRT	brt	0
 bus rapid transit	brt	0
 快速公交系统	brt	1
-C2C	c2c	0
-consumer-to-consumer	c2c	0
-C⁴ISR	c4isr	0
-军事指挥信息系统	c4isr	1
-军队指挥自动化系统	c4isr	1
 CAD	cad	0
 computer-aided design	cad	0
 计算机辅助设计	cad	1
@@ -320,9 +309,6 @@ electronic toll collection	etc	0
 EV	ev	0
 electric vehicle	ev	0
 电动汽车	ev	1
-F1	f1	0
-formula 1	f1	0
-一级方程式锦标赛	f1	1
 FAX	fax	0
 facsimile	fax	0
 传真件	fax	1
@@ -451,18 +437,9 @@ light emitting diode	led	0
 LPG	lpg	0
 liquefied petroleum gas	lpg	0
 液化石油气	lpg	1
-M0	m0	0
-流通中现金	m0	1
-M1	m1	0
-狭义货币供应量	m1	1
-M2	m2	0
-广义货币供应量	m2	1
 MBA	mba	0
 Master of Business Administration	mba	0
 工商管理硕士	mba	1
-MP3	mp3	0
-MPEG 1 audio layer 3	mp3	0
-MP4	mp4	0
 MPA	mpa	0
 Master of Public Administration	mpa	0
 公共管理硕士	mpa	1
@@ -498,9 +475,6 @@ Nippon Hoso Kyokai	nhk	0
 NMD	nmd	0
 national missile defense	nmd	0
 美国国家导弹防御系统	nmd	1
-O2O	o2o	0
-O to O	o2o	0
-online-to-offline	o2o	0
 OA	oa	0
 office automation	oa	0
 办公自动化	oa	1
@@ -552,10 +526,6 @@ player killing	pk	0
 PM	pm	0
 particulate matter	pm	0
 颗粒物	pm	1
-PM2.5	pm25	0
-细颗粒物	pm25	1
-PM10	pm10	0
-可吸入颗粒物	pm10	1
 PMI	pmi	0
 purchasing manager's index	pmi	0
 制造业采购经理指数	pmi	1

@@ -1,6 +1,6 @@
 # Rime: Extensive rewrite engine for Daagor NT
 # encoding: utf-8#
-# Ver 1.25.277.0
+# Ver 1.25.279.0
 #
 
 yale:
@@ -14,17 +14,3 @@ latinxua:
     __append:
       - 'derive iou iu'
       - 'derive ji i'
-
-wade-giles-simp:
-  input:
-    __append:
-      # - Place holder for a rarely used scenario. Will add in the future.
-  output:
-    __append:
-
-wade-giles:
-  input:
-    __append:
-      # - Place holder for a rarely used scenario. Will add in the future.
-  output:
-    __append:

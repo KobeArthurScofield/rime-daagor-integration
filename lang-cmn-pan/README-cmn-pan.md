@@ -10,7 +10,7 @@
   - 自然龙双拼 (ZiRan Long, ziranlong)
   - 小浪双拼 (Xiao Lang, xiaolang)
   - 冰雪四拼/声笔四拼 (Snow Si-pin, snowsipin)
-  - 简龙（原作暂定名龙三） (Jian Long, jianlong)
+  - 龙三 (LongSan, longsan)
 - 帶聲調通用拼音 (Tongyong Pinyin, tongyong-pinyin)
 - 國語注音符號第二式，國音二式 (Phonetic Symbols II (MPS II), mpsii)
 - 注音輸入法
@@ -43,6 +43,8 @@
   - `cmn-pan-rime-snow`：调用冰雪拼音词库
   - `cmn-pan-rime-lmdg`：调用万象拼音词库
     - `dict.wanxiang`：词库合包文件
+  - `cmn-pan-rime-lmdg-moetype`：调用万象拼音词库 + 二次元词库
+    - `dict.wanxiang`：词库合包文件
 - `rscm.*`：基于以上文件组成的输入方案
     - `bpmfhsu` 注音（許氏）布局
     - `bpmfibm` 注音（IBM）布局
@@ -57,7 +59,7 @@
     - `gwoyeu-num` 国语罗马字数字音调布局
     - `hanxinlong` 汉心龙/龙码双拼布局
     - `hanyu-pinyin` 汉语拼音布局
-    - `jianlong` 简龙/龙三双拼布局
+    - `longsan` 龙三双拼布局
     - `mitac` 注音（神通）布局
     - `mpsii` 国音二式布局
     - `pinyinjiajia` 拼音加加双拼布局
@@ -68,12 +70,9 @@
     - `ziranlong` 自然龙双拼布局
     - `ziranma` 自然码双拼布局
 - `supplimental`：用于提供额外方案。这些方案包含：
-  - 威妥玛拼音 (wade-giles)（及简化威妥玛拼音 (wand-giles-simp)）
-  - 法国远东学院拼音 (efeo)
-  - 德国式拼音 (lessing-othmer)
+  - 简化威妥玛拼音 (wand-giles-simp)
   - 拉丁化新文字 (latinxua)
   - 耶鲁拼音 (yale)
-  - 捷克式拼音 (cesky)
 
 ## 方案所需的词典文件及语法模型文件；
 
@@ -91,17 +90,6 @@
 ![键盘布局](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/hxlong-2025-01.png)
 
 新增按键见下：
-
-#### ExtK-HX-01 标准
-
-| 拼音成份 | 按键（12345 声） |
-|--------|----------------|
-| 轻声 | 所有轻声的按键与其第一声相同 |
-| ê | LUICL |
-| 空韵母 h | MNCLM |
-| 空韵母 m | ULNIU |
-| 空韵母 n | CLTKC |
-| 空韵母 ng | CIGUC |
 
 #### ExtK-HX-02 标准
 
@@ -126,17 +114,6 @@
 
 新增按键见下：
 
-#### ExtK-ZR-01 标准
-
-| 拼音成份 | 按键（12345 声） |
-|--------|----------------|
-| 轻声 | 所有轻声的按键与其第一声相同 |
-| ê | YATQY |
-| 空韵母 h | VZNXV |
-| 空韵母 m | AYBTA |
-| 空韵母 n | QYZBQ |
-| 空韵母 ng | QTJAQ |
-
 #### ExtK-ZR-02 标准
 
 | 拼音成份 | 按键（12345 声） |
@@ -154,7 +131,7 @@
 | 韵母 io | PEIGP |
 | 韵母 üo | SLLPS |
 
-### 简龙/龙三键盘布局
+### 龙三键盘布局
 
 ![键盘布局](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/jianlong-2025-09.jpg)
 
@@ -191,7 +168,7 @@
 
 ### 拼音表示方式转换
 
-将音调转换至输入方案支持的范围，一种是仅转换音调而保留所有拼写，另一种是将拼写压缩到常用拼音拼写组合（limited）；前者适用于所用布局能支持词库中所有拼写（如扩展后的汉心龙、自然龙），后者适用于所用布局仅能支持常见拼写（如一般双拼）。
+将音调转换至输入方案支持的范围，一种是仅转换音调而保留所有拼写，另一种是将拼写压缩到常用拼音拼写组合；前者适用于所用布局能支持词库中所有拼写（如扩展后的汉心龙、自然龙），后者适用于所用布局仅能支持常见拼写（如一般双拼）。
 
 示例如下（以汉语拼音示例）：
 
@@ -208,7 +185,7 @@
 | 声母 ng- | ng- | n- |
 | 声母 gn- | gn- | g- |
 | 声母 v- | v- | w- |
-| 韵母 -iai | -iai | -ai |
+| 韵母 -iai | -iai | -ia |
 | 韵母 -io | -io | -o |
 | 韵母 -üo | -üo | -uo |
 
@@ -223,7 +200,7 @@
 - [RIME 输入引擎](https://github.com/rime)
 - [汉心龙](https://hanxinma.gitlab.io/longma/hanxinlong) 作者：晡时之光
 - [自然龙](https://hanxinma.gitlab.io/longma/ziranlong) 作者：小幽幽
-- [简龙](https://hanxinma.gitlab.io/longma/longsan)/[龙三] 作者：青蛙
+- [龙三](https://hanxinma.gitlab.io/longma/longsan) 作者：青蛙
 - 自然码 作者：（周志农）
 - [小鹤双拼](https://flypy.com/) 作者：散步的鹤（何海峰）
 - 拼音加加双拼 原作者：（廖恒毅）
