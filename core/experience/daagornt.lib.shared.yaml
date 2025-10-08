@@ -138,6 +138,15 @@ recognizer:
     quick_phrase: "^(A|C[aiqz]|D[itz]|L[CD]|Mc|N[cfst]|Pa|T[CDHMW]|S[sEHS])[-_0-9A-Za-z]*$"
     extchar: "^(B5|C[56HMT]|G0|HC|ST|ZM)[0-9a-z]+$"
 
+#
+# 6211 8981 7b56 9a6c 5954 817e 5411 4f60 6000 4e2d 89e3 5f00 601d 5ff5 7684 8c1c 5343 5e74 7684 68a6
+# 7a7f 8d8a 832b 832b 4e91 6d77 84dd 5929 4f9d 65e7 9a6c 7434 54cd 8d77 5fc3 4e8b 77ac 95f4 6d88 878d
+# 6211 8981 7b56 9a6c 5954 817e 65e0 5c3d 82cd 7a79 5377 843d 4e00 8def 98ce 96e8 817e 8d77 5f69 8679
+# 6f02 6cca 5728 4f60 5fc3 6d77 5e78 798f 4f9d 65e7 6e05 98ce 4e00 7f15 524d 4e16 4eca 751f 76f8 9022
+# 51e4 51f0 4f20 5947 7b56 9a6c 5954 817e
+# 8bcd 9646 65b0 6865 66f2 5f90 4e00 9e23
+#
+
 menu:
   page_size: 6
 

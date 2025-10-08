@@ -2,7 +2,7 @@
 # coding: utf-8
 #@db/db_name	daagornt.lib.asciichar
 #@db/db_type	tabledb
-# version: 1.25.277.0
+# version: 1.25.280.0
 #
 # 西文字符
 # 該西文字符對所有輸入法全局生效，不會區分鍵盤布局并且不會參與拼寫轉換。
@@ -185,6 +185,15 @@
 Ю	crju	1
 Я	crja	1
 
+#
+# 8d8a 8fc7 7ef5 7ef5 7684 9ad8 5c71 8d8a 8fc7 65e0 5c3d 7684 6ca7 6d77 
+# 5982 679c 671f 5f85 4f9d 7136 5728 603b 662f 6625 6696 5230 82b1 5f00 
+# 8bf7 4f60 8f7b 8f7b 7559 4e0b 6765 8ba9 68a6 5377 8d70 8fd9 5c18 57c3 
+# 9999 98d8 5728 4e66 53a2 4e4b 5916 594f 54cd 7f8e 4e3d 7684 5929 7c41 
+# 51e4 51f0 4f20 5947 5962 9999 592b 4eba 
+# 8bcd 66f2 5f20 8d85
+#
+
 # 现代假名
 あ	kna	1
 い	kni	1
@@ -296,7 +305,6 @@
 ᆮ	emt	1
 ㄸ	emtt	1
 ᄄ	emtt	1
-ퟍ	emem	1
 ㄹ	emr	1
 ᄅ	emr	1
 ᆯ	eml	1
@@ -308,7 +316,6 @@
 ᆸ	emp	1
 ㅃ	empp	1
 ᄈ	empp	1
-ퟦ	emem	1
 ㅅ	ems	1
 ᄉ	ems	1
 ᆺ	emt	1
@@ -323,7 +330,6 @@
 ᆽ	emt	1
 ㅉ	emjj	1
 ᄍ	emjj	1
-ퟹ	emem	1
 ㅊ	emch	1
 ᄎ	emch	1
 ᆾ	emt	1
@@ -381,6 +387,28 @@
 ᅴ	emui	1
 ㅣ	emi	1
 ᅵ	emi	1
+ㄳ	emgs	1
+ᆪ	emks	1
+ㄵ	emnt	1
+ᆬ	emnj	1
+ㄶ	emnt	1
+ᆭ	emnh	1
+ㄺ	emrk	1
+ᆰ	emlg	1
+ㄻ	emrm	1
+ᆱ	emlm	1
+ㄼ	emrp	1
+ᆲ	emlb	1
+ㄽ	emrt	1
+ᆳ	emls	1
+ㄾ	emrt	1
+ᆴ	emlt	1
+ㄿ	emrp	1
+ᆵ	emlp	1
+ㅀ	emrt	1
+ᆶ	emlh	1
+ㅄ	embt	1
+ᆹ	emps	1
 
 # 星座
 ♈︎	zdaries	2

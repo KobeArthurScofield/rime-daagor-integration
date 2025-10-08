@@ -4,7 +4,7 @@
 
 目前支持：
 - 基于北方官话的[拼音注音方案输入](lang-cmn-pan/README-cmn-pan.md) (ISO 639-3 cmn)
-- 基于标准粤语的[粤语拼音方案输入](lang-yue-yyef/README-yue-yyef.md) (ISO 639-3 cmn)
+- 基于标准粤语的[粤语拼音方案输入](lang-yue-yyef/README-yue-yyef.md) (ISO 639-3 yue)
 
 警告：所有方案及词库无法跨 ISO 639-3 语言代码使用！
 
@@ -16,7 +16,7 @@
 
 如果需要下载开发中版本，请到 Actions 下载（保存期限为 90 日）。
 
-1. 将下载的文件包解压；`base` 为基础文件，`extension` 为额外方案文件。
+1. 将下载的文件包解压；`base` 为基础文件，`extension` 为补充的 Daagor Experience 文件、特殊配置补丁以及额外方案文件。
 2. 将以下文件复制到 RIME 前端设定的用户文件夹：
 
   * `lib.shared`
@@ -39,7 +39,7 @@
         * `t2*`：词库类型为大陆传统体时使用
         * `tw2*`：词库类型为台湾正体时使用
         * `noop`：所有方案必须，当词库及输入方案默认字型相同时使用，表示“不转换”
-      * 由于各发行版可能存在机制缺陷，OpenCC **可能**无法识别文件中指向的 OCD2 文件，此种情况需要自行建立到发行版自带的 OCD2 文件，或者自行编译或替换 `lib.shared` 中的转换配置为发行版自带配置。
+      * 由于各发行版可能存在机制缺陷，OpenCC **可能**无法识别文件中指向的 OCD2 文件，此种情况需要自行建立到发行版自带的 OCD2 文件链接，或者自行编译，或替换 `lib.shared` 中的转换配置为发行版自带配置
         * 如果没有遇到简繁转换不生效的问题则无需做此操作
   * `customize`
     * 若为初次安装，将 customize 内含文件复制至与其以上文件同一个文件夹
@@ -49,7 +49,7 @@
     * 复制自己所需的词库调用文件，与以上文件置于同一个文件夹
   * `experience`
     * 如果希望使用非 RIME 默认自带的输入体验，可以按需复制其中文件与以上文件置于同一个文件夹：
-      * `lib.shared` 必须与 `lib.keybinder` 与 `lib.punctuation` 一并复制
+      * `lib.shared` 必须与 `lib.keybinder` 与 `lib.punctuation` 与 `lib.extchar` 一并复制
   * `supplimental`
     * 如果有需要，复制自己所需的库文件及方案文件，与以上文件置于同一个文件夹
 
@@ -73,7 +73,7 @@ patch:
 - `lib.icon`： 对应输入法的指示器图标
 - `opencc`：繁简转换方案
 - `customize`: 输入法可自定义内容
-  - `custom.custom_phrase`: 自定义短语，该短语可跨布局及 ISO 639-3 使用，直接输入编码即可。
+  - `custom.custom_phrase`: 自定义短语，该短语可跨布局及 ISO 639-3 使用，直接输入编码即可
     - 更新时注意：如果自己已有自定义短语内容，切勿使用解包后文件直接替换！会造成内容丢失！
 - `experience`：Daagor Integration Experience，用于取代输入方案默认体验
   - `lib.shared`：提供经过调整的 RIME 发行版默认以外的体验
@@ -85,11 +85,11 @@ patch:
 - `rscm.*`：基于以上文件组成的输入方案
 - `supplimental`：用于提供额外方案。
 
-# 特殊内容输入
+## 特殊内容输入
 
 以下为特殊内容输入指示符：
 
-## 即时输入
+### 即时输入
 
 - `｀`：一般符号输入，详细可输入内容见 `rime-prelude` （标准版）或 `daagorxp.lib.punctuation` （Daagor Experience）
 - `prev`：历史输入记录
@@ -101,7 +101,7 @@ patch:
 - `mn`：月份符号
 - `wk`：星期曜日符号
 
-## 转换输入
+### 转换输入
 
 使用时主键盘区数字列用于输入无法选词，需小键盘数字或导航键辅助
 
@@ -141,7 +141,7 @@ patch:
 - `Ci`/`Cq`/`Cz`：电码简码
 - `Ca`：ARRL 简码
 
-## 查码表
+### 查码表
 
 该功能仅限 Daagor Experience
 

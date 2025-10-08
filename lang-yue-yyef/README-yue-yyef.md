@@ -1,5 +1,7 @@
 # ℞大狗拼音（标准粤语） Daagor Integration (ISO 639-3 yue-yyef)
 
+![EXAMPLE](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/example-yue-yyef.png)
+
 目前包含：
 - 香港語言學學會粵語拼音方案 (Jyutping, jyutping)
 - 教育學院拼音方案 (ILE Romanization, ile)
@@ -21,7 +23,7 @@
   - `icon.imecn`： 输入法模式中国大陆方案图标
   - `icon.imehk`： 输入法模式香港方案图标
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
-  - `yue-yyef-rime-terra`：调用粵語拼音方案词库
+  - `yue-yyef-rime-cantonese`：调用粵語拼音方案词库
 - `rscm.*`：基于以上文件组成的输入方案
   - `gdr` 广州话拼音方案
   - `ile` 教育學院拼音方案

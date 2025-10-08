@@ -1,10 +1,10 @@
 # Rime Patch
 # encoding: utf-8
 # Patch for 40% size (XXXXS) keyboard mapping
-# version: 1.25.270
+# version: 1.25.280
 
 __patch:
-  key_binder/bindings+:
+  key_binder/bindings/+:
     # Using less and equal for paging
     - { when: has_menu, accept: less, send: Page_Up }
     - { when: has_menu, accept: greater, send: Page_Up }

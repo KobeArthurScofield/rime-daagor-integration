@@ -1,5 +1,7 @@
 # ℞大狗拼音（北方官话） Daagor Integration (ISO 639-3 cmn-pan)
 
+![EXAMPLE](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/example-cmn-pan.png)
+
 目前包含：
 - 带调标准汉语拼音 (HanYu PinYin, hanyu-pinyin)
 - 带调双拼
@@ -43,7 +45,7 @@
   - `cmn-pan-rime-snow`：调用冰雪拼音词库
   - `cmn-pan-rime-lmdg`：调用万象拼音词库
     - `dict.wanxiang`：词库合包文件
-  - `cmn-pan-rime-lmdg-moetype`：调用万象拼音词库 + 二次元词库
+  - `cmn-pan-rime-lmdg-moetype`：调用万象拼音词库 + [二次元词库](https://github.com/suiginko/moetype)
     - `dict.wanxiang`：词库合包文件
 - `rscm.*`：基于以上文件组成的输入方案
     - `bpmfhsu` 注音（許氏）布局
@@ -133,11 +135,11 @@
 
 ### 龙三键盘布局
 
-![键盘布局](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/jianlong-2025-09.jpg)
+![键盘布局](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/longsan-2025-09.jpg)
 
 新增按键见下：
 
-#### ExtK-ZR-02 标准
+#### ExtK-LS-02 标准
 
 | 拼音成份 | 按键（12345 声） |
 |--------|----------------|

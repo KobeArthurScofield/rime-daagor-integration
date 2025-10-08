@@ -396,6 +396,13 @@ hanyu_pinyin:
       - 'xform <([1-4])> $1'
       - 'xform <0> 5'
 
+#
+# 8ba9 6211 53d8 6210 7f8e 4e3d 7684 9a8f 9a6c 548c 4f60 9a70 9a8b 5728 5929 6daf
+# 4e00 8d77 5b88 62a4 53e4 8001 7684 795e 8bdd 548c 4f20 8bf4 6c38 4e0d 51cb 843d
+# 51e4 51f0 4f20 5947 5929 84dd 84dd
+# 8bcd 66f2 5f20 8d85
+#
+
 phonetic_symbols:
   input:
     __append:
