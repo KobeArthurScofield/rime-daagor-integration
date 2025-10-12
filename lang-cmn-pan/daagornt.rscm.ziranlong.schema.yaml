@@ -9,7 +9,7 @@ schema:
     - '方案集成 丢狼'
   description: |
     自然龙双拼输入方案
-  version: '2.25.278.1904'
+  version: '2.25.285.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -95,12 +95,12 @@ rule_convert:
     __append:
       - 'xform <5> <0>'
       # Sibilant Compatibility
-      - 'derive <ts><([iy])> <ts6><$1>'
-      - 'derive <tsh><([iy])> <ts6h><$1>'
-      - 'derive <s><([iy])> <s6><$1>'
-      - 'derive <k><([iy])> <ts6><$1>'
-      - 'derive <kh><([iy])> <ts6h><$1>'
-      - 'derive <[xh]><([iy])> <s6><$1>'
+      - 'derive <ts><([iy])> <tsc><$1>'
+      - 'derive <tsh><([iy])> <tsch><$1>'
+      - 'derive <s><([iy])> <sc><$1>'
+      - 'derive <k><([iy])> <tsc><$1>'
+      - 'derive <kh><([iy])> <tsch><$1>'
+      - 'derive <[xh]><([iy])> <sc><$1>'
       # Hanyu Pinyin key convert
       - 'xform <jy> <j><y>'
       # Pre-process for zero-consonant
@@ -130,9 +130,9 @@ rule_convert:
       - 'xform ^<k> g'
       - 'xform ^<kh> k'
       - 'xform ^(<x>|<h>) h'
-      - 'xform ^<ts6> j'
-      - 'xform ^<ts6h> q'
-      - 'xform ^<s6> x'
+      - 'xform ^<tsc> j'
+      - 'xform ^<tsch> q'
+      - 'xform ^<sc> x'
       - 'xform ^<tis> v'
       - 'xform ^<tish> i'
       - 'xform ^<is> u'

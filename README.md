@@ -79,7 +79,6 @@ patch:
   - `lib.shared`：提供经过调整的 RIME 发行版默认以外的体验
     - `daagorxp.lib.keybinder`：非默认按键组合体验
     - `daagorxp.lib.punctuation`：非默认标点输入体验
-    - `daagorxp.lib.recognizer`：非默认识别功能体验
     - `daagorxp.lib.extchar`：字符输入扩展功能，包括 GB 区码输入、BIG5 内码输入、HKSCS 内码输入、电报码输入、郑码输入、仓颉输入、苍颉输入及笔画输入
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
 - `rscm.*`：基于以上文件组成的输入方案

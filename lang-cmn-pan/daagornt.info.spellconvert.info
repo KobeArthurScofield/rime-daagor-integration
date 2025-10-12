@@ -1,5 +1,5 @@
 # Rime: Spelling converter Information
-# Ver 1.0.2.03
+# Ver 1.0.3.04
 
 # ISO 639-3: cmn
 # Extension tag: pan (General 现代标准汉语/通用汉语)
@@ -25,7 +25,7 @@
 # ㄅ <p> ㄆ <ph> ㄇ <m> ㄈ <f>
 # ㄉ <t> ㄊ <th> ㄋ <n> ㄌ <l>
 # ㄍ <k> ㄎ <kh> ㄏ <x><h>
-# ㄐ <ts6> ㄑ <ts6h> ㄒ <s6>
+# ㄐ <tsc> ㄑ <tsch> ㄒ <sc>
 # ㄓ <tis> ㄔ <tish> ㄕ <is> ㄖ <zi>
 # ㄗ <ts> ㄘ <tsh> ㄙ <s>
 

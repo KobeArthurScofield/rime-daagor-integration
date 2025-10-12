@@ -1,6 +1,6 @@
 # Rime: Supplemental convert engine for Daagor NT
 # encoding: utf-8#
-# Ver 1.25.279.0
+# Ver 1.25.285.0
 #
 
 # Yale Romanization
@@ -8,12 +8,12 @@
 yale:
   output:
     __append:
-      - 'derive <ts><([iy])> <ts6><$1>'
-      - 'derive <tsh><([iy])> <ts6h><$1>'
-      - 'derive <s><([iy])> <s6><$1>'
-      - 'derive <k><([iy])> <ts6><$1>'
-      - 'derive <kh><([iy])> <ts6h><$1>'
-      - 'derive <[xh]><([iy])> <s6><$1>'
+      - 'derive <ts><([iy])> <tsc><$1>'
+      - 'derive <tsh><([iy])> <tsch><$1>'
+      - 'derive <s><([iy])> <sc><$1>'
+      - 'derive <k><([iy])> <tsc><$1>'
+      - 'derive <kh><([iy])> <tsch><$1>'
+      - 'derive <[xh]><([iy])> <sc><$1>'
       - 'xform/<[0-5]>//'
       - xform <_w> $1z
       - xform <_i> $1r
@@ -31,9 +31,9 @@ yale:
       - xform <k> g
       - xform <kh> k
       - xform (<x>|<h>) h
-      - xform <ts6> jy
-      - xform <ts6h> chy
-      - xform <s6> sy
+      - xform <tsc> jy
+      - xform <tsch> chy
+      - xform <sc> sy
       - xform <tis> j
       - xform <tish> ch
       - xform <is> sh
@@ -96,9 +96,9 @@ latinxua:
       - 'xform <k> g'
       - 'xform <kh> k'
       - 'xform (<x>|<_?h>) h'
-      - 'xform <ts6> gi'
-      - 'xform <ts6h> ki'
-      - 'xform <s6> xi'
+      - 'xform <tsc> gi'
+      - 'xform <tsch> ki'
+      - 'xform <sc> xi'
       - 'xform <tis> zh'
       - 'xform <tish> ch'
       - 'xform <is> sh'
@@ -157,9 +157,9 @@ wade-giles-simp:
       - xform <k> k
       - xform <kh> kh
       - xform (<x>|<h>) h
-      - xform <ts6> chi
-      - xform <ts6h> chhi
-      - xform <s6> hsi
+      - xform <tsc> chi
+      - xform <tsch> chhi
+      - xform <sc> hsi
       - xform <tis> ch
       - xform <tish> chh
       - xform <is> sh
