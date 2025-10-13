@@ -1,8 +1,7 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.285.0
+# Ver: 1.25.286.0
 #
-# Note: The font settings in Weasel and Squirrel are different for font weight, so fallback is required.
 
 engines:
   processors:
@@ -229,9 +228,9 @@ zh_cn_simp:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
-    label_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
-    comment_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    font_face: 'Noto Sans SC:semi_light'
+    label_font_face: 'Noto Sans SC'
+    comment_font_face: 'Noto Sans SC:light'
     inline_preedit: true
 
 zh_cn_trad:
@@ -278,9 +277,9 @@ zh_cn_trad:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
-    label_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
-    comment_font_face: 'Noto Sans SC:semi_light, Noto Sans SC-semi_light'
+    font_face: 'Noto Sans SC:semi_light'
+    label_font_face: 'Noto Sans SC'
+    comment_font_face: 'Noto Sans SC:light'
     inline_preedit: true
 
 zh_tw:
@@ -327,9 +326,9 @@ zh_tw:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans TC:semi_light, Noto Sans TC-semi_light'
-    label_font_face: 'Noto Sans TC:semi_light, Noto Sans TC-semi_light'
-    comment_font_face: 'Noto Sans TC:semi_light, Noto Sans TC-semi_light'
+    font_face: 'Noto Sans TC:semi_light'
+    label_font_face: 'Noto Sans TC'
+    comment_font_face: 'Noto Sans TC:light'
     inline_preedit: true
 
 zh_hk:
@@ -376,7 +375,7 @@ zh_hk:
     tips: all
     inherit_comment: true
   style:
-    font_face: 'Noto Sans HK:semi_light, Noto Sans HK-semi_light'
-    label_font_face: 'Noto Sans HK:semi_light, Noto Sans HK-semi_light'
-    comment_font_face: 'Noto Sans HK:semi_light, Noto Sans HK-semi_light'
+    font_face: 'Noto Sans HK:semi_light'
+    label_font_face: 'Noto Sans HK'
+    comment_font_face: 'Noto Sans HK:light'
     inline_preedit: true
