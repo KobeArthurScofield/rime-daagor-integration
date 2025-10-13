@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.273.0
+# Ver: 1.25.285.0
 #
 # Note: The font settings in Weasel and Squirrel are different for font weight, so fallback is required.
 
@@ -136,7 +136,7 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     punct: "^`([0-9]0?|[A-Za-z]+)$"
     quick_phrase: "^(A|C[aiqz]|D[itz]|L[CD]|Mc|N[cfst]|Pa|T[CDHMW]|S[sEHS])[-_0-9A-Za-z]*$"
-    extchar: "^(B5|C[56HMT]|G0|HC|ST|ZM)[0-9a-z]+$"
+    extchar: "^(B5|C[56HMT]|G[0K]|HC|ST|ZM)[0-9a-z]+$"
 
 #
 # 6211 8981 7b56 9a6c 5954 817e 5411 4f60 6000 4e2d 89e3 5f00 601d 5ff5 7684 8c1c 5343 5e74 7684 68a6

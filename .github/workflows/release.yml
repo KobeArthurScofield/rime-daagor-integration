@@ -27,13 +27,11 @@ jobs:
           mkdir -p ${BASE}
           mkdir -p ${EXTN}
 
-      - name: Copy README.md & LICENSE
+      - name: Copy README.md
         run: |
           cd ${GITHUB_WORKSPACE}
           cp ./README.md ./$BASE/README.md
-          cp ./LICENSE ./$BASE/LICENSE
           cp ./README.md ./$EXTN/README.md
-          cp ./LICENSE ./$EXTN/LICENSE
       
       - name: Copy base files
         run: |
