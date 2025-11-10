@@ -1,6 +1,6 @@
 # RIME: Dictionary (RIME-LMDG) process for Daagor Integration
 # encoding: utf-8#
-# version: 2.25.250.0
+# version: 2.25.314.0
 #
 
 translator:
@@ -8,6 +8,7 @@ translator:
   packs:
     # Requires https://github.com/suiginko/moetype
     - tone_moe.dict.yaml
+    # - daagornt.dict.wanxiang_cell
   max_homophones: 5
   max_homographs: 5
 
