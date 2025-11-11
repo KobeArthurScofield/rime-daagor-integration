@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.286.0
+# Ver: 1.25.315.0
 #
 
 engines:
@@ -125,7 +125,7 @@ key_binder:
 
 punctuator:
   import_preset: daagorxp.lib.punctuation
-  digit_separators: ",."
+  digit_separators: ",.:'"
   digit_separator_action: commit
 
 recognizer:
