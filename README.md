@@ -2,6 +2,8 @@
 
 基于中州韵输入法引擎 (RIME) 构建的带调拼音方案集合。
 
+![ICONEXP](https://github.com/KobeArthurScofield/rime-daagor-integration/blob/main/image/daagor-status-icon.png)
+
 目前支持：
 - 基于北方官话的[拼音注音方案输入](lang-cmn-pan/README-cmn-pan.md) (ISO 639-3 cmn)
 - 基于标准粤语的[粤语拼音方案输入](lang-yue-yyef/README-yue-yyef.md) (ISO 639-3 yue)
