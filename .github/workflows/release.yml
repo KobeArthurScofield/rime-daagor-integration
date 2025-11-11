@@ -67,14 +67,14 @@ jobs:
           popd || exit 1
         
       - name: Upload base files to artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.PKNAME }}-${{ env.BASE }}
           path: |
             ./${{ env.BASE }}/*
         
       - name: Upload extension files to artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.PKNAME }}-${{ env.EXTN }}
           path: |

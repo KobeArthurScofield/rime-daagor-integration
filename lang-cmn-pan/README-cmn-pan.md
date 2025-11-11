@@ -45,8 +45,8 @@
   - `cmn-pan-rime-snow`：调用冰雪拼音词库
   - `cmn-pan-rime-lmdg`：调用万象拼音词库
     - `dict.wanxiang`：词库合包文件
-  - `cmn-pan-rime-lmdg-moetype`：调用万象拼音词库 + [二次元词库](https://github.com/suiginko/moetype)
-    - `dict.wanxiang`：词库合包文件
+    - `dict.wanxiang_cell`：细胞词库合包文件
+      - 可选添加使用 [二次元词库](https://github.com/suiginko/moetype)
 - `rscm.*`：基于以上文件组成的输入方案
     - `bpmfhsu` 注音（許氏）布局
     - `bpmfibm` 注音（IBM）布局
