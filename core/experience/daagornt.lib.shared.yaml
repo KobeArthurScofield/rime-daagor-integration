@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.315.0
+# Ver: 1.25.321.0
 #
 
 engines:
@@ -45,6 +45,8 @@ translator:
   spelling_hints: 4
   always_show_comments: true
   enable_correction: false # Will map to nearby keys, which may have consequense
+  core_word_length: 4
+  max_word_length: 7
   initial_quality: 12
 
 history:
