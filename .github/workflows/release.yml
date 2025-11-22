@@ -19,7 +19,7 @@ jobs:
       EXTN: extension
     steps:
       - name: Checkout base
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       
       - name: Prepare directories
         run: |
