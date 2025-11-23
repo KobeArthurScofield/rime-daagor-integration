@@ -46,6 +46,8 @@
 
 注意：不同词库之间会存在拼写差异。
 
+注意：现在本仓库提供定期更新的打包下载。
+
 - 八股文模型（繁体）： https://github.com/lotem/rime-octagram-data/tree/hant
 - 粵語拼音方案词库： https://github.com/rime/rime-cantonese (*.dict.yaml)
 

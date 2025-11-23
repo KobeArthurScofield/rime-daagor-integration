@@ -1,0 +1,218 @@
+name: Weekly packing dictionaries and grammar modules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 23 * * 5"
+
+jobs:
+  format-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      RLTAG: weekly-dicts
+
+    steps:
+      - name: Remove existing weekly release assets
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const tag = "${{ env.RLTAG }}";
+            try {
+              const releases = await github.rest.repos.listReleases({
+                owner: context.repo.owner,
+                repo: context.repo.repo
+              });
+              const existingRelease = releases.data.find(r => r.tag_name === tag);
+              if (existingRelease) {
+                console.log(`Deleting existing Release with ID: ${existingRelease.id}`);
+                await github.rest.repos.deleteRelease({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  release_id: existingRelease.id
+                });
+              }
+              console.log(`Deleting tag: ${tag}`);
+              await github.rest.git.deleteRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `tags/${tag}`
+              });
+            } catch (error) {
+              console.log(`No existing release or tag to delete: ${error.message}`);
+            }
+
+      - name: Wait for removing old release
+        run: sleep 30
+
+      - name: Format new release
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ env.RLTAG }}
+          name: "每周词典更新"
+          body: |
+            - `dicts-rime-terra.zip`：来自地球拼音的最新词库文件
+            - `dicts-rime-snow.zip`：来自冰雪拼音的最新词库文件
+            - `dicts-rime-lmdg.zip`：来自 rime-lmdg 的最新词库文件
+            - `dicts-rime-cantonese.zip`：来自 RIME 粤拼的最新词库文件
+            - `grammar-default.zip`：来自 RIME 官方的精简版语法模型
+            - `grammar-v2n3.zip`：来自 rime-lmdg 的公共版语法模型
+            - `grammar-lmdg.zip`：来自 rime-lmdg 的搭配 lmdg 词库使用语法模型
+          draft: false
+          prerelease: false
+          make_latest: false
+
+  download-terra:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: format-release
+    env:
+      RLTAG: weekly-dicts
+      DICTN: dicts-rime-terra
+
+    steps:
+      - name: Download rime-terra
+        uses: actions/checkout@v6
+        with:
+          repository: 'rime/rime-terra-pinyin'
+
+      - name: Pack-up dictionary
+        run: |
+          zip -9vr ./${DICTN}.zip ./*.dict.yaml
+
+      - name: Upload dict
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./${{ env.DICTN }}.zip
+          tag: ${{ env.RLTAG }}
+          file_glob: true
+
+  download-snow:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: format-release
+    env:
+      RLTAG: weekly-dicts
+      DICTN: dicts-rime-snow
+
+    steps:
+      - name: Download rime-snow
+        uses: actions/checkout@v6
+        with:
+          repository: 'rimeinn/rime-snow-pinyin'
+
+      - name: Pack-up dictionary
+        run: |
+          zip -9vr ./${DICTN}.zip ./*.dict.yaml
+
+      - name: Upload dict
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./${{ env.DICTN }}.zip
+          tag: ${{ env.RLTAG }}
+          file_glob: true
+
+  download-lmdg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: format-release
+    env:
+      RLTAG: weekly-dicts
+      DICTN: dicts-rime-lmdg
+
+    steps:
+      - name: Retrieve script
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Repack Dictionary
+        run: |
+          curl -L -O -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/dict-nightly/dicts.zip"
+          unzip dicts.zip
+          mv dicts extracted
+          mkdir ./processed
+          python ./.irdeaf/scripts/rename-lmdg-dict.py
+          mv processed dicts
+          zip -9vr ./${DICTN}.zip ./dicts
+
+      - name: Upload dict
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./${{ env.DICTN }}.zip
+          tag: ${{ env.RLTAG }}
+          file_glob: true
+
+  download-cantonese:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: format-release
+    env:
+      RLTAG: weekly-dicts
+      DICTN: dicts-rime-cantonese
+
+    steps:
+      - name: Download rime-catonese
+        uses: actions/checkout@v6
+        with:
+          repository: 'rime/rime-cantonese'
+
+      - name: Pack-up dictionary
+        run: |
+          zip -9vr ./${DICTN}.zip ./*.dict.yaml
+
+      - name: Upload dict
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./${{ env.DICTN }}.zip
+          tag: ${{ env.RLTAG }}
+          file_glob: true
+
+  download-grammars:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: format-release
+    env:
+      RLTAG: weekly-dicts
+
+    steps:
+      - name: Pack up RIME grammar
+        run: |
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hant-t-essay-bgc.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hant-t-essay-bgw.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hans-t-essay-bgc.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hans-t-essay-bgw.gram"
+          zip -9vr ./grammar-default.zip ./zh-han*.gram
+
+      - name: Pack up lmdg public grammar
+        run: |
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/v2n3/amz-v2n3m1-zh-hans.gram"
+          zip -9vr ./grammar-v2n3.zip ./amz-v2n3m1-zh-hans.gram
+
+      - name: Pack up lmdg grammar
+        run: |
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"
+          zip -9vr ./grammar-lmdg.zip ./wanxiang-lts-zh-hans.gram
+
+      - name: Upload grammar
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./*.zip
+          tag: ${{ env.RLTAG }}
+          file_glob: true
