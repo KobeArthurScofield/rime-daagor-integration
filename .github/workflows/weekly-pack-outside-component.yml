@@ -14,43 +14,11 @@ jobs:
       RLTAG: weekly-dicts
 
     steps:
-      - name: Remove existing weekly release assets
-        uses: actions/github-script@v8
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const tag = "${{ env.RLTAG }}";
-            try {
-              const releases = await github.rest.repos.listReleases({
-                owner: context.repo.owner,
-                repo: context.repo.repo
-              });
-              const existingRelease = releases.data.find(r => r.tag_name === tag);
-              if (existingRelease) {
-                console.log(`Deleting existing Release with ID: ${existingRelease.id}`);
-                await github.rest.repos.deleteRelease({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  release_id: existingRelease.id
-                });
-              }
-              console.log(`Deleting tag: ${tag}`);
-              await github.rest.git.deleteRef({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                ref: `tags/${tag}`
-              });
-            } catch (error) {
-              console.log(`No existing release or tag to delete: ${error.message}`);
-            }
-
-      - name: Wait for removing old release
-        run: sleep 30
-
       - name: Format new release
-        uses: softprops/action-gh-release@v2
+        uses: andelf/nightly-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           tag_name: ${{ env.RLTAG }}
           name: "每周词典更新"
           body: |
@@ -61,9 +29,7 @@ jobs:
             - `grammar-default.zip`：来自 RIME 官方的精简版语法模型
             - `grammar-v2n3.zip`：来自 rime-lmdg 的公共版语法模型
             - `grammar-lmdg.zip`：来自 rime-lmdg 的搭配 lmdg 词库使用语法模型
-          draft: false
-          prerelease: false
-          make_latest: false
+          prerelease: true
 
   download-terra:
     runs-on: ubuntu-latest
