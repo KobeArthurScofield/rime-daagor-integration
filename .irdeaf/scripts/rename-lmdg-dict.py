@@ -8,8 +8,8 @@ print("Building functions and objects")
 scriptver = "25.327"
 upstreamdate = "2025-11-22"
 
-old_path = "./extracted/"
-new_path = "./processed/"
+old_path = "./dicts/"
+new_path = "./"
 
 # MAPPING LIST OF THE REVERTING
 reverter = {

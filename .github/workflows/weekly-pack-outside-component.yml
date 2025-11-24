@@ -141,11 +141,8 @@ jobs:
         run: |
           curl -L -O -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/dict-nightly/dicts.zip"
           unzip dicts.zip
-          mv dicts extracted
-          mkdir ./processed
           python ./.irdeaf/scripts/rename-lmdg-dict.py
-          mv processed dicts
-          zip -9vr ./${DICTN}.zip ./dicts
+          zip -9vr ./${DICTN}.zip ./*.dict.yaml
 
       - name: Upload dict
         uses: svenstaro/upload-release-action@v2
