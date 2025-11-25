@@ -84,7 +84,7 @@ jobs:
 
       - name: Pack-up dictionary
         run: |
-          zip -9vr ./${DICTN}.zip ./snow_pinyin*dict.yaml
+          zip -9vr ./${DICTN}.zip ./snow_pinyin.dict.yaml ./snow_pinyin.*.dict.yaml
 
       - name: Upload dict
         uses: svenstaro/upload-release-action@v2
@@ -144,7 +144,7 @@ jobs:
 
       - name: Pack-up dictionary
         run: |
-          zip -9vr ./${DICTN}.zip ./jyut6ping3*dict.yaml ./essay-cantonese.txt
+          zip -9vr ./${DICTN}.zip ./jyut6ping3.dict.yaml ./jyut6ping3.*.dict.yaml ./essay-cantonese.txt
 
       - name: Upload dict
         uses: svenstaro/upload-release-action@v2
