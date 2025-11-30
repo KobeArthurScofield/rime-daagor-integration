@@ -1,10 +1,14 @@
 # RIME: Dictionary (rime-terra-pinyin) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.25.273.0
+# Ver: 2.25.334.0
 #
 
 translator:
   dictionary: jyut6ping3
+  # packs:
+    # Requires HoengSaan/rime-gukwan
+    # - gw_dicts/gukwan.kwongtung  # 廣東地名詞庫
+    # - gw_dicts/gukwan.macau      # 澳門地名詞庫
   max_homophones: 7
   max_homographs: 7
 

@@ -164,7 +164,7 @@
 
 - 八股文模型（繁体）： https://github.com/lotem/rime-octagram-data/tree/hant
 - 冰雪拼音词库： https://github.com/rimeinn/rime-snow-pinyin (*.dict.yaml)
-- 万象词库： https://github.com/amzxyz/RIME-LMDG/releases/tag/dict-nightly
+- 万象词库： https://github.com/KobeArthurScofield/rime-daagor-integration/releases/tag/weekly-dicts
 - 万象通用模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/v2n3
 - 万象原子模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS
 

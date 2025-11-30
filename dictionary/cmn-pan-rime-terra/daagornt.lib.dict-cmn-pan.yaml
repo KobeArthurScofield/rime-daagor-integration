@@ -1,10 +1,13 @@
 # RIME: Dictionary (rime-terra-pinyin) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.25.241.0
+# Ver: 2.25.334.0
 #
 
 translator:
   dictionary: terra_pinyin
+  # packs:
+    # MoeType: Requires https://github.com/suiginko/moetype
+    # - tone_moe.dict.yaml
   max_homophones: 7
   max_homographs: 7
 
