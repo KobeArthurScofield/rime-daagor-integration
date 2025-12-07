@@ -1,6 +1,6 @@
 # RIME: Dictionary (rime-snow) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.25.334.0
+# Ver: 2.25.341.0
 #
 
 translator:
@@ -34,6 +34,6 @@ zh_hk:
   __include: daagornt.lib.shared.yaml:/zh_cn_simp/zh_hk
 
 grammar:
-  language: amz-v2n3m1-zh-hans
+  language: wanxiang-mini-zh-hans
   collocation_max_length: 5
   collocation_min_length: 2

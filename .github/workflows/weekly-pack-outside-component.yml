@@ -27,7 +27,7 @@ jobs:
             - `dicts-rime-lmdg.zip`：来自 rime-lmdg 的最新词库文件
             - `dicts-rime-cantonese.zip`：来自 RIME 粤拼的最新词库文件
             - `grammar-default.zip`：来自 RIME 官方的精简版语法模型
-            - `grammar-v2n3.zip`：来自 rime-lmdg 的公共版语法模型
+            - `grammar-lmdg-public.zip`：来自 rime-lmdg 的公共版语法模型
             - `grammar-lmdg.zip`：来自 rime-lmdg 的搭配 lmdg 词库使用语法模型
           prerelease: true
 
@@ -112,10 +112,15 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Retrieve upstream
+        uses: actions/checkout@v6
+        with:
+          repository: 'amzxyz/RIME-LMDG'
+          ref: 'wanxiang'
+          path: 'download'
+
       - name: Repack Dictionary
         run: |
-          curl -L -O -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/dict-nightly/dicts.zip"
-          unzip dicts.zip
           python ./.irdeaf/scripts/rename-lmdg-dict.py
           zip -9vr ./${DICTN}.zip ./dnt.l.*.dict.yaml
 
@@ -173,8 +178,9 @@ jobs:
 
       - name: Pack up lmdg public grammar
         run: |
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/v2n3/amz-v2n3m1-zh-hans.gram"
-          zip -9vr ./grammar-v2n3.zip ./amz-v2n3m1-zh-hans.gram
+          # curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/v2n3/amz-v2n3m1-zh-hans.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-mini-zh-hans.gram"
+          zip -9vr ./grammar-lmdg-public.zip ./wanxiang-mini-zh-hans.gram
 
       - name: Pack up lmdg grammar
         run: |

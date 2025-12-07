@@ -26,6 +26,7 @@
   - `yue-yyef-rime-cantonese`：调用粵語拼音方案词库
 - `rscm.*`：基于以上文件组成的输入方案
   - `gdr` 广州话拼音方案
+  - `gukwansrmpir` 菊韻三拼方案（僅限標準廣東話）
   - `ile` 教育學院拼音方案
   - `jyutping` 香港語言學學會粵語拼音方案
   - `slr` 劉錫祥拼音方案
@@ -55,3 +56,4 @@
 
 - [RIME 输入引擎](https://github.com/rime)
 - [粵語拼音方案](https://github.com/rime/rime-cantonese)
+- [菊韻粵語方案](https://github.com/HoengSaan/rime-gukwan)

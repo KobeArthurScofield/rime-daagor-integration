@@ -1,0 +1,150 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: '大狗集成·粵語菊韻三拼（標準廣東話）'
+  schema_id: daagornt.rscm.gukwansrmpir
+  author:
+    - '鍵盤佈局 靈帝 (Hoengsaan)'
+    - '專案匯集 丢狼'
+  description: |
+    菊韻三拼（標準廣東話）無兼容方案
+  version: '2.25.341.1904'
+  icon: daagornt.icon.imecn.ico
+  ascii_icon: daagornt.icon.ascii.ico
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/switches
+
+engine:
+  __include: daagornt.lib.shared.yaml:/engines
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcbnm7890-=
+  finals: 7890-=
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+  algebra:
+    __patch:
+      - daagornt.lib.dict-yue-yyef.yaml:/algebra/normalizer
+      - daagornt.lib.dict-yue-yyef.yaml:/algebra/encoder
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.shared.yaml:/translator
+    - daagornt.lib.dict-yue-yyef.yaml:/translator
+  prism: daagornt.gukwansrmpir
+  preedit_format:
+    __patch:
+      - /rule_convert/preedit
+
+history:
+  __include: daagornt.lib.shared.yaml:/history
+
+custom_phrase:
+  __include: daagornt.lib.shared.yaml:/custom_phrase
+
+ascii_char:
+  __include: daagornt.lib.shared.yaml:/ascii_char
+
+ascii_phrase:
+  __include: daagornt.lib.shared.yaml:/ascii_phrase
+
+quick_phrase:
+  __include: daagornt.lib.shared.yaml:/quick_phrase
+
+extchar:
+  __include: daagornt.lib.shared.yaml:/extchar?
+
+grammar:
+  __include: daagornt.lib.dict-yue-yyef.yaml:/grammar
+
+punctuator:
+  __include: daagornt.lib.shared.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.shared.yaml:/key_binder
+
+recognizer:
+  __include: daagornt.lib.shared.yaml:/recognizer
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu
+
+style:
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/style?
+
+editor:
+  __include: daagornt.lib.shared.yaml:/editor
+
+ascii_composer:
+  __include: daagornt.lib.shared.yaml:/ascii_composer
+
+zh_cn_simp:
+  __include: daagornt.lib.dict-yue-yyef.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict-yue-yyef.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict-yue-yyef.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict-yue-yyef.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      # Compatibility with other standards
+      - 'xform <ku> <kw>'
+      - 'xform <khu> <kwh>'
+      - 'xform <tsc> <ts>'
+      - 'xform <tsch> <tsh>'
+      - 'xform <sc> <s>'
+      - xform/<->//
+      - 'xform <tss> <ts>'
+      - 'xform <tssh> <tsh>'
+      - 'xform <ss> <s>'
+      - 'xform <i--> <i->'
+      - 'xform <p> b'
+      - 'xform <ph> p'
+      - 'xform <-?m?m> m'
+      - 'xform <f> f'
+      - 'xform <t> d'
+      - 'xform <th> t'
+      - 'xform <-?n> n'
+      - 'xform <l> l'
+      - 'xform <k> g'
+      - 'xform <kh> k'
+      - 'xform <-?ng> r'
+      - 'xform <nng> ng'
+      - 'xform <h> h'
+      - 'xform <kw> x'
+      - 'xform <kwh> q'
+      - 'xform <w> w'
+      - 'xform <ts> z'
+      - 'xform <tsh> c'
+      - 'xform <s> s'
+      - 'xform <j> j'
+      - 'xform <a-> r'
+      - 'xform <a> a'
+      - 'xform <e-?> e'
+      - 'xform <-?i-?> i'
+      - 'xform <o-?> o'
+      - 'xform <-?u-?> u'
+      - 'xform <oe-> e'
+      - 'xform <eo> u'
+      - 'xform <y-> y'
+      - 'xform <-y> i'
+      - 'xform <-p> p'
+      - 'xform <-t> t'
+      - 'xform <-k> k'
+      - 'xform <([1-6])> $1'
+      - 'abbrev ^([a-z]).+$ $1'
+      - 'abbrev ^(.+)[1-6] $1'
+      - 'xlit 123456 7890-='
+  preedit:
+    __append:
+      - 'xlit 7890-= 123456'

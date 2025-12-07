@@ -1,3 +1,5 @@
+# 专治上游灵机一动
+
 print("Initializing")
 
 import os
@@ -8,7 +10,7 @@ print("Building functions and objects")
 scriptver = "25.333"
 upstreamdate = "2025-11-28"
 
-old_path = "./dicts/"
+old_path = "./download/dicts/"
 new_path = "./"
 
 # MAPPING LIST OF THE REVERTING
