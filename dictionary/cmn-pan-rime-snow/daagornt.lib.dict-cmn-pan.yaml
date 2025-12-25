@@ -1,14 +1,14 @@
 # RIME: Dictionary (rime-snow) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.25.341.0
+# Ver: 2.25.356.0
 #
 
 translator:
   dictionary: snow_pinyin
   packs:
     - snow_pinyin.base
-    - snow_pinyin.ext
-    - snow_pinyin.tencent
+    # - snow_pinyin.ext
+    # - snow_pinyin.tencent
     - snow_pinyin.user
     # MoeType: Requires https://github.com/suiginko/moetype
     # - tone_moe.dict.yaml

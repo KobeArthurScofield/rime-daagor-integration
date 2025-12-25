@@ -7,8 +7,8 @@ from datetime import date
 
 print("Building functions and objects")
 
-scriptver = "25.333"
-upstreamdate = "2025-11-28"
+scriptver = "25.354"
+upstreamdate = "2025-12-20"
 
 old_path = "./download/dicts/"
 new_path = "./"
@@ -24,7 +24,6 @@ reverter = {
     "diming": "dnt.l.toponymy",
     "renming": "dnt.l.personal_name",
     "shuxue": "dnt.l.math",
-    "wu-hua-sheng-yi-yao": "dnt.l.industry",
     "wuzhong": "dnt.l.biotaxonomy",
 }
 
