@@ -1,6 +1,6 @@
 # RIME: Dictionary (RIME-LMDG) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.25.326.0
+# Ver: 2.25.363.0
 #
 
 translator:
@@ -29,9 +29,9 @@ zh_hk:
 
 grammar:
   language: wanxiang-lts-zh-hans
-  collocation_max_length: 8
-  collocation_min_length: 2
+  collocation_max_length: 6
+  collocation_min_length: 3
   collocation_penalty: -10
-  non_collocation_penalty: -17
-  weak_collocation_penalty: -24
-  rear_penalty: -18
+  non_collocation_penalty: -20
+  weak_collocation_penalty: -45
+  rear_penalty: -5
