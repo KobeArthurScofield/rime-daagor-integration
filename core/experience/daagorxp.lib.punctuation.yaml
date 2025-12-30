@@ -1,6 +1,6 @@
 # Rime: Punctuation and symbols for Daagor Integration
 # encoding: utf-8
-# version: 1.25.359.0
+# version: 1.25.364.0
 #
 # Reference:
 # rime-prelude
@@ -13,7 +13,7 @@ punctuator:
   full_shape:
     ' ' : { commit: '　' }
     ',' : { commit: ， }
-    '.' : { 。, ． }
+    '.' : [ 。, ． ]
     '<' : [ 《, 〈, ＜ ]
     '>' : [ 》, 〉, ＞ ]
     '/' : { commit: ／ }
@@ -23,7 +23,7 @@ punctuator:
     '''' : { commit: ＇ }
     '"' : { commit: ＂ }
     '\' : [ 、, ＼ ]
-    '|' : { ｜, ￤ }
+    '|' : [ ｜, ￤ ]
     '`' : [ ｀, ・ ]
     '~' : [ ～, '~' ]
     '!' : { commit: ！ }
@@ -31,7 +31,7 @@ punctuator:
     '#' : { commit: ＃ }
     '%' : { commit: ％ }
     '$' : [ ￥, ＄, ￠, ￡, ￦ ]
-    '^' : { ⋯⋯, ＾ }
+    '^' : [ ⋯⋯, ＾ ]
     '&' : { commit: ＆ }
     '*' : { commit: ＊ }
     '(' : { commit: （ }
@@ -74,7 +74,7 @@ punctuator:
     '+' : { commit: '+' }
     '=' : [ '=', 々, 〃 ]
     '[' : [ 「, '[', 【, 〖 ]
-    ']' : [ 」, '[', 】, 〗 ]
+    ']' : [ 」, ']', 】, 〗 ]
     '{' : [ 『, '{', 〔, 〘 ]
     '}' : [ 』, '}', 〕, 〙 ]
   ascii_style:
