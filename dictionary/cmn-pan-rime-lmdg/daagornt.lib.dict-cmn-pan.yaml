@@ -1,6 +1,6 @@
 # RIME: Dictionary (RIME-LMDG) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.25.363.0
+# Ver: 2.26.004.0
 #
 
 translator:
@@ -34,4 +34,4 @@ grammar:
   collocation_penalty: -10
   non_collocation_penalty: -20
   weak_collocation_penalty: -45
-  rear_penalty: -5
+  rear_penalty: -12
