@@ -1,6 +1,6 @@
 # Rime key bindings for Daagor Integration
 # encoding: utf-8
-# Ver: 1.25.237.0
+# Ver: 1.26.032.0
 #
 
 key_binder:
@@ -20,10 +20,6 @@ key_binder:
     - { when: composing, accept: Control+y, send: Page_Up }
     - { when: composing, accept: Alt+v, send: Page_Up }
     - { when: composing, accept: Control+v, send: Page_Down }
-    # Move word by Tab
-    - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
-    - { when: composing, accept: Shift+Tab, send: Shift+Left }
-    - { when: composing, accept: Tab, send: Shift+Right }
     # Numbered mode switch
     - { when: always, accept: Control+Shift+1, select: .next }
     - { when: always, accept: Control+Shift+2, toggle: ascii_mode }
