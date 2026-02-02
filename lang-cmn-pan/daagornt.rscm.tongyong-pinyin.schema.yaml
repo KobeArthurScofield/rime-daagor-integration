@@ -5,10 +5,10 @@ schema:
   name: '大狗華語通用拼音'
   schema_id: daagornt.rscm.tongyong-pinyin
   author:
-    - '專案匯集 丢狼'
+    - '專案匯集 i860'
   description: |
     華語通用拼音輸入專案
-  version: '2.25.276.1904'
+  version: '2.26.033.1904'
   icon: daagornt.icon.imetw.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -83,6 +83,9 @@ editor:
 
 ascii_composer:
   __include: daagornt.lib.shared.yaml:/ascii_composer
+
+selector:
+  __include: daagornt.lib.shared.yaml:/selector
 
 zh_cn_simp:
   __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp

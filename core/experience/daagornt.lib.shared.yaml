@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.321.0
+# Ver: 1.26.033.0
 #
 
 engines:
@@ -185,6 +185,11 @@ ascii_composer:
     Hyper_R: unset_ascii_mode
     Caps_Lock: clear
     Eisu_toggle: clear
+
+selector:
+  bindings:
+    Shift+Tab: previous_candidate
+    Tab: next_candidate
 
 zh_cn_simp:
   switches:

@@ -5,10 +5,10 @@ schema:
   name: '大狗國語羅馬字'
   schema_id: daagornt.rscm.gwoyeu
   author:
-    - '專案匯集 丢狼'
+    - '專案匯集 i860'
   description: |
     國語羅馬字完全式輸入專案
-  version: '2.25.270.1904'
+  version: '2.26.033.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -79,6 +79,9 @@ editor:
 ascii_composer:
   __include: daagornt.lib.shared.yaml:/ascii_composer
 
+selector:
+  __include: daagornt.lib.shared.yaml:/selector
+
 zh_cn_simp:
   __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp
 
@@ -98,6 +101,3 @@ rule_convert:
       - 'abbrev ^(ng|gn).+$ $1'
       - 'abbrev ^([cs]h).+$ $1'
       - 'abbrev ^(t[zs]).+$ $1'
-  preedit:
-    __append:
-      #

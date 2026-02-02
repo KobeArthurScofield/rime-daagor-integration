@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.25.321.0
+# Ver: 1.26.033.0
 #
 
 engines:
@@ -147,6 +147,9 @@ editor:
     Escape: cancel
 
 ascii_composer:
+  import_preset: default
+
+selector:
   import_preset: default
 
 zh_cn_simp:

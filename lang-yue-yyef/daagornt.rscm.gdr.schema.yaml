@@ -5,14 +5,14 @@ schema:
   name: '大狗广州话拼音'
   schema_id: daagornt.rscm.gdr
   author:
-    - '方案汇总 丢狼'
+    - '方案汇总 i860'
   description: |
     广州话拼音输入方案
     ê r   é r   ü v
     阴平 7  阴上 8  阴去 9
     阳平 0  阳上 -  阳去 =
     高阴入 7 低阴入 9 阳入 =
-  version: '2.25.276.1904'
+  version: '2.26.033.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -86,6 +86,9 @@ editor:
 
 ascii_composer:
   __include: daagornt.lib.shared.yaml:/ascii_composer
+
+selector:
+  __include: daagornt.lib.shared.yaml:/selector
 
 zh_cn_simp:
   __include: daagornt.lib.dict-yue-yyef.yaml:/zh_cn_simp

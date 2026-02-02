@@ -5,13 +5,13 @@ schema:
   name: '大狗粵拼'
   schema_id: daagornt.rscm.jyutping
   author:
-    - '專案匯集 丢狼'
+    - '專案匯集 i860'
   description: |
     香港語言學學會粵語拼音輸入方案
     陰平 7  陰上 8  陰去 9
     陽平 0  陽上 -  陽去 =
     高陰入 7 低陰入 9 陽入 =
-  version: '2.25.277.1904'
+  version: '2.26.033.1904'
   icon: daagornt.icon.imehk.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -85,6 +85,9 @@ editor:
 ascii_composer:
   __include: daagornt.lib.shared.yaml:/ascii_composer
 
+selector:
+  __include: daagornt.lib.shared.yaml:/selector
+
 zh_cn_simp:
   __include: daagornt.lib.dict-yue-yyef.yaml:/zh_cn_simp
 
@@ -100,7 +103,7 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'derive yu y'
+      - 'derive yu y correction'
       - 'abbrev ^([a-z]).+$ $1'
       - 'abbrev ^([gk]w|ng).+$ $1'
       - 'abbrev ^(.+)[1-6] $1'

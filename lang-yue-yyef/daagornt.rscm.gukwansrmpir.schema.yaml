@@ -6,10 +6,10 @@ schema:
   schema_id: daagornt.rscm.gukwansrmpir
   author:
     - '鍵盤佈局 靈帝 (Hoengsaan)'
-    - '專案匯集 丢狼'
+    - '專案匯集 i860'
   description: |
     菊韻三拼（標準廣東話）無兼容方案
-  version: '2.25.341.1904'
+  version: '2.26.033.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -81,6 +81,9 @@ editor:
 
 ascii_composer:
   __include: daagornt.lib.shared.yaml:/ascii_composer
+
+selector:
+  __include: daagornt.lib.shared.yaml:/selector
 
 zh_cn_simp:
   __include: daagornt.lib.dict-yue-yyef.yaml:/zh_cn_simp

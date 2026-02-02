@@ -6,10 +6,10 @@ schema:
   schema_id: daagornt.rscm.xiaolang
   author:
     - '键盘布局 小浪'
-    - '方案集成 丢狼'
+    - '方案集成 i860'
   description: |
     小浪双拼输入方案
-  version: '2.25.285.1904'
+  version: '2.26.033.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -83,6 +83,9 @@ editor:
 ascii_composer:
   __include: daagornt.lib.shared.yaml:/ascii_composer
 
+selector:
+  __include: daagornt.lib.shared.yaml:/selector
+
 zh_cn_simp:
   __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp
 
@@ -113,32 +116,32 @@ rule_convert:
       - 'xform <y><o> <u><o>'
       - 'xform <5> <0>'
       # Sibilant Compatibility
-      - 'derive <ts><([iy])> <tsc><$1>'
-      - 'derive <tsh><([iy])> <tsch><$1>'
-      - 'derive <s><([iy])> <sc><$1>'
-      - 'derive <k><([iy])> <tsc><$1>'
-      - 'derive <kh><([iy])> <tsch><$1>'
-      - 'derive <[xh]><([iy])> <sc><$1>'
+      - 'derive <ts><([iy])> <tsc><$1> correction'
+      - 'derive <tsh><([iy])> <tsch><$1> correction'
+      - 'derive <s><([iy])> <sc><$1> correction'
+      - 'derive <k><([iy])> <tsc><$1> correction'
+      - 'derive <kh><([iy])> <tsch><$1> correction'
+      - 'derive <[xh]><([iy])> <sc><$1> correction'
       # Double pinyin key convert
       - 'xform ^<([ao])> $1<$1>'
       - 'xform ^<e> uu'
-      - 'derive ^uu u<e>'
+      - 'derive ^uu u<e> correction'
       - 'xform ^<ai> ai'
-      - 'derive ^ai a<ai>'
+      - 'derive ^ai a<ai> correction'
       - 'xform ^<ei> ui'
-      - 'derive ^ui u<ei>'
+      - 'derive ^ui u<ei> correction'
       - 'xform ^<au> ao'
-      - 'derive ^ao a<au>'
+      - 'derive ^ao a<au> correction'
       - 'xform ^<ou> ou'
-      - 'derive ^ou o<ou>'
+      - 'derive ^ou o<ou> correction'
       - 'xform ^<an> an'
-      - 'derive ^an a<an>'
+      - 'derive ^an a<an> correction'
       - 'xform ^<en> un'
-      - 'derive ^un u<en>'
+      - 'derive ^un u<en> correction'
       - 'xform ^<ang> a<ang>'
       - 'xform ^<eng> u<eng>'
       - 'xform ^<er> ur'
-      - 'derive ^ur u<er>'
+      - 'derive ^ur u<er> correction'
       - 'xform <jy> <j><y>'
       - 'xform <i><a> k'
       - 'xform <u><a> f'
