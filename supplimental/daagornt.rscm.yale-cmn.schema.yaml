@@ -1,22 +1,21 @@
 # Rime schema
 # encoding: utf-8
 
+__include: daagornt.lib.rskeleton.yaml:/
+
 schema:
   name: '大狗國語耶魯拼音輸入'
   schema_id: daagornt.rscm.yale-cmn
   author:
-    - '方案集成 i860'
+    - '方案集成 DGNTIME'
   description: |
     國語耶魯拼音輸入方案
-  version: '2.26.033.1904'
+  version: '2.26.035.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_cn_trad/switches
-
-engine:
-  __include: daagornt.lib.shared.yaml:/engines
 
 speller:
   alphabet: wertyuiopasdfghjklzcvbnm
@@ -33,55 +32,15 @@ speller:
 
 translator:
   __patch:
-    - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-cmn-pan.yaml:/translator
     - /dpatch
   prism: daagornt.yale-cmn
 
-history:
-  __include: daagornt.lib.shared.yaml:/history
-
-custom_phrase:
-  __include: daagornt.lib.shared.yaml:/custom_phrase
-
-ascii_char:
-  __include: daagornt.lib.shared.yaml:/ascii_char
-
-ascii_phrase:
-  __include: daagornt.lib.shared.yaml:/ascii_phrase
-
-quick_phrase:
-  __include: daagornt.lib.shared.yaml:/quick_phrase
-
-extchar:
-  __include: daagornt.lib.shared.yaml:/extchar?
-
 grammar:
   __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
 
-punctuator:
-  __include: daagornt.lib.shared.yaml:/punctuator
-
-key_binder:
-  __include: daagornt.lib.shared.yaml:/key_binder
-
-recognizer:
-  __include: daagornt.lib.shared.yaml:/recognizer
-
 menu:
   __include: daagornt.lib.shared.yaml:/menu
-
-style:
-  __include: daagornt.lib.shared.yaml:/zh_cn_trad/style?
-
-editor:
-  __include: daagornt.lib.shared.yaml:/editor
-
-ascii_composer:
-  __include: daagornt.lib.shared.yaml:/ascii_composer
-
-selector:
-  __include: daagornt.lib.shared.yaml:/selector
 
 zh_cn_simp:
   __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp

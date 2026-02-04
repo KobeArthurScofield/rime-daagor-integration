@@ -1,0 +1,97 @@
+# RIME: Schemata basic skeleton library for Daagor Integration
+# encoding: utf-8#
+# Ver: 1.26.035.0
+#
+
+engine:
+  __include: daagornt.lib.shared.yaml:/engines
+
+history:
+  __include: daagornt.lib.shared.yaml:/history
+
+translator:
+  enable_sentence: true
+  contextual_suggestions: true
+  enable_user_dict: true
+  db_class: userdb
+  spelling_hints: 4
+  always_show_comments: true
+  enable_correction: false # Will map to nearby keys, which may have consequense
+  core_word_length: 4
+  max_word_length: 7
+  initial_quality: 12
+
+custom_phrase:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  dictionary: ""
+  user_dict: daagornt.custom.custom_phrase
+  db_class: stabledb
+  initial_quality: 14
+
+ascii_phrase:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  dictionary: ""
+  user_dict: daagornt.lib.asciiphrase
+  db_class: stabledb
+  initial_quality: 3
+
+quick_phrase:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  dictionary: ""
+  user_dict: daagornt.lib.quickphrase
+  db_class: stabledb
+  initial_quality: 3
+  tag: quick_phrase
+
+ascii_char:
+  enable_charset_filter: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  sentence_over_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  dictionary: ""
+  user_dict: daagornt.lib.asciichar
+  db_class: stabledb
+  initial_quality: 2
+
+extchar:
+  __include: daagornt.lib.shared.yaml:/extchar?
+
+punctuator:
+  __include: daagornt.lib.shared.yaml:/punctuator
+
+key_binder:
+  __include: daagornt.lib.shared.yaml:/key_binder
+
+recognizer:
+  __include: daagornt.lib.shared.yaml:/recognizer
+
+editor:
+  __include: daagornt.lib.shared.yaml:/editor
+
+ascii_composer:
+  __include: daagornt.lib.shared.yaml:/ascii_composer
+
+selector:
+  __include: daagornt.lib.shared.yaml:/selector
+

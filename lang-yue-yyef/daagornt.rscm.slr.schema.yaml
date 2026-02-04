@@ -1,24 +1,23 @@
 # Rime schema
 # encoding: utf-8
 
+__include: daagornt.lib.rskeleton.yaml:/
+
 schema:
   name: '大狗劉錫祥拼音'
   schema_id: daagornt.rscm.slr
   author:
-    - '專案匯集 i860'
+    - '專案匯集 DGNTIME'
   description: |
     劉錫祥拼音输入方案
     阴平 7  阴上 8  阴去 9
     阳平 0  阳上 -  阳去 =
-  version: '2.26.033.1904'
+  version: '2.26.035.1904'
   icon: daagornt.icon.imehk.ico
   ascii_icon: daagornt.icon.ascii.ico
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_hk/switches
-
-engine:
-  __include: daagornt.lib.shared.yaml:/engines
 
 speller:
   alphabet: wetyuiopasdfghjklzcbnm7890-=
@@ -35,7 +34,6 @@ speller:
 
 translator:
   __patch:
-    - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-yue-yyef.yaml:/translator
   prism: daagornt.slr
   preedit_format:
@@ -43,50 +41,11 @@ translator:
       - /rule_convert/preedit
       - daagornt.lib.scribe-yue-yyef.yaml:/slr/output
 
-history:
-  __include: daagornt.lib.shared.yaml:/history
-
-custom_phrase:
-  __include: daagornt.lib.shared.yaml:/custom_phrase
-
-ascii_char:
-  __include: daagornt.lib.shared.yaml:/ascii_char
-
-ascii_phrase:
-  __include: daagornt.lib.shared.yaml:/ascii_phrase
-
-quick_phrase:
-  __include: daagornt.lib.shared.yaml:/quick_phrase
-
-extchar:
-  __include: daagornt.lib.shared.yaml:/extchar?
-
 grammar:
   __include: daagornt.lib.dict-yue-yyef.yaml:/grammar
 
-punctuator:
-  __include: daagornt.lib.shared.yaml:/punctuator
-
-key_binder:
-  __include: daagornt.lib.shared.yaml:/key_binder
-
-recognizer:
-  __include: daagornt.lib.shared.yaml:/recognizer
-
 menu:
   __include: daagornt.lib.shared.yaml:/menu
-
-style:
-  __include: daagornt.lib.shared.yaml:/zh_hk/style?
-
-editor:
-  __include: daagornt.lib.shared.yaml:/editor
-
-ascii_composer:
-  __include: daagornt.lib.shared.yaml:/ascii_composer
-
-selector:
-  __include: daagornt.lib.shared.yaml:/selector
 
 zh_cn_simp:
   __include: daagornt.lib.dict-yue-yyef.yaml:/zh_cn_simp

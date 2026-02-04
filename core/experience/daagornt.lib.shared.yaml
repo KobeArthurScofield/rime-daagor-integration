@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.26.033.0
+# Ver: 1.26.035.0
 #
 
 engines:
@@ -37,76 +37,11 @@ engines:
     - simplifier@zh_tw
     - simplifier@zh_hk
 
-translator:
-  enable_sentence: true
-  contextual_suggestions: true
-  enable_user_dict: true
-  db_class: userdb
-  spelling_hints: 4
-  always_show_comments: true
-  enable_correction: false # Will map to nearby keys, which may have consequense
-  core_word_length: 4
-  max_word_length: 7
-  initial_quality: 12
-
 history:
   closing_tips: 【歷史】
   size: 10
   input: prev
   initial_quality: 15
-
-custom_phrase:
-  enable_charset_filter: false
-  enable_encoder: false
-  encode_commit_history: false
-  enable_completion: true
-  sentence_over_completion: false
-  enable_sentence: false
-  enable_user_dict: true
-  dictionary: ""
-  user_dict: daagornt.custom.custom_phrase
-  db_class: stabledb
-  initial_quality: 14
-
-ascii_phrase:
-  enable_charset_filter: false
-  enable_encoder: false
-  encode_commit_history: false
-  enable_completion: true
-  sentence_over_completion: false
-  enable_sentence: false
-  enable_user_dict: true
-  dictionary: ""
-  user_dict: daagornt.lib.asciiphrase
-  db_class: stabledb
-  initial_quality: 3
-
-ascii_char:
-  enable_charset_filter: false
-  enable_encoder: false
-  encode_commit_history: false
-  enable_completion: true
-  sentence_over_completion: false
-  enable_sentence: false
-  enable_user_dict: true
-  dictionary: ""
-  user_dict: daagornt.lib.asciichar
-  db_class: stabledb
-  initial_quality: 2
-
-quick_phrase:
-  enable_charset_filter: false
-  enable_encoder: false
-  encode_commit_history: false
-  enable_completion: true
-  sentence_over_completion: false
-  enable_sentence: false
-  enable_user_dict: true
-  dictionary: ""
-  user_dict: daagornt.lib.quickphrase
-  db_class: stabledb
-  initial_quality: 3
-  tag: quick_phrase
 
 extchar:
   enable_charset_filter: false
@@ -234,11 +169,6 @@ zh_cn_simp:
     opencc_config: s2hk.json
     tips: all
     inherit_comment: true
-  style:
-    font_face: 'Noto Sans SC:semi_light'
-    label_font_face: 'Noto Sans SC'
-    comment_font_face: 'Noto Sans SC:light'
-    inline_preedit: true
 
 zh_cn_trad:
   switches:
@@ -283,11 +213,6 @@ zh_cn_trad:
     opencc_config: t2hk.json
     tips: all
     inherit_comment: true
-  style:
-    font_face: 'Noto Sans SC:semi_light'
-    label_font_face: 'Noto Sans SC'
-    comment_font_face: 'Noto Sans SC:light'
-    inline_preedit: true
 
 zh_tw:
   switches:
@@ -332,11 +257,6 @@ zh_tw:
     opencc_config: daagornt.tw2hk.json
     tips: all
     inherit_comment: true
-  style:
-    font_face: 'Noto Sans TC:semi_light'
-    label_font_face: 'Noto Sans TC'
-    comment_font_face: 'Noto Sans TC:light'
-    inline_preedit: true
 
 zh_hk:
   switches:
@@ -381,8 +301,3 @@ zh_hk:
     opencc_config: daagornt.noop.json
     tips: all
     inherit_comment: true
-  style:
-    font_face: 'Noto Sans HK:semi_light'
-    label_font_face: 'Noto Sans HK'
-    comment_font_face: 'Noto Sans HK:light'
-    inline_preedit: true

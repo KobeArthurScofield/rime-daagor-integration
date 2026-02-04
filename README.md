@@ -21,7 +21,7 @@
 1. 将下载的文件包解压；`base` 为基础文件，`extension` 为补充的 Daagor Experience 文件、特殊配置补丁以及额外方案文件。
 2. 将以下文件复制到 RIME 前端设定的用户文件夹：
 
-  * `lib.shared`
+  * `lib.shared`、`lib.rskeleton`
   * `lib.asciichar`、`lib.asciiphrase`及`lib.quickphrase`
   * `lib.babel-<ISO 639-3>`
     * 视需要使用的拼音方案对应的语言区复制即可
@@ -68,6 +68,7 @@ patch:
 ## 文件解析
 
 - `lib.shared`： **（必需）** 输入方案通用基础组件
+- `lib.rskeleton`： **（必需）** 输入方案基础部件框架
 - `lib.asciichar`、`lib.asciiphrase`及`lib.quickphrase`
   - 特殊词典文件，用于快速输入符号及短语
 - `lib.babel-<ISO 639-3>`： **（根据调用输入法必需）** 输入方案跨拼音规范转换库

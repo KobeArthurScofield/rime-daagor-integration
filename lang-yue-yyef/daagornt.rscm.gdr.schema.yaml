@@ -1,26 +1,25 @@
 # Rime schema
 # encoding: utf-8
 
+__include: daagornt.lib.rskeleton.yaml:/
+
 schema:
   name: '大狗广州话拼音'
   schema_id: daagornt.rscm.gdr
   author:
-    - '方案汇总 i860'
+    - '方案汇总 DGNTIME'
   description: |
     广州话拼音输入方案
     ê r   é r   ü v
     阴平 7  阴上 8  阴去 9
     阳平 0  阳上 -  阳去 =
     高阴入 7 低阴入 9 阳入 =
-  version: '2.26.033.1904'
+  version: '2.26.035.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
 switches:
   __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
-
-engine:
-  __include: daagornt.lib.shared.yaml:/engines
 
 speller:
   alphabet: qwertyuiopasdfghjklzxcvbnm7890-=
@@ -37,7 +36,6 @@ speller:
 
 translator:
   __patch:
-    - daagornt.lib.shared.yaml:/translator
     - daagornt.lib.dict-yue-yyef.yaml:/translator
   prism: daagornt.gdr
   preedit_format:
@@ -45,50 +43,11 @@ translator:
       - /rule_convert/preedit
       - daagornt.lib.scribe-yue-yyef.yaml:/gdr/output
 
-history:
-  __include: daagornt.lib.shared.yaml:/history
-
-custom_phrase:
-  __include: daagornt.lib.shared.yaml:/custom_phrase
-
-ascii_char:
-  __include: daagornt.lib.shared.yaml:/ascii_char
-
-ascii_phrase:
-  __include: daagornt.lib.shared.yaml:/ascii_phrase
-
-quick_phrase:
-  __include: daagornt.lib.shared.yaml:/quick_phrase
-
-extchar:
-  __include: daagornt.lib.shared.yaml:/extchar?
-
 grammar:
   __include: daagornt.lib.dict-yue-yyef.yaml:/grammar
 
-punctuator:
-  __include: daagornt.lib.shared.yaml:/punctuator
-
-key_binder:
-  __include: daagornt.lib.shared.yaml:/key_binder
-
-recognizer:
-  __include: daagornt.lib.shared.yaml:/recognizer
-
 menu:
   __include: daagornt.lib.shared.yaml:/menu
-
-style:
-  __include: daagornt.lib.shared.yaml:/zh_cn_simp/style?
-
-editor:
-  __include: daagornt.lib.shared.yaml:/editor
-
-ascii_composer:
-  __include: daagornt.lib.shared.yaml:/ascii_composer
-
-selector:
-  __include: daagornt.lib.shared.yaml:/selector
 
 zh_cn_simp:
   __include: daagornt.lib.dict-yue-yyef.yaml:/zh_cn_simp
