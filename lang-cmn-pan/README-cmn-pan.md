@@ -65,6 +65,7 @@
     - `mitac` 注音（神通）布局
     - `mpsii` 国音二式布局
     - `pinyinjiajia` 拼音加加双拼布局
+    - `rime-dtnl` RIME 動態注音佈局
     - `snowsipin` 冰雪四拼布局
     - `starlight` 注音（星光排布）布局
     - `tongying-pinyin` 通用拼音布局
@@ -218,5 +219,6 @@
 - 劉氏鍵盤 原作者：劉又銘
 - 星光鍵盤 原作者：聽雨客
 - 酷音大千二十六鍵鍵盤 原作者：新酷音
+- [RIME 動態注音鍵盤](https://github.com/rime/rime-bopomofo) 原作者：居戎氏
 - [冰雪拼音](https://github.com/rimeinn/rime-snow-pinyin)
 - [万象拼音](https://github.com/amzxyz/RIME-LMDG)

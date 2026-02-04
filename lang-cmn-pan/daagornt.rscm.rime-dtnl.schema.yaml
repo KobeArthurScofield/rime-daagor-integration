@@ -1,0 +1,73 @@
+# Rime schema
+# encoding: utf-8
+
+__include: daagornt.lib.rskeleton.yaml:/
+
+schema:
+  name: '大狗注音（RIME 動態注音）'
+  schema_id: daagornt.rscm.rime-dtnl
+  author:
+    - '鍵盤排列 居戎氏 (RIME)'
+    - '專案匯集 DGNTIME'
+  description: |
+    注音符號輸入專案
+  version: '2.26.035.1904'
+  icon: daagornt.icon.imecn.ico
+  ascii_icon: daagornt.icon.ascii.ico
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_cn_trad/switches
+
+speller:
+  alphabet: "qwertyuioasdfghjklzxcvbnmWERTYUIOSDFGHJKLVBNMP"
+  initials: "qwertyuioasdfghjklzxcvbnmWERTYUIOSDFGH"
+  finals: 'VBNMP'
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+  algebra:
+    __patch:
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+      - daagornt.lib.babel-cmn-pan.yaml:/phonetic_symbols/output
+      - daagornt.lib.scribe-cmn-pan.yaml:/phonetic_symbols/output
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.dict-cmn-pan.yaml:/translator
+  prism: daagornt.rime-dtnl
+
+grammar:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu
+
+zh_cn_simp:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      - 'xlit|ㄪㄫㄬ|ㄨㄋㄍ|'
+      - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+$/$1/
+      - abbrev/^(.+)(ˉ|ˊ|ˇ|ˋ|˙)$/$1/
+      - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+(ˉ|ˊ|ˇ|ˋ|˙)$/$1$2/
+      - "xlit|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|wertyuioasdfghzxcvbnmjklWERTYUIOSDFGHVBNMP|"
+      - xform/(.)j/$1J/
+      - xform/(.)k/$1K/
+      - xform/(.)l/$1L/
+      - derive/^([WERTYUIOSDFGHJKL]+)([VBNMP])/q$1$2/
+      - derive/^(.)([WERTYUIOSDFGHJKL]+)([VBNMP]?)$/$1\L$2\E$3/
+      - derive/^(.+)([VBNMP])$/$1\L$2\E/
+
