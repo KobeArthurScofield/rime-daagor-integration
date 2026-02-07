@@ -1,16 +1,14 @@
 # Rime dictionary
 # encoding: utf-8#
-# version: 2.25.354.0
+# version: 2.26.038.0
 #
 
 ---
 name: daagornt.dict.wanxiang_cell
-version: "2025.12.20"
+version: "2026.02.01"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  - dnt.l.geo_mine       #地质及矿物
-  - dnt.l.math           #数学
   - dnt.l.personal_name  #人名
   - dnt.l.biotaxonomy    #生物类属
   - dnt.l.toponymy       #地名
