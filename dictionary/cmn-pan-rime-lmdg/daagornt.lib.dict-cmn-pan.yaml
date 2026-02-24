@@ -1,13 +1,13 @@
 # RIME: Dictionary (RIME-LMDG) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.26.028.0
+# Ver: 2.26.055.0
 #
 
 translator:
   dictionary: daagornt.dict.wanxiang
   # packs: [ daagornt.dict.wanxiang_cell ]
-  max_homophones: 5
-  max_homographs: 5
+  max_homophones: 8
+  max_homographs: 8
 
 algebra:
   normalizer:
