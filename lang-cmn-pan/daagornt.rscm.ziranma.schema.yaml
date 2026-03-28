@@ -11,7 +11,7 @@ schema:
     - '方案集成 DGNTIME'
   description: |
     自然码双拼输入方案
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -155,7 +155,7 @@ rule_convert:
       - 'xform <_[iw]> i'
       - 'xform <([1-4])> $1'
       - 'xform <0> 5'
-      - 'abbrev ^(.+)[1-5]$ $1'
+      - 'abbrev ^([a-z]{2})[1-5]$ $1'
       - 'xlit 12345 7890-'
   preedit:
     __append:

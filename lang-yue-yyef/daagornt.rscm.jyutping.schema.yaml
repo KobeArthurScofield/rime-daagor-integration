@@ -13,7 +13,7 @@ schema:
     陰平 7  陰上 8  陰去 9
     陽平 0  陽上 -  陽去 =
     高陰入 7 低陰入 9 陽入 =
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imehk.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -63,9 +63,9 @@ rule_convert:
   layout:
     __append:
       - 'derive yu y correction'
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^([gk]w|ng).+$ $1'
-      - 'abbrev ^(.+)[1-6] $1'
+      - 'abbrev ^([a-z])[a-z]*[1-6]$ $1'
+      - 'abbrev ^([gk]w|ng)[a-z]*[1-6]$ $1'
+      - 'abbrev ^([a-z]+)[1-6] $1'
       - 'xlit 123456 7890-='
   preedit:
     __append:

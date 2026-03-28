@@ -10,7 +10,7 @@ schema:
     - '方案集成 DGNTIME'
   description: |
     北方話拉丁化新文字輸入方案
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -57,9 +57,9 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^(ng|gn).+$ $1'
-      - 'abbrev ^([zcsr]h).+$ $1'
+      - 'abbrev ^([a-z])[a-z]+$ $1'
+      - 'abbrev ^(ng|gn)[a-z]+$ $1'
+      - 'abbrev ^([zcsr]h)[a-z]+$ $1'
 
 dpatch:
   spelling_hints: 0

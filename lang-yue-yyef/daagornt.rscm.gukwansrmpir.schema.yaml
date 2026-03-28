@@ -11,7 +11,7 @@ schema:
     - '專案匯集 DGNTIME'
   description: |
     菊韻三拼（標準廣東話）無兼容方案
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -104,8 +104,8 @@ rule_convert:
       - 'xform <-t> t'
       - 'xform <-k> k'
       - 'xform <([1-6])> $1'
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^(.+)[1-6] $1'
+      - 'abbrev ^([a-z])[a-z]{1,2}[1-6]$ $1'
+      - 'abbrev ^([a-z]{1,3})[1-6] $1'
       - 'xlit 123456 7890-='
   preedit:
     __append:

@@ -10,7 +10,7 @@ schema:
     - '專案匯集 DGNTIME'
   description: |
     華語通用拼音輸入專案
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imetw.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -61,10 +61,10 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^(ng|gn).+$ $1'
-      - 'abbrev ^([jcs]h).+$ $1'
-      - 'abbrev ^(.+)[1-5]$ $1'
+      - 'abbrev ^([a-z])[a-z]*[1-5]$ $1'
+      - 'abbrev ^(ng|gn)[a-z]*[1-5]$ $1'
+      - 'abbrev ^([jcs]h)[a-z]*[1-5]$ $1'
+      - 'abbrev ^([a-z]+)[1-5]$ $1'
       - 'xlit 12345 7890-'
   preedit:
     __append:

@@ -10,7 +10,7 @@ schema:
     - '專案匯集 DGNTIME'
   description: |
     國語羅馬字完全式輸入專案
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -56,7 +56,7 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^(ng|gn).+$ $1'
-      - 'abbrev ^([cs]h).+$ $1'
-      - 'abbrev ^(t[zs]).+$ $1'
+      - 'abbrev ^([a-z])[a-z]+$ $1'
+      - 'abbrev ^(ng|gn)[a-z]+$ $1'
+      - 'abbrev ^([cs]h)[a-z]+$ $1'
+      - 'abbrev ^(t[zs])[a-z]+$ $1'

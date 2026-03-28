@@ -11,7 +11,7 @@ schema:
   description: |
     國語羅馬字數碼聲調輸入專案
     陰平 7  陽平 8  上聲 9  去聲 0  輕聲 -  入聲 =
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -62,11 +62,11 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^(ng|gn).+$ $1'
-      - 'abbrev ^([cs]h).+$ $1'
-      - 'abbrev ^(t[zs]).+$ $1'
-      - 'abbrev ^(.+)[1-6]$ $1'
+      - 'abbrev ^([a-z])[a-z]*[1-6]$ $1'
+      - 'abbrev ^(ng|gn)[a-z]*[1-6]$ $1'
+      - 'abbrev ^([cs]h)[a-z]*[1-6]$ $1'
+      - 'abbrev ^(t[zs])[a-z]*[1-6]$ $1'
+      - 'abbrev ^([a-z]+)[1-6]$ $1'
       - 'xlit 123456 7890-='
   preedit:
     __append:

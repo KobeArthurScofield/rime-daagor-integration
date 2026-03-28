@@ -11,7 +11,7 @@ schema:
     - '專案匯集 DGNTIME'
   description: |
     注音符號輸入專案
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imecn.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -64,10 +64,10 @@ rule_convert:
       - abbrev/^(.+)(ˉ|ˊ|ˇ|ˋ|˙)$/$1/
       - abbrev/^(ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄏ|ㄐ|ㄑ|ㄒ|ㄓ|ㄔ|ㄖ|ㄗ|ㄘ|ㄙ).+(ˉ|ˊ|ˇ|ˋ|˙)$/$1$2/
       - "xlit|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|wertyuioasdfghzxcvbnmjklWERTYUIOSDFGHVBNMP|"
-      - xform/(.)j/$1J/
-      - xform/(.)k/$1K/
-      - xform/(.)l/$1L/
+      - xform/([wertyuioasdfghzxcvbnm])j/$1J/
+      - xform/([wertyuioasdfghzxcvbnm])k/$1K/
+      - xform/([wertyuioasdfghzxcvbnm])l/$1L/
       - derive/^([WERTYUIOSDFGHJKL]+)([VBNMP])/q$1$2/
-      - derive/^(.)([WERTYUIOSDFGHJKL]+)([VBNMP]?)$/$1\L$2\E$3/
-      - derive/^(.+)([VBNMP])$/$1\L$2\E/
+      - derive/^([wertyuioasdfghzxcvbnmjklwERTYUIOSDFGH])([WERTYUIOSDFGHJKL]{1,2})([VBNMP]?)$/$1\L$2\E$3/
+      - derive/^([wertyuioasdfghzxcvbnmjklWERTYUIOSDFGH]{1,3})([VBNMP])$/$1\L$2\E/
 

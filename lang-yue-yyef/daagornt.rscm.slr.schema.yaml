@@ -12,7 +12,7 @@ schema:
     劉錫祥拼音输入方案
     阴平 7  阴上 8  阴去 9
     阳平 0  阳上 -  阳去 =
-  version: '2.26.035.1904'
+  version: '2.26.087.1904'
   icon: daagornt.icon.imehk.ico
   ascii_icon: daagornt.icon.ascii.ico
 
@@ -62,9 +62,9 @@ zh_hk:
 rule_convert:
   layout:
     __append:
-      - 'abbrev ^([a-z]).+$ $1'
-      - 'abbrev ^([gk]w|ng|ch).+$ $1'
-      - 'abbrev ^(.+)[1-6] $1'
+      - 'abbrev ^([a-z])[a-z]*[1-6]$ $1'
+      - 'abbrev ^([gk]w|ng|ch)[a-z]*[1-6]$ $1'
+      - 'abbrev ^([a-z]+)[1-6] $1'
       - 'xlit 123456 7890-='
   preedit:
     __append:
