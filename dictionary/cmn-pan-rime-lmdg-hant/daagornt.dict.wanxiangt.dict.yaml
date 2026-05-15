@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8#
+# version: 2.26.135.0
+#
+
+---
+name: daagornt.dict.wanxiangt
+version: "LTS"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - dnt.l.charst       #字表，包含了所有带拼音的汉字
+  - dnt.l.wordst       #基础词库
+  - dnt.l.heteronymt   #多音字兼容词库
+  - dnt.l.continuoust  #联想词库，5字以上词汇，多用于输入前半段第二候选可以出来整段
+  - dnt.l.poetryt      #诗词
+...

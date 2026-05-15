@@ -24,11 +24,13 @@ jobs:
           body: |
             - `dicts-rime-terra.zip`：来自地球拼音的最新词库文件
             - `dicts-rime-snow.zip`：来自冰雪拼音的最新词库文件
-            - `dicts-rime-lmdg.zip`：来自 rime-lmdg 的最新词库文件
+            - `dicts-rime-lmdg-hans.zip`：来自 rime-lmdg 的最新简体词库文件
+            - `dicts-rime-lmdg-hant.zip`：来自 rime-lmdg 的最新繁体词库文件
             - `dicts-rime-cantonese.zip`：来自 RIME 粤拼的最新词库文件
             - `grammar-default.zip`：来自 RIME 官方的精简版语法模型
             - `grammar-lmdg-public.zip`：来自 rime-lmdg 的公共版语法模型
-            - `grammar-lmdg.zip`：来自 rime-lmdg 的搭配 lmdg 词库使用语法模型
+            - `grammar-lmdg-hans.zip`：来自 rime-lmdg 的搭配 lmdg 简体词库使用简体语法模型
+            - `grammar-lmdg-hant.zip`：来自 rime-lmdg 的搭配 lmdg 繁体词库使用繁体语法模型
           prerelease: true
 
   download-terra:
@@ -94,14 +96,14 @@ jobs:
           tag: ${{ env.RLTAG }}
           file_glob: true
 
-  download-lmdg:
+  download-lmdg-hans:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     needs: format-release
     env:
       RLTAG: weekly-dicts
-      DICTN: dicts-rime-lmdg
+      DICTN: dicts-rime-lmdg-hans
 
     steps:
       - name: Retrieve script
@@ -121,7 +123,45 @@ jobs:
 
       - name: Repack Dictionary
         run: |
-          python ./.irdeaf/scripts/rename-lmdg-dict.py
+          python ./.irdeaf/scripts/rename-lmdg-dict-hans.py
+          zip -9vr ./${DICTN}.zip ./dnt.l.*.dict.yaml
+
+      - name: Upload dict
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./${{ env.DICTN }}.zip
+          tag: ${{ env.RLTAG }}
+          file_glob: true
+
+  download-lmdg-hant:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: format-release
+    env:
+      RLTAG: weekly-dicts
+      DICTN: dicts-rime-lmdg-hant
+
+    steps:
+      - name: Retrieve script
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Retrieve upstream
+        uses: actions/checkout@v6
+        with:
+          repository: 'amzxyz/RIME-LMDG'
+          ref: 'wanxiang'
+          path: 'download'
+
+      - name: Repack Dictionary
+        run: |
+          python ./.irdeaf/scripts/rename-lmdg-dict-hant.py
           zip -9vr ./${DICTN}.zip ./dnt.l.*.dict.yaml
 
       - name: Upload dict
@@ -182,10 +222,15 @@ jobs:
           curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-mini-zh-hans.gram"
           zip -9vr ./grammar-lmdg-public.zip ./wanxiang-mini-zh-hans.gram
 
-      - name: Pack up lmdg grammar
+      - name: Pack up lmdg hans grammar
         run: |
           curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"
-          zip -9vr ./grammar-lmdg.zip ./wanxiang-lts-zh-hans.gram
+          zip -9vr ./grammar-lmdg-hans.zip ./wanxiang-lts-zh-hans.gram
+
+      - name: Pack up lmdg hant grammar
+        run: |
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hant.gram"
+          zip -9vr ./grammar-lmdg-hant.zip ./wanxiang-lts-zh-hant.gram
 
       - name: Upload grammar
         uses: svenstaro/upload-release-action@v2

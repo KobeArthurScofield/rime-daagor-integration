@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8#
+# version: 2.26.135.0
+#
+
+---
+name: daagornt.dict.wanxiangs
+version: "LTS"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - dnt.l.charss       #字表，包含了所有带拼音的汉字
+  - dnt.l.wordss       #基础词库
+  - dnt.l.heteronyms   #多音字兼容词库
+  - dnt.l.continuouss  #联想词库，5字以上词汇，多用于输入前半段第二候选可以出来整段
+  - dnt.l.poetrys      #诗词
+...

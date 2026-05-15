@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8#
+# version: 2.26.135.0
+#
+
+---
+name: daagornt.dict.wanxiangs_cell
+version: "2026.05.15"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - dnt.l.personal_names  #人名
+  - dnt.l.biotaxonomys    #生物类属
+  - dnt.l.toponymys       #地名
+  # MoeType: Requires https://github.com/suiginko/moetype
+  # - tone_moe.dict.yaml
+...
