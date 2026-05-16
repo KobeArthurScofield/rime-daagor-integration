@@ -10,7 +10,7 @@ print("Building functions and objects")
 scriptver = "26.135"
 upstreamdate = "2026-05-11"
 
-old_path = "./download/dicts-hant/"
+old_path = "./download/dicts_hant/"
 new_path = "./"
 
 # MAPPING LIST OF THE REVERTING
