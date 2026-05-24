@@ -43,10 +43,13 @@
 - `dictionary`： **（根据调用词库必需）** 词典处理库，用于对接需要使用的拼音词库；选用的词库对所有方案全局生效
   - `cmn-pan-rime-terra`：调用 RIME 发行版附带的地球拼音词库
   - `cmn-pan-rime-snow`：调用冰雪拼音词库
-  - `cmn-pan-rime-lmdg`：调用万象拼音词库
+  - `cmn-pan-rime-lmdg-hans`：调用万象拼音简体词库
     - `dict.wanxiang`：词库合包文件
     - `dict.wanxiang_cell`：细胞词库合包文件
       - 可选添加使用 [二次元词库](https://github.com/suiginko/moetype)
+  - `cmn-pan-rime-lmdg-hant`：调用万象拼音繁体词库
+    - `dict.wanxiang`：词库合包文件
+    - `dict.wanxiang_cell`：细胞词库合包文件
 - `rscm.*`：基于以上文件组成的输入方案
     - `bpmfhsu` 注音（許氏）布局
     - `bpmfibm` 注音（IBM）布局
@@ -79,9 +82,10 @@
 
 ## 方案所需的词典文件及语法模型文件；
 
-  * 冰雪拼音语法模型使用 `amz-v2n3m1-zh-hans.gram`
-  * 地球拼音语法模型使用 `zh-han?-t-essay-bg?.gram`
-  * 万象拼音语法模型使用 `wanxiang-lts-zh-hans.gram`
+  * 冰雪拼音语法模型使用 `zh-hans-t-essay-bg?.gram`
+  * 地球拼音语法模型使用 `zh-hant-t-essay-bg?.gram`
+  * 万象拼音简体语法模型使用 `wanxiang-lts-zh-hans.gram`
+  * 万象拼音繁体语法模型使用 `wanxiang-lts-zh-hant.gram`
   * 词库及语法模型下载地址在后方内容
 
 ## 输入键盘布局

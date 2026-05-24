@@ -216,12 +216,6 @@ jobs:
           curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hans-t-essay-bgw.gram"
           zip -9vr ./grammar-default.zip ./zh-han*.gram
 
-      - name: Pack up lmdg public grammar
-        run: |
-          # curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/v2n3/amz-v2n3m1-zh-hans.gram"
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-mini-zh-hans.gram"
-          zip -9vr ./grammar-lmdg-public.zip ./wanxiang-mini-zh-hans.gram
-
       - name: Pack up lmdg hans grammar
         run: |
           curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"

@@ -1,6 +1,6 @@
 # RIME: Dictionary (rime-terra-pinyin) process for Daagor Integration
 # encoding: utf-8#
-# Ver: 2.25.334.0
+# Ver: 2.26.143.0
 #
 
 translator:
@@ -31,4 +31,4 @@ zh_hk:
   __include: daagornt.lib.shared.yaml:/zh_cn_trad/zh_hk
 
 grammar:
-  language: zh-hans-t-essay-bgw
+  language: zh-hant-t-essay-bgw
