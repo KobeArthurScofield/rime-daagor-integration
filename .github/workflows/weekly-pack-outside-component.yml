@@ -44,13 +44,13 @@ jobs:
 
     steps:
       - name: Download rime-terra
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: 'rime/rime-terra-pinyin'
           path: terra
 
       - name: Download rime-essay
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: 'rime/rime-essay'
           path: essay
@@ -80,7 +80,7 @@ jobs:
 
     steps:
       - name: Download rime-snow
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: 'rimeinn/rime-snow-pinyin'
 
@@ -107,7 +107,7 @@ jobs:
 
     steps:
       - name: Retrieve script
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -115,7 +115,7 @@ jobs:
           python-version: "3.x"
 
       - name: Retrieve upstream
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: 'amzxyz/RIME-LMDG'
           ref: 'wanxiang'
@@ -145,7 +145,7 @@ jobs:
 
     steps:
       - name: Retrieve script
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -153,7 +153,7 @@ jobs:
           python-version: "3.x"
 
       - name: Retrieve upstream
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: 'amzxyz/RIME-LMDG'
           ref: 'wanxiang'
@@ -183,7 +183,7 @@ jobs:
 
     steps:
       - name: Download rime-catonese
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: 'rime/rime-cantonese'
 
