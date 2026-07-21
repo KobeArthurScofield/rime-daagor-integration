@@ -1,15 +1,22 @@
 # Rime dictionary
 # encoding: utf-8#
-# version: 2.26.135.0
+# version: 2.26.202.0
 #
 
 ---
 name: daagornt.dict.wanxiangt_cell
-version: "2026.05.15"
+version: "2026.07.21"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
   - dnt.l.personal_namet  #人名
   - dnt.l.biotaxonomyt    #生物类属
   - dnt.l.toponymyt       #地名
+  - dnt.l.dialectst       #方言
+  - dnt.l.chemistryt      #化学
+  - dnt.l.peoplet         #名人
+  - dnt.l.typhoont        #台风
+  - dnt.l.medicinet       #药品
+  - dnt.l.artistt         #艺人
+  - dnt.l.medicalt        #医学
 ...

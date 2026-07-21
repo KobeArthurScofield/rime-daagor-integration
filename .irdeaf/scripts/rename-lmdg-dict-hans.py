@@ -23,6 +23,13 @@ reverter = {
     "diming": "dnt.l.toponymys",
     "renming": "dnt.l.personal_names",
     "wuzhong": "dnt.l.biotaxonomys",
+    "fangyan": "dnt.l.dialectss",
+    "huaxue": "dnt.l.chemistrys",
+    "mingren": "dnt.l.peoples",
+    "taifeng": "dnt.l.typhoons",
+    "yaopin": "dnt.l.medicines",
+    "yiren": "dnt.l.artists",
+    "yixue": "dnt.l.medicals",
 }
 
 def Detect_EOL(rawdata):
