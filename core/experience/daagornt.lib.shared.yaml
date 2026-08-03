@@ -1,6 +1,6 @@
 # RIME: Shared component library for Daagor Integration
 # encoding: utf-8#
-# Ver: 1.26.035.0
+# Ver: 1.26.215.0
 #
 
 engines:
@@ -125,6 +125,19 @@ selector:
   bindings:
     Shift+Tab: previous_candidate
     Tab: next_candidate
+  linear:
+    bindings:
+      Shift+Tab: previous_candidate
+      Tab: next_candidate
+  vertical:
+    bindings:
+      Shift+Tab: previous_candidate
+      Tab: next_candidate
+  vertical:
+    linear:
+      bindings:
+        Shift+Tab: previous_candidate
+        Tab: next_candidate
 
 zh_cn_simp:
   switches:

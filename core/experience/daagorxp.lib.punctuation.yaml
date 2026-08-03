@@ -1,6 +1,6 @@
 # Rime: Punctuation and symbols for Daagor Integration
 # encoding: utf-8
-# version: 1.26.087.0
+# version: 1.26.214.0
 #
 # Reference:
 # rime-prelude
@@ -124,7 +124,7 @@ punctuator:
 #天氣
     '`weather': [ ☀, ☁, ⛅, ⛈, ⛆, ☂, ☔, ☃, ⛄, ⛇ ]
 #音樂
-    '`music': [ 𝄞, 𝄡, 𝄢, ♯, ♭, 𝄪, 𝄫, ♮, 𝄴, 𝄵, 𝅜, 𝅝, 𝅗𝅥, 𝅘𝅥, 𝅘𝅥𝅮, 𝅘𝅥𝅯, 𝅘𝅥𝅰, 𝄺, 𝄻, 𝄼, 𝄽, 𝄾, 𝄿, 𝅀, ♩, ♪, ♫, ♬ ]
+    '`music': [ 𝄞, 𝄡, 𝄢, ♯, ♭, 𝄪, 𝄫, ♮, 𝄴, 𝄵, 𝅜, 𝅝, 𝅗𝅥, 𝅘𝅥, 𝅘𝅥𝅮, 𝅘𝅥𝅯, 𝅘𝅥𝅰, 𝄺, 𝄻, 𝄼, 𝄽, 𝄾, 𝄿, 𝅀, ♩, ♪, ♫, ♬, 𝄀, 𝄂 ]
 #兩性
     '`sex': [ ♂, ♀, ⚢, ⚣, ⚤, ⚥, ⚦, ⚧, ⚨, ⚩, ⚪, ⚫, ⚬, ⚭, ⚮, ⚯ ]
 #八卦、六十四卦、太玄經

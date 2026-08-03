@@ -210,10 +210,14 @@ jobs:
     steps:
       - name: Pack up RIME grammar
         run: |
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hant-t-essay-bgc.gram"
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hant-t-essay-bgw.gram"
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hans-t-essay-bgc.gram"
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/raw/refs/heads/hant/zh-hans-t-essay-bgw.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hant-t-essay-bgc-compact.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hant-t-essay-bgc.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hant-t-essay-bgw-compact.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hant-t-essay-bgw.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hans-t-essay-bgc-compact.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hans-t-essay-bgc.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hans-t-essay-bgw-compact.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/lotem/rime-octagram-data/releases/latest/download/zh-hans-t-essay-bgw.gram"
           zip -9vr ./grammar-default.zip ./zh-han*.gram
 
       - name: Pack up lmdg hans grammar
