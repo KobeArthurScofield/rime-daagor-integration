@@ -24,13 +24,12 @@ jobs:
           body: |
             - `dicts-rime-terra.zip`：来自地球拼音的最新词库文件
             - `dicts-rime-snow.zip`：来自冰雪拼音的最新词库文件
-            - `dicts-rime-lmdg-hans.zip`：来自 rime-lmdg 的最新简体词库文件
-            - `dicts-rime-lmdg-hant.zip`：来自 rime-lmdg 的最新繁体词库文件
+            - `dicts-rime-lmdg-hans.zip`：来自 rime-wanxiang 的最新简体词库文件
+            - `dicts-rime-lmdg-hant.zip`：来自 rime-wanxinag 的最新繁体词库文件
             - `dicts-rime-cantonese.zip`：来自 RIME 粤拼的最新词库文件
             - `grammar-default.zip`：来自 RIME 官方的精简版语法模型
-            - `grammar-lmdg-public.zip`：来自 rime-lmdg 的公共版语法模型
-            - `grammar-lmdg-hans.zip`：来自 rime-lmdg 的搭配 lmdg 简体词库使用简体语法模型
-            - `grammar-lmdg-hant.zip`：来自 rime-lmdg 的搭配 lmdg 繁体词库使用繁体语法模型
+            - `grammar-lmdg-hans.zip`：来自 rime-wanxiang 的搭配简体词库使用简体语法模型
+            - `grammar-lmdg-hant.zip`：来自 rime-wanxiang 的搭配繁体词库使用繁体语法模型
           prerelease: true
 
   download-terra:
@@ -117,7 +116,7 @@ jobs:
       - name: Retrieve upstream
         uses: actions/checkout@v7
         with:
-          repository: 'amzxyz/RIME-LMDG'
+          repository: 'amzxyz/rime-wanxiang-data'
           ref: 'wanxiang'
           path: 'download'
 
@@ -155,7 +154,7 @@ jobs:
       - name: Retrieve upstream
         uses: actions/checkout@v7
         with:
-          repository: 'amzxyz/RIME-LMDG'
+          repository: 'amzxyz/rime-wanxiang-data'
           ref: 'wanxiang'
           path: 'download'
 
@@ -222,12 +221,12 @@ jobs:
 
       - name: Pack up lmdg hans grammar
         run: |
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/rime-wanxiang-data/releases/download/LTS/wanxiang-lts-zh-hans.gram"
           zip -9vr ./grammar-lmdg-hans.zip ./wanxiang-lts-zh-hans.gram
 
       - name: Pack up lmdg hant grammar
         run: |
-          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hant.gram"
+          curl -L -O -R -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://github.com/amzxyz/rime-wanxiang-data/releases/download/LTS/wanxiang-lts-zh-hant.gram"
           zip -9vr ./grammar-lmdg-hant.zip ./wanxiang-lts-zh-hant.gram
 
       - name: Upload grammar

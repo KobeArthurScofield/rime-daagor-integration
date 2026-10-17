@@ -1,11 +1,11 @@
 # Rime dictionary
 # encoding: utf-8#
-# version: 2.26.202.0
+# version: 2.26.290.0
 #
 
 ---
 name: daagornt.dict.wanxiangt_cell
-version: "2026.07.21"
+version: "2026.10.16"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -19,4 +19,6 @@ import_tables:
   - dnt.l.medicinet       #药品
   - dnt.l.artistt         #艺人
   - dnt.l.medicalt        #医学
+  - dnt.l.roadst          #道路名
+  - dnt.l.ensemblest      #设施与实体
 ...

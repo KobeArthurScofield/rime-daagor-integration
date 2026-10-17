@@ -28,7 +28,7 @@
 同时允许使用数种带声调词库：
 - RIME 发行版内置的[地球拼音方案词库](https://github.com/rime/rime-terra-pinyin)
 - [冰雪拼音词库](https://github.com/rimeinn/rime-snow-pinyin)
-- [万象词库](https://github.com/amzxyz/RIME-LMDG)
+- [万象词库](https://github.com/amzxyz/rime-wanxiang-data)
 
 目前所有方案所需词库及语言模型请自行到对应的仓库下载。
 
@@ -170,8 +170,7 @@
 - 八股文模型（繁体）： https://github.com/lotem/rime-octagram-data/tree/hant
 - 冰雪拼音词库： https://github.com/rimeinn/rime-snow-pinyin (*.dict.yaml)
 - 万象词库： https://github.com/KobeArthurScofield/rime-daagor-integration/releases/tag/weekly-dicts
-- 万象通用模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS
-- 万象原子模型： https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS
+- 万象原子模型： https://github.com/amzxyz/rime-wanxiang-data/releases/tag/LTS
 
 ## 注意
 
@@ -225,4 +224,4 @@
 - 酷音大千二十六鍵鍵盤 原作者：新酷音
 - [RIME 動態注音鍵盤](https://github.com/rime/rime-bopomofo) 原作者：居戎氏
 - [冰雪拼音](https://github.com/rimeinn/rime-snow-pinyin)
-- [万象拼音](https://github.com/amzxyz/RIME-LMDG)
+- [万象拼音](https://github.com/amzxyz/rime-wanxiang-data)

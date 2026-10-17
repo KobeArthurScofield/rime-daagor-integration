@@ -1,11 +1,11 @@
 # Rime dictionary
 # encoding: utf-8#
-# version: 2.26.202.0
+# version: 2.26.290.0
 #
 
 ---
 name: daagornt.dict.wanxiangs_cell
-version: "2026.07.21"
+version: "2026.10.16"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -19,6 +19,8 @@ import_tables:
   - dnt.l.medicines       #药品
   - dnt.l.artists         #艺人
   - dnt.l.medicals        #医学
+  - dnt.l.roadss          #道路名
+  - dnt.l.ensembless      #设施与实体
   # MoeType: Requires https://github.com/suiginko/moetype
   # - tone_moe.dict.yaml
 ...
