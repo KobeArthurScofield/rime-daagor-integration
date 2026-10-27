@@ -7,8 +7,8 @@ from datetime import date
 
 print("Building functions and objects")
 
-scriptver = "26.290"
-upstreamdate = "2026-10-16"
+scriptver = "26.300"
+upstreamdate = "2026-10-27"
 
 old_path = "./download/dicts_hant/"
 new_path = "./"
@@ -20,7 +20,6 @@ reverter = {
     "duoyin": "dnt.l.heteronymt",
     "shici": "dnt.l.poetryt",
     "diming": "dnt.l.toponymyt",
-    "renming": "dnt.l.personal_namet",
     "wuzhong": "dnt.l.biotaxonomyt",
     "fangyan": "dnt.l.dialectst",
     "huaxue": "dnt.l.chemistryt",
@@ -29,8 +28,6 @@ reverter = {
     "yaopin": "dnt.l.medicinet",
     "yiren": "dnt.l.artistt",
     "yixue": "dnt.l.medicalt",
-    "daolu": "dnt.l.roadst",
-    "shiti": "dnt.l.ensemblest",
 }
 
 def Detect_EOL(rawdata):

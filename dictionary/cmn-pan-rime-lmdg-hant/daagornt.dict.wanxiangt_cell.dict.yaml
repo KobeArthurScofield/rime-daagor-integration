@@ -1,15 +1,14 @@
 # Rime dictionary
 # encoding: utf-8#
-# version: 2.26.290.0
+# version: 2.26.300.0
 #
 
 ---
 name: daagornt.dict.wanxiangt_cell
-version: "2026.10.16"
+version: "2026.10.27"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  - dnt.l.personal_namet  #人名
   - dnt.l.biotaxonomyt    #生物类属
   - dnt.l.toponymyt       #地名
   - dnt.l.dialectst       #方言
@@ -19,6 +18,4 @@ import_tables:
   - dnt.l.medicinet       #药品
   - dnt.l.artistt         #艺人
   - dnt.l.medicalt        #医学
-  - dnt.l.roadst          #道路名
-  - dnt.l.ensemblest      #设施与实体
 ...

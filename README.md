@@ -93,7 +93,7 @@ patch:
 
 ### 即时输入
 
-- `｀`：一般符号输入，详细可输入内容见 `rime-prelude` （标准版）或 `daagorxp.lib.punctuation` （Daagor Experience）
+- `` ` ``：一般符号输入，详细可输入内容见 `rime-prelude` （标准版）或 `daagorxp.lib.punctuation` （Daagor Experience）
 - `prev`：历史输入记录
 - `gr`：输入希腊字母
 - `cr`：输入现代西里尔字母
