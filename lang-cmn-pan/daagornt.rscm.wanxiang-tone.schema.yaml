@@ -1,0 +1,137 @@
+# Rime schema
+# encoding: utf-8
+
+__include: daagornt.lib.rskeleton.yaml:/
+
+schema:
+  name: '大狗万象音调双拼'
+  schema_id: daagornt.rscm.ziranlong
+  author:
+    - '键盘布局 amz'
+    - '方案集成 DGNTIME'
+  description: |
+    万象音调双拼输入方案
+  version: '2.26.302.1904'
+  icon: daagornt.icon.imecn.ico
+  ascii_icon: daagornt.icon.ascii.ico
+
+switches:
+  __include: daagornt.lib.shared.yaml:/zh_cn_simp/switches
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm
+  delimiter: " ';"
+  auto_select: false
+  use_space: false
+  algebra:
+    __patch:
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/normalizer
+      - daagornt.lib.dict-cmn-pan.yaml:/algebra/encoder
+      - /rule_convert/layout
+
+translator:
+  __patch:
+    - daagornt.lib.dict-cmn-pan.yaml:/translator
+  prism: daagornt.ziranlong
+
+grammar:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/grammar
+
+menu:
+  __include: daagornt.lib.shared.yaml:/menu
+
+zh_cn_simp:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_simp
+
+zh_cn_trad:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_cn_trad
+
+zh_tw:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_tw
+
+zh_hk:
+  __include: daagornt.lib.dict-cmn-pan.yaml:/zh_hk
+
+rule_convert:
+  layout:
+    __append:
+      - 'xform <5> <0>'
+      # Sibilant Compatibility
+      - 'derive <ts><([iy])> <tsc><$1> correction'
+      - 'derive <tsh><([iy])> <tsch><$1> correction'
+      - 'derive <s><([iy])> <sc><$1> correction'
+      - 'derive <k><([iy])> <tsc><$1> correction'
+      - 'derive <kh><([iy])> <tsch><$1> correction'
+      - 'derive <[xh]><([iy])> <sc><$1> correction'
+      # Hanyu Pinyin key convert
+      - 'xform <jy> <j><y>'
+      # Pre-process for zero-consonant
+      - xform/^(<a><[0-5]>)$/<a>$1/
+      - xform/^(<o><[0-5]>)$/<o>$1/
+      - xform/^(<e><[0-5]>)$/<e>$1/
+      - xform/^(<a[iun]><[0-5]>)$/<a>$1/
+      - xform/^(<o[u]><[0-5]>)$/<o>$1/
+      - xform/^(<e[inrh]><[0-5]>)$/<e>$1/
+      - xform/^(<ang><[0-5]>)$/<a>$1/
+      - xform/^(<eng><[0-5]>)$/<e>$1/
+      # Pre-process for consonant-only
+      - xform/^<_(h)>/<$1><_$1>/
+      - xform/^<_([mn]g?)>/<e><_$1>/
+      # Part 1 for initials
+      - 'xform ^<v> w'
+      - 'xform ^<gn> g'
+      - 'xform ^<ng> n'
+      - 'xform ^<p> b'
+      - 'xform ^<ph> p'
+      - 'xform ^<m> m'
+      - 'xform ^<f> f'
+      - 'xform ^<t> d'
+      - 'xform ^<th> t'
+      - 'xform ^<n> n'
+      - 'xform ^<l> l'
+      - 'xform ^<k> g'
+      - 'xform ^<kh> k'
+      - 'xform ^(<x>|<h>) h'
+      - 'xform ^<tsc> j'
+      - 'xform ^<tsch> q'
+      - 'xform ^<sc> x'
+      - 'xform ^<tis> v'
+      - 'xform ^<tish> i'
+      - 'xform ^<is> u'
+      - 'xform ^<zi> r'
+      - 'xform ^<ts> z'
+      - 'xform ^<tsh> c'
+      - 'xform ^<s> s'
+      - 'xform ^<j> y'
+      - 'xform ^<w> w'
+      - 'xform ^<a> a'
+      - 'xform ^<o> o'
+      - 'xform ^<e> e'
+      # Part 2 for finals
+      - xform/^([a-z])(<u><a><2>|<u><en><2>|<o><3>|<i><o><3>|<ou><3>|<au><4>|<i><en><4>|<y><eh><4>|<an><0>)$/$1q/
+      - xform/^([a-z])(<e><1>|<eh><1>|<i><eh><1>|<ei><2>|<i><3>|<_[iw]><3>|<u><a><3>)$/$1w/
+      - xform/^([a-z])(<ei><1>|<u><1>|<i><ang><3>|<u><en><3>|<ai><4>|<i><eh><0>|<u><ei><0>|<y><0>)$/$1e/
+      - xform/^([a-z])(<o><1>|<i><o><1>|<u><ang><2>|<i><au><3>|<i><ou><3>|<e><4>|<eh><4>|<e><0>|<eh><0>)$/$1r/
+      - xform/^([a-z])(<au><2>|<i><4>|<_[iw]><4>|<u><a><4>|<_h><2>|<_m><3>)$/$1t/
+      - xform/^([a-z])(<i><au><2>|<i><eh><2>|<i><en><2>|<i><a><3>|<i><ai><3>|<u><an><3>|<y><an><3>|<ang><4>)$/$1y/
+      - xform/^([a-z])(<i><ang><1>|<i><au><1>|<ong><1>|<u><a><1>|<u><ai><2>|<a><3>|<i><a><0>|<i><ai><0>)$/$1u/
+      - xform/^([a-z])(<i><a><1>|<i><ai><1>|<i><ong><1>|<u><ang><1>|<u><en><1>|<an><2>|<i><ang><2>|<i><eng><4>|<u><0>)$/$1i/
+      - xform/^([a-z])(<ou><1>|<u><ei><1>|<ang><2>|<o><2>|<i><o><2>|<y><4>|<au><0>|<i><an><0>|<y><en><0>)$/$1o/
+      - xform/^([a-z])(<an><1>|<u><an><1>|<y><an><1>|<en><2>|<_n><2>|<i><ou><2>|<y><eh><2>|<ong><3>|<u><ang><4>|<en><0>|<_n><0>)$/$1p/
+      - xform/^([a-z])(<y><eh><1>|<y><eh><0>|<ai><2>|<i><an><3>|<u><3>|<er><4>|<_m><4>|<o><0>|<i><o><0>|<u><an><0>|<y><an><0>)$/$1a/
+      - xform/^([a-z])(<i><eng><1>|<y><2>|<au><3>|<en><4>|<_n><4>|<ang><0>|<ei><0>|<i><au><0>|<i><ong><0>)$/$1s/
+      - xform/^([a-z])(<a><1>|<ai><1>|<y><en><2>|<i><ou><4>|<u><an><4>|<y><an><4>|<a><0>)$/$1d/
+      - xform/^([a-z])(<i><2>|<_[iw]><2>|<i><ong><2>|<u><o><2>|<y><o><2>|<ai><3>|<er><3>|<y><eh><3>|<i><ang><0>|<u><o><0>|<y><o><0>)$/$1f/
+      - xform/^([a-z])(<ang><3>|<eng><3>|<_ng><3>|<i><an><4>|<u><en><4>|<u><ai><0>)$/$1g/
+      - xform/^([a-z])(<au><1>|<u><2>|<e><3>|<eh><3>|<i><en><3>|<i><ang><4>|<_h><3>)$/$1h/
+      - xform/^([a-z])(<i><ou><1>|<ong><2>|<y><3>|<u><4>|<_h><1>|<_h><0>|<_m><1>|<m><0>)$/$1j/
+      - xform/^([a-z])(<ang><1>|<y><en><1>|<er><2>|<i><eng><2>|<i><ong><3>|<u><ai><3>|<ou><4>|<er><0>|<er><1>)$/$1k/
+      - xform/^([a-z])(<ou><2>|<u><ei><2>|<an><3>|<i><au><4>|<i><0>|<_[iw]><0>|<_h><4>)$/$1l/
+      - xform/^([a-z])(<i><an><1>|<u><o><1>|<y><o><1>|<eng><2>|<_ng><2>|<u><ai><4>|<y><en><4>|<i><ou><0>|<ong><0>)$/$1z/
+      - xform/^([a-z])(<e><2>|<eh><2>|<i><an><2>|<u><ei><3>|<an><4>|<i><eh><4>)$/$1x/
+      - xform/^([a-z])(<eng><1>|<_ng><1>|<i><en><1>|<i><en><0>|<_m><2>|<ei><3>|<u><o><3>|<y><o><3>|<ong><4>|<i><eng><0>|<u><a><0>)$/$1c/
+      - xform/^([a-z])(<u><ai><1>|<a><2>|<i><a><2>|<i><ai><2>|<i><eh><3>|<ei><4>|<u><o><4>|<y><o><4>)$/$1v/
+      - xform/^([a-z])(<en><1>|<_n><1>|<u><an><2>|<y><an><2>|<a><4>|<i><a><4>|<i><ai><4>)$/$1b/
+      - xform/^([a-z])(<i><1>|<_[iw]><1>|<en><3>|<_n><3>|<u><ang><3>|<o><4>|<i><o><4>|<ai><0>|<ou><0>|<u><ang><0>|<u><en><0>)$/$1n/
+      - xform/^([a-z])(<y><1>|<i><eng><3>|<y><en><3>|<eng><4>|<_ng><4>|<i><ong><4>|<u><ei><4>|<eng><0>|<_ng><0>)$/$1m/
+

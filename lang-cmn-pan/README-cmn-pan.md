@@ -51,6 +51,7 @@
     - `dict.wanxiang`：词库合包文件
     - `dict.wanxiang_cell`：细胞词库合包文件
 - `rscm.*`：基于以上文件组成的输入方案
+    - `baiyun` 白云双拼布局
     - `bpmfhsu` 注音（許氏）布局
     - `bpmfibm` 注音（IBM）布局
     - `bpmfliu` 注音（劉氏）布局
@@ -64,15 +65,21 @@
     - `gwoyeu-num` 国语罗马字数字音调布局
     - `hanxinlong` 汉心龙/龙码双拼布局
     - `hanyu-pinyin` 汉语拼音布局
+    - `lantian` 蓝天双拼布局
     - `longsan` 龙三双拼布局
     - `mitac` 注音（神通）布局
     - `mpsii` 国音二式布局
     - `pinyinjiajia` 拼音加加双拼布局
     - `rime-dtnl` RIME 動態注音佈局
+    - `shouwen` 首文双拼布局
+    - `shouyou` 首右双拼布局
     - `snowsipin` 冰雪四拼布局
     - `starlight` 注音（星光排布）布局
     - `tongying-pinyin` 通用拼音布局
+    - `wanxiang-tone` 万象音调双拼布局
+    - `wanxiang-tr` 万象传统双拼布局
     - `xiaolang` 小浪双拼布局
+    - `xushi` 徐氏双拼布局
     - `ziranlong` 自然龙双拼布局
     - `ziranma` 自然码双拼布局
 - `supplimental`：用于提供额外方案。这些方案包含：
